@@ -112,16 +112,6 @@ const viewMapBtn = document.getElementById("viewMap");
 const gridView = document.getElementById("gridView");
 const mapView = document.getElementById("mapView");
 const gameMapContainer = document.getElementById("gameMapContainer");
-const mapZoomIn = document.getElementById("mapZoomIn");
-const mapZoomOut = document.getElementById("mapZoomOut");
-const mapCenter = document.getElementById("mapCenter");
-const mapFullscreen = document.getElementById("mapFullscreen");
-const selectedNodeGenre = document.getElementById("selectedNodeGenre");
-const selectedNodeName = document.getElementById("selectedNodeName");
-const selectedNodeDesc = document.getElementById("selectedNodeDesc");
-const selectedNodeAction = document.getElementById("selectedNodeAction");
-const availableCount = document.getElementById("availableCount");
-const plannedCount = document.getElementById("plannedCount");
 
 // MODAL DOM ELEMENTS
 const gameModal = document.getElementById("gameModal");
@@ -143,9 +133,8 @@ const closeSignin = document.getElementById("closeSignin");
 let activeGenre = "all";
 let searchQuery = "";
 let votedGames = JSON.parse(localStorage.getItem("playgamio_voted") || "[]");
-let activeView = "map"; // "grid" or "map"
+let activeView = "grid"; // "grid" or "map"
 let mapNetworkInstance = null;
-let selectedMapGame = AVAILABLE_GAMES[0];
 
 // INITIALIZE APP
 function init() {
@@ -153,10 +142,6 @@ function init() {
   renderGames();
   renderComingSoon();
   setupEventListeners();
-  availableCount.textContent = AVAILABLE_GAMES.length;
-  plannedCount.textContent = PLANNED_GAMES.length;
-  updateSelectedNode(selectedMapGame, false);
-  initGameMap();
 }
 
 // RENDER GENRES
@@ -320,7 +305,7 @@ function initGameMap() {
       border: "#67de88",
       highlight: { background: "#06091F", border: "#FAFAF5" }
     },
-    font: { face: "Sora", size: 13, color: "#FAFAF5", bold: true },
+    font: { face: "Sora", size: 14, color: "#FAFAF5", bold: true },
     borderWidth: 3,
     shadow: true
   });
@@ -352,13 +337,13 @@ function initGameMap() {
         label: game.genre,
         title: `${game.genre} Games Category`,
         shape: "dot",
-      size: 22,
+        size: 20,
         color: {
           background: "#0e1228",
           border: color,
           highlight: { background: color, border: "#FAFAF5" }
         },
-        font: { face: "Sora", size: 12, color: "#FAFAF5" },
+        font: { face: "Sora", size: 11, color: "#FAFAF5" },
         borderWidth: 2,
         opacity: isGenreActive ? 1.0 : 0.25,
         shadow: true
@@ -367,8 +352,8 @@ function initGameMap() {
       edges.push({
         from: "hub",
         to: `genre_${genreKey}`,
-        color: { color: "rgba(103, 222, 136, 0.24)", highlight: color },
-        width: 2.2,
+        color: { color: "rgba(255, 255, 255, 0.15)", highlight: color },
+        width: 2,
         smooth: { type: "continuous" }
       });
     }
@@ -384,14 +369,14 @@ function initGameMap() {
       title: game.desc || `Help vote for ${game.name}!`,
       shape: "circularImage",
       image: game.thumbnail,
-      size: isPlanned ? 24 : 29,
+      size: 26,
       color: {
-        border: isPlanned ? "#00D1FF" : color,
+        border: isPlanned ? "#879487" : color,
         background: "#171a30",
         highlight: { border: "#FAFAF5", background: "#1b1e35" }
       },
-      font: { face: "DM Sans", size: 11, color: "#dee0ff", strokeWidth: 4, strokeColor: "#06091F" },
-      borderWidth: isPlanned ? 2 : 3,
+      font: { face: "DM Sans", size: 10, color: "#dee0ff" },
+      borderWidth: 3,
       opacity: isGameActive ? 1.0 : 0.2,
       shadow: true,
       // Custom data payload
@@ -402,8 +387,8 @@ function initGameMap() {
     edges.push({
       from: `genre_${genreKey}`,
       to: game.id,
-      color: { color: isPlanned ? "rgba(0, 209, 255, 0.22)" : "rgba(255, 255, 255, 0.13)", highlight: color },
-      width: isPlanned ? 1.2 : 1.7,
+      color: { color: "rgba(255, 255, 255, 0.08)", highlight: color },
+      width: 1.5,
       dashes: isPlanned, // Dashed lines for coming soon games
       smooth: { type: "continuous" }
     });
@@ -416,39 +401,20 @@ function initGameMap() {
     physics: {
       stabilization: {
         enabled: true,
-        iterations: 220
+        iterations: 150
       },
       barnesHut: {
-        gravitationalConstant: -2300,
-        centralGravity: 0.24,
-        springLength: 122,
-        springConstant: 0.038,
-        damping: 0.12
-      }
-    },
-    nodes: {
-      shadow: {
-        enabled: true,
-        color: "rgba(103, 222, 136, 0.18)",
-        size: 18,
-        x: 0,
-        y: 0
-      }
-    },
-    edges: {
-      shadow: {
-        enabled: true,
-        color: "rgba(0, 209, 255, 0.1)",
-        size: 10,
-        x: 0,
-        y: 0
+        gravitationalConstant: -1800,
+        centralGravity: 0.35,
+        springLength: 95,
+        springConstant: 0.04,
+        damping: 0.095
       }
     },
     interaction: {
       hover: true,
       dragNodes: true,
-      zoomView: true,
-      tooltipDelay: 120
+      zoomView: true
     }
   };
 
@@ -462,7 +428,20 @@ function initGameMap() {
       const clickedNode = nodes.find(n => n.id === nodeId);
       
       if (clickedNode && clickedNode.gameData) {
-        updateSelectedNode(clickedNode.gameData, clickedNode.isPlanned);
+        if (clickedNode.isPlanned) {
+          const isVoted = votedGames.includes(clickedNode.id);
+          const voteAction = confirm(`${clickedNode.gameData.name} is a Coming Soon project!\nIt has ${clickedNode.gameData.votes + (isVoted ? 1 : 0)} votes.\n\nDo you want to toggle your vote for this game?`);
+          if (voteAction) {
+            votedGames = votedGames.includes(clickedNode.id) ? 
+                         votedGames.filter(id => id !== clickedNode.id) : 
+                         [...votedGames, clickedNode.id];
+            localStorage.setItem("playgamio_voted", JSON.stringify(votedGames));
+            initGameMap();
+            renderComingSoon();
+          }
+        } else {
+          openGame(clickedNode.gameData);
+        }
       }
       
       // Deselect node so it resets
@@ -471,33 +450,6 @@ function initGameMap() {
       }, 500);
     }
   });
-}
-
-function updateSelectedNode(game, isPlanned) {
-  selectedMapGame = game;
-  selectedNodeGenre.textContent = game.genre.toUpperCase();
-  selectedNodeName.textContent = game.name;
-  selectedNodeDesc.textContent = game.desc || `${game.name} is queued for the PlayGamio roadmap with ${game.votes} votes.`;
-  selectedNodeAction.textContent = isPlanned ? `Vote ${game.votes + (votedGames.includes(game.id) ? 1 : 0)}` : "Play Now";
-  selectedNodeAction.dataset.planned = isPlanned ? "true" : "false";
-}
-
-function runSelectedNodeAction() {
-  const isPlanned = selectedNodeAction.dataset.planned === "true";
-  if (!selectedMapGame) return;
-
-  if (isPlanned) {
-    votedGames = votedGames.includes(selectedMapGame.id)
-      ? votedGames.filter(id => id !== selectedMapGame.id)
-      : [...votedGames, selectedMapGame.id];
-    localStorage.setItem("playgamio_voted", JSON.stringify(votedGames));
-    updateSelectedNode(selectedMapGame, true);
-    renderComingSoon();
-    initGameMap();
-    return;
-  }
-
-  openGame(selectedMapGame);
 }
 
 // EVENT LISTENERS
@@ -524,23 +476,6 @@ function setupEventListeners() {
     gridView.classList.remove("hidden");
     mapView.classList.add("hidden");
     renderGames(); // Refresh grid layout
-  });
-
-  selectedNodeAction.addEventListener("click", runSelectedNodeAction);
-  mapZoomIn.addEventListener("click", () => {
-    if (!mapNetworkInstance) return;
-    mapNetworkInstance.moveTo({ scale: mapNetworkInstance.getScale() * 1.18 });
-  });
-  mapZoomOut.addEventListener("click", () => {
-    if (!mapNetworkInstance) return;
-    mapNetworkInstance.moveTo({ scale: mapNetworkInstance.getScale() * 0.84 });
-  });
-  mapCenter.addEventListener("click", () => {
-    if (mapNetworkInstance) mapNetworkInstance.fit({ animation: true });
-  });
-  mapFullscreen.addEventListener("click", () => {
-    const wrapper = document.querySelector(".map-container-wrapper");
-    if (wrapper.requestFullscreen) wrapper.requestFullscreen();
   });
 
   viewMapBtn.addEventListener("click", () => {
