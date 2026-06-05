@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>PlayGamio — Instant Browser Games Universe</title>
+  <meta name="description" content="Play free instant browser games in a professional Graphify-style game universe. No download required at PlayGamio." />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="PlayGamio — Instant Browser Games Universe" />
+  <meta property="og:description" content="Play instantly, explore by genre, and launch games from the PlayGamio Universe Map." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://playgamio.com/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="PlayGamio — Instant Browser Games Universe" />
+  <meta name="theme-color" content="#06091F" />
+  <link rel="icon" type="image/svg+xml" href="/logo.svg?v=graphify-pro-20260605" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Sora:wght@100..800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/style.css?v=graphify-pro-20260605" />
+  <!-- Vis Network for interactive game graph -->
+  <script src="https://unpkg.com/vis-network@9.1.6/standalone/umd/vis-network.min.js" integrity="sha384-Ux6phic9PEHJ38YtrijhkzyJ8yQlH8i/+buBR8s3mAZOJrP1gwyvAcIYl3GWtpX1" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="navbar-inner">
+      <div class="navbar-left">
+        <a href="/" class="logo-link" aria-label="PlayGamio home">
+          <span class="logo-mark"><img class="logo-icon" src="/logo.svg?v=graphify-pro-20260605" alt="" width="38" height="38" /></span>
+          <span class="logo-text">Play<span class="logo-accent">Gamio</span></span>
+        </a>
+      </div>
+      <div class="navbar-center" id="genre-bar" role="listbox" aria-label="Filter by genre">
+        <button class="genre-btn active" data-genre="all" aria-selected="true"><span>🎲</span> All</button>
+        <button class="genre-btn" data-genre="Business" aria-selected="false"><span>💼</span> Business</button>
+        <button class="genre-btn" data-genre="Strategy" aria-selected="false"><span>♟️</span> Strategy</button>
+        <button class="genre-btn" data-genre="Arcade" aria-selected="false"><span>🕹️</span> Arcade</button>
+        <button class="genre-btn" data-genre="Sports" aria-selected="false"><span>⚽</span> Sports</button>
+        <button class="genre-btn" data-genre="Puzzle" aria-selected="false"><span>🧩</span> Puzzle</button>
+        <button class="genre-btn" data-genre="Tycoon" aria-selected="false"><span>🏦</span> Tycoon</button>
+        <button class="genre-btn" data-genre="Action" aria-selected="false"><span>⚔️</span> Action</button>
+      </div>
+      <div class="navbar-right">
+        <div class="live-indicator"><span class="live-dot"></span>playgamio.com</div>
+        <button class="btn-signin" id="signinBtn">Sign In</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO FEATURED STRIP -->
+  <main class="main-content">
+    <section class="featured-section" aria-label="Featured Games">
+      <div class="featured-strip" id="featuredStrip">
+        <!-- JS will fill this -->
+      </div>
+    </section>
+
+    <!-- SEARCH & VIEW SWITCHER -->
+    <div class="controls-wrapper">
+      <div class="search-bar">
+        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        <input type="text" class="search-input" id="searchInput" placeholder="Search games..." autocomplete="off" />
+      </div>
+      <div class="view-switcher" role="radiogroup" aria-label="Choose layout view">
+        <button class="view-btn" id="viewGrid" aria-checked="false" role="radio">Grid View</button>
+        <button class="view-btn active" id="viewMap" aria-checked="true" role="radio">Graphify Map</button>
+      </div>
+    </div>
+
+    <!-- GRID VIEW WRAPPER -->
+    <div id="gridView" class="view-panel hidden">
+      <!-- AVAILABLE GAMES GRID -->
+      <section aria-label="All Games">
+        <header class="section-header">
+          <h2 class="section-title">🔥 Available Now</h2>
+          <span class="section-sub" id="gameCount"></span>
+        </header>
+        <div class="games-grid" id="gamesGrid">
+          <!-- JS fills this -->
+        </div>
+      </section>
+
+      <!-- COMING SOON SECTION -->
+      <section aria-label="Coming Soon Games" id="comingSoonSection">
+        <header class="section-header" style="margin-top:2.5rem;">
+          <h2 class="section-title">✨ Coming Soon</h2>
+          <span class="section-sub">Vote for what you want next</span>
+        </header>
+        <div class="games-grid" id="comingSoonGrid">
+          <!-- JS fills this -->
+        </div>
+      </section>
+    </div>
+
+    <!-- MAP VIEW WRAPPER -->
+    <div id="mapView" class="view-panel">
+      <section aria-label="Game Universe Map" class="map-section">
+        <header class="section-header map-header-info">
+          <h2 class="section-title">Graphify Universe Map</h2>
+          <span class="section-sub">PlayGamio graph mode</span>
+        </header>
+        <div class="map-container-wrapper">
+          <div class="map-topbar">
+            <div>
+              <span class="graph-mode-badge">GRAPHIFY PRO</span>
+              <h3 class="map-title">PlayGamio Game Constellation</h3>
+            </div>
+            <div class="map-toolbar" aria-label="Graph controls">
+              <button class="map-tool" id="mapZoomIn" type="button" title="Zoom in">+</button>
+              <button class="map-tool" id="mapZoomOut" type="button" title="Zoom out">−</button>
+              <button class="map-tool" id="mapCenter" type="button" title="Center graph">◎</button>
+              <button class="map-tool" id="mapFullscreen" type="button" title="Fullscreen">⛶</button>
+            </div>
+          </div>
+          <div class="map-layout">
+            <div class="map-canvas-panel">
+              <div id="gameMapContainer"></div>
+            </div>
+            <aside class="map-details-panel" aria-label="Selected game">
+              <span class="detail-kicker" id="selectedNodeGenre">ARCADE</span>
+              <h3 id="selectedNodeName">Hextris</h3>
+              <p id="selectedNodeDesc">Fast color matching, instant launch, and high replay value.</p>
+              <div class="detail-stats">
+                <span><strong id="availableCount">6</strong> Live</span>
+                <span><strong id="plannedCount">4</strong> Planned</span>
+              </div>
+              <button class="detail-play-btn" id="selectedNodeAction" type="button">Play Now</button>
+            </aside>
+          </div>
+          <div class="map-legend">
+            <span><i class="legend-dot live"></i>Available</span>
+            <span><i class="legend-dot planned"></i>Coming soon</span>
+            <span><i class="legend-line"></i>Genre link</span>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- GAME MODAL -->
+  <div class="modal-overlay" id="gameModal" role="dialog" aria-modal="true" aria-label="Game player">
+    <div class="modal-inner">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <span class="modal-genre-badge" id="modalGenre"></span>
+          <h2 class="modal-title" id="modalTitle"></h2>
+        </div>
+        <div class="modal-actions">
+          <button class="modal-btn fullscreen-btn" id="fullscreenBtn" aria-label="Fullscreen">⛶ Fullscreen</button>
+          <button class="modal-close" id="closeModal" aria-label="Close game">✕</button>
+        </div>
+      </div>
+      <div class="game-frame-wrapper" id="gameFrameWrapper">
+        <div class="game-loading" id="gameLoading">
+          <div class="spinner"></div>
+          <p>Loading game...</p>
+        </div>
+        <iframe class="game-frame" id="gameFrame" src="" allowfullscreen allow="fullscreen; autoplay; encrypted-media" sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-pointer-lock"></iframe>
+      </div>
+      <div class="modal-footer">
+        <span class="modal-desc" id="modalDesc"></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- SIGNIN MODAL -->
+  <div class="modal-overlay" id="signinModal" role="dialog" aria-modal="true" aria-label="Sign In">
+    <div class="signin-box">
+      <button class="modal-close" id="closeSignin" aria-label="Close">✕</button>
+      <img class="signin-logo-img" src="/logo.svg?v=graphify-pro-20260605" alt="" width="72" height="72" />
+      <h2 class="signin-title">Welcome to <span class="logo-accent">PlayGamio</span></h2>
+      <p class="signin-sub">Sign in to save progress, vote for games, and more!</p>
+      <input type="email" class="signin-input" placeholder="Email address" autocomplete="email" />
+      <input type="password" class="signin-input" placeholder="Password" autocomplete="current-password" />
+      <button class="signin-submit">Sign In</button>
+      <p class="signin-or">or</p>
+      <button class="signin-google">
+        <svg width="18" height="18" viewBox="0 0 48 48"><path fill="#4285F4" d="M46.145 24.537c0-1.611-.145-3.162-.415-4.653H24v8.805h12.445c-.537 2.892-2.17 5.342-4.63 6.988v5.808h7.494c4.382-4.037 6.836-9.987 6.836-16.948z"/><path fill="#34A853" d="M24 47c6.237 0 11.463-2.065 15.284-5.598l-7.494-5.808c-2.072 1.389-4.726 2.209-7.79 2.209-5.994 0-11.073-4.047-12.888-9.491H3.453v5.998C7.255 41.79 15.026 47 24 47z"/><path fill="#FBBC04" d="M11.112 28.312A14.957 14.957 0 0 1 10.32 24c0-1.497.258-2.95.792-4.312V13.69H3.453A22.956 22.956 0 0 0 1 24c0 3.722.895 7.241 2.453 10.31l7.659-6.002-.001.004z"/><path fill="#EA4335" d="M24 9.205c3.378 0 6.414 1.161 8.801 3.441l6.597-6.597C35.456 2.311 30.23 0 24 0 15.025 0 7.255 5.21 3.453 13.69l7.659 6.002C12.927 13.252 18.006 9.205 24 9.205z"/></svg>
+        Continue with Google
+      </button>
+      <p class="signin-terms">By signing in you agree to our <a href="#">Terms</a> & <a href="#">Privacy Policy</a></p>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo-mark"><img class="logo-icon" src="/logo.svg?v=graphify-pro-20260605" alt="" width="38" height="38" /></span>
+        <span class="logo-text">Play<span class="logo-accent">Gamio</span></span>
+      </div>
+      <p class="footer-copy">© 2026 PlayGamio. All rights reserved. Play instantly, no download required.</p>
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/app.js?v=graphify-pro-20260605"></script>
+</body>
+</html>

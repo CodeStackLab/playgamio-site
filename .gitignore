@@ -1,0 +1,7 @@
+.gemini/
+graphify-out/cache/
+node_modules/
+.env
+.env.*
+*.log
+.DS_Store
