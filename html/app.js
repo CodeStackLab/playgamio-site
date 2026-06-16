@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>` : `<div class="absolute top-3 left-3 z-20"><span class="badge badge-new">✨ New!</span></div>`;
 
                 card.innerHTML = `
-                    <img src="${game.image || game.thumbnail}" alt="${game.title}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-90" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+'">
+                    <img src="${game.image || game.thumbnail}" alt="${game.title}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-90">
                     ${badge}
                     <div class="hero-overlay">
                         <div class="transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
@@ -148,7 +148,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 card.innerHTML = `
                     <div class="relative w-full h-full overflow-hidden bg-black/50">
                         ${badge}
-                        <img src="${game.image || game.thumbnail}" alt="${game.title}" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+'">
+                        <img src="${game.image || game.thumbnail}" alt="${game.title}" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500">
                         
                         <!-- Hover Play Button overlay -->
                         <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center backdrop-blur-sm">
@@ -199,7 +199,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     
                     card.innerHTML = `
                         <div class="relative w-full h-full overflow-hidden bg-black/50 border border-indigo-500/30">
-                            <img src="${game.image || game.thumbnail}" alt="${game.title}" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500" onerror="this.style.display='none'">
+                            <img src="${game.image || game.thumbnail}" alt="${game.title}" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500">
                             <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center backdrop-blur-sm">
                                 <button class="bg-white/20 hover:bg-white/30 border border-white/30 rounded-full w-12 h-12 flex items-center justify-center text-white backdrop-blur-md transform scale-50 group-hover:scale-100 transition-all duration-300">
                                     <span class="material-symbols-outlined text-[24px]">play_arrow</span>
