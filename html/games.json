@@ -1,6 +1,6 @@
 {
   "api_version": "1.0",
-  "total_games": 33,
+  "total_games": 175,
   "last_updated": "2026-06-16",
   "games": [
     {
@@ -156,7 +156,7 @@
     {
       "slug": "planet-city-3d",
       "title": "Planet City 3D",
-      "description": "A beautiful 3D procedural city builder by Oskar Stålberg. Watch cities grow organically on a planet!",
+      "description": "A beautiful 3D procedural city builder by Oskar St\u00e5lberg. Watch cities grow organically on a planet!",
       "short_description": "3D City Builder!",
       "thumbnail": "https://oskarstalberg.com/game/planet/planet.png",
       "categories": [
@@ -166,7 +166,7 @@
       ],
       "url": "https://oskarstalberg.com/game/planet/planet.html",
       "rating": 4.8,
-      "developer": "Oskar Stålberg",
+      "developer": "Oskar St\u00e5lberg",
       "controls": "Mouse / Keyboard",
       "release_date": "Updated 2024"
     },
@@ -182,7 +182,7 @@
       ],
       "url": "https://ellisonleao.github.io/clumsy-bird/",
       "rating": 4.4,
-      "developer": "Ellison Leão",
+      "developer": "Ellison Le\u00e3o",
       "controls": "Click / Tap",
       "release_date": "Updated 2024"
     },
@@ -547,6 +547,2420 @@
       "rating": 4.6,
       "developer": "Martin Kool",
       "controls": "Mouse / Tap",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "extreme-car-driving-3d",
+      "title": "Extreme Car Driving 3D",
+      "description": "Drive supercars at extreme speeds in this realistic 3D driving simulator!",
+      "short_description": "Extreme Car Driving 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/extreme-car-driving-3d.webp",
+      "categories": [
+        "Racing",
+        "3D",
+        "Simulation"
+      ],
+      "url": "https://githubgames.gitlab.io/game/extreme-car-driving-3d.html",
+      "rating": 4.2,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "police-car-simulator-3d",
+      "title": "Police Car Simulator 3D",
+      "description": "Chase criminals through the city in your police cruiser!",
+      "short_description": "Police Car Simulator 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/police-car-simulator-3d.webp",
+      "categories": [
+        "Racing",
+        "3D",
+        "Simulation"
+      ],
+      "url": "https://githubgames.gitlab.io/game/police-car-simulator-3d.html",
+      "rating": 4.3,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "monster-truck-racing-3d",
+      "title": "Monster Truck Racing 3D",
+      "description": "Crush cars and race through mud in giant monster trucks!",
+      "short_description": "Monster Truck Racing 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/monster-truck-racing-3d.webp",
+      "categories": [
+        "Racing",
+        "3D",
+        "Sports"
+      ],
+      "url": "https://githubgames.gitlab.io/game/monster-truck-racing-3d.html",
+      "rating": 4.3,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "bike-racing-3d",
+      "title": "Bike Racing 3D",
+      "description": "High-speed motorcycle racing through city streets and highways!",
+      "short_description": "Bike Racing 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/bike-racing-3d.webp",
+      "categories": [
+        "Racing",
+        "3D",
+        "Sports"
+      ],
+      "url": "https://githubgames.gitlab.io/game/bike-racing-3d.html",
+      "rating": 4.9,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "crazy-traffic-racing-3d",
+      "title": "Crazy Traffic Racing 3D",
+      "description": "Weave through insane traffic at top speed in this adrenaline racer!",
+      "short_description": "Crazy Traffic Racing 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/crazy-traffic-racing-3d.webp",
+      "categories": [
+        "Racing",
+        "3D",
+        "Arcade"
+      ],
+      "url": "https://githubgames.gitlab.io/game/crazy-traffic-racing-3d.html",
+      "rating": 4.3,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "mega-ramp-car-stunt-3d",
+      "title": "Mega Ramp Car Stunt 3D",
+      "description": "Perform crazy stunts on massive ramps with powerful cars!",
+      "short_description": "Mega Ramp Car Stunt 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/mega-ramp-car-stunt-3d.webp",
+      "categories": [
+        "Racing",
+        "3D",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/mega-ramp-car-stunt-3d.html",
+      "rating": 4.2,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "car-crashing-3d",
+      "title": "Car Crashing 3D",
+      "description": "Realistic car crash physics simulator!",
+      "short_description": "Car Crashing 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/car-crashing-3d.webp",
+      "categories": [
+        "Racing",
+        "3D",
+        "Simulation"
+      ],
+      "url": "https://githubgames.gitlab.io/game/car-crashing-3d.html",
+      "rating": 3.5,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "police-chase-drifter-3d",
+      "title": "Police Chase Drifter 3D",
+      "description": "Drift through city streets while escaping the police!",
+      "short_description": "Police Chase Drifter 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/police-chase-drifter-3d.webp",
+      "categories": [
+        "Racing",
+        "3D",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/police-chase-drifter-3d.html",
+      "rating": 4.3,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / WASD",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "dirt-bike-extreme-3d",
+      "title": "Dirt Bike Extreme 3D",
+      "description": "Ride dirt bikes through extreme off-road terrain!",
+      "short_description": "Dirt Bike Extreme 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/dirt-bike-extreme-3d.webp",
+      "categories": [
+        "Racing",
+        "3D",
+        "Sports"
+      ],
+      "url": "https://githubgames.gitlab.io/game/dirt-bike-extreme-3d.html",
+      "rating": 4.0,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "formula-racing-3d",
+      "title": "Formula Racing 3D",
+      "description": "Professional Formula 1 racing on world-class circuits!",
+      "short_description": "Formula Racing 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/formula-racing-3d.webp",
+      "categories": [
+        "Racing",
+        "3D",
+        "Sports"
+      ],
+      "url": "https://githubgames.gitlab.io/game/formula-racing-3d.html",
+      "rating": 3.7,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "snow-mobile-racing-3d",
+      "title": "Snow Mobile Racing 3D",
+      "description": "Race snowmobiles through icy winter landscapes!",
+      "short_description": "Snow Mobile Racing 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/snow-mobile-racing-3d.webp",
+      "categories": [
+        "Racing",
+        "3D",
+        "Sports"
+      ],
+      "url": "https://githubgames.gitlab.io/game/snow-mobile-racing-3d.html",
+      "rating": 4.1,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "jeep-safari-3d",
+      "title": "Jeep Safari 3D",
+      "description": "Explore the wild safari in a rugged off-road jeep!",
+      "short_description": "Jeep Safari 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/jeep-safari-3d.webp",
+      "categories": [
+        "Racing",
+        "3D",
+        "Simulation"
+      ],
+      "url": "https://githubgames.gitlab.io/game/jeep-safari-3d.html",
+      "rating": 4.9,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "hoverbike-racing-3d",
+      "title": "Hoverbike Racing 3D",
+      "description": "Futuristic hoverbike racing through neon cities!",
+      "short_description": "Hoverbike Racing 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/hoverbike-racing-3d.webp",
+      "categories": [
+        "Racing",
+        "3D",
+        "Arcade"
+      ],
+      "url": "https://githubgames.gitlab.io/game/hoverbike-racing-3d.html",
+      "rating": 3.9,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "zombie-shooter-3d",
+      "title": "Zombie Shooter 3D",
+      "description": "Shoot waves of zombies in this thrilling 3D survival game!",
+      "short_description": "Zombie Shooter 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/zombie-shooter-3d.webp",
+      "categories": [
+        "Action",
+        "3D",
+        "Shooting"
+      ],
+      "url": "https://githubgames.gitlab.io/game/zombie-shooter-3d.html",
+      "rating": 3.7,
+      "developer": "Open Source",
+      "controls": "Mouse / Keyboard",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "sniper-shooter-3d",
+      "title": "Sniper Shooter 3D",
+      "description": "Take aim and eliminate targets as an elite sniper!",
+      "short_description": "Sniper Shooter 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/sniper-shooter-3d.webp",
+      "categories": [
+        "Action",
+        "3D",
+        "Shooting"
+      ],
+      "url": "https://githubgames.gitlab.io/game/sniper-shooter-3d.html",
+      "rating": 3.7,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "stickman-fighter-3d",
+      "title": "Stickman Fighter 3D",
+      "description": "Epic stickman battles with awesome combat moves!",
+      "short_description": "Stickman Fighter 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/stickman-fighter-3d.webp",
+      "categories": [
+        "Action",
+        "3D",
+        "Fighting"
+      ],
+      "url": "https://githubgames.gitlab.io/game/stickman-fighter-3d.html",
+      "rating": 3.9,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / Space",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "ninja-fight-3d",
+      "title": "Ninja Fight 3D",
+      "description": "Become a ninja warrior and defeat enemies with stealth!",
+      "short_description": "Ninja Fight 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/ninja-fight-3d.webp",
+      "categories": [
+        "Action",
+        "3D",
+        "Fighting"
+      ],
+      "url": "https://githubgames.gitlab.io/game/ninja-fight-3d.html",
+      "rating": 4.9,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / Space",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "boxing-champion-3d",
+      "title": "Boxing Champion 3D",
+      "description": "Enter the ring and knock out opponents to become champion!",
+      "short_description": "Boxing Champion 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/boxing-champion-3d.webp",
+      "categories": [
+        "Action",
+        "3D",
+        "Sports"
+      ],
+      "url": "https://githubgames.gitlab.io/game/boxing-champion-3d.html",
+      "rating": 3.8,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / Space",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "sword-fight-3d",
+      "title": "Sword Fight 3D",
+      "description": "Epic medieval sword duels in a 3D arena!",
+      "short_description": "Sword Fight 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/sword-fight-3d.webp",
+      "categories": [
+        "Action",
+        "3D",
+        "Fighting"
+      ],
+      "url": "https://githubgames.gitlab.io/game/sword-fight-3d.html",
+      "rating": 4.9,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "alien-shooter-3d",
+      "title": "Alien Shooter 3D",
+      "description": "Defend Earth from alien invasion in this sci-fi shooter!",
+      "short_description": "Alien Shooter 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/alien-shooter-3d.webp",
+      "categories": [
+        "Action",
+        "3D",
+        "Shooting"
+      ],
+      "url": "https://githubgames.gitlab.io/game/alien-shooter-3d.html",
+      "rating": 3.6,
+      "developer": "Open Source",
+      "controls": "Mouse / Keyboard",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "firefighter-simulator-3d",
+      "title": "Firefighter Simulator 3D",
+      "description": "Save lives and put out fires as a heroic firefighter!",
+      "short_description": "Firefighter Simulator 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/firefighter-simulator-3d.webp",
+      "categories": [
+        "Action",
+        "3D",
+        "Simulation"
+      ],
+      "url": "https://githubgames.gitlab.io/game/firefighter-simulator-3d.html",
+      "rating": 4.4,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / Space",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "police-robot-fight-3d",
+      "title": "Police Robot Fight 3D",
+      "description": "Control giant robots and fight crime in the city!",
+      "short_description": "Police Robot Fight 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/police-robot-fight-3d.webp",
+      "categories": [
+        "Action",
+        "3D",
+        "Fighting"
+      ],
+      "url": "https://githubgames.gitlab.io/game/police-robot-fight-3d.html",
+      "rating": 4.1,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / WASD",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "war-plane-battle-3d",
+      "title": "War Plane Battle 3D",
+      "description": "Engage in epic World War aerial dogfights!",
+      "short_description": "War Plane Battle 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/war-plane-battle-3d.webp",
+      "categories": [
+        "Action",
+        "3D",
+        "Shooting"
+      ],
+      "url": "https://githubgames.gitlab.io/game/war-plane-battle-3d.html",
+      "rating": 3.9,
+      "developer": "Open Source",
+      "controls": "Mouse / Keyboard",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "tank-battle-3d",
+      "title": "Tank Battle 3D",
+      "description": "Command powerful tanks and destroy enemy forces!",
+      "short_description": "Tank Battle 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/tank-battle-3d.webp",
+      "categories": [
+        "Action",
+        "3D",
+        "Shooting"
+      ],
+      "url": "https://githubgames.gitlab.io/game/tank-battle-3d.html",
+      "rating": 4.9,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / Space",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "football-legends-3d",
+      "title": "Football Legends 3D",
+      "description": "Play exciting 3D football matches and score goals!",
+      "short_description": "Football Legends 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/football-legends-3d.webp",
+      "categories": [
+        "Sports",
+        "3D",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/football-legends-3d.html",
+      "rating": 3.9,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / Space",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "basketball-shooter-3d",
+      "title": "Basketball Shooter 3D",
+      "description": "Shoot hoops in this fast-paced 3D basketball game!",
+      "short_description": "Basketball Shooter 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/basketball-shooter-3d.webp",
+      "categories": [
+        "Sports",
+        "3D",
+        "Arcade"
+      ],
+      "url": "https://githubgames.gitlab.io/game/basketball-shooter-3d.html",
+      "rating": 4.1,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "cricket-world-cup-3d",
+      "title": "Cricket World Cup 3D",
+      "description": "Bat, bowl, and field in exciting 3D cricket matches!",
+      "short_description": "Cricket World Cup 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/cricket-world-cup-3d.webp",
+      "categories": [
+        "Sports",
+        "3D",
+        "Arcade"
+      ],
+      "url": "https://githubgames.gitlab.io/game/cricket-world-cup-3d.html",
+      "rating": 4.0,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "tennis-masters-3d",
+      "title": "Tennis Masters 3D",
+      "description": "Smash aces and win tournaments in 3D tennis!",
+      "short_description": "Tennis Masters 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/tennis-masters-3d.webp",
+      "categories": [
+        "Sports",
+        "3D",
+        "Arcade"
+      ],
+      "url": "https://githubgames.gitlab.io/game/tennis-masters-3d.html",
+      "rating": 3.7,
+      "developer": "Open Source",
+      "controls": "Mouse / Keyboard",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "bowling-king-3d",
+      "title": "Bowling King 3D",
+      "description": "Knock down all the pins in realistic 3D bowling!",
+      "short_description": "Bowling King 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/bowling-king-3d.webp",
+      "categories": [
+        "Sports",
+        "3D",
+        "Arcade"
+      ],
+      "url": "https://githubgames.gitlab.io/game/bowling-king-3d.html",
+      "rating": 3.5,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "golf-simulator-3d",
+      "title": "Golf Simulator 3D",
+      "description": "Play through beautiful 3D golf courses!",
+      "short_description": "Golf Simulator 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/golf-simulator-3d.webp",
+      "categories": [
+        "Sports",
+        "3D",
+        "Simulation"
+      ],
+      "url": "https://githubgames.gitlab.io/game/golf-simulator-3d.html",
+      "rating": 3.7,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "archery-champion-3d",
+      "title": "Archery Champion 3D",
+      "description": "Test your aim in precision 3D archery!",
+      "short_description": "Archery Champion 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/archery-champion-3d.webp",
+      "categories": [
+        "Sports",
+        "3D",
+        "Arcade"
+      ],
+      "url": "https://githubgames.gitlab.io/game/archery-champion-3d.html",
+      "rating": 3.9,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "ice-hockey-3d",
+      "title": "Ice Hockey 3D",
+      "description": "Fast-paced 3D ice hockey action!",
+      "short_description": "Ice Hockey 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/ice-hockey-3d.webp",
+      "categories": [
+        "Sports",
+        "3D",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/ice-hockey-3d.html",
+      "rating": 4.8,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / Space",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "baseball-slugger-3d",
+      "title": "Baseball Slugger 3D",
+      "description": "Hit home runs in this exciting 3D baseball game!",
+      "short_description": "Baseball Slugger 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/baseball-slugger-3d.webp",
+      "categories": [
+        "Sports",
+        "3D",
+        "Arcade"
+      ],
+      "url": "https://githubgames.gitlab.io/game/baseball-slugger-3d.html",
+      "rating": 3.9,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "volleyball-clash-3d",
+      "title": "Volleyball Clash 3D",
+      "description": "Spike, block and dive in 3D beach volleyball!",
+      "short_description": "Volleyball Clash 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/volleyball-clash-3d.webp",
+      "categories": [
+        "Sports",
+        "3D",
+        "Arcade"
+      ],
+      "url": "https://githubgames.gitlab.io/game/volleyball-clash-3d.html",
+      "rating": 3.9,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / Space",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "city-builder-3d",
+      "title": "City Builder 3D",
+      "description": "Build and manage your own thriving 3D city!",
+      "short_description": "City Builder 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/city-builder-3d.webp",
+      "categories": [
+        "Simulation",
+        "3D",
+        "Strategy"
+      ],
+      "url": "https://githubgames.gitlab.io/game/city-builder-3d.html",
+      "rating": 3.5,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "airport-simulator-3d",
+      "title": "Airport Simulator 3D",
+      "description": "Manage a busy international airport in 3D!",
+      "short_description": "Airport Simulator 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/airport-simulator-3d.webp",
+      "categories": [
+        "Simulation",
+        "3D",
+        "Strategy"
+      ],
+      "url": "https://githubgames.gitlab.io/game/airport-simulator-3d.html",
+      "rating": 4.0,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "farming-simulator-3d",
+      "title": "Farming Simulator 3D",
+      "description": "Grow crops and manage your 3D farm!",
+      "short_description": "Farming Simulator 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/farming-simulator-3d.webp",
+      "categories": [
+        "Simulation",
+        "3D",
+        "Casual"
+      ],
+      "url": "https://githubgames.gitlab.io/game/farming-simulator-3d.html",
+      "rating": 4.0,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / Mouse",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "restaurant-sim-3d",
+      "title": "Restaurant Sim 3D",
+      "description": "Run a busy restaurant kitchen in 3D!",
+      "short_description": "Restaurant Sim 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/restaurant-sim-3d.webp",
+      "categories": [
+        "Simulation",
+        "3D",
+        "Strategy"
+      ],
+      "url": "https://githubgames.gitlab.io/game/restaurant-sim-3d.html",
+      "rating": 3.7,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "hospital-sim-3d",
+      "title": "Hospital Sim 3D",
+      "description": "Manage a hospital and treat patients in 3D!",
+      "short_description": "Hospital Sim 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/hospital-sim-3d.webp",
+      "categories": [
+        "Simulation",
+        "3D",
+        "Strategy"
+      ],
+      "url": "https://githubgames.gitlab.io/game/hospital-sim-3d.html",
+      "rating": 3.5,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "supermarket-sim-3d",
+      "title": "Supermarket Sim 3D",
+      "description": "Run your own supermarket store in 3D!",
+      "short_description": "Supermarket Sim 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/supermarket-sim-3d.webp",
+      "categories": [
+        "Simulation",
+        "3D",
+        "Strategy"
+      ],
+      "url": "https://githubgames.gitlab.io/game/supermarket-sim-3d.html",
+      "rating": 3.8,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "gas-station-sim-3d",
+      "title": "Gas Station Sim 3D",
+      "description": "Manage a busy gas station and earn big!",
+      "short_description": "Gas Station Sim 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/gas-station-sim-3d.webp",
+      "categories": [
+        "Simulation",
+        "3D",
+        "Strategy"
+      ],
+      "url": "https://githubgames.gitlab.io/game/gas-station-sim-3d.html",
+      "rating": 3.8,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "fish-simulator-3d",
+      "title": "Fish Simulator 3D",
+      "description": "Explore the ocean as a fish in 3D!",
+      "short_description": "Fish Simulator 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/fish-simulator-3d.webp",
+      "categories": [
+        "Simulation",
+        "3D",
+        "Adventure"
+      ],
+      "url": "https://githubgames.gitlab.io/game/fish-simulator-3d.html",
+      "rating": 3.7,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "shark-simulator-3d",
+      "title": "Shark Simulator 3D",
+      "description": "Rule the ocean as a great white shark!",
+      "short_description": "Shark Simulator 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/shark-simulator-3d.webp",
+      "categories": [
+        "Simulation",
+        "3D",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/shark-simulator-3d.html",
+      "rating": 3.8,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "lion-simulator-3d",
+      "title": "Lion Simulator 3D",
+      "description": "Hunt and survive as the king of the jungle!",
+      "short_description": "Lion Simulator 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/lion-simulator-3d.webp",
+      "categories": [
+        "Simulation",
+        "3D",
+        "Adventure"
+      ],
+      "url": "https://githubgames.gitlab.io/game/lion-simulator-3d.html",
+      "rating": 3.7,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "tiger-simulator-3d",
+      "title": "Tiger Simulator 3D",
+      "description": "Stalk prey through dense forests as a tiger!",
+      "short_description": "Tiger Simulator 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/tiger-simulator-3d.webp",
+      "categories": [
+        "Simulation",
+        "3D",
+        "Adventure"
+      ],
+      "url": "https://githubgames.gitlab.io/game/tiger-simulator-3d.html",
+      "rating": 3.8,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "wolf-simulator-3d",
+      "title": "Wolf Simulator 3D",
+      "description": "Run with the pack in this wild wolf simulator!",
+      "short_description": "Wolf Simulator 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/wolf-simulator-3d.webp",
+      "categories": [
+        "Simulation",
+        "3D",
+        "Adventure"
+      ],
+      "url": "https://githubgames.gitlab.io/game/wolf-simulator-3d.html",
+      "rating": 3.7,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "dinosaur-simulator-3d",
+      "title": "Dinosaur Simulator 3D",
+      "description": "Live as a dinosaur in the prehistoric world!",
+      "short_description": "Dinosaur Simulator 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/dinosaur-simulator-3d.webp",
+      "categories": [
+        "Simulation",
+        "3D",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/dinosaur-simulator-3d.html",
+      "rating": 4.1,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "goat-simulator-3d",
+      "title": "Goat Simulator 3D",
+      "description": "Cause chaos as a crazy goat in 3D!",
+      "short_description": "Goat Simulator 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/goat-simulator-3d.webp",
+      "categories": [
+        "Simulation",
+        "3D",
+        "Arcade"
+      ],
+      "url": "https://githubgames.gitlab.io/game/goat-simulator-3d.html",
+      "rating": 3.7,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / Space",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "cat-simulator-3d",
+      "title": "Cat Simulator 3D",
+      "description": "Explore the neighborhood as a curious cat!",
+      "short_description": "Cat Simulator 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/cat-simulator-3d.webp",
+      "categories": [
+        "Simulation",
+        "3D",
+        "Casual"
+      ],
+      "url": "https://githubgames.gitlab.io/game/cat-simulator-3d.html",
+      "rating": 3.6,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "bear-simulator-3d",
+      "title": "Bear Simulator 3D",
+      "description": "Forage and hunt in the wilderness as a bear!",
+      "short_description": "Bear Simulator 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/bear-simulator-3d.webp",
+      "categories": [
+        "Simulation",
+        "3D",
+        "Adventure"
+      ],
+      "url": "https://githubgames.gitlab.io/game/bear-simulator-3d.html",
+      "rating": 3.7,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "dolphin-simulator-3d",
+      "title": "Dolphin Simulator 3D",
+      "description": "Swim and play in the ocean as a dolphin!",
+      "short_description": "Dolphin Simulator 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/dolphin-simulator-3d.webp",
+      "categories": [
+        "Simulation",
+        "3D",
+        "Adventure"
+      ],
+      "url": "https://githubgames.gitlab.io/game/dolphin-simulator-3d.html",
+      "rating": 4.0,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "cut-the-rope-3d",
+      "title": "Cut The Rope 3D",
+      "description": "Cut ropes and feed candy to Om Nom in 3D!",
+      "short_description": "Cut The Rope 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/cut-the-rope-3d.webp",
+      "categories": [
+        "Puzzle",
+        "3D",
+        "Arcade"
+      ],
+      "url": "https://githubgames.gitlab.io/game/cut-the-rope-3d.html",
+      "rating": 3.5,
+      "developer": "Open Source",
+      "controls": "Mouse / Touch",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "angry-birds-3d",
+      "title": "Angry Birds 3D",
+      "description": "Launch birds at pig fortresses in glorious 3D!",
+      "short_description": "Angry Birds 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/angry-birds-3d.webp",
+      "categories": [
+        "Puzzle",
+        "3D",
+        "Arcade"
+      ],
+      "url": "https://githubgames.gitlab.io/game/angry-birds-3d.html",
+      "rating": 4.9,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "bubble-shooter-3d",
+      "title": "Bubble Shooter 3D",
+      "description": "Match and pop colorful bubbles in fun 3D!",
+      "short_description": "Bubble Shooter 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/bubble-shooter-3d.webp",
+      "categories": [
+        "Puzzle",
+        "3D",
+        "Casual"
+      ],
+      "url": "https://githubgames.gitlab.io/game/bubble-shooter-3d.html",
+      "rating": 3.7,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "jewel-legend-3d",
+      "title": "Jewel Legend 3D",
+      "description": "Match dazzling jewels in this 3D puzzle adventure!",
+      "short_description": "Jewel Legend 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/jewel-legend-3d.webp",
+      "categories": [
+        "Puzzle",
+        "3D",
+        "Casual"
+      ],
+      "url": "https://githubgames.gitlab.io/game/jewel-legend-3d.html",
+      "rating": 3.5,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "block-puzzle-3d",
+      "title": "Block Puzzle 3D",
+      "description": "Fit blocks perfectly in this addictive 3D puzzle!",
+      "short_description": "Block Puzzle 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/block-puzzle-3d.webp",
+      "categories": [
+        "Puzzle",
+        "3D",
+        "Strategy"
+      ],
+      "url": "https://githubgames.gitlab.io/game/block-puzzle-3d.html",
+      "rating": 3.5,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "word-cross-3d",
+      "title": "Word Cross 3D",
+      "description": "Build words in a beautiful 3D word puzzle world!",
+      "short_description": "Word Cross 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/word-cross-3d.webp",
+      "categories": [
+        "Puzzle",
+        "3D",
+        "Strategy"
+      ],
+      "url": "https://githubgames.gitlab.io/game/word-cross-3d.html",
+      "rating": 4.8,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "match-master-3d",
+      "title": "Match Master 3D",
+      "description": "Find and match 3D objects in this fun game!",
+      "short_description": "Match Master 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/match-master-3d.webp",
+      "categories": [
+        "Puzzle",
+        "3D",
+        "Casual"
+      ],
+      "url": "https://githubgames.gitlab.io/game/match-master-3d.html",
+      "rating": 3.5,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "pull-the-pin-3d",
+      "title": "Pull The Pin 3D",
+      "description": "Pull pins in the right order to solve puzzles!",
+      "short_description": "Pull The Pin 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/pull-the-pin-3d.webp",
+      "categories": [
+        "Puzzle",
+        "3D",
+        "Strategy"
+      ],
+      "url": "https://githubgames.gitlab.io/game/pull-the-pin-3d.html",
+      "rating": 3.5,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "roller-splat-3d",
+      "title": "Roller Splat 3D",
+      "description": "Roll paint through mazes in satisfying 3D!",
+      "short_description": "Roller Splat 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/roller-splat-3d.webp",
+      "categories": [
+        "Puzzle",
+        "3D",
+        "Arcade"
+      ],
+      "url": "https://githubgames.gitlab.io/game/roller-splat-3d.html",
+      "rating": 3.5,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / Swipe",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "unblock-3d",
+      "title": "Unblock 3D",
+      "description": "Slide blocks to clear the path in 3D!",
+      "short_description": "Unblock 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/unblock-3d.webp",
+      "categories": [
+        "Puzzle",
+        "3D",
+        "Strategy"
+      ],
+      "url": "https://githubgames.gitlab.io/game/unblock-3d.html",
+      "rating": 4.5,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "crazy-runner-3d",
+      "title": "Crazy Runner 3D",
+      "description": "Run, dodge and jump through crazy obstacle courses!",
+      "short_description": "Crazy Runner 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/crazy-runner-3d.webp",
+      "categories": [
+        "Arcade",
+        "3D",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/crazy-runner-3d.html",
+      "rating": 3.5,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / Swipe",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "stair-runner-3d",
+      "title": "Stair Runner 3D",
+      "description": "Build stairs and run to the end in this 3D race!",
+      "short_description": "Stair Runner 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/stair-runner-3d.webp",
+      "categories": [
+        "Arcade",
+        "3D",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/stair-runner-3d.html",
+      "rating": 3.5,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "ball-run-3d",
+      "title": "Ball Run 3D",
+      "description": "Roll the ball through incredible 3D tracks!",
+      "short_description": "Ball Run 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/ball-run-3d.webp",
+      "categories": [
+        "Arcade",
+        "3D",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/ball-run-3d.html",
+      "rating": 4.6,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / Swipe",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "knock-balls-3d",
+      "title": "Knock Balls 3D",
+      "description": "Shoot and knock down colorful 3D balls!",
+      "short_description": "Knock Balls 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/knock-balls-3d.webp",
+      "categories": [
+        "Arcade",
+        "3D",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/knock-balls-3d.html",
+      "rating": 4.9,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "smash-road-3d",
+      "title": "Smash Road 3D",
+      "description": "Smash everything in your path on the road!",
+      "short_description": "Smash Road 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/smash-road-3d.webp",
+      "categories": [
+        "Arcade",
+        "3D",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/smash-road-3d.html",
+      "rating": 4.8,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / Swipe",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "water-surf-3d",
+      "title": "Water Surf 3D",
+      "description": "Surf on massive ocean waves in 3D!",
+      "short_description": "Water Surf 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/water-surf-3d.webp",
+      "categories": [
+        "Arcade",
+        "3D",
+        "Sports"
+      ],
+      "url": "https://githubgames.gitlab.io/game/water-surf-3d.html",
+      "rating": 4.8,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / Swipe",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "fruit-slice-3d",
+      "title": "Fruit Slice 3D",
+      "description": "Slice flying fruits with your blade in 3D!",
+      "short_description": "Fruit Slice 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/fruit-slice-3d.webp",
+      "categories": [
+        "Arcade",
+        "3D",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/fruit-slice-3d.html",
+      "rating": 4.9,
+      "developer": "Open Source",
+      "controls": "Mouse / Swipe",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "bottle-flip-3d",
+      "title": "Bottle Flip 3D",
+      "description": "Flip bottles and land them perfectly!",
+      "short_description": "Bottle Flip 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/bottle-flip-3d.webp",
+      "categories": [
+        "Arcade",
+        "3D",
+        "Sports"
+      ],
+      "url": "https://githubgames.gitlab.io/game/bottle-flip-3d.html",
+      "rating": 4.9,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "bouncing-ball-3d",
+      "title": "Bouncing Ball 3D",
+      "description": "Bounce the ball through cosmic 3D obstacles!",
+      "short_description": "Bouncing Ball 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/bouncing-ball-3d.webp",
+      "categories": [
+        "Arcade",
+        "3D",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/bouncing-ball-3d.html",
+      "rating": 3.6,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / Swipe",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "slice-it-all-3d",
+      "title": "Slice It All 3D",
+      "description": "Slice through everything in this satisfying game!",
+      "short_description": "Slice It All 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/slice-it-all-3d.webp",
+      "categories": [
+        "Arcade",
+        "3D",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/slice-it-all-3d.html",
+      "rating": 3.5,
+      "developer": "Open Source",
+      "controls": "Mouse / Swipe",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "merge-tanks-3d",
+      "title": "Merge Tanks 3D",
+      "description": "Merge tanks and build the ultimate war machine!",
+      "short_description": "Merge Tanks 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/merge-tanks-3d.webp",
+      "categories": [
+        "Strategy",
+        "3D",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/merge-tanks-3d.html",
+      "rating": 4.9,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "army-recruit-3d",
+      "title": "Army Recruit 3D",
+      "description": "Recruit soldiers and build an unstoppable army!",
+      "short_description": "Army Recruit 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/army-recruit-3d.webp",
+      "categories": [
+        "Strategy",
+        "3D",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/army-recruit-3d.html",
+      "rating": 3.5,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "stickman-war-3d",
+      "title": "Stickman War 3D",
+      "description": "Lead stickman armies in epic strategic battles!",
+      "short_description": "Stickman War 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/stickman-war-3d.webp",
+      "categories": [
+        "Strategy",
+        "3D",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/stickman-war-3d.html",
+      "rating": 3.5,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "clash-of-blocks-3d",
+      "title": "Clash of Blocks 3D",
+      "description": "Strategic block battles in a 3D arena!",
+      "short_description": "Clash of Blocks 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/clash-of-blocks-3d.webp",
+      "categories": [
+        "Strategy",
+        "3D",
+        "Puzzle"
+      ],
+      "url": "https://githubgames.gitlab.io/game/clash-of-blocks-3d.html",
+      "rating": 3.8,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "tower-rush-3d",
+      "title": "Tower Rush 3D",
+      "description": "Build towers and defend against enemy waves!",
+      "short_description": "Tower Rush 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/tower-rush-3d.webp",
+      "categories": [
+        "Strategy",
+        "3D",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/tower-rush-3d.html",
+      "rating": 4.8,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "snake-battle-3d",
+      "title": "Snake Battle 3D",
+      "description": "Grow your snake and outsmart opponents in 3D!",
+      "short_description": "Snake Battle 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/snake-battle-3d.webp",
+      "categories": [
+        "Strategy",
+        "3D",
+        "Arcade"
+      ],
+      "url": "https://githubgames.gitlab.io/game/snake-battle-3d.html",
+      "rating": 3.5,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / Swipe",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "capture-flag-3d",
+      "title": "Capture the Flag 3D",
+      "description": "Strategic team battles to capture the enemy flag!",
+      "short_description": "Capture the Flag 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/capture-flag-3d.webp",
+      "categories": [
+        "Strategy",
+        "3D",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/capture-flag-3d.html",
+      "rating": 3.5,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / WASD",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "dominoes-3d",
+      "title": "Dominoes 3D",
+      "description": "Classic dominoes brought to life in 3D!",
+      "short_description": "Dominoes 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/dominoes-3d.webp",
+      "categories": [
+        "Strategy",
+        "3D",
+        "Puzzle"
+      ],
+      "url": "https://githubgames.gitlab.io/game/dominoes-3d.html",
+      "rating": 4.6,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "temple-explorer-3d",
+      "title": "Temple Explorer 3D",
+      "description": "Explore ancient temples and uncover hidden treasures!",
+      "short_description": "Temple Explorer 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/temple-explorer-3d.webp",
+      "categories": [
+        "Adventure",
+        "3D",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/temple-explorer-3d.html",
+      "rating": 3.8,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / WASD",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "jungle-adventure-3d",
+      "title": "Jungle Adventure 3D",
+      "description": "Venture deep into the jungle on an epic quest!",
+      "short_description": "Jungle Adventure 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/jungle-adventure-3d.webp",
+      "categories": [
+        "Adventure",
+        "3D",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/jungle-adventure-3d.html",
+      "rating": 3.9,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / WASD",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "space-explorer-3d",
+      "title": "Space Explorer 3D",
+      "description": "Explore the cosmos in your spaceship!",
+      "short_description": "Space Explorer 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/space-explorer-3d.webp",
+      "categories": [
+        "Adventure",
+        "3D",
+        "Simulation"
+      ],
+      "url": "https://githubgames.gitlab.io/game/space-explorer-3d.html",
+      "rating": 3.7,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / WASD",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "pirate-island-3d",
+      "title": "Pirate Island 3D",
+      "description": "Search for buried treasure on a pirate island!",
+      "short_description": "Pirate Island 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/pirate-island-3d.webp",
+      "categories": [
+        "Adventure",
+        "3D",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/pirate-island-3d.html",
+      "rating": 3.6,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / WASD",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "zombie-survival-3d",
+      "title": "Zombie Survival 3D",
+      "description": "Survive the zombie apocalypse in 3D!",
+      "short_description": "Zombie Survival 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/zombie-survival-3d.webp",
+      "categories": [
+        "Adventure",
+        "3D",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/zombie-survival-3d.html",
+      "rating": 3.8,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / WASD",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "sky-island-3d",
+      "title": "Sky Island 3D",
+      "description": "Explore floating sky islands and solve mysteries!",
+      "short_description": "Sky Island 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/sky-island-3d.webp",
+      "categories": [
+        "Adventure",
+        "3D",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/sky-island-3d.html",
+      "rating": 4.8,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / WASD",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "dragon-rider-3d",
+      "title": "Dragon Rider 3D",
+      "description": "Ride dragons and soar through magical skies!",
+      "short_description": "Dragon Rider 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/dragon-rider-3d.webp",
+      "categories": [
+        "Adventure",
+        "3D",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/dragon-rider-3d.html",
+      "rating": 3.5,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / Mouse",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "escape-room-3d",
+      "title": "Escape Room 3D",
+      "description": "Solve puzzles and escape mysterious 3D rooms!",
+      "short_description": "Escape Room 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/escape-room-3d.webp",
+      "categories": [
+        "Adventure",
+        "3D",
+        "Puzzle"
+      ],
+      "url": "https://githubgames.gitlab.io/game/escape-room-3d.html",
+      "rating": 4.9,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "paper-ball-3d",
+      "title": "Paper Ball 3D",
+      "description": "Roll a paper ball through fun 3D mazes!",
+      "short_description": "Paper Ball 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/paper-ball-3d.webp",
+      "categories": [
+        "Arcade",
+        "3D",
+        "Casual"
+      ],
+      "url": "https://githubgames.gitlab.io/game/paper-ball-3d.html",
+      "rating": 4.8,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / Swipe",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "jelly-jump-3d",
+      "title": "Jelly Jump 3D",
+      "description": "Bounce the jelly through platforms and obstacles!",
+      "short_description": "Jelly Jump 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/jelly-jump-3d.webp",
+      "categories": [
+        "Arcade",
+        "3D",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/jelly-jump-3d.html",
+      "rating": 4.8,
+      "developer": "Open Source",
+      "controls": "Space / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "pizza-maker-3d",
+      "title": "Pizza Maker 3D",
+      "description": "Make delicious pizzas in your 3D kitchen!",
+      "short_description": "Pizza Maker 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/pizza-maker-3d.webp",
+      "categories": [
+        "Simulation",
+        "3D",
+        "Casual"
+      ],
+      "url": "https://githubgames.gitlab.io/game/pizza-maker-3d.html",
+      "rating": 4.9,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "burger-chef-3d",
+      "title": "Burger Chef 3D",
+      "description": "Cook and serve burgers in a busy 3D restaurant!",
+      "short_description": "Burger Chef 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/burger-chef-3d.webp",
+      "categories": [
+        "Simulation",
+        "3D",
+        "Casual"
+      ],
+      "url": "https://githubgames.gitlab.io/game/burger-chef-3d.html",
+      "rating": 4.9,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "ice-cream-shop-3d",
+      "title": "Ice Cream Shop 3D",
+      "description": "Run an ice cream store in colorful 3D!",
+      "short_description": "Ice Cream Shop 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/ice-cream-shop-3d.webp",
+      "categories": [
+        "Simulation",
+        "3D",
+        "Casual"
+      ],
+      "url": "https://githubgames.gitlab.io/game/ice-cream-shop-3d.html",
+      "rating": 3.7,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "cake-bakery-3d",
+      "title": "Cake Bakery 3D",
+      "description": "Bake beautiful cakes in your 3D bakery!",
+      "short_description": "Cake Bakery 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/cake-bakery-3d.webp",
+      "categories": [
+        "Simulation",
+        "3D",
+        "Casual"
+      ],
+      "url": "https://githubgames.gitlab.io/game/cake-bakery-3d.html",
+      "rating": 4.9,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "hair-salon-3d",
+      "title": "Hair Salon 3D",
+      "description": "Style hair and run a busy 3D salon!",
+      "short_description": "Hair Salon 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/hair-salon-3d.webp",
+      "categories": [
+        "Simulation",
+        "3D",
+        "Casual"
+      ],
+      "url": "https://githubgames.gitlab.io/game/hair-salon-3d.html",
+      "rating": 4.8,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "nail-art-3d",
+      "title": "Nail Art 3D",
+      "description": "Design beautiful nails in this creative 3D game!",
+      "short_description": "Nail Art 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/nail-art-3d.webp",
+      "categories": [
+        "Simulation",
+        "3D",
+        "Casual"
+      ],
+      "url": "https://githubgames.gitlab.io/game/nail-art-3d.html",
+      "rating": 4.6,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "makeup-studio-3d",
+      "title": "Makeup Studio 3D",
+      "description": "Apply makeup and create stunning looks in 3D!",
+      "short_description": "Makeup Studio 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/makeup-studio-3d.webp",
+      "categories": [
+        "Simulation",
+        "3D",
+        "Casual"
+      ],
+      "url": "https://githubgames.gitlab.io/game/makeup-studio-3d.html",
+      "rating": 3.6,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "fashion-shop-3d",
+      "title": "Fashion Shop 3D",
+      "description": "Run a fashion boutique in stylish 3D!",
+      "short_description": "Fashion Shop 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/fashion-shop-3d.webp",
+      "categories": [
+        "Simulation",
+        "3D",
+        "Casual"
+      ],
+      "url": "https://githubgames.gitlab.io/game/fashion-shop-3d.html",
+      "rating": 3.5,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "parking-master-3d",
+      "title": "Parking Master 3D",
+      "description": "Master the art of parking in challenging spots!",
+      "short_description": "Parking Master 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/parking-master-3d.webp",
+      "categories": [
+        "Racing",
+        "3D",
+        "Simulation"
+      ],
+      "url": "https://githubgames.gitlab.io/game/parking-master-3d.html",
+      "rating": 3.7,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / WASD",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "bus-parking-3d",
+      "title": "Bus Parking 3D",
+      "description": "Park massive buses in tight spaces in 3D!",
+      "short_description": "Bus Parking 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/bus-parking-3d.webp",
+      "categories": [
+        "Racing",
+        "3D",
+        "Simulation"
+      ],
+      "url": "https://githubgames.gitlab.io/game/bus-parking-3d.html",
+      "rating": 4.9,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / WASD",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "truck-parking-3d",
+      "title": "Truck Parking 3D",
+      "description": "Park heavy trucks with precision in 3D!",
+      "short_description": "Truck Parking 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/truck-parking-3d.webp",
+      "categories": [
+        "Racing",
+        "3D",
+        "Simulation"
+      ],
+      "url": "https://githubgames.gitlab.io/game/truck-parking-3d.html",
+      "rating": 3.6,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / WASD",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "ship-simulator-3d",
+      "title": "Ship Simulator 3D",
+      "description": "Captain massive ships across the ocean!",
+      "short_description": "Ship Simulator 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/ship-simulator-3d.webp",
+      "categories": [
+        "Simulation",
+        "3D",
+        "Adventure"
+      ],
+      "url": "https://githubgames.gitlab.io/game/ship-simulator-3d.html",
+      "rating": 3.7,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / Mouse",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "helicopter-rescue-3d",
+      "title": "Helicopter Rescue 3D",
+      "description": "Pilot rescue helicopters on dangerous missions!",
+      "short_description": "Helicopter Rescue 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/helicopter-rescue-3d.webp",
+      "categories": [
+        "Simulation",
+        "3D",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/helicopter-rescue-3d.html",
+      "rating": 4.0,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / Mouse",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "submarine-adventure-3d",
+      "title": "Submarine Adventure 3D",
+      "description": "Explore the deep ocean in a submarine!",
+      "short_description": "Submarine Adventure 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/submarine-adventure-3d.webp",
+      "categories": [
+        "Adventure",
+        "3D",
+        "Simulation"
+      ],
+      "url": "https://githubgames.gitlab.io/game/submarine-adventure-3d.html",
+      "rating": 4.2,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / WASD",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "rocket-launch-3d",
+      "title": "Rocket Launch 3D",
+      "description": "Launch rockets into space in this 3D sim!",
+      "short_description": "Rocket Launch 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/rocket-launch-3d.webp",
+      "categories": [
+        "Simulation",
+        "3D",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/rocket-launch-3d.html",
+      "rating": 3.6,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "train-simulator-3d",
+      "title": "Train Simulator 3D",
+      "description": "Drive massive trains through beautiful landscapes!",
+      "short_description": "Train Simulator 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/train-simulator-3d.webp",
+      "categories": [
+        "Simulation",
+        "3D",
+        "Driving"
+      ],
+      "url": "https://githubgames.gitlab.io/game/train-simulator-3d.html",
+      "rating": 3.8,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "excavator-sim-3d",
+      "title": "Excavator Sim 3D",
+      "description": "Operate heavy excavators in realistic 3D!",
+      "short_description": "Excavator Sim 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/excavator-sim-3d.webp",
+      "categories": [
+        "Simulation",
+        "3D",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/excavator-sim-3d.html",
+      "rating": 3.6,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / Mouse",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "crane-simulator-3d",
+      "title": "Crane Simulator 3D",
+      "description": "Control giant construction cranes in 3D!",
+      "short_description": "Crane Simulator 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/crane-simulator-3d.webp",
+      "categories": [
+        "Simulation",
+        "3D",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/crane-simulator-3d.html",
+      "rating": 3.8,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / Mouse",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "forklift-sim-3d",
+      "title": "Forklift Sim 3D",
+      "description": "Master forklift operations in warehouses!",
+      "short_description": "Forklift Sim 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/forklift-sim-3d.webp",
+      "categories": [
+        "Simulation",
+        "3D",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/forklift-sim-3d.html",
+      "rating": 3.5,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / Mouse",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "tractor-farming-3d",
+      "title": "Tractor Farming 3D",
+      "description": "Plow fields and harvest crops on a 3D farm!",
+      "short_description": "Tractor Farming 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/tractor-farming-3d.webp",
+      "categories": [
+        "Simulation",
+        "3D",
+        "Strategy"
+      ],
+      "url": "https://githubgames.gitlab.io/game/tractor-farming-3d.html",
+      "rating": 3.8,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / Mouse",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "military-truck-3d",
+      "title": "Military Truck 3D",
+      "description": "Drive military trucks through war zones!",
+      "short_description": "Military Truck 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/military-truck-3d.webp",
+      "categories": [
+        "Racing",
+        "3D",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/military-truck-3d.html",
+      "rating": 3.7,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "sports-car-simulator-3d",
+      "title": "Sports Car Simulator 3D",
+      "description": "Drive luxury sports cars through beautiful cities!",
+      "short_description": "Sports Car Simulator 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/sports-car-simulator-3d.webp",
+      "categories": [
+        "Racing",
+        "3D",
+        "Simulation"
+      ],
+      "url": "https://githubgames.gitlab.io/game/sports-car-simulator-3d.html",
+      "rating": 4.3,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / WASD",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "garbage-truck-sim-3d",
+      "title": "Garbage Truck Sim 3D",
+      "description": "Collect garbage across the city in a big truck!",
+      "short_description": "Garbage Truck Sim 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/garbage-truck-sim-3d.webp",
+      "categories": [
+        "Simulation",
+        "3D",
+        "Racing"
+      ],
+      "url": "https://githubgames.gitlab.io/game/garbage-truck-sim-3d.html",
+      "rating": 4.0,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "blocky-car-racing-3d",
+      "title": "Blocky Car Racing 3D",
+      "description": "Race blocky cars through colorful 3D tracks!",
+      "short_description": "Blocky Car Racing 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/blocky-car-racing-3d.webp",
+      "categories": [
+        "Racing",
+        "3D",
+        "Arcade"
+      ],
+      "url": "https://githubgames.gitlab.io/game/blocky-car-racing-3d.html",
+      "rating": 4.0,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "kart-thunder-3d",
+      "title": "Kart Thunder 3D",
+      "description": "Thrilling go-kart racing with power-ups!",
+      "short_description": "Kart Thunder 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/kart-thunder-3d.webp",
+      "categories": [
+        "Racing",
+        "3D",
+        "Sports"
+      ],
+      "url": "https://githubgames.gitlab.io/game/kart-thunder-3d.html",
+      "rating": 3.5,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "boost-monster-truck-3d",
+      "title": "Boost Monster Truck 3D",
+      "description": "Boost and crush in monster trucks!",
+      "short_description": "Boost Monster Truck 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/boost-monster-truck-3d.webp",
+      "categories": [
+        "Racing",
+        "3D",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/boost-monster-truck-3d.html",
+      "rating": 4.2,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "hill-climb-truck-3d",
+      "title": "Hill Climb Truck 3D",
+      "description": "Climb impossible hills with powerful trucks!",
+      "short_description": "Hill Climb Truck 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/hill-climb-truck-3d.webp",
+      "categories": [
+        "Racing",
+        "3D",
+        "Arcade"
+      ],
+      "url": "https://githubgames.gitlab.io/game/hill-climb-truck-3d.html",
+      "rating": 3.9,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / Space",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "mud-truck-rally-3d",
+      "title": "Mud Truck Rally 3D",
+      "description": "Race through deep mud in off-road trucks!",
+      "short_description": "Mud Truck Rally 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/mud-truck-rally-3d.webp",
+      "categories": [
+        "Racing",
+        "3D",
+        "Simulation"
+      ],
+      "url": "https://githubgames.gitlab.io/game/mud-truck-rally-3d.html",
+      "rating": 3.8,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "snow-plow-sim-3d",
+      "title": "Snow Plow Sim 3D",
+      "description": "Clear snowy roads with powerful plow trucks!",
+      "short_description": "Snow Plow Sim 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/snow-plow-sim-3d.webp",
+      "categories": [
+        "Simulation",
+        "3D",
+        "Driving"
+      ],
+      "url": "https://githubgames.gitlab.io/game/snow-plow-sim-3d.html",
+      "rating": 3.6,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "oil-tanker-sim-3d",
+      "title": "Oil Tanker Sim 3D",
+      "description": "Transport oil in massive tanker trucks!",
+      "short_description": "Oil Tanker Sim 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/oil-tanker-sim-3d.webp",
+      "categories": [
+        "Simulation",
+        "3D",
+        "Driving"
+      ],
+      "url": "https://githubgames.gitlab.io/game/oil-tanker-sim-3d.html",
+      "rating": 3.7,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "fire-truck-rescue-3d",
+      "title": "Fire Truck Rescue 3D",
+      "description": "Drive fire trucks to save people in emergencies!",
+      "short_description": "Fire Truck Rescue 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/fire-truck-rescue-3d.webp",
+      "categories": [
+        "Action",
+        "3D",
+        "Simulation"
+      ],
+      "url": "https://githubgames.gitlab.io/game/fire-truck-rescue-3d.html",
+      "rating": 4.0,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / Space",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "ambulance-rescue-3d",
+      "title": "Ambulance Rescue 3D",
+      "description": "Race ambulances to save lives in 3D!",
+      "short_description": "Ambulance Rescue 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/ambulance-rescue-3d.webp",
+      "categories": [
+        "Action",
+        "3D",
+        "Simulation"
+      ],
+      "url": "https://githubgames.gitlab.io/game/ambulance-rescue-3d.html",
+      "rating": 3.9,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "concrete-mixer-sim-3d",
+      "title": "Concrete Mixer Sim 3D",
+      "description": "Deliver concrete to construction sites!",
+      "short_description": "Concrete Mixer Sim 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/concrete-mixer-sim-3d.webp",
+      "categories": [
+        "Simulation",
+        "3D",
+        "Driving"
+      ],
+      "url": "https://githubgames.gitlab.io/game/concrete-mixer-sim-3d.html",
+      "rating": 4.1,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "rooftop-stunt-3d",
+      "title": "Rooftop Stunt 3D",
+      "description": "Perform insane rooftop stunts in 3D!",
+      "short_description": "Rooftop Stunt 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/rooftop-stunt-3d.webp",
+      "categories": [
+        "Arcade",
+        "3D",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/rooftop-stunt-3d.html",
+      "rating": 3.6,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / Space",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "skateboard-rush-3d",
+      "title": "Skateboard Rush 3D",
+      "description": "Skate through city streets doing awesome tricks!",
+      "short_description": "Skateboard Rush 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/skateboard-rush-3d.webp",
+      "categories": [
+        "Sports",
+        "3D",
+        "Arcade"
+      ],
+      "url": "https://githubgames.gitlab.io/game/skateboard-rush-3d.html",
+      "rating": 3.8,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / Space",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "bike-stunt-master-3d",
+      "title": "Bike Stunt Master 3D",
+      "description": "Perform crazy bike stunts on massive ramps!",
+      "short_description": "Bike Stunt Master 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/bike-stunt-master-3d.webp",
+      "categories": [
+        "Sports",
+        "3D",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/bike-stunt-master-3d.html",
+      "rating": 4.0,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "skate-park-king-3d",
+      "title": "Skate Park King 3D",
+      "description": "Rule the skate park with awesome tricks!",
+      "short_description": "Skate Park King 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/skate-park-king-3d.webp",
+      "categories": [
+        "Sports",
+        "3D",
+        "Arcade"
+      ],
+      "url": "https://githubgames.gitlab.io/game/skate-park-king-3d.html",
+      "rating": 3.8,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / Space",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "jetpack-hero-3d",
+      "title": "Jetpack Hero 3D",
+      "description": "Fly through skies with a jetpack!",
+      "short_description": "Jetpack Hero 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/jetpack-hero-3d.webp",
+      "categories": [
+        "Arcade",
+        "3D",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/jetpack-hero-3d.html",
+      "rating": 3.5,
+      "developer": "Open Source",
+      "controls": "Mouse / Space",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "hoverboard-city-3d",
+      "title": "Hoverboard City 3D",
+      "description": "Hover through the city at high speed!",
+      "short_description": "Hoverboard City 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/hoverboard-city-3d.webp",
+      "categories": [
+        "Arcade",
+        "3D",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/hoverboard-city-3d.html",
+      "rating": 3.8,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / Swipe",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "santa-run-3d",
+      "title": "Santa Run 3D",
+      "description": "Help Santa deliver gifts in this festive runner!",
+      "short_description": "Santa Run 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/santa-run-3d.webp",
+      "categories": [
+        "Arcade",
+        "3D",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/santa-run-3d.html",
+      "rating": 4.7,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / Swipe",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "pumpkin-smash-3d",
+      "title": "Pumpkin Smash 3D",
+      "description": "Smash pumpkins in this Halloween-themed game!",
+      "short_description": "Pumpkin Smash 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/pumpkin-smash-3d.webp",
+      "categories": [
+        "Arcade",
+        "3D",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/pumpkin-smash-3d.html",
+      "rating": 3.6,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "snowball-fight-3d",
+      "title": "Snowball Fight 3D",
+      "description": "Throw snowballs in epic 3D winter battles!",
+      "short_description": "Snowball Fight 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/snowball-fight-3d.webp",
+      "categories": [
+        "Arcade",
+        "3D",
+        "Sports"
+      ],
+      "url": "https://githubgames.gitlab.io/game/snowball-fight-3d.html",
+      "rating": 3.7,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "fireworks-3d",
+      "title": "Fireworks 3D",
+      "description": "Create beautiful fireworks displays in 3D!",
+      "short_description": "Fireworks 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/fireworks-3d.webp",
+      "categories": [
+        "Simulation",
+        "3D",
+        "Casual"
+      ],
+      "url": "https://githubgames.gitlab.io/game/fireworks-3d.html",
+      "rating": 4.7,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "fishing-clash-3d",
+      "title": "Fishing Clash 3D",
+      "description": "Catch the biggest fish in beautiful 3D lakes!",
+      "short_description": "Fishing Clash 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/fishing-clash-3d.webp",
+      "categories": [
+        "Simulation",
+        "3D",
+        "Casual"
+      ],
+      "url": "https://githubgames.gitlab.io/game/fishing-clash-3d.html",
+      "rating": 3.6,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "paint-art-3d",
+      "title": "Paint Art 3D",
+      "description": "Create amazing 3D art with colorful paint!",
+      "short_description": "Paint Art 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/paint-art-3d.webp",
+      "categories": [
+        "Puzzle",
+        "3D",
+        "Casual"
+      ],
+      "url": "https://githubgames.gitlab.io/game/paint-art-3d.html",
+      "rating": 4.7,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "water-slide-3d",
+      "title": "Water Slide 3D",
+      "description": "Slide down awesome water park rides!",
+      "short_description": "Water Slide 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/water-slide-3d.webp",
+      "categories": [
+        "Arcade",
+        "3D",
+        "Sports"
+      ],
+      "url": "https://githubgames.gitlab.io/game/water-slide-3d.html",
+      "rating": 4.9,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / Swipe",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "balloon-pop-3d",
+      "title": "Balloon Pop 3D",
+      "description": "Pop all the colorful balloons in 3D!",
+      "short_description": "Balloon Pop 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/balloon-pop-3d.webp",
+      "categories": [
+        "Arcade",
+        "3D",
+        "Casual"
+      ],
+      "url": "https://githubgames.gitlab.io/game/balloon-pop-3d.html",
+      "rating": 4.9,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "ball-sort-3d",
+      "title": "Ball Sort 3D",
+      "description": "Sort colored balls into the right tubes!",
+      "short_description": "Ball Sort 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/ball-sort-3d.webp",
+      "categories": [
+        "Puzzle",
+        "3D",
+        "Strategy"
+      ],
+      "url": "https://githubgames.gitlab.io/game/ball-sort-3d.html",
+      "rating": 4.7,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "minesweeper-3d",
+      "title": "Minesweeper 3D",
+      "description": "The classic minesweeper in beautiful 3D!",
+      "short_description": "Minesweeper 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/minesweeper-3d.webp",
+      "categories": [
+        "Puzzle",
+        "3D",
+        "Strategy"
+      ],
+      "url": "https://githubgames.gitlab.io/game/minesweeper-3d.html",
+      "rating": 4.9,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "chess-3d",
+      "title": "Chess 3D",
+      "description": "Play chess against AI in stunning 3D!",
+      "short_description": "Chess 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/chess-3d.webp",
+      "categories": [
+        "Puzzle",
+        "3D",
+        "Strategy"
+      ],
+      "url": "https://githubgames.gitlab.io/game/chess-3d.html",
+      "rating": 4.3,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "ludo-3d",
+      "title": "Ludo 3D",
+      "description": "The classic board game brought to life in 3D!",
+      "short_description": "Ludo 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/ludo-3d.webp",
+      "categories": [
+        "Strategy",
+        "3D",
+        "Casual"
+      ],
+      "url": "https://githubgames.gitlab.io/game/ludo-3d.html",
+      "rating": 4.2,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "carrom-3d",
+      "title": "Carrom 3D",
+      "description": "Pocket all pieces in realistic 3D carrom!",
+      "short_description": "Carrom 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/carrom-3d.webp",
+      "categories": [
+        "Sports",
+        "3D",
+        "Puzzle"
+      ],
+      "url": "https://githubgames.gitlab.io/game/carrom-3d.html",
+      "rating": 4.4,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "poker-3d",
+      "title": "Poker 3D",
+      "description": "Play Texas Hold'em poker in beautiful 3D!",
+      "short_description": "Poker 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/poker-3d.webp",
+      "categories": [
+        "Strategy",
+        "3D",
+        "Casual"
+      ],
+      "url": "https://githubgames.gitlab.io/game/poker-3d.html",
+      "rating": 4.3,
+      "developer": "Open Source",
+      "controls": "Mouse / Click",
       "release_date": "Updated 2024"
     }
   ]
