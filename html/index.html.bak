@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>PlayGamio — Instant Browser Games, No Download</title>
+  <meta name="description" content="Play the best instant browser games for free. No download required." />
+  <meta name="theme-color" content="#0b0d17" />
+  <link rel="icon" type="image/svg+xml" href="/logo.svg?v=portal-logo-20260605" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/style.css?v=portal-logo-20260605" />
+  <script src="https://unpkg.com/vis-network@9.1.6/standalone/umd/vis-network.min.js"></script>
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="navbar">
+    <div class="container navbar-inner">
+      <div class="navbar-left">
+        <a href="/" class="logo">
+          <img class="logo-img" src="/logo.svg" alt="PlayGamio" />
+          <span class="logo-text">Play<span class="logo-accent">Gamio</span></span>
+        </a>
+      </div>
+      
+      <div class="navbar-center">
+        <input type="text" class="search-input" id="searchInput" placeholder="Search 1,000+ free games..." />
+        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      </div>
+      
+      <div class="navbar-right">
+        <button class="btn-action" id="viewMapBtn" title="Universe Map">🌌</button>
+        <button class="btn-signin" id="signinBtn">Sign In</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- CATEGORIES -->
+  <nav class="cat-bar-wrapper">
+    <div class="container cat-bar" id="genre-bar">
+      <button class="cat-btn active" data-genre="all">All Games</button>
+      <button class="cat-btn" data-genre="Action">Action</button>
+      <button class="cat-btn" data-genre="Arcade">Arcade</button>
+      <button class="cat-btn" data-genre="Puzzle">Puzzle</button>
+      <button class="cat-btn" data-genre="Strategy">Strategy</button>
+      <button class="cat-btn" data-genre="Sports">Sports</button>
+      <button class="cat-btn" data-genre="Adventure">Adventure</button>
+      <button class="cat-btn" data-genre="Racing">Racing</button>
+    </div>
+  </nav>
+
+  <main class="container main">
+    <!-- FEATURED SECTION -->
+    <section class="featured-grid" id="featuredStrip">
+      <div class="feat-main skeleton"></div>
+      <div class="feat-side">
+        <div class="feat-mini skeleton"></div>
+        <div class="feat-mini skeleton"></div>
+      </div>
+    </section>
+
+    <!-- MAIN GRID SECTION -->
+    <section class="section-container">
+      <header class="section-head">
+        <h2 class="section-title"><span>🔥</span> Popular Games</h2>
+        <span class="game-stats" id="gameCount"></span>
+      </header>
+      <div class="grid" id="gamesGrid">
+        <!-- JS Populated Cards -->
+      </div>
+    </section>
+
+    <!-- UPCOMING SECTION -->
+    <section class="section-container">
+      <header class="section-head">
+        <h2 class="section-title"><span>✨</span> Upcoming</h2>
+      </header>
+      <div class="grid" id="comingSoonGrid">
+        <!-- JS Populated Cards -->
+      </div>
+    </section>
+  </main>
+
+  <!-- GAME MODAL OVERLAY -->
+  <div class="overlay" id="gameModal" role="dialog" aria-modal="true">
+    <div class="modal-game">
+      <div class="modal-head">
+        <div class="modal-title-box">
+          <span class="feat-tag" id="modalGenre" style="background:rgba(255,255,255,0.1); color:#fff;">Arcade</span>
+          <h2 class="modal-title" id="modalTitle">Game Title</h2>
+        </div>
+        <div style="display:flex; gap:1rem; align-items:center;">
+          <button class="btn-action" id="fullscreenBtn" title="Fullscreen" style="width:auto; padding:0 1rem; font-size:0.8rem; font-weight:700;">FULLSCREEN</button>
+          <span class="modal-close" id="closeModal">✕</span>
+        </div>
+      </div>
+      <div class="modal-body" id="gameFrameWrapper">
+        <div class="loading" id="gameLoading">
+          <div class="spinner"></div>
+        </div>
+        <iframe class="game-iframe" id="gameFrame" src="" allowfullscreen allow="autoplay; encrypted-media"></iframe>
+      </div>
+      <div style="padding:1.25rem 1.5rem; background:var(--bg-darker); font-size:0.9rem; color:var(--text-secondary);" id="modalDesc">
+        Game description goes here...
+      </div>
+    </div>
+  </div>
+
+  <!-- MAP VIEW OVERLAY -->
+  <div class="map-view" id="mapView">
+    <nav class="map-nav">
+      <h2 style="font-family:var(--font-display); color:#fff; font-weight:800;">🌌 Universe Map</h2>
+      <button class="btn-close-map" id="closeMap">Close Map</button>
+    </nav>
+    <div id="gameMapContainer"></div>
+  </div>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="/" class="logo footer-logo">
+        <img class="logo-img" src="/logo.svg" alt="PlayGamio" />
+        <span class="logo-text">Play<span class="logo-accent">Gamio</span></span>
+      </a>
+      <div class="footer-nav">
+        <a href="#">Games</a>
+        <a href="#">Categories</a>
+        <a href="#">About</a>
+        <a href="#">Terms</a>
+      </div>
+      <p class="footer-copy">
+        © 2026 PlayGamio. All rights reserved. Powered by <a href="https://fastplaygames.com" target="_blank" style="color:var(--primary);">FastPlayGames.com</a>. Play the best browser games instantly.
+      </p>
+    </div>
+  </footer>
+
+  <script src="/app.js?v=portal-logo-20260605"></script>
+</body>
+</html>

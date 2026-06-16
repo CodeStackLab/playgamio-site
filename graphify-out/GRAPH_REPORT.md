@@ -1,13 +1,18 @@
 # Graph Report - playgamio  (2026-06-05)
 
 ## Corpus Check
-- 12 files · ~9,558 words
+- 3 files · ~1,668 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 94 nodes · 87 edges · 14 communities (9 shown, 5 thin omitted)
+- 104 nodes · 100 edges · 15 communities (10 shown, 5 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
+
+## Graph Freshness
+- Built from commit: `1e27506b`
+- Run `git rev-parse HEAD` and compare to check if the graph is stale.
+- Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - [[_COMMUNITY_Community 0|Community 0]]
@@ -24,30 +29,32 @@
 - [[_COMMUNITY_Community 11|Community 11]]
 - [[_COMMUNITY_Community 12|Community 12]]
 - [[_COMMUNITY_Community 13|Community 13]]
+- [[_COMMUNITY_Community 14|Community 14]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `What You Must Do When Invoked` - 11 edges
 2. `/graphify` - 10 edges
 3. `graphify reference: extra exports and benchmark` - 7 edges
-4. `init()` - 5 edges
+4. `init()` - 6 edges
 5. `graphify reference: query, path, explain` - 5 edges
-6. `Step 3 - Extract entities and relationships` - 4 edges
-7. `renderComingSoon()` - 3 edges
-8. `graphify reference: add a URL and watch a folder` - 3 edges
-9. `graphify reference: commit hook and native CLAUDE.md integration` - 3 edges
-10. `graphify reference: incremental update and cluster-only` - 3 edges
+6. `fetchGames()` - 4 edges
+7. `Step 3 - Extract entities and relationships` - 4 edges
+8. `renderGames()` - 3 edges
+9. `renderComingSoon()` - 3 edges
+10. `PlayGamio` - 3 edges
 
 ## Surprising Connections (you probably didn't know these)
-- None detected - all connections are within the same source files.
+- `init()` --calls--> `renderComingSoon()`  [EXTRACTED]
+  html/app.js → html/app.js  _Bridges community 4 → community 14_
 
 ## Import Cycles
 - None detected.
 
-## Communities (14 total, 5 thin omitted)
+## Communities (15 total, 5 thin omitted)
 
 ### Community 0 - "Community 0"
-Cohesion: 0.08
-Nodes (22): AVAILABLE_GAMES, closeModal, closeSignin, comingSoonGrid, comingSoonSection, featuredStrip, fullscreenBtn, gameCountEl (+14 more)
+Cohesion: 0.06
+Nodes (28): AVAILABLE_GAMES, closeMapBtn, closeModal, closeSignin, comingSoonGrid, comingSoonSection, featuredStrip, fullscreenBtn (+20 more)
 
 ### Community 1 - "Community 1"
 Cohesion: 0.14
@@ -62,8 +69,8 @@ Cohesion: 0.25
 Nodes (7): graphify reference: extra exports and benchmark, Step 6b - Wiki (only if --wiki flag), Step 7 - Neo4j export (only if --neo4j or --neo4j-push flag), Step 7b - SVG export (only if --svg flag), Step 7c - GraphML export (only if --graphml flag), Step 7d - MCP server (only if --mcp flag), Step 8 - Token reduction benchmark (only if total_words > 5000)
 
 ### Community 4 - "Community 4"
-Cohesion: 0.33
-Nodes (6): init(), renderComingSoon(), renderGames(), renderGenres(), setupEventListeners(), toggleVote()
+Cohesion: 0.40
+Nodes (6): fetchGames(), init(), initGameMap(), renderGames(), renderGenres(), setupEventListeners()
 
 ### Community 5 - "Community 5"
 Cohesion: 0.33
@@ -81,8 +88,12 @@ Nodes (3): For git commit hook, For native CLAUDE.md integration, graphify refer
 Cohesion: 0.50
 Nodes (3): For --cluster-only, For --update (incremental re-extraction), graphify reference: incremental update and cluster-only
 
+### Community 9 - "Community 9"
+Cohesion: 0.50
+Nodes (3): Live Site, PlayGamio, Structure
+
 ## Knowledge Gaps
-- **63 isolated node(s):** `BeforeTool`, `AVAILABLE_GAMES`, `PLANNED_GAMES`, `genreBar`, `gamesGrid` (+58 more)
+- **71 isolated node(s):** `genreBar`, `gamesGrid`, `comingSoonGrid`, `featuredStrip`, `gameCountEl` (+66 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **5 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -90,12 +101,12 @@ Nodes (3): For --cluster-only, For --update (incremental re-extraction), graphif
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `What You Must Do When Invoked` connect `Community 1` to `Community 2`?**
-  _High betweenness centrality (0.047) - this node is a cross-community bridge._
-- **Why does `/graphify` connect `Community 2` to `Community 1`?**
   _High betweenness centrality (0.038) - this node is a cross-community bridge._
-- **What connects `BeforeTool`, `AVAILABLE_GAMES`, `PLANNED_GAMES` to the rest of the system?**
-  _63 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Why does `/graphify` connect `Community 2` to `Community 1`?**
+  _High betweenness centrality (0.031) - this node is a cross-community bridge._
+- **What connects `genreBar`, `gamesGrid`, `comingSoonGrid` to the rest of the system?**
+  _71 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.08 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.06451612903225806 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._

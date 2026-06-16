@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>PlayGamio | Play</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL,GRAD,opsz@400,1,0,20" rel="stylesheet" />
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            font-family: 'Inter', sans-serif;
+            background-color: #0d1e30; /* Dark blue background for scroll area */
+            color: white;
+            scroll-behavior: smooth;
+        }
+        .font-display { font-family: 'Outfit', sans-serif; }
+        
+        /* Ultra thin top bar styling - FIXED */
+        .top-bar {
+            height: 48px;
+            background-color: #243447; /* Slate blue matching playgams */
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 16px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 100;
+        }
+        
+        /* Iframe takes remaining viewport height */
+        .game-container {
+            height: calc(100vh - 48px);
+            width: 100%;
+            margin-top: 48px;
+            position: relative;
+            background-color: #000;
+        }
+
+        /* Pill tag styles */
+        .tag-pill {
+            background: rgba(255, 255, 255, 0.1);
+            color: #cbd5e1;
+            font-size: 11px;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-weight: 500;
+        }
+
+        /* Scroll Down Button */
+        .scroll-down-btn {
+            position: absolute;
+            bottom: 24px;
+            right: 24px;
+            background-color: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(8px);
+            color: white;
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.2s;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            z-index: 50;
+        }
+        .scroll-down-btn:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+            transform: scale(1.05);
+        }
+
+        /* Info Section */
+        .info-section {
+            background: linear-gradient(180deg, #0f2133 0%, #08131e 100%);
+            min-height: 50vh;
+            padding: 40px 24px;
+        }
+        .grid-pattern {
+            background-image: linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+            background-size: 40px 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Ultra-thin Header / Navbar -->
+    <header class="top-bar">
+        <!-- Left Side: Catalog, Title, Subtitle, Tags -->
+        <div class="flex items-center gap-4 overflow-hidden whitespace-nowrap">
+            <!-- Back Button -->
+            <a href="/" class="flex items-center gap-1.5 bg-white/10 hover:bg-white/20 transition-colors text-gray-300 hover:text-white px-3 py-1.5 rounded-md text-xs font-semibold border border-white/5">
+                <span class="material-symbols-outlined text-[16px]">arrow_back</span>
+                To catalog
+            </a>
+            
+            <!-- Game Title -->
+            <h1 id="pageTitle" class="font-display font-bold text-white tracking-wide text-lg m-0">Loading...</h1>
+            
+            <!-- Subtitle -->
+            <span id="pageDesc" class="text-gray-400 text-xs truncate max-w-[200px] md:max-w-[300px] hidden sm:inline-block">Loading description...</span>
+            
+            <!-- Dynamic Tags Container -->
+            <div id="tagsContainer" class="hidden md:flex items-center gap-1.5 ml-2"></div>
+        </div>
+        
+        <!-- Right Side: Brand, Language, Fullscreen -->
+        <div class="flex items-center gap-4 shrink-0">
+            <div class="hidden sm:flex items-center gap-1.5 text-gray-400 hover:text-white cursor-pointer transition-colors">
+                <div class="w-1.5 h-1.5 bg-green-400 rounded-full animate-pulse"></div>
+                <span class="text-xs font-semibold">playgamio.com</span>
+            </div>
+            
+            <button class="hidden md:flex items-center gap-1 bg-white/5 hover:bg-white/10 border border-white/10 text-gray-300 px-3 py-1.5 rounded-md text-xs font-medium transition-colors">
+                <span class="material-symbols-outlined text-[16px]">language</span> English <span class="material-symbols-outlined text-[14px]">expand_more</span>
+            </button>
+            
+            <button id="btnFullscreen" class="flex items-center gap-1.5 bg-white/10 hover:bg-white/20 text-white border border-white/10 px-3 py-1.5 rounded-md text-xs font-bold transition-colors">
+                <span class="material-symbols-outlined text-[16px]">fullscreen</span> Fullscreen
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Layout Wrapper (Split Screen) -->
+    <div class="flex flex-col lg:flex-row w-full h-[calc(100vh-48px)] mt-[48px] bg-black">
+        
+        <!-- Game Player (Left Side, Takes remaining space) -->
+        <main class="relative flex-grow h-[60vh] lg:h-full bg-black" id="playerContainer">
+            <!-- Loading Spinner -->
+            <div id="iframeLoader" class="absolute inset-0 flex flex-col items-center justify-center bg-black z-0">
+                <div class="w-12 h-12 border-4 border-indigo-500 border-t-transparent rounded-full animate-spin mb-4"></div>
+                <p class="text-indigo-400 font-display font-semibold tracking-wider text-sm">LOADING GAME...</p>
+            </div>
+
+            <!-- The Actual Game Iframe -->
+            <iframe id="gameFrame" src="" class="absolute inset-0 w-full h-full border-0 z-10 opacity-0 transition-opacity duration-700" allow="autoplay; fullscreen; encrypted-media"></iframe>
+        </main>
+
+        <!-- Game Info Sidebar (Right Side, Fixed Width on Desktop) -->
+        <aside id="infoSection" class="w-full lg:w-[350px] shrink-0 bg-[#0f2133] border-l border-white/10 overflow-y-auto flex flex-col z-20">
+            <div class="grid-pattern flex-grow p-5">
+                
+                <!-- Live Stats Banner -->
+                <div class="bg-emerald-900/30 border border-emerald-500/30 rounded-xl p-3 mb-6 flex items-center justify-between backdrop-blur-sm">
+                    <div class="flex items-center gap-2">
+                        <div class="w-2.5 h-2.5 bg-emerald-400 rounded-full animate-pulse"></div>
+                        <span class="text-emerald-400 text-xs font-bold uppercase tracking-wider">Live</span>
+                    </div>
+                    <p class="text-white text-sm font-semibold"><span id="livePlayersCount">142</span> players right now</p>
+                </div>
+
+                <!-- Game Meta -->
+                <h2 id="infoTitle" class="font-display text-2xl font-bold text-white mb-2">Game Title</h2>
+                
+                <div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-gray-400 mb-5">
+                    <div class="flex items-center text-amber-400">
+                        <span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                        <span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                        <span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                        <span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                        <span class="material-symbols-outlined text-[14px]">star_half</span>
+                    </div>
+                    <span class="font-bold text-white">4.8</span>
+                    <span>• 1,240 votes</span>
+                </div>
+
+                <div class="bg-white/5 border border-white/10 rounded-xl p-4 mb-5">
+                    <p id="infoDesc" class="text-gray-300 text-sm leading-relaxed mb-4">
+                        Welcome to the game! Build your strategy, defeat enemies, and rule the leaderboards.
+                    </p>
+                    
+                    <div class="pt-4 border-t border-white/10 grid grid-cols-2 gap-4">
+                        <div>
+                            <h4 class="text-gray-500 text-[10px] font-bold uppercase mb-1">Controls</h4>
+                            <div class="flex items-center gap-1.5 text-gray-300 text-xs font-medium">
+                                <span class="material-symbols-outlined text-[14px]">keyboard</span>
+                                <span id="infoControls">Keyboard & Mouse</span>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="text-gray-500 text-[10px] font-bold uppercase mb-1">Updated</h4>
+                            <div class="flex items-center gap-1.5 text-gray-300 text-xs font-medium">
+                                <span class="material-symbols-outlined text-[14px]">calendar_today</span>
+                                <span id="infoDate">2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Categories Tags -->
+                <div id="gameTagsContainer" class="flex flex-wrap gap-2 mb-5">
+                    <!-- Injected via JS -->
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="flex gap-2 mb-5">
+                    <button id="btnUpvote" class="flex-1 flex items-center justify-center gap-1.5 bg-blue-600 hover:bg-blue-500 text-white py-2.5 rounded-xl font-semibold transition-colors text-sm">
+                        <span class="material-symbols-outlined text-[18px]">thumb_up</span> <span id="upvoteText">Upvote</span>
+                    </button>
+                    <button id="btnShare" class="flex-1 flex items-center justify-center gap-1.5 bg-white/10 hover:bg-white/20 text-white py-2.5 rounded-xl font-semibold transition-colors text-sm">
+                        <span class="material-symbols-outlined text-[18px]">share</span> <span id="shareText">Share</span>
+                    </button>
+                </div>
+                
+                <!-- Developer Info -->
+                <div class="bg-white/5 border border-white/10 rounded-xl p-3">
+                    <h4 class="text-gray-400 text-[10px] font-bold uppercase mb-1">Developer</h4>
+                    <p id="infoDev" class="text-white text-sm font-medium">PlayGamio Studios</p>
+                </div>
+
+            </div>
+        </aside>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="game.js?v=9.3"></script>
+</body>
+</html>

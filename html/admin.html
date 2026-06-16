@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayGamio | Admin Panel</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL,GRAD,opsz@400,1,0,20" rel="stylesheet" />
+    <style>
+        body { font-family: 'Inter', sans-serif; background: #0b1120; color: #fff; min-height: 100vh; }
+        .font-display { font-family: 'Outfit', sans-serif; }
+        .glass { background: rgba(30, 41, 59, 0.8); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.06); }
+    </style>
+</head>
+<body class="flex flex-col min-h-screen">
+
+<!-- LOGIN OVERLAY -->
+<div id="loginOverlay" class="fixed inset-0 z-50 bg-[#0b1120] flex items-center justify-center">
+    <div class="glass rounded-2xl p-8 w-full max-w-sm">
+        <div class="flex items-center gap-2 mb-6">
+            <span class="material-symbols-outlined text-indigo-500 text-3xl">admin_panel_settings</span>
+            <h1 class="font-display font-bold text-2xl">Admin Login</h1>
+        </div>
+        <form id="loginForm" class="space-y-4">
+            <div>
+                <label class="block text-xs font-semibold text-gray-400 mb-1">Email</label>
+                <input type="email" id="loginEmail" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:border-indigo-500" placeholder="admin@playgamio.com" required>
+            </div>
+            <div>
+                <label class="block text-xs font-semibold text-gray-400 mb-1">Password</label>
+                <input type="password" id="loginPassword" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:border-indigo-500" placeholder="••••••••" required>
+            </div>
+            <p id="loginError" class="text-red-400 text-xs hidden"></p>
+            <button type="submit" class="w-full bg-indigo-600 hover:bg-indigo-500 text-white font-bold py-2.5 rounded-lg transition-colors text-sm">Log In</button>
+        </form>
+    </div>
+</div>
+
+<!-- MAIN ADMIN PANEL -->
+<div id="mainPanel" class="hidden flex flex-col min-h-screen">
+    <!-- Top Bar -->
+    <nav class="glass sticky top-0 z-40 px-6 py-3 flex items-center justify-between">
+        <div class="flex items-center gap-3">
+            <span class="material-symbols-outlined text-indigo-500">sports_esports</span>
+            <span class="font-display font-bold text-xl">PlayGamio Admin</span>
+        </div>
+        <div class="flex items-center gap-4">
+            <span id="adminUser" class="text-sm text-gray-400"></span>
+            <button onclick="logout()" class="text-red-400 hover:text-red-300 text-sm font-semibold">Logout</button>
+        </div>
+    </nav>
+
+    <div class="flex flex-1">
+        <!-- SIDEBAR -->
+        <aside class="w-64 glass border-r border-white/5 p-4 flex flex-col gap-2">
+            <button class="sidebar-btn active" data-tab="catalog">
+                <span class="material-symbols-outlined text-lg">grid_view</span> Games Catalog
+            </button>
+            <button class="sidebar-btn" data-tab="add">
+                <span class="material-symbols-outlined text-lg">add_circle</span> Add Game
+            </button>
+            <button class="sidebar-btn" data-tab="fetch">
+                <span class="material-symbols-outlined text-lg">cloud_download</span> Third-Party Fetch
+            </button>
+            <button class="sidebar-btn" data-tab="bulk">
+                <span class="material-symbols-outlined text-lg">library_add</span> Bulk Import
+            </button>
+        </aside>
+
+        <!-- CONTENT -->
+        <main class="flex-1 p-6 overflow-y-auto">
+            <!-- CATALOG TAB -->
+            <div id="tab-catalog" class="tab-content">
+                <div class="flex items-center justify-between mb-6">
+                    <h2 class="font-display text-2xl font-bold">Games Catalog <span id="gameCount" class="text-indigo-400">(0)</span></h2>
+                    <input type="text" id="searchInput" placeholder="Search games..." class="bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm w-64 focus:outline-none focus:border-indigo-500">
+                </div>
+                <div id="gamesTable" class="space-y-2"></div>
+            </div>
+
+            <!-- EDIT MODAL -->
+            <div id="editModal" class="hidden fixed inset-0 z-50 bg-black/70 backdrop-blur-sm flex items-center justify-center">
+                <div class="glass rounded-2xl p-6 w-full max-w-2xl max-h-[90vh] overflow-y-auto m-4">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="font-display text-xl font-bold">Edit Game</h3>
+                        <button onclick="closeEditModal()" class="text-gray-400 hover:text-white text-2xl">&times;</button>
+                    </div>
+                    <form id="editGameForm" class="space-y-4">
+                        <input type="hidden" id="editSlug">
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-xs font-semibold text-gray-400 mb-1">Title *</label>
+                                <input type="text" id="editTitle" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:border-indigo-500" required>
+                            </div>
+                            <div>
+                                <label class="block text-xs font-semibold text-gray-400 mb-1">URL *</label>
+                                <input type="url" id="editUrl" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:border-indigo-500" required>
+                            </div>
+                            <div>
+                                <label class="block text-xs font-semibold text-gray-400 mb-1">Thumbnail</label>
+                                <div class="flex gap-2">
+                                    <input type="url" id="editThumbnail" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:border-indigo-500" placeholder="https://... or upload">
+                                    <label class="cursor-pointer bg-slate-700 hover:bg-slate-600 text-white px-3 py-2 rounded-lg text-sm font-semibold transition-colors flex items-center gap-1">
+                                        <span class="material-symbols-outlined text-base">upload</span> Upload
+                                        <input type="file" accept="image/*" class="hidden" onchange="handleThumbUpload(event, 'editThumbnail', 'editThumbPreview')">
+                                    </label>
+                                </div>
+                                <img id="editThumbPreview" class="mt-2 rounded-lg object-cover bg-slate-700 max-h-32" style="display:none">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-semibold text-gray-400 mb-1">Categories (comma-separated)</label>
+                                <input type="text" id="editCategories" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:border-indigo-500">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-semibold text-gray-400 mb-1">Rating (1-5)</label>
+                                <input type="number" id="editRating" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:border-indigo-500" min="1" max="5" step="0.1">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-semibold text-gray-400 mb-1">Developer</label>
+                                <input type="text" id="editDeveloper" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:border-indigo-500">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-semibold text-gray-400 mb-1">Controls</label>
+                                <input type="text" id="editControls" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:border-indigo-500">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-semibold text-gray-400 mb-1">Release Date</label>
+                                <input type="text" id="editReleaseDate" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:border-indigo-500">
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold text-gray-400 mb-1">Description</label>
+                            <textarea id="editDescription" rows="3" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:border-indigo-500"></textarea>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold text-gray-400 mb-1">Short Description</label>
+                            <input type="text" id="editShortDesc" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:border-indigo-500">
+                        </div>
+                        <p id="editMsg" class="text-sm hidden"></p>
+                        <div class="flex gap-3">
+                            <button type="submit" class="bg-indigo-600 hover:bg-indigo-500 text-white font-bold px-6 py-2.5 rounded-lg transition-colors text-sm">Save Changes</button>
+                            <button type="button" onclick="closeEditModal()" class="bg-white/10 hover:bg-white/20 text-white px-6 py-2.5 rounded-lg transition-colors text-sm">Cancel</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- ADD TAB -->
+            <div id="tab-add" class="tab-content hidden">
+                <h2 class="font-display text-2xl font-bold mb-6">Add New Game</h2>
+                <form id="addGameForm" class="glass rounded-xl p-6 max-w-2xl space-y-4">
+                    <div class="grid grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-xs font-semibold text-gray-400 mb-1">Slug *</label>
+                            <input type="text" id="addSlug" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:border-indigo-500" required placeholder="my-awesome-game">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold text-gray-400 mb-1">Title *</label>
+                            <input type="text" id="addTitle" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:border-indigo-500" required placeholder="My Awesome Game">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold text-gray-400 mb-1">URL *</label>
+                            <input type="url" id="addUrl" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:border-indigo-500" required placeholder="https://example.com/game">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold text-gray-400 mb-1">Thumbnail URL</label>
+                            <input type="url" id="addThumbnail" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:border-indigo-500" placeholder="https://example.com/thumb.jpg">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold text-gray-400 mb-1">Categories (comma-separated)</label>
+                            <input type="text" id="addCategories" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:border-indigo-500" placeholder="3D, Action, Racing">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold text-gray-400 mb-1">Rating (1-5)</label>
+                            <input type="number" id="addRating" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:border-indigo-500" min="1" max="5" step="0.1" value="4.5">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold text-gray-400 mb-1">Developer</label>
+                            <input type="text" id="addDeveloper" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:border-indigo-500" placeholder="PlayGamio Studios">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold text-gray-400 mb-1">Controls</label>
+                            <input type="text" id="addControls" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:border-indigo-500" placeholder="Keyboard & Mouse">
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold text-gray-400 mb-1">Description</label>
+                        <textarea id="addDescription" rows="2" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:border-indigo-500" placeholder="A short description of the game..."></textarea>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold text-gray-400 mb-1">Short Description</label>
+                        <input type="text" id="addShortDesc" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:border-indigo-500" placeholder="Quick tagline">
+                    </div>
+                    <p id="addMsg" class="text-sm hidden"></p>
+                    <button type="submit" class="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-6 py-2.5 rounded-lg transition-colors text-sm">Add Game</button>
+                </form>
+            </div>
+
+            <!-- FETCH TAB -->
+            <div id="tab-fetch" class="tab-content hidden">
+                <h2 class="font-display text-2xl font-bold mb-6">Fetch Games from Third-Party Sources</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+                    <div class="glass rounded-xl p-5">
+                        <h3 class="font-bold text-lg mb-2 flex items-center gap-2">
+                            <span class="material-symbols-outlined text-amber-400">gamepad</span> GamePix
+                        </h3>
+                        <p class="text-gray-400 text-sm mb-4">Fetch HTML5 games from GamePix catalog. Choose how many to fetch.</p>
+                        <div class="flex items-center gap-3">
+                            <select id="gamepixLimit" class="bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm">
+                                <option value="20">20 games</option>
+                                <option value="50" selected>50 games</option>
+                                <option value="100">100 games</option>
+                                <option value="200">200 games</option>
+                            </select>
+                            <button onclick="fetchGamePix()" class="bg-amber-600 hover:bg-amber-500 text-white font-bold px-4 py-2 rounded-lg text-sm transition-colors">Fetch</button>
+                        </div>
+                    </div>
+                    <div class="glass rounded-xl p-5">
+                        <h3 class="font-bold text-lg mb-2 flex items-center gap-2">
+                            <span class="material-symbols-outlined text-blue-400">cloud</span> GameDistribution
+                        </h3>
+                        <p class="text-gray-400 text-sm mb-4">Fetch premium HTML5 games via GameDistribution API.</p>
+                        <div class="flex items-center gap-3">
+                            <select id="gdLimit" class="bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm">
+                                <option value="10">10 games</option>
+                                <option value="20">20 games</option>
+                                <option value="42" selected>42 games</option>
+                            </select>
+                            <button onclick="fetchGD()" class="bg-blue-600 hover:bg-blue-500 text-white font-bold px-4 py-2 rounded-lg text-sm transition-colors">Fetch</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="glass rounded-xl p-5 mb-6">
+                    <h3 class="font-bold text-lg mb-2 flex items-center gap-2">
+                        <span class="material-symbols-outlined text-purple-400">3d_rotation</span> PlayCanvas URL Checker
+                    </h3>
+                    <p class="text-gray-400 text-sm mb-4">Check if PlayCanvas project IDs are still live. Enter slugs (comma-separated).</p>
+                    <div class="flex items-center gap-3">
+                        <input type="text" id="pcSlugs" class="bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-white text-sm flex-1 focus:outline-none focus:border-indigo-500" placeholder="JtL2iqIH, 2OlkUaxF, RqJJ9oU9">
+                        <button onclick="checkPlayCanvas()" class="bg-purple-600 hover:bg-purple-500 text-white font-bold px-4 py-2 rounded-lg text-sm transition-colors">Check</button>
+                    </div>
+                </div>
+                <!-- Fetched Results -->
+                <div id="fetchResults" class="hidden">
+                    <div class="flex items-center justify-between mb-3">
+                        <h3 class="font-bold text-lg">Fetched Games <span id="fetchCount" class="text-indigo-400"></span></h3>
+                        <button onclick="bulkImportFetched()" class="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-5 py-2 rounded-lg text-sm transition-colors">Import All into Catalog</button>
+                    </div>
+                    <div id="fetchTable" class="space-y-1 max-h-[500px] overflow-y-auto"></div>
+                </div>
+                <p id="fetchMsg" class="text-sm mt-2 hidden"></p>
+            </div>
+
+            <!-- BULK IMPORT TAB -->
+            <div id="tab-bulk" class="tab-content hidden">
+                <h2 class="font-display text-2xl font-bold mb-6">Bulk Import Games</h2>
+                <p class="text-gray-400 text-sm mb-4">Paste a JSON array of game objects to bulk import them into the catalog.</p>
+                <textarea id="bulkJson" rows="12" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-4 py-3 text-white text-sm font-mono focus:outline-none focus:border-indigo-500 mb-4" placeholder='[{"slug":"my-game","title":"My Game","url":"https://example.com","categories":["Arcade"],"thumbnail":"https://..."}]'></textarea>
+                <p id="bulkMsg" class="text-sm mb-3 hidden"></p>
+                <button onclick="doBulkImport()" class="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-6 py-2.5 rounded-lg transition-colors text-sm">Import Games</button>
+            </div>
+        </main>
+    </div>
+</div>
+
+<script>
+let adminToken = '';
+let allGames = [];
+let fetchedGames = [];
+
+// ==================== AUTH ====================
+document.getElementById('loginForm').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const email = document.getElementById('loginEmail').value;
+    const password = document.getElementById('loginPassword').value;
+    const err = document.getElementById('loginError');
+    try {
+        const res = await fetch('/api/admin/login', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email, password })
+        });
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.error || 'Login failed');
+        adminToken = data.token;
+        localStorage.setItem('adminToken', adminToken);
+        localStorage.setItem('adminUser', JSON.stringify(data.user));
+        document.getElementById('adminUser').textContent = data.user.email;
+        document.getElementById('loginOverlay').classList.add('hidden');
+        document.getElementById('mainPanel').classList.remove('hidden');
+        loadCatalog();
+    } catch (ex) {
+        err.textContent = ex.message;
+        err.classList.remove('hidden');
+    }
+});
+
+// Check existing session
+(function() {
+    const tok = localStorage.getItem('adminToken');
+    const usr = localStorage.getItem('adminUser');
+    if (tok && usr) {
+        adminToken = tok;
+        document.getElementById('adminUser').textContent = JSON.parse(usr).email;
+        document.getElementById('loginOverlay').classList.add('hidden');
+        document.getElementById('mainPanel').classList.remove('hidden');
+        loadCatalog();
+    }
+})();
+
+function logout() {
+    localStorage.removeItem('adminToken');
+    localStorage.removeItem('adminUser');
+    location.reload();
+}
+
+async function api(path, opts = {}) {
+    const headers = { ...(opts.headers || {}), 'Authorization': 'Bearer ' + adminToken };
+    if (opts.body && typeof opts.body === 'object') {
+        headers['Content-Type'] = 'application/json';
+        opts.body = JSON.stringify(opts.body);
+    }
+    const res = await fetch(path, { ...opts, headers });
+    const data = await res.json();
+    if (!res.ok) throw new Error(data.error || 'Request failed');
+    return data;
+}
+
+// ==================== SIDEBAR TABS ====================
+document.querySelectorAll('.sidebar-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+        document.querySelectorAll('.sidebar-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        document.querySelectorAll('.tab-content').forEach(t => t.classList.add('hidden'));
+        document.getElementById('tab-' + btn.dataset.tab).classList.remove('hidden');
+        if (btn.dataset.tab === 'catalog') loadCatalog();
+    });
+});
+
+// ==================== CATALOG ====================
+async function loadCatalog() {
+    try {
+        const data = await api('/api/admin/games');
+        allGames = data.games;
+        document.getElementById('gameCount').textContent = '(' + allGames.length + ')';
+        renderCatalog(allGames);
+    } catch (e) {
+        document.getElementById('gamesTable').innerHTML = '<p class="text-red-400">Failed to load: ' + e.message + '</p>';
+    }
+}
+
+document.getElementById('searchInput').addEventListener('input', (e) => {
+    const q = e.target.value.toLowerCase();
+    renderCatalog(allGames.filter(g => g.title.toLowerCase().includes(q) || g.slug.toLowerCase().includes(q)));
+});
+
+function renderCatalog(games) {
+    const container = document.getElementById('gamesTable');
+    if (games.length === 0) {
+        container.innerHTML = '<p class="text-gray-400 text-sm">No games found.</p>';
+        return;
+    }
+    container.innerHTML = games.map(g => `
+        <div class="glass rounded-lg px-4 py-3 flex items-center justify-between group">
+            <div class="flex items-center gap-3 min-w-0">
+                <img src="${esc(g.thumbnail)}" class="w-10 h-10 rounded object-cover bg-slate-700 shrink-0" onerror="this.style.display='none'">
+                <div class="min-w-0">
+                    <p class="font-semibold text-sm truncate">${esc(g.title)}</p>
+                    <p class="text-xs text-gray-500 truncate">${esc(g.slug)} · ${esc((g.categories || []).join(', '))}</p>
+                </div>
+            </div>
+            <div class="flex items-center gap-2 shrink-0 ml-4">
+                <a href="/game.html?id=${esc(g.slug)}" target="_blank" class="text-gray-400 hover:text-white text-xs px-2 py-1 rounded hover:bg-white/10">Play</a>
+                <button onclick="editGame('${esc(g.slug)}')" class="text-blue-400 hover:text-blue-300 text-xs px-2 py-1 rounded hover:bg-white/10">Edit</button>
+                <button onclick="deleteGame('${esc(g.slug)}')" class="text-red-400 hover:text-red-300 text-xs px-2 py-1 rounded hover:bg-white/10">Delete</button>
+            </div>
+        </div>
+    `).join('');
+}
+
+async function deleteGame(slug) {
+    if (!confirm('Delete "' + slug + '"?')) return;
+    try {
+        await api('/api/admin/games/' + slug, { method: 'DELETE' });
+        loadCatalog();
+    } catch (e) {
+        alert('Delete failed: ' + e.message);
+    }
+}
+
+async function editGame(slug) {
+    const game = allGames.find(g => g.slug === slug);
+    if (!game) return;
+    document.getElementById('editSlug').value = game.slug;
+    document.getElementById('editTitle').value = game.title || '';
+    document.getElementById('editUrl').value = game.url || '';
+    document.getElementById('editThumbnail').value = game.thumbnail || '';
+    document.getElementById('editCategories').value = (game.categories || []).join(', ');
+    document.getElementById('editRating').value = game.rating || 4.5;
+    document.getElementById('editDeveloper').value = game.developer || '';
+    document.getElementById('editControls').value = game.controls || '';
+    document.getElementById('editReleaseDate').value = game.release_date || '';
+    document.getElementById('editDescription').value = game.description || '';
+    document.getElementById('editShortDesc').value = game.short_description || '';
+    document.getElementById('editMsg').classList.add('hidden');
+    document.getElementById('editModal').classList.remove('hidden');
+}
+
+function closeEditModal() {
+    document.getElementById('editModal').classList.add('hidden');
+}
+
+document.getElementById('editGameForm').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const msg = document.getElementById('editMsg');
+    const slug = document.getElementById('editSlug').value;
+    const cats = document.getElementById('editCategories').value.split(',').map(c => c.trim()).filter(Boolean);
+    try {
+        await api('/api/admin/games/' + slug, {
+            method: 'PUT',
+            body: {
+                title: document.getElementById('editTitle').value.trim(),
+                url: document.getElementById('editUrl').value.trim(),
+                thumbnail: document.getElementById('editThumbnail').value.trim(),
+                categories: cats.length ? cats : ['Arcade'],
+                rating: parseFloat(document.getElementById('editRating').value) || 4.5,
+                developer: document.getElementById('editDeveloper').value.trim(),
+                controls: document.getElementById('editControls').value.trim(),
+                release_date: document.getElementById('editReleaseDate').value.trim(),
+                description: document.getElementById('editDescription').value.trim(),
+                short_description: document.getElementById('editShortDesc').value.trim()
+            }
+        });
+        msg.textContent = 'Game updated successfully!';
+        msg.className = 'text-sm text-emerald-400';
+        msg.classList.remove('hidden');
+        loadCatalog();
+        setTimeout(() => { msg.classList.add('hidden'); closeEditModal(); }, 1200);
+    } catch (ex) {
+        msg.textContent = ex.message;
+        msg.className = 'text-sm text-red-400';
+        msg.classList.remove('hidden');
+    }
+});
+
+// ==================== ADD GAME ====================
+document.getElementById('addGameForm').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const msg = document.getElementById('addMsg');
+    try {
+        const cats = document.getElementById('addCategories').value.split(',').map(c => c.trim()).filter(Boolean);
+        await api('/api/admin/games', {
+            method: 'POST',
+            body: {
+                slug: document.getElementById('addSlug').value.trim(),
+                title: document.getElementById('addTitle').value.trim(),
+                url: document.getElementById('addUrl').value.trim(),
+                thumbnail: document.getElementById('addThumbnail').value.trim(),
+                categories: cats.length ? cats : ['Arcade'],
+                rating: parseFloat(document.getElementById('addRating').value) || 4.5,
+                developer: document.getElementById('addDeveloper').value.trim() || 'PlayGamio Studios',
+                controls: document.getElementById('addControls').value.trim() || 'Keyboard & Mouse',
+                description: document.getElementById('addDescription').value.trim(),
+                short_description: document.getElementById('addShortDesc').value.trim()
+            }
+        });
+        msg.textContent = 'Game added successfully!';
+        msg.className = 'text-sm text-emerald-400';
+        msg.classList.remove('hidden');
+        e.target.reset();
+        setTimeout(() => msg.classList.add('hidden'), 3000);
+    } catch (ex) {
+        msg.textContent = ex.message;
+        msg.className = 'text-sm text-red-400';
+        msg.classList.remove('hidden');
+    }
+});
+
+// ==================== THIRD-PARTY FETCH ====================
+async function fetchGamePix() {
+    const limit = parseInt(document.getElementById('gamepixLimit').value);
+    const msg = document.getElementById('fetchMsg');
+    msg.textContent = 'Fetching from GamePix...';
+    msg.className = 'text-sm text-amber-400 mt-2';
+    msg.classList.remove('hidden');
+    try {
+        const data = await api('/api/admin/fetch-gamepix', { method: 'POST', body: { limit } });
+        fetchedGames = data.games;
+        document.getElementById('fetchResults').classList.remove('hidden');
+        document.getElementById('fetchCount').textContent = '(' + fetchedGames.length + ')';
+        renderFetchTable();
+        msg.textContent = 'Fetched ' + fetchedGames.length + ' games from GamePix!';
+        msg.className = 'text-sm text-emerald-400 mt-2';
+    } catch (e) {
+        msg.textContent = 'Error: ' + e.message;
+        msg.className = 'text-sm text-red-400 mt-2';
+    }
+}
+
+async function fetchGD() {
+    const limit = parseInt(document.getElementById('gdLimit').value);
+    const msg = document.getElementById('fetchMsg');
+    msg.textContent = 'Fetching from GameDistribution...';
+    msg.className = 'text-sm text-blue-400 mt-2';
+    msg.classList.remove('hidden');
+    try {
+        const data = await api('/api/admin/fetch-gamedistribution', { method: 'POST', body: { limit } });
+        fetchedGames = data.games;
+        document.getElementById('fetchResults').classList.remove('hidden');
+        document.getElementById('fetchCount').textContent = '(' + fetchedGames.length + ')';
+        renderFetchTable();
+        msg.textContent = 'Fetched ' + fetchedGames.length + ' games from GameDistribution!';
+        msg.className = 'text-sm text-emerald-400 mt-2';
+    } catch (e) {
+        msg.textContent = 'Error: ' + e.message;
+        msg.className = 'text-sm text-red-400 mt-2';
+    }
+}
+
+async function checkPlayCanvas() {
+    const slugs = document.getElementById('pcSlugs').value.split(',').map(s => s.trim()).filter(Boolean);
+    if (slugs.length === 0) return;
+    const msg = document.getElementById('fetchMsg');
+    msg.textContent = 'Checking ' + slugs.length + ' PlayCanvas projects...';
+    msg.className = 'text-sm text-purple-400 mt-2';
+    msg.classList.remove('hidden');
+    try {
+        const data = await api('/api/admin/fetch-playcanvas', { method: 'POST', body: { slugs } });
+        fetchedGames = data.results.filter(r => r.alive).map(r => ({
+            slug: 'playcanvas-' + r.slug,
+            title: r.slug,
+            url: r.url,
+            thumbnail: '',
+            categories: ['3D'],
+            rating: 4.5,
+            developer: 'PlayCanvas',
+            controls: 'Keyboard & Mouse',
+            description: 'PlayCanvas 3D game: ' + r.slug,
+            short_description: '3D Game'
+        }));
+        document.getElementById('fetchResults').classList.remove('hidden');
+        document.getElementById('fetchCount').textContent = '(' + fetchedGames.length + ' alive)';
+        renderFetchTable();
+        const dead = data.results.filter(r => !r.alive).length;
+        msg.textContent = data.results.length + ' checked: ' + fetchedGames.length + ' alive, ' + dead + ' dead';
+        msg.className = 'text-sm text-emerald-400 mt-2';
+    } catch (e) {
+        msg.textContent = 'Error: ' + e.message;
+        msg.className = 'text-sm text-red-400 mt-2';
+    }
+}
+
+function renderFetchTable() {
+    document.getElementById('fetchTable').innerHTML = fetchedGames.map((g, i) => `
+        <div class="flex items-center gap-3 bg-slate-800/50 rounded px-3 py-2 text-sm">
+            <span class="text-gray-600 w-6">${i + 1}</span>
+            <span class="font-semibold flex-1 truncate">${esc(g.title)}</span>
+            <span class="text-xs text-gray-500">${esc(g.slug)}</span>
+            <span class="text-xs text-gray-600">${esc((g.categories || []).join(', '))}</span>
+        </div>
+    `).join('');
+}
+
+async function bulkImportFetched() {
+    if (fetchedGames.length === 0) return;
+    const msg = document.getElementById('fetchMsg');
+    try {
+        const data = await api('/api/admin/games/bulk', { method: 'POST', body: { games: fetchedGames } });
+        msg.textContent = data.message;
+        msg.className = 'text-sm text-emerald-400 mt-2';
+        fetchedGames = [];
+        document.getElementById('fetchResults').classList.add('hidden');
+        document.getElementById('fetchTable').innerHTML = '';
+    } catch (e) {
+        msg.textContent = 'Import failed: ' + e.message;
+        msg.className = 'text-sm text-red-400 mt-2';
+    }
+}
+
+// ==================== BULK IMPORT ====================
+async function doBulkImport() {
+    const msg = document.getElementById('bulkMsg');
+    try {
+        const games = JSON.parse(document.getElementById('bulkJson').value);
+        if (!Array.isArray(games)) throw new Error('Must be an array');
+        const data = await api('/api/admin/games/bulk', { method: 'POST', body: { games } });
+        msg.textContent = data.message;
+        msg.className = 'text-sm text-emerald-400';
+        msg.classList.remove('hidden');
+        document.getElementById('bulkJson').value = '';
+    } catch (e) {
+        msg.textContent = 'Error: ' + e.message;
+        msg.className = 'text-sm text-red-400';
+        msg.classList.remove('hidden');
+    }
+}
+
+function esc(s) {
+    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+}
+</script>
+</body>
+</html>

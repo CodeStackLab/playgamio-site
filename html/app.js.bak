@@ -1,0 +1,292 @@
+/**
+ * PLAYGAMIO - Professional Game Aggregator Logic
+ * Powered by FastPlayGames API
+ */
+
+// DOM ELEMENTS
+const genreBar = document.getElementById("genre-bar");
+const gamesGrid = document.getElementById("gamesGrid");
+const comingSoonGrid = document.getElementById("comingSoonGrid");
+const featuredStrip = document.getElementById("featuredStrip");
+const gameCountEl = document.getElementById("gameCount");
+const searchInput = document.getElementById("searchInput");
+
+// MODALS & OVERLAYS
+const viewMapBtn = document.getElementById("viewMapBtn");
+const mapView = document.getElementById("mapView");
+const closeMapBtn = document.getElementById("closeMap");
+const gameMapContainer = document.getElementById("gameMapContainer");
+
+const gameModal = document.getElementById("gameModal");
+const closeModal = document.getElementById("closeModal");
+const fullscreenBtn = document.getElementById("fullscreenBtn");
+const gameFrame = document.getElementById("gameFrame");
+const gameFrameWrapper = document.getElementById("gameFrameWrapper");
+const gameLoading = document.getElementById("gameLoading");
+const modalGenre = document.getElementById("modalGenre");
+const modalTitle = document.getElementById("modalTitle");
+const modalDesc = document.getElementById("modalDesc");
+
+const signinBtn = document.getElementById("signinBtn");
+
+// STATE
+let AVAILABLE_GAMES = [];
+let PLANNED_GAMES = [
+  { id: "biz-empire", name: "BizEmpire", genre: "Business", thumbnail: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=600&q=80", votes: 42, rating: 4.8 },
+  { id: "soccer-empire", name: "Soccer Empire", genre: "Sports", thumbnail: "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=600&q=80", votes: 28, rating: 4.5 },
+  { id: "city-builder", name: "City Builder Tycoon", genre: "Tycoon", thumbnail: "https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=600&q=80", votes: 35, rating: 4.9 }
+];
+
+let activeGenre = "all";
+let searchQuery = "";
+let mapNetworkInstance = null;
+
+// API CONFIG
+const API_URL = "https://fastplaygames.com/api/games.json";
+
+// INITIALIZE APP
+async function init() {
+  renderGenres();
+  await fetchGames();
+  renderComingSoon();
+  setupEventListeners();
+}
+
+// FETCH GAMES FROM API
+async function fetchGames() {
+  try {
+    const response = await fetch(API_URL);
+    const data = await response.json();
+    
+    AVAILABLE_GAMES = data.games.map(game => ({
+      id: game.slug,
+      name: game.title,
+      genre: game.categories[0] || "General",
+      thumbnail: game.thumbnail,
+      url: game.url,
+      desc: game.short_description,
+      rating: game.rating,
+      hot: game.rating > 4.7
+    }));
+
+    renderGames();
+  } catch (error) {
+    console.error("Failed to fetch games:", error);
+    gamesGrid.innerHTML = `<div style="grid-column: 1/-1; padding: 3rem; text-align: center; color: var(--text-muted);">Failed to load games. Please check your connection.</div>`;
+  }
+}
+
+// RENDER GENRE/CATEGORY FILTERS
+function renderGenres() {
+  genreBar.addEventListener("click", (e) => {
+    const btn = e.target.closest(".cat-btn");
+    if (!btn) return;
+
+    document.querySelectorAll(".cat-btn").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    activeGenre = btn.dataset.genre;
+    renderGames();
+  });
+}
+
+// RENDER GAMES GRID & FEATURED SECTION
+function renderGames() {
+  gamesGrid.innerHTML = "";
+  
+  const filtered = AVAILABLE_GAMES.filter(game => {
+    const matchesGenre = activeGenre === "all" || game.genre.toLowerCase() === activeGenre.toLowerCase();
+    const matchesSearch = game.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                          (game.desc || "").toLowerCase().includes(searchQuery.toLowerCase());
+    return matchesGenre && matchesSearch;
+  });
+
+  gameCountEl.textContent = `${filtered.length} Games Found`;
+
+  // Render Featured Grid (Main + 2 Side items)
+  if (activeGenre === "all" && searchQuery === "" && filtered.length >= 3) {
+    const mainFeat = filtered[0];
+    const side1 = filtered[1];
+    const side2 = filtered[2];
+
+    featuredStrip.style.display = "grid";
+    featuredStrip.innerHTML = `
+      <div class="feat-main" id="featMain">
+        <img src="${mainFeat.thumbnail}" alt="${mainFeat.name}" />
+        <div class="feat-overlay">
+          <span class="feat-tag">Featured Hit</span>
+          <h1 class="feat-title">${mainFeat.name}</h1>
+          <p class="feat-desc">${mainFeat.desc || "Experience the best in browser gaming."}</p>
+        </div>
+      </div>
+      <div class="feat-side">
+        <div class="feat-mini" id="featSide1">
+          <img src="${side1.thumbnail}" alt="${side1.name}" />
+          <div class="feat-mini-overlay">
+            <div class="feat-mini-title">${side1.name}</div>
+          </div>
+        </div>
+        <div class="feat-mini" id="featSide2">
+          <img src="${side2.thumbnail}" alt="${side2.name}" />
+          <div class="feat-mini-overlay">
+            <div class="feat-mini-title">${side2.name}</div>
+          </div>
+        </div>
+      </div>
+    `;
+
+    document.getElementById("featMain").onclick = () => openGame(mainFeat);
+    document.getElementById("featSide1").onclick = () => openGame(side1);
+    document.getElementById("featSide2").onclick = () => openGame(side2);
+  } else {
+    featuredStrip.style.display = "none";
+  }
+
+  // Populate Grid
+  filtered.forEach(game => {
+    const card = document.createElement("div");
+    card.className = "game-card";
+    card.innerHTML = `
+      <img src="${game.thumbnail}" alt="${game.name}" loading="lazy" />
+      <div class="card-content">
+        <div class="card-name">${game.name}</div>
+        <div class="card-info">
+          <span class="card-genre">${game.genre}</span>
+          <span class="card-rating">★ ${game.rating}</span>
+        </div>
+      </div>
+    `;
+    card.addEventListener("click", () => openGame(game));
+    gamesGrid.appendChild(card);
+  });
+}
+
+// RENDER UPCOMING SECTION
+function renderComingSoon() {
+  comingSoonGrid.innerHTML = "";
+  PLANNED_GAMES.forEach(game => {
+    const card = document.createElement("div");
+    card.className = "game-card";
+    card.style.opacity = "0.7";
+    card.innerHTML = `
+      <img src="${game.thumbnail}" alt="${game.name}" loading="lazy" />
+      <div class="card-content">
+        <div class="card-name">${game.name}</div>
+        <div class="card-info">
+          <span class="card-genre">Coming Soon</span>
+          <span class="card-rating">★ ${game.rating}</span>
+        </div>
+      </div>
+    `;
+    comingSoonGrid.appendChild(card);
+  });
+}
+
+// EVENT LISTENERS
+function setupEventListeners() {
+  searchInput.addEventListener("input", (e) => {
+    searchQuery = e.target.value;
+    renderGames();
+  });
+
+  viewMapBtn.addEventListener("click", () => {
+    mapView.classList.add("active");
+    document.body.style.overflow = "hidden";
+    initGameMap();
+  });
+
+  closeMapBtn.addEventListener("click", () => {
+    mapView.classList.remove("active");
+    document.body.style.overflow = "";
+  });
+
+  closeModal.addEventListener("click", closeGameModal);
+  gameModal.addEventListener("click", (e) => {
+    if (e.target === gameModal) closeGameModal();
+  });
+
+  fullscreenBtn.addEventListener("click", () => {
+    if (gameFrameWrapper.requestFullscreen) gameFrameWrapper.requestFullscreen();
+    else if (gameFrameWrapper.webkitRequestFullscreen) gameFrameWrapper.webkitRequestFullscreen();
+  });
+
+  signinBtn.addEventListener("click", () => alert("Account system coming soon! Enjoy the games for now."));
+}
+
+// MODAL CONTROLS
+function openGame(game) {
+  modalTitle.textContent = game.name;
+  modalGenre.textContent = game.genre;
+  modalDesc.textContent = game.desc || "Play instantly on PlayGamio.";
+  gameLoading.style.display = "grid";
+  gameFrame.src = game.url;
+  gameModal.classList.add("active");
+  document.body.style.overflow = "hidden";
+  gameFrame.onload = () => gameLoading.style.display = "none";
+}
+
+function closeGameModal() {
+  gameModal.classList.remove("active");
+  gameFrame.src = "";
+  document.body.style.overflow = "";
+}
+
+// UNIVERSE MAP (Vis-Network)
+function initGameMap() {
+  if (mapNetworkInstance) return;
+
+  const nodes = [];
+  const edges = [];
+
+  nodes.push({
+    id: "hub", label: "PLAYGAMIO", shape: "circle", size: 40,
+    color: { background: "#06080e", border: "#67de88" },
+    font: { face: "Sora", size: 16, color: "#fff", bold: true },
+    borderWidth: 3
+  });
+
+  const activeGenres = new Set();
+  const allGames = [...AVAILABLE_GAMES, ...PLANNED_GAMES];
+
+  allGames.forEach(game => {
+    const genreKey = (game.genre || "General").toLowerCase();
+    if (!activeGenres.has(genreKey)) {
+      activeGenres.add(genreKey);
+      nodes.push({
+        id: `genre_${genreKey}`, label: game.genre, shape: "dot", size: 20,
+        color: { background: "#0b0d17", border: "#00d1ff" },
+        font: { face: "Sora", size: 12, color: "#a0a8c0" },
+        borderWidth: 2
+      });
+      edges.push({ from: "hub", to: `genre_${genreKey}`, color: { color: "rgba(255,255,255,0.1)" } });
+    }
+
+    nodes.push({
+      id: game.id, label: game.name, shape: "circularImage", image: game.thumbnail, size: 25,
+      color: { border: "#67de88", background: "#0b0d17" },
+      font: { face: "DM Sans", size: 10, color: "#fff" },
+      borderWidth: 2,
+      gameData: game
+    });
+    edges.push({ from: `genre_${genreKey}`, to: game.id, color: { color: "rgba(255,255,255,0.05)" } });
+  });
+
+  mapNetworkInstance = new vis.Network(gameMapContainer, { nodes: new vis.DataSet(nodes), edges: new vis.DataSet(edges) }, {
+    physics: { stabilization: true, barnesHut: { gravitationalConstant: -2000, centralGravity: 0.3, springLength: 100 } },
+    interaction: { hover: true, zoomView: true }
+  });
+  
+  mapNetworkInstance.on("click", (params) => {
+    if (params.nodes.length > 0) {
+      const nodeId = params.nodes[0];
+      const clickedNode = nodes.find(n => n.id === nodeId);
+      if (clickedNode && clickedNode.gameData && clickedNode.gameData.url) {
+        openGame(clickedNode.gameData);
+        mapView.classList.remove("active");
+        document.body.style.overflow = "";
+      }
+    }
+  });
+}
+
+// RUN APP
+document.addEventListener("DOMContentLoaded", init);

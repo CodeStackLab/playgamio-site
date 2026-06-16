@@ -1,548 +1,364 @@
-// GAMES DATA
-const AVAILABLE_GAMES = [
-  {
-    id: "hextris",
-    name: "Hextris",
-    genre: "Arcade",
-    thumbnail: "https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?auto=format&fit=crop&w=600&q=80",
-    url: "https://hextris.github.io/hextris/",
-    desc: "Fast-paced puzzle game inspired by Tetris. Rotate the hexagon to match colors!",
-    hot: true,
-    new: true
-  },
-  {
-    id: "2048",
-    name: "2048",
-    genre: "Puzzle",
-    thumbnail: "https://images.unsplash.com/photo-1611195974226-a6a9be9dd763?auto=format&fit=crop&w=600&q=80",
-    url: "https://gabrielecirulli.github.io/2048/",
-    desc: "Join the numbers and get to the 2048 tile! Highly addictive sliding puzzle game.",
-    hot: true,
-    new: false
-  },
-  {
-    id: "clumsy-bird",
-    name: "Clumsy Bird",
-    genre: "Arcade",
-    thumbnail: "https://images.unsplash.com/photo-1551103782-8ab07afd45c1?auto=format&fit=crop&w=600&q=80",
-    url: "https://ellisonleao.github.io/clumsy-bird/",
-    desc: "Flap your wings, avoid the green pipes, and try to get the highest score!",
-    hot: false,
-    new: true
-  },
-  {
-    id: "pacman",
-    name: "Pacman HTML5",
-    genre: "Arcade",
-    thumbnail: "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?auto=format&fit=crop&w=600&q=80",
-    url: "https://pacman-html5.github.io/",
-    desc: "The classic Pacman retro experience. Eat all dots and avoid the ghosts!",
-    hot: true,
-    new: false
-  },
-  {
-    id: "tower-game",
-    name: "Tower Blocks",
-    genre: "Strategy",
-    thumbnail: "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=600&q=80",
-    url: "https://clement-muth.github.io/TowerGame/",
-    desc: "Stack blocks as high as you can. Timed accuracy is the key to victory!",
-    hot: false,
-    new: true
-  },
-  {
-    id: "offline-paradise",
-    name: "Dino T-Rex",
-    genre: "Action",
-    thumbnail: "https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?auto=format&fit=crop&w=600&q=80",
-    url: "https://chromedino.com/",
-    desc: "The legendary Chrome offline dinosaur game. Jump over obstacles and survive.",
-    hot: false,
-    new: false
-  }
-];
-
-const PLANNED_GAMES = [
-  {
-    id: "biz-empire",
-    name: "BizEmpire",
-    genre: "Business",
-    thumbnail: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=600&q=80",
-    votes: 42,
-    hot: true
-  },
-  {
-    id: "soccer-empire",
-    name: "Soccer Empire",
-    genre: "Sports",
-    thumbnail: "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=600&q=80",
-    votes: 28,
-    hot: false
-  },
-  {
-    id: "city-builder",
-    name: "City Builder Tycoon",
-    genre: "Tycoon",
-    thumbnail: "https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=600&q=80",
-    votes: 35,
-    hot: true
-  },
-  {
-    id: "tennis-boss",
-    name: "Tennis Boss",
-    genre: "Sports",
-    thumbnail: "https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?auto=format&fit=crop&w=600&q=80",
-    votes: 19,
-    hot: false
-  }
-];
-
-// DOM ELEMENTS
-const genreBar = document.getElementById("genre-bar");
-const gamesGrid = document.getElementById("gamesGrid");
-const comingSoonGrid = document.getElementById("comingSoonGrid");
-const featuredStrip = document.getElementById("featuredStrip");
-const gameCountEl = document.getElementById("gameCount");
-const searchInput = document.getElementById("searchInput");
-const comingSoonSection = document.getElementById("comingSoonSection");
-
-// VIEW SWITCHER DOM ELEMENTS
-const viewGridBtn = document.getElementById("viewGrid");
-const viewMapBtn = document.getElementById("viewMap");
-const gridView = document.getElementById("gridView");
-const mapView = document.getElementById("mapView");
-const gameMapContainer = document.getElementById("gameMapContainer");
-
-// MODAL DOM ELEMENTS
-const gameModal = document.getElementById("gameModal");
-const closeModal = document.getElementById("closeModal");
-const fullscreenBtn = document.getElementById("fullscreenBtn");
-const gameFrame = document.getElementById("gameFrame");
-const gameFrameWrapper = document.getElementById("gameFrameWrapper");
-const gameLoading = document.getElementById("gameLoading");
-const modalGenre = document.getElementById("modalGenre");
-const modalTitle = document.getElementById("modalTitle");
-const modalDesc = document.getElementById("modalDesc");
-
-// SIGNIN DOM ELEMENTS
-const signinBtn = document.getElementById("signinBtn");
-const signinModal = document.getElementById("signinModal");
-const closeSignin = document.getElementById("closeSignin");
-
-// STATE
-let activeGenre = "all";
-let searchQuery = "";
-let votedGames = JSON.parse(localStorage.getItem("playgamio_voted") || "[]");
-let activeView = "grid"; // "grid" or "map"
-let mapNetworkInstance = null;
-
-// INITIALIZE APP
-function init() {
-  renderGenres();
-  renderGames();
-  renderComingSoon();
-  setupEventListeners();
-}
-
-// RENDER GENRES
-function renderGenres() {
-  genreBar.addEventListener("click", (e) => {
-    const btn = e.target.closest(".genre-btn");
-    if (!btn) return;
-
-    document.querySelectorAll(".genre-btn").forEach(b => {
-      b.classList.remove("active");
-      b.setAttribute("aria-selected", "false");
-    });
-    btn.classList.add("active");
-    btn.setAttribute("aria-selected", "true");
-
-    activeGenre = btn.dataset.genre;
+document.addEventListener('DOMContentLoaded', () => {
+    const heroSection = document.getElementById('heroSection');
+    const heroGrid = document.getElementById('heroGrid');
+    const mainSection = document.getElementById('mainSection');
+    const mainGrid = document.getElementById('mainGrid');
+    const plannedSection = document.getElementById('plannedSection');
+    const plannedGrid = document.getElementById('plannedGrid');
+    const categoryNav = document.getElementById('categoryNav');
+    const loadingIndicator = document.getElementById('loadingIndicator');
     
-    if (activeView === "grid") {
-      renderGames();
-    } else {
-      initGameMap(); // Redraw map to highlight or filter
-    }
-  });
-}
-
-// RENDER GAMES GRID & FEATURED
-function renderGames() {
-  gamesGrid.innerHTML = "";
-  featuredStrip.innerHTML = "";
-
-  const filtered = AVAILABLE_GAMES.filter(game => {
-    const matchesGenre = activeGenre === "all" || game.genre.toLowerCase() === activeGenre.toLowerCase();
-    const matchesSearch = game.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                          (game.desc || "").toLowerCase().includes(searchQuery.toLowerCase());
-    return matchesGenre && matchesSearch;
-  });
-
-  gameCountEl.textContent = `${filtered.length} game${filtered.length === 1 ? "" : "s"}`;
-
-  // Populate Games
-  filtered.forEach(game => {
-    const card = document.createElement("div");
-    card.className = "game-card";
-    card.setAttribute("title", game.name);
-    card.setAttribute("data-genre", game.genre);
-    card.innerHTML = `
-      <div class="shimmer"></div>
-      <img src="${game.thumbnail}" alt="${game.name}" loading="lazy" onload="this.previousElementSibling.remove()" />
-      <div class="card-overlay"></div>
-      <div class="card-name">${game.name}</div>
-      <div class="card-badge-row">
-        ${game.hot ? `<span class="badge hot">🔥 Hot!</span>` : ""}
-        ${game.new ? `<span class="badge new">✨ New!</span>` : ""}
-      </div>
-      <div class="card-badge-right">
-        <span class="badge" style="background:rgba(255,255,255,0.1);">${game.genre}</span>
-      </div>
-    `;
-    card.addEventListener("click", () => openGame(game));
-    gamesGrid.appendChild(card);
-  });
-
-  // Populate Featured
-  const featured = AVAILABLE_GAMES.filter(game => game.hot).slice(0, 3);
-  featured.forEach((game, idx) => {
-    const featItem = document.createElement("div");
-    featItem.className = "feat-item";
-    if (idx === 0) featItem.style.gridColumn = "span 2";
-    featItem.innerHTML = `
-      <img src="${game.thumbnail}" alt="${game.name}" />
-      <div class="feat-overlay"></div>
-      <div class="feat-badge-row">
-        <span class="badge hot">🔥 Featured</span>
-        <span class="badge" style="background:rgba(0,0,0,0.4);">${game.genre}</span>
-      </div>
-      <button class="feat-cta">Play ${game.name} Now</button>
-    `;
-    featItem.addEventListener("click", () => openGame(game));
-    featuredStrip.appendChild(featItem);
-  });
-}
-
-// RENDER COMING SOON
-function renderComingSoon() {
-  comingSoonGrid.innerHTML = "";
-
-  PLANNED_GAMES.forEach(game => {
-    const isVoted = votedGames.includes(game.id);
-    const voteCount = game.votes + (isVoted ? 1 : 0);
-    const card = document.createElement("div");
-    card.className = "game-card";
-    card.setAttribute("data-genre", game.genre);
-    card.innerHTML = `
-      <div class="shimmer"></div>
-      <img src="${game.thumbnail}" alt="${game.name}" loading="lazy" onload="this.previousElementSibling.remove()" />
-      <div class="card-overlay"></div>
-      <div class="card-name">${game.name}</div>
-      <div class="card-badge-row">
-        <span class="badge soon">Coming Soon</span>
-      </div>
-      <button class="want-btn ${isVoted ? 'voted' : ''}" data-id="${game.id}">
-        <span>${isVoted ? 'Voted' : 'I want this!'}</span> 💙 <span class="vote-count">${voteCount}</span>
-      </button>
-    `;
-
-    const wantBtn = card.querySelector(".want-btn");
-    wantBtn.addEventListener("click", (e) => {
-      e.stopPropagation();
-      toggleVote(game.id, wantBtn);
-    });
-
-    comingSoonGrid.appendChild(card);
-  });
-}
-
-// VOTE LOGIC
-function toggleVote(gameId, buttonEl) {
-  if (votedGames.includes(gameId)) {
-    votedGames = votedGames.filter(id => id !== gameId);
-    buttonEl.classList.remove("voted");
-    buttonEl.querySelector("span").textContent = "I want this!";
-  } else {
-    votedGames.push(gameId);
-    buttonEl.classList.add("voted");
-    buttonEl.querySelector("span").textContent = "Voted";
-  }
-  localStorage.setItem("playgamio_voted", JSON.stringify(votedGames));
-  renderComingSoon();
-}
-
-// RENDER GAME UNIVERSE MAP (Vis-Network)
-function initGameMap() {
-  if (mapNetworkInstance) {
-    mapNetworkInstance.destroy();
-    mapNetworkInstance = null;
-  }
-
-  // Categories Color Mapping
-  const genreColors = {
-    "arcade": "#67de88", // Green
-    "action": "#67de88", // Green
-    "strategy": "#d2bbff", // Purple
-    "tycoon": "#d2bbff", // Purple
-    "business": "#d2bbff", // Purple
-    "puzzle": "#4cd6ff", // Blue
-    "sports": "#4cd6ff" // Blue
-  };
-
-  const nodes = [];
-  const edges = [];
-
-  // Central Core Node
-  nodes.push({
-    id: "hub",
-    label: "🎮\nPLAYGAMIO",
-    title: "PlayGamio Central Universe Hub",
-    shape: "circle",
-    size: 38,
-    color: {
-      background: "#06091F",
-      border: "#67de88",
-      highlight: { background: "#06091F", border: "#FAFAF5" }
-    },
-    font: { face: "Sora", size: 14, color: "#FAFAF5", bold: true },
-    borderWidth: 3,
-    shadow: true
-  });
-
-  // Keep track of genres added to prevent duplicates
-  const activeGenres = new Set();
-
-  const allGames = [...AVAILABLE_GAMES, ...PLANNED_GAMES];
-
-  // Filter games based on search queries
-  const matchesSearch = (game) => {
-    return game.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-           (game.desc || "").toLowerCase().includes(searchQuery.toLowerCase());
-  };
-
-  allGames.forEach(game => {
-    if (!matchesSearch(game)) return;
+    // Auth and History
+    const historySection = document.getElementById('historySection');
+    const historyGrid = document.getElementById('historyGrid');
+    const navAuthBtn = document.getElementById('navAuthBtn');
+    const navAuthText = document.getElementById('navAuthText');
+    const navAuthIcon = document.getElementById('navAuthIcon');
+    const loginModal = document.getElementById('loginModal');
+    const closeModal = document.getElementById('closeModal');
+    const usernameInput = document.getElementById('usernameInput');
     
-    // Add genre node if not added yet
-    const genreKey = game.genre.toLowerCase();
-    const isGenreActive = activeGenre === "all" || genreKey === activeGenre.toLowerCase();
+    // Check login status on load for history
+    const historyToken = localStorage.getItem('token');
+    const historyUser = JSON.parse(localStorage.getItem('user') || 'null');
+    let currentUser = historyUser;
+    let userHistory = JSON.parse(localStorage.getItem('playgamioHistory') || '[]');
+    
+    let allGames = [];
+    let currentCategory = 'All';
 
-    if (!activeGenres.has(genreKey)) {
-      activeGenres.add(genreKey);
-      const color = genreColors[genreKey] || "#dee0ff";
-      
-      nodes.push({
-        id: `genre_${genreKey}`,
-        label: game.genre,
-        title: `${game.genre} Games Category`,
-        shape: "dot",
-        size: 20,
-        color: {
-          background: "#0e1228",
-          border: color,
-          highlight: { background: color, border: "#FAFAF5" }
-        },
-        font: { face: "Sora", size: 11, color: "#FAFAF5" },
-        borderWidth: 2,
-        opacity: isGenreActive ? 1.0 : 0.25,
-        shadow: true
-      });
+    // Mock data for Planned section
+    const plannedGames = [
+        { title: 'City Builder', img: 'https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?auto=format&fit=crop&w=400&q=80', votes: 8 },
+        { title: 'Yacht Life', img: 'https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=crop&w=400&q=80', votes: 12 },
+        { title: 'Restaurant Star', img: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80', votes: 5 },
+        { title: 'Farm Frenzy', img: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=400&q=80', votes: 9 },
+        { title: 'Tower Defense X', img: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=400&q=80', votes: 3 },
+        { title: 'Tennis Boss', img: 'https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?auto=format&fit=crop&w=400&q=80', votes: 15 }
+    ];
 
-      edges.push({
-        from: "hub",
-        to: `genre_${genreKey}`,
-        color: { color: "rgba(255, 255, 255, 0.15)", highlight: color },
-        width: 2,
-        smooth: { type: "continuous" }
-      });
-    }
-
-    // Add game node
-    const isGameActive = isGenreActive;
-    const isPlanned = !!game.votes;
-    const color = genreColors[genreKey] || "#dee0ff";
-
-    nodes.push({
-      id: game.id,
-      label: game.name,
-      title: game.desc || `Help vote for ${game.name}!`,
-      shape: "circularImage",
-      image: game.thumbnail,
-      size: 26,
-      color: {
-        border: isPlanned ? "#879487" : color,
-        background: "#171a30",
-        highlight: { border: "#FAFAF5", background: "#1b1e35" }
-      },
-      font: { face: "DM Sans", size: 10, color: "#dee0ff" },
-      borderWidth: 3,
-      opacity: isGameActive ? 1.0 : 0.2,
-      shadow: true,
-      // Custom data payload
-      gameData: game,
-      isPlanned: isPlanned
-    });
-
-    edges.push({
-      from: `genre_${genreKey}`,
-      to: game.id,
-      color: { color: "rgba(255, 255, 255, 0.08)", highlight: color },
-      width: 1.5,
-      dashes: isPlanned, // Dashed lines for coming soon games
-      smooth: { type: "continuous" }
-    });
-  });
-
-  // Vis-Network Configuration Options
-  const container = gameMapContainer;
-  const data = { nodes: new vis.DataSet(nodes), edges: new vis.DataSet(edges) };
-  const options = {
-    physics: {
-      stabilization: {
-        enabled: true,
-        iterations: 150
-      },
-      barnesHut: {
-        gravitationalConstant: -1800,
-        centralGravity: 0.35,
-        springLength: 95,
-        springConstant: 0.04,
-        damping: 0.095
-      }
-    },
-    interaction: {
-      hover: true,
-      dragNodes: true,
-      zoomView: true
-    }
-  };
-
-  // Create network
-  mapNetworkInstance = new vis.Network(container, data, options);
-
-  // Set click handlers
-  mapNetworkInstance.on("click", (params) => {
-    if (params.nodes.length > 0) {
-      const nodeId = params.nodes[0];
-      const clickedNode = nodes.find(n => n.id === nodeId);
-      
-      if (clickedNode && clickedNode.gameData) {
-        if (clickedNode.isPlanned) {
-          const isVoted = votedGames.includes(clickedNode.id);
-          const voteAction = confirm(`${clickedNode.gameData.name} is a Coming Soon project!\nIt has ${clickedNode.gameData.votes + (isVoted ? 1 : 0)} votes.\n\nDo you want to toggle your vote for this game?`);
-          if (voteAction) {
-            votedGames = votedGames.includes(clickedNode.id) ? 
-                         votedGames.filter(id => id !== clickedNode.id) : 
-                         [...votedGames, clickedNode.id];
-            localStorage.setItem("playgamio_voted", JSON.stringify(votedGames));
-            initGameMap();
-            renderComingSoon();
-          }
-        } else {
-          openGame(clickedNode.gameData);
+    // Fetch games from API
+    async function fetchGames() {
+        try {
+            const response = await fetch('/api/games?v=' + new Date().getTime());
+            const data = await response.json();
+            // Randomize array to show different games on the front page
+            allGames = data.games.sort(() => Math.random() - 0.5);
+            renderCategories();
+            renderGames();
+        } catch (error) {
+            console.error('Error fetching games:', error);
+            loadingIndicator.innerHTML = `<div class="text-red-400 font-bold">Failed to load games. Please try again.</div>`;
         }
-      }
-      
-      // Deselect node so it resets
-      setTimeout(() => {
-        if (mapNetworkInstance) mapNetworkInstance.unselectAll();
-      }, 500);
     }
-  });
-}
 
-// EVENT LISTENERS
-function setupEventListeners() {
-  // Search
-  searchInput.addEventListener("input", (e) => {
-    searchQuery = e.target.value;
-    if (activeView === "grid") {
-      renderGames();
-    } else {
-      initGameMap();
+    // Render categories dynamically based on available games
+    function renderCategories() {
+        const catSet = new Set();
+        allGames.forEach(g => {
+            if (g.categories) {
+                g.categories.forEach(c => catSet.add(c));
+            }
+        });
+        const uniqueCats = Array.from(catSet).sort();
+        
+        categoryNav.innerHTML = `
+            <button data-cat="All" class="category-btn active flex items-center gap-1.5">
+                <span class="material-symbols-outlined" style="font-size: 16px;">grid_view</span> All
+            </button>
+        `;
+        
+        uniqueCats.forEach(cat => {
+            const btn = document.createElement('button');
+            btn.className = 'category-btn';
+            btn.dataset.cat = cat;
+            btn.textContent = cat;
+            if (currentCategory === cat) {
+                btn.classList.add('active');
+                categoryNav.querySelector('[data-cat="All"]').classList.remove('active');
+            }
+            categoryNav.appendChild(btn);
+        });
     }
-  });
 
-  // Layout View Switcher
-  viewGridBtn.addEventListener("click", () => {
-    if (activeView === "grid") return;
-    activeView = "grid";
-    viewGridBtn.classList.add("active");
-    viewGridBtn.setAttribute("aria-checked", "true");
-    viewMapBtn.classList.remove("active");
-    viewMapBtn.setAttribute("aria-checked", "false");
+    // Render games based on category
+    function renderGames() {
+        heroGrid.innerHTML = '';
+        mainGrid.innerHTML = '';
+        
+        loadingIndicator.classList.add('hidden');
+        heroSection.classList.remove('hidden');
+        mainSection.classList.remove('hidden');
+        plannedSection.classList.remove('hidden');
+
+        let filteredGames = allGames;
+        if (currentCategory !== 'All') {
+            filteredGames = allGames.filter(g => g.categories && g.categories.some(c => c.toLowerCase() === currentCategory.toLowerCase()));
+        }
+
+        // Sort by rating for hero section
+        const sorted = [...filteredGames].sort((a,b) => (b.rating || 0) - (a.rating || 0));
+        
+        // Take top 3 for Hero Section
+        const heroGamesList = sorted.slice(0, 3);
+        const mainGamesList = sorted.slice(3, 40); // the rest for main grid
+
+        // 1. Render Hero Section
+        if (heroGamesList.length === 0) {
+            heroSection.classList.add('hidden');
+        } else {
+            heroGamesList.forEach((game, idx) => {
+                const card = document.createElement('div');
+                card.className = 'hero-card bg-black/40 group';
+                
+                let badge = idx === 0 ? `<div class="absolute top-3 left-3 flex gap-2 z-20">
+                    <span class="badge badge-hot">🔥 Hot!</span>
+                    <span class="badge badge-new">✨ New!</span>
+                </div>` : `<div class="absolute top-3 left-3 z-20"><span class="badge badge-new">✨ New!</span></div>`;
+
+                card.innerHTML = `
+                    <img src="${game.image || game.thumbnail}" alt="${game.title}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-90">
+                    ${badge}
+                    <div class="hero-overlay">
+                        <div class="transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+                            <h3 class="font-display font-bold text-2xl md:text-3xl text-white mb-3 text-shadow-lg">${game.title}</h3>
+                            <button class="bg-indigo-600/90 hover:bg-indigo-500 text-white text-sm font-bold px-6 py-2.5 rounded-full transition-colors w-max backdrop-blur-sm">
+                                Play ${game.title} Now!
+                            </button>
+                        </div>
+                    </div>
+                `;
+                card.addEventListener('click', () => { window.location.href = 'game.html?id=' + game.slug; });
+                heroGrid.appendChild(card);
+            });
+        }
+
+        // 2. Render Main Grid
+        if (mainGamesList.length === 0) {
+            mainGrid.innerHTML = `<div class="col-span-full text-center text-gray-400 py-12">No games found for this category.</div>`;
+        } else {
+            mainGamesList.forEach((game, idx) => {
+                const card = document.createElement('div');
+                card.className = 'grid-card group flex flex-col';
+                
+                let badge = '';
+                if (idx % 7 === 0) badge = `<span class="badge badge-hot absolute top-2 left-2 z-10">🔥 Hot!</span>`;
+                else if (idx % 5 === 0) badge = `<span class="badge badge-new absolute top-2 left-2 z-10">✨ New!</span>`;
+
+                card.innerHTML = `
+                    <div class="relative w-full h-full overflow-hidden bg-black/50">
+                        ${badge}
+                        <img src="${game.image || game.thumbnail}" alt="${game.title}" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500">
+                        
+                        <!-- Hover Play Button overlay -->
+                        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center backdrop-blur-sm">
+                            <button class="bg-white/20 hover:bg-white/30 border border-white/30 rounded-full w-12 h-12 flex items-center justify-center text-white backdrop-blur-md transform scale-50 group-hover:scale-100 transition-all duration-300">
+                                <span class="material-symbols-outlined text-[24px]">play_arrow</span>
+                            </button>
+                        </div>
+                    </div>
+                `;
+                card.addEventListener('click', () => { window.location.href = 'game.html?id=' + game.slug; });
+                mainGrid.appendChild(card);
+            });
+        }
+
+        // 3. Render Planned Section (Mock Data)
+        plannedGrid.innerHTML = '';
+        plannedGames.forEach(game => {
+            const card = document.createElement('div');
+            card.className = 'planned-card group';
+            card.innerHTML = `
+                <img src="${game.img}" alt="${game.title}" class="w-full h-full object-cover opacity-60 group-hover:opacity-80 transition-opacity">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-transparent to-black/30"></div>
+                
+                <span class="badge badge-hot absolute top-2 left-2">🔥 Hot!</span>
+                
+                <div class="absolute bottom-0 left-0 w-full p-3 flex flex-col items-center gap-2 transform translate-y-2 group-hover:translate-y-0 transition-transform">
+                    <h4 class="font-display font-bold text-white text-sm text-center text-shadow">${game.title}</h4>
+                    <button class="bg-white/10 hover:bg-white/20 border border-white/20 text-white text-[11px] font-semibold px-4 py-1.5 rounded-full w-full flex items-center justify-center gap-1 transition-colors backdrop-blur-md">
+                        I want this! <span class="text-blue-400">💙 ${game.votes}</span>
+                    </button>
+                </div>
+            `;
+            plannedGrid.appendChild(card);
+        });
+
+        // 4. Render History Section
+        if (currentUser && userHistory.length > 0) {
+            historySection.classList.remove('hidden');
+            historyGrid.innerHTML = '';
+            
+            // Map history slugs back to game objects, filter out missing ones
+            const historyGames = userHistory.map(slug => allGames.find(g => g.slug === slug)).filter(Boolean);
+            
+            if (historyGames.length > 0) {
+                historyGames.slice(0, 6).forEach((game) => {
+                    const card = document.createElement('div');
+                    card.className = 'grid-card group flex flex-col';
+                    
+                    card.innerHTML = `
+                        <div class="relative w-full h-full overflow-hidden bg-black/50 border border-indigo-500/30">
+                            <img src="${game.image || game.thumbnail}" alt="${game.title}" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500">
+                            <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center backdrop-blur-sm">
+                                <button class="bg-white/20 hover:bg-white/30 border border-white/30 rounded-full w-12 h-12 flex items-center justify-center text-white backdrop-blur-md transform scale-50 group-hover:scale-100 transition-all duration-300">
+                                    <span class="material-symbols-outlined text-[24px]">play_arrow</span>
+                                </button>
+                            </div>
+                        </div>
+                    `;
+                    card.addEventListener('click', () => { window.location.href = 'game.html?id=' + game.slug; });
+                    historyGrid.appendChild(card);
+                });
+            } else {
+                historySection.classList.add('hidden');
+            }
+        } else {
+            if (historySection) historySection.classList.add('hidden');
+        }
+    }
+
+    // --- Backend Authentication ---
+    const authForm = document.getElementById('authForm');
+    const tabLogin = document.getElementById('tabLogin');
+    const tabRegister = document.getElementById('tabRegister');
+    const usernameField = document.getElementById('usernameField');
+    const authUsernameInput = document.getElementById('authUsernameInput');
+    const authEmailInput = document.getElementById('authEmailInput');
+    const authPasswordInput = document.getElementById('authPasswordInput');
+    const authSubmitBtn = document.getElementById('authSubmitBtn');
+    const authModalTitle = document.getElementById('authModalTitle');
+    const authErrorMsg = document.getElementById('authErrorMsg');
     
-    gridView.classList.remove("hidden");
-    mapView.classList.add("hidden");
-    renderGames(); // Refresh grid layout
-  });
-
-  viewMapBtn.addEventListener("click", () => {
-    if (activeView === "map") return;
-    activeView = "map";
-    viewMapBtn.classList.add("active");
-    viewMapBtn.setAttribute("aria-checked", "true");
-    viewGridBtn.classList.remove("active");
-    viewGridBtn.setAttribute("aria-checked", "false");
+    let isRegisterMode = false;
     
-    mapView.classList.remove("hidden");
-    gridView.classList.add("hidden");
-    initGameMap(); // Initialize network diagram
-  });
-
-  // Modals close triggers
-  closeModal.addEventListener("click", closeGameModal);
-  gameModal.addEventListener("click", (e) => {
-    if (e.target === gameModal) closeGameModal();
-  });
-
-  // Fullscreen trigger
-  fullscreenBtn.addEventListener("click", () => {
-    if (gameFrameWrapper.requestFullscreen) {
-      gameFrameWrapper.requestFullscreen();
-    } else if (gameFrameWrapper.webkitRequestFullscreen) { /* Safari */
-      gameFrameWrapper.webkitRequestFullscreen();
-    } else if (gameFrameWrapper.msRequestFullscreen) { /* IE11 */
-      gameFrameWrapper.msRequestFullscreen();
+    // Check login status on load
+    const token = localStorage.getItem('token');
+    const user = JSON.parse(localStorage.getItem('user') || 'null');
+    
+    function updateAuthUI() {
+        if (token && user) {
+            navAuthText.textContent = 'Dashboard';
+            navAuthIcon.textContent = 'dashboard';
+        } else {
+            navAuthText.textContent = 'Sign In';
+            navAuthIcon.textContent = 'account_circle';
+        }
     }
-  });
+    updateAuthUI();
 
-  // Signin triggers
-  signinBtn.addEventListener("click", () => signinModal.classList.add("open"));
-  closeSignin.addEventListener("click", () => signinModal.classList.remove("open"));
-  signinModal.addEventListener("click", (e) => {
-    if (e.target === signinModal) signinModal.classList.remove("open");
-  });
-  document.querySelector(".signin-submit").addEventListener("click", () => {
-    alert("Sign In is under development. Have fun playing instant games!");
-    signinModal.classList.remove("open");
-  });
-}
+    navAuthBtn.addEventListener('click', () => {
+        if (token && user) {
+            window.location.href = '/dashboard.html';
+        } else {
+            loginModal.classList.remove('hidden');
+            setTimeout(() => {
+                loginModal.classList.remove('opacity-0');
+                loginModal.firstElementChild.classList.remove('scale-95');
+            }, 10);
+        }
+    });
 
-// OPEN GAME MODAL
-function openGame(game) {
-  modalTitle.textContent = game.name;
-  modalGenre.textContent = game.genre;
-  modalDesc.textContent = game.desc;
-  
-  gameLoading.classList.remove("hidden");
-  gameFrame.src = game.url;
+    closeModal.addEventListener('click', () => {
+        loginModal.classList.add('opacity-0');
+        loginModal.firstElementChild.classList.add('scale-95');
+        setTimeout(() => loginModal.classList.add('hidden'), 300);
+    });
 
-  gameModal.classList.add("open");
-  document.body.style.overflow = "hidden"; // Prevent background scroll
+    // Toggle Tabs
+    tabLogin.addEventListener('click', () => {
+        isRegisterMode = false;
+        authModalTitle.textContent = 'Log in';
+        authSubmitBtn.textContent = 'Log In';
+        usernameField.classList.add('hidden');
+        authUsernameInput.required = false;
+        authErrorMsg.classList.add('hidden');
+        
+        tabLogin.classList.replace('text-gray-400', 'text-white');
+        tabLogin.classList.replace('hover:text-white', 'bg-indigo-600');
+        tabRegister.classList.replace('text-white', 'text-gray-400');
+        tabRegister.classList.replace('bg-indigo-600', 'hover:text-white');
+    });
 
-  gameFrame.onload = () => {
-    gameLoading.classList.add("hidden");
-  };
-}
+    tabRegister.addEventListener('click', () => {
+        isRegisterMode = true;
+        authModalTitle.textContent = 'Create Account';
+        authSubmitBtn.textContent = 'Sign Up';
+        usernameField.classList.remove('hidden');
+        authUsernameInput.required = true;
+        authErrorMsg.classList.add('hidden');
+        
+        tabRegister.classList.replace('text-gray-400', 'text-white');
+        tabRegister.classList.replace('hover:text-white', 'bg-indigo-600');
+        tabLogin.classList.replace('text-white', 'text-gray-400');
+        tabLogin.classList.replace('bg-indigo-600', 'hover:text-white');
+    });
 
-// CLOSE GAME MODAL
-function closeGameModal() {
-  gameModal.classList.remove("open");
-  gameFrame.src = "";
-  document.body.style.overflow = ""; // Re-enable background scroll
-}
+    // Handle Auth Submit
+    if(authForm) {
+        authForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            authErrorMsg.classList.add('hidden');
+            authSubmitBtn.disabled = true;
+            authSubmitBtn.textContent = 'Processing...';
 
-// RUN APP
-document.addEventListener("DOMContentLoaded", init);
+            const payload = {
+                email: authEmailInput.value,
+                password: authPasswordInput.value
+            };
+            if (isRegisterMode) payload.username = authUsernameInput.value;
+
+            try {
+                const endpoint = isRegisterMode ? '/api/auth/register' : '/api/auth/login';
+                const res = await fetch(endpoint, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+                const data = await res.json();
+
+                if (!res.ok) throw new Error(data.error || 'Authentication failed');
+
+                if (isRegisterMode) {
+                    // Automatically switch to login after successful registration
+                    tabLogin.click();
+                    authErrorMsg.textContent = 'Account created! Please log in.';
+                    authErrorMsg.classList.remove('hidden', 'text-red-400');
+                    authErrorMsg.classList.add('text-emerald-400');
+                } else {
+                    // Login successful
+                    localStorage.setItem('token', data.token);
+                    localStorage.setItem('user', JSON.stringify(data.user));
+                    window.location.reload();
+                }
+            } catch (err) {
+                authErrorMsg.textContent = err.message;
+                authErrorMsg.classList.remove('hidden', 'text-emerald-400');
+                authErrorMsg.classList.add('text-red-400');
+            } finally {
+                authSubmitBtn.disabled = false;
+                authSubmitBtn.textContent = isRegisterMode ? 'Sign Up' : 'Log In';
+            }
+        });
+    }
+
+    // --- Dynamic Rendering ---
+
+    // Initialize UI
+    updateAuthUI();
+
+    // Category Filter logic
+    categoryNav.addEventListener('click', (e) => {
+        const btn = e.target.closest('.category-btn');
+        if (!btn) return;
+        
+        document.querySelectorAll('.category-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        
+        currentCategory = btn.dataset.cat;
+        renderGames();
+    });
+
+    // Initial Fetch
+    fetchGames();
+});

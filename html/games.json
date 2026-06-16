@@ -1,0 +1,553 @@
+{
+  "api_version": "1.0",
+  "total_games": 33,
+  "last_updated": "2026-06-16",
+  "games": [
+    {
+      "slug": "swoop-3d",
+      "title": "Swoop 3D",
+      "description": "An incredible 3D flight simulator. Fly through rings and score points in this immersive PlayCanvas game. Completely ad-free.",
+      "short_description": "3D Flight Simulator!",
+      "thumbnail": "https://playgams.com/cdn/img/swoop3d-thumb.jpg",
+      "categories": [
+        "3D",
+        "Action",
+        "Arcade"
+      ],
+      "url": "https://playcanv.as/p/JtL2iqIH/",
+      "rating": 4.9,
+      "developer": "PlayCanvas",
+      "controls": "Keyboard & Mouse",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "seemore-3d",
+      "title": "Seemore 3D",
+      "description": "Explore an immersive 3D world in this completely ad-free PlayCanvas experience with stunning visuals.",
+      "short_description": "Explore 3D World!",
+      "thumbnail": "https://playcanv.as/apps/960d78f4/thumbs/360.jpg",
+      "categories": [
+        "3D",
+        "Simulation"
+      ],
+      "url": "https://playcanv.as/p/2OlkUaxF/",
+      "rating": 4.7,
+      "developer": "PlayCanvas",
+      "controls": "Keyboard & Mouse",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "flappy-3d",
+      "title": "Flappy 3D",
+      "description": "The classic bird game in glorious 3D! Navigate pipes in this addictive PlayCanvas game. No ads to interrupt your high scores!",
+      "short_description": "3D Flappy Bird!",
+      "thumbnail": "https://playcanv.as/apps/w2UjNIVS/thumbs/360.jpg",
+      "categories": [
+        "3D",
+        "Arcade"
+      ],
+      "url": "https://playcanv.as/p/RqJJ9oU9/",
+      "rating": 4.6,
+      "developer": "PlayCanvas",
+      "controls": "Click / Tap",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "hexgl-3d-racer",
+      "title": "HexGL 3D Racer",
+      "description": "A fast-paced F-Zero-style 3D racing game built with WebGL. Race through neon tracks at breakneck speed! Ad-free.",
+      "short_description": "High-speed 3D Racing!",
+      "thumbnail": "http://hexgl.bkcore.com/image.png",
+      "categories": [
+        "Racing",
+        "3D",
+        "Action"
+      ],
+      "url": "https://hexgl.bkcore.com/play/",
+      "rating": 4.8,
+      "developer": "BKcore",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "astray-3d-maze",
+      "title": "Astray 3D Maze",
+      "description": "A stunning WebGL maze built with Three.js. Navigate through darkness using only your surroundings and find the exit!",
+      "short_description": "3D Maze Adventure!",
+      "thumbnail": "https://raw.githubusercontent.com/wwwtyro/Astray/master/brick.png",
+      "categories": [
+        "3D",
+        "Puzzle"
+      ],
+      "url": "https://wwwtyro.github.io/Astray/",
+      "rating": 4.7,
+      "developer": "Rye Terrell",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "ball-pool-3d",
+      "title": "Ball Pool 3D",
+      "description": "A beautiful 3D ball pool physics simulation by Mr.doob. Drag, click, and shake to play with realistic physics! Chrome Experiment.",
+      "short_description": "3D Pool Physics!",
+      "thumbnail": "https://lh4.ggpht.com/CcqNBx_RKbI64YrGrVe_b7ven6Ik48HqUpamHDNddSc6GQH2fCvxkGoW9bQbM9_UG4KJHdCEp8oX199OssabTZmPgiB_ahRxbnbz",
+      "categories": [
+        "Sports",
+        "3D",
+        "Simulation"
+      ],
+      "url": "https://mrdoob.com/projects/chromeexperiments/ball-pool/",
+      "rating": 4.5,
+      "developer": "Mr.doob",
+      "controls": "Mouse / Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "drift-hunters-3d",
+      "title": "Drift Hunters 3D",
+      "description": "Burn rubber and master the art of drifting in this addictive 3D drifting simulator! Customize your car and hit the track!",
+      "short_description": "3D Drift Racing!",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/drift-hunters-3d.webp",
+      "categories": [
+        "Racing",
+        "3D",
+        "Sports"
+      ],
+      "url": "https://githubgames.gitlab.io/game/drift-hunters-3d.html",
+      "rating": 4.7,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / WASD",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "smash-karts-3d",
+      "title": "Smash Karts 3D",
+      "description": "Drive karts and battle against opponents in this fun 3D kart fighting game! Collect weapons and dominate the arena!",
+      "short_description": "3D Kart Battle!",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/smash-karts-3d.webp",
+      "categories": [
+        "Racing",
+        "3D",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/smash-karts-3d.html",
+      "rating": 4.6,
+      "developer": "Open Source",
+      "controls": "Arrow Keys / Space",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "temple-run-3d",
+      "title": "Temple Run 3D",
+      "description": "Run, jump, slide and dodge obstacles in this legendary 3D endless runner! Escape the temple with the cursed idol!",
+      "short_description": "3D Endless Runner!",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/temple-run-3d.webp",
+      "categories": [
+        "3D",
+        "Arcade",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/temple-run-3d.html",
+      "rating": 4.8,
+      "developer": "Open Source",
+      "controls": "Swipe / Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "planet-city-3d",
+      "title": "Planet City 3D",
+      "description": "A beautiful 3D procedural city builder by Oskar Stålberg. Watch cities grow organically on a planet!",
+      "short_description": "3D City Builder!",
+      "thumbnail": "https://oskarstalberg.com/game/planet/planet.png",
+      "categories": [
+        "3D",
+        "Simulation",
+        "Strategy"
+      ],
+      "url": "https://oskarstalberg.com/game/planet/planet.html",
+      "rating": 4.8,
+      "developer": "Oskar Stålberg",
+      "controls": "Mouse / Keyboard",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "clumsy-bird",
+      "title": "Clumsy Bird",
+      "description": "A beautiful open-source MelonJS clone of Flappy Bird. Tap to navigate pipes. Zero ads!",
+      "short_description": "Tap to Fly!",
+      "thumbnail": "http://ellisonleao.github.io/clumsy-bird/data/img/bg.png",
+      "categories": [
+        "Action",
+        "Arcade"
+      ],
+      "url": "https://ellisonleao.github.io/clumsy-bird/",
+      "rating": 4.4,
+      "developer": "Ellison Leão",
+      "controls": "Click / Tap",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "pacman-html5",
+      "title": "Pac-Man",
+      "description": "The classic arcade Pac-Man built with HTML5 Canvas! Eat pellets, avoid ghosts, and relive the 80s!",
+      "short_description": "Classic Pac-Man!",
+      "thumbnail": "http://pacman.platzh1rsch.ch/img/Icon-200x200.png",
+      "categories": [
+        "Arcade",
+        "Puzzle"
+      ],
+      "url": "https://pacman.platzh1rsch.ch/",
+      "rating": 4.8,
+      "developer": "Platzh1rsch",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "blockrain-tetris",
+      "title": "Blockrain Tetris",
+      "description": "A polished vanilla Tetris in your browser. Clean, fast, and completely ad-free block-stacking action!",
+      "short_description": "Classic Tetris!",
+      "thumbnail": "http://aerolab.github.io/blockrain.js/assets/images/social-card.png",
+      "categories": [
+        "Puzzle",
+        "Arcade"
+      ],
+      "url": "https://aerolab.github.io/blockrain.js/",
+      "rating": 4.7,
+      "developer": "Aerolab",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "geometry-dash-3d",
+      "title": "Geometry Dash World",
+      "description": "Jump and fly through rhythm-based obstacles in this iconic 3D platformer! Ad-free gameplay.",
+      "short_description": "Rhythm Platformer!",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/geometry-dash-world.webp",
+      "categories": [
+        "3D",
+        "Arcade",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/geometry-dash-world.html",
+      "rating": 4.8,
+      "developer": "Open Source",
+      "controls": "Click / Space",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "highway-racer-3d",
+      "title": "Highway Racer 3D",
+      "description": "Race at high speeds on busy highways in this intense 3D driving game! Dodge traffic and set records.",
+      "short_description": "3D Highway Racing!",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/highway-racer-3d.webp",
+      "categories": [
+        "Racing",
+        "3D",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/highway-racer-3d.html",
+      "rating": 4.5,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "moto-roadrash-3d",
+      "title": "Moto Road Rash 3D",
+      "description": "Feel the thrill of motorcycle racing with dangerous road rash action in 3D!",
+      "short_description": "3D Motorcycle Racing!",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/motoroadrash3d.webp",
+      "categories": [
+        "Racing",
+        "3D",
+        "Sports"
+      ],
+      "url": "https://githubgames.gitlab.io/game/motoroadrash3d.html",
+      "rating": 4.4,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "furious-racing-3d",
+      "title": "Furious Racing 3D",
+      "description": "Feel the fury of high-speed 3D racing! Drift, boost, and overtake opponents to win!",
+      "short_description": "3D Racing Fury!",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/furious-racing-3d.webp",
+      "categories": [
+        "Racing",
+        "3D",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/furious-racing-3d.html",
+      "rating": 4.5,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "offroader-v5-3d",
+      "title": "Offroader V5 3D",
+      "description": "Take on extreme off-road terrain in this 3D driving simulator! Climb hills and conquer mud!",
+      "short_description": "3D Off-Road Driving!",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/offroader-v5.webp",
+      "categories": [
+        "Racing",
+        "3D",
+        "Simulation"
+      ],
+      "url": "https://githubgames.gitlab.io/game/offroader-v5.html",
+      "rating": 4.3,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "gp-moto-racing",
+      "title": "GP Moto Racing",
+      "description": "Professional GP motorcycle racing in 3D! Race against the best and become champion!",
+      "short_description": "Motorcycle GP Racing!",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/gp-moto-racing.webp",
+      "categories": [
+        "Racing",
+        "3D",
+        "Sports"
+      ],
+      "url": "https://githubgames.gitlab.io/game/gp-moto-racing.html",
+      "rating": 4.4,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "truck-simulator-3d",
+      "title": "Indian Truck Simulator 3D",
+      "description": "Drive massive trucks through Indian highways in this 3D simulation game! Deliver cargo across cities.",
+      "short_description": "3D Truck Driving!",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/indian-truck-simulator-3d.webp",
+      "categories": [
+        "Simulation",
+        "3D",
+        "Racing"
+      ],
+      "url": "https://githubgames.gitlab.io/game/indian-truck-simulator-3d.html",
+      "rating": 4.2,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "bus-simulator-3d",
+      "title": "Indian Bus Simulator 3D",
+      "description": "Drive a bus through challenging uphill terrain in this 3D simulation game!",
+      "short_description": "3D Bus Driving!",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/indian-uphill-bus-simulator-3d.webp",
+      "categories": [
+        "Simulation",
+        "3D",
+        "Racing"
+      ],
+      "url": "https://githubgames.gitlab.io/game/indian-uphill-bus-simulator-3d.html",
+      "rating": 4.1,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "fox-simulator-3d",
+      "title": "Fox Simulator 3D",
+      "description": "Experience the wild as a fox in this 3D animal simulator! Explore forests and hunt for food!",
+      "short_description": "3D Animal Sim!",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/fox-simulator-3d.webp",
+      "categories": [
+        "3D",
+        "Simulation"
+      ],
+      "url": "https://githubgames.gitlab.io/game/fox-simulator-3d.html",
+      "rating": 4.3,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "horse-simulator-3d",
+      "title": "Horse Simulator 3D",
+      "description": "Gallop through beautiful landscapes as a horse in this 3D animal simulator! Explore and have fun.",
+      "short_description": "3D Horse Sim!",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/horse-simulator-3d.webp",
+      "categories": [
+        "3D",
+        "Simulation"
+      ],
+      "url": "https://githubgames.gitlab.io/game/horse-simulator-3d.html",
+      "rating": 4.2,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "panda-simulator-3d",
+      "title": "Panda Simulator 3D",
+      "description": "Live the life of a panda in this adorable 3D animal simulator! Eat bamboo and explore!",
+      "short_description": "3D Panda Sim!",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/panda-simulator-3d.webp",
+      "categories": [
+        "3D",
+        "Simulation"
+      ],
+      "url": "https://githubgames.gitlab.io/game/panda-simulator-3d.html",
+      "rating": 4.3,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "dog-simulator-3d",
+      "title": "Dog Simulator 3D",
+      "description": "Be the best dog in this fun 3D animal simulator! Run, play, and explore the neighborhood!",
+      "short_description": "3D Dog Sim!",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/dog-simulator-3d.webp",
+      "categories": [
+        "3D",
+        "Simulation"
+      ],
+      "url": "https://githubgames.gitlab.io/game/dog-simulator-3d.html",
+      "rating": 4.2,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "only-up-3d-parkour",
+      "title": "Only Up! 3D Parkour",
+      "description": "Parkour your way up a vertical mountain world! Jump, climb, and don't fall in this challenging 3D game!",
+      "short_description": "3D Parkour Climb!",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/only-up-3d-parkour-go-ascend.webp",
+      "categories": [
+        "3D",
+        "Action",
+        "Arcade"
+      ],
+      "url": "https://githubgames.gitlab.io/game/only-up-3d-parkour-go-ascend.html",
+      "rating": 4.6,
+      "developer": "Open Source",
+      "controls": "WASD + Space",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "raccoon-adventure-3d",
+      "title": "Raccoon Adventure 3D",
+      "description": "Explore the city as a raccoon in this 3D adventure simulator! Rummage through bins and explore!",
+      "short_description": "3D Raccoon Sim!",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/raccoon-adventure-city-simulator-3d.webp",
+      "categories": [
+        "3D",
+        "Simulation"
+      ],
+      "url": "https://githubgames.gitlab.io/game/raccoon-adventure-city-simulator-3d.html",
+      "rating": 4.1,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "dreadhead-parkour",
+      "title": "DreadHead Parkour",
+      "description": "Run, jump, and flip through urban environments in this action parkour game!",
+      "short_description": "Urban Parkour!",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/dreadhead-parkour.webp",
+      "categories": [
+        "Action",
+        "Arcade"
+      ],
+      "url": "https://githubgames.gitlab.io/game/dreadhead-parkour.html",
+      "rating": 4.4,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "dune-surfer",
+      "title": "Dune Surfer",
+      "description": "Surf down massive sand dunes in this thrilling endless runner! Ad-free riding action!",
+      "short_description": "Sand Dune Surfing!",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/dune-surfer.webp",
+      "categories": [
+        "Arcade",
+        "Sports",
+        "3D"
+      ],
+      "url": "https://githubgames.gitlab.io/game/dune-surfer.html",
+      "rating": 4.3,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "eagle-ride",
+      "title": "Eagle Ride",
+      "description": "Soar through the sky as an eagle in this beautiful 3D flight simulator! Ad-free flying fun!",
+      "short_description": "3D Eagle Flight!",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/eagle-ride.webp",
+      "categories": [
+        "3D",
+        "Simulation",
+        "Arcade"
+      ],
+      "url": "https://githubgames.gitlab.io/game/eagle-ride.html",
+      "rating": 4.5,
+      "developer": "Open Source",
+      "controls": "Mouse / Keyboard",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "christmas-deer-sim",
+      "title": "Christmas Deer Simulator",
+      "description": "Guide a magical deer through winter wonderlands in this festive 3D simulator!",
+      "short_description": "3D Deer Sim!",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/christmas-deer-simulator.webp",
+      "categories": [
+        "3D",
+        "Simulation"
+      ],
+      "url": "https://githubgames.gitlab.io/game/christmas-deer-simulator.html",
+      "rating": 4,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "solitaire-online",
+      "title": "Solitaire Online",
+      "description": "The classic Klondike Solitaire card game. Draw, drag, and drop in this clean ad-free version!",
+      "short_description": "Classic Solitaire!",
+      "thumbnail": "https://githubgames.gitlab.io/assets/img/logo.webp",
+      "categories": [
+        "Puzzle",
+        "Strategy"
+      ],
+      "url": "https://online-solitaire.com/",
+      "rating": 4.6,
+      "developer": "Online Solitaire",
+      "controls": "Mouse / Touch",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "0hh1-puzzle",
+      "title": "0hh1 Puzzle",
+      "description": "A beautiful logic puzzle. Place red and blue tiles following simple rules. Daily challenges!",
+      "short_description": "Logic Puzzle!",
+      "thumbnail": "http://0hh1.com/img/facebook-promotion.png",
+      "categories": [
+        "Puzzle",
+        "Strategy"
+      ],
+      "url": "https://0hh1.com/",
+      "rating": 4.6,
+      "developer": "Martin Kool",
+      "controls": "Mouse / Tap",
+      "release_date": "Updated 2024"
+    }
+  ]
+}

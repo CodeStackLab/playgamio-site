@@ -17,3 +17,22 @@ services:
       options:
         max-size: "10m"
         max-file: "3"
+
+  api:
+    build: ./api
+    container_name: playgamio_api
+    restart: always
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./api/db:/app/db
+      - ./html/games.json:/app/games.json
+      - ./html/uploads:/app/uploads
+    environment:
+      - ADMIN_EMAIL=admin@playgamio.com
+      - ADMIN_PASSWORD=Admin@2026!
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"

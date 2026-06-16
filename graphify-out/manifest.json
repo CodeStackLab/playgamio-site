@@ -5,8 +5,8 @@
     "semantic_hash": ""
   },
   "html/app.js": {
-    "mtime": 1780585394.8195636,
-    "ast_hash": "d4a74878676abc2fcca5ce50646f4949",
+    "mtime": 1780651837.1565993,
+    "ast_hash": "4e7bb59d73661f27342ab1bb3bc02286",
     "semantic_hash": ""
   },
   ".gemini/skills/graphify/SKILL.md": {
@@ -55,8 +55,8 @@
     "semantic_hash": ""
   },
   "GEMINI.md": {
-    "mtime": 1780639870.3284237,
-    "ast_hash": "82efb97a359f5c7290bf2513d14686be",
+    "mtime": 1780650969.271501,
+    "ast_hash": "96ff87934ced9f6f7a74e3aea304e37d",
     "semantic_hash": ""
   },
   "docker-compose.yml": {
@@ -65,8 +65,18 @@
     "semantic_hash": ""
   },
   "html/index.html": {
-    "mtime": 1780643226.229388,
-    "ast_hash": "722d5a3f92d6b18d7dcb05ff4957a696",
+    "mtime": 1780651818.6325762,
+    "ast_hash": "9e0ea81c6dce86943c205493e7a97139",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1780647911.3882577,
+    "ast_hash": "2358a501123a17ea72d38a486ea51a15",
+    "semantic_hash": ""
+  },
+  "html/logo.svg": {
+    "mtime": 1780647839.0521495,
+    "ast_hash": "7d17be9237b9c97ef7fd2f7764b60b75",
     "semantic_hash": ""
   }
 }

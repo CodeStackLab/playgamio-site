@@ -4,33 +4,6 @@
   "graph": {},
   "nodes": [
     {
-      "label": "settings.json",
-      "file_type": "code",
-      "source_file": ".gemini/settings.json",
-      "source_location": "L1",
-      "id": "gemini_settings",
-      "community": 9,
-      "norm_label": "settings.json"
-    },
-    {
-      "label": "hooks",
-      "file_type": "code",
-      "source_file": ".gemini/settings.json",
-      "source_location": "L2",
-      "id": "gemini_settings_hooks",
-      "community": 9,
-      "norm_label": "hooks"
-    },
-    {
-      "label": "BeforeTool",
-      "file_type": "code",
-      "source_file": ".gemini/settings.json",
-      "source_location": "L3",
-      "id": "gemini_settings_hooks_beforetool",
-      "community": 9,
-      "norm_label": "beforetool"
-    },
-    {
       "label": "app.js",
       "file_type": "code",
       "source_file": "html/app.js",
@@ -40,28 +13,10 @@
       "norm_label": "app.js"
     },
     {
-      "label": "AVAILABLE_GAMES",
-      "file_type": "code",
-      "source_file": "html/app.js",
-      "source_location": "L2",
-      "id": "html_app_available_games",
-      "community": 0,
-      "norm_label": "available_games"
-    },
-    {
-      "label": "PLANNED_GAMES",
-      "file_type": "code",
-      "source_file": "html/app.js",
-      "source_location": "L65",
-      "id": "html_app_planned_games",
-      "community": 0,
-      "norm_label": "planned_games"
-    },
-    {
       "label": "genreBar",
       "file_type": "code",
       "source_file": "html/app.js",
-      "source_location": "L101",
+      "source_location": "L7",
       "id": "html_app_genrebar",
       "community": 0,
       "norm_label": "genrebar"
@@ -70,7 +25,7 @@
       "label": "gamesGrid",
       "file_type": "code",
       "source_file": "html/app.js",
-      "source_location": "L102",
+      "source_location": "L8",
       "id": "html_app_gamesgrid",
       "community": 0,
       "norm_label": "gamesgrid"
@@ -79,7 +34,7 @@
       "label": "comingSoonGrid",
       "file_type": "code",
       "source_file": "html/app.js",
-      "source_location": "L103",
+      "source_location": "L9",
       "id": "html_app_comingsoongrid",
       "community": 0,
       "norm_label": "comingsoongrid"
@@ -88,7 +43,7 @@
       "label": "featuredStrip",
       "file_type": "code",
       "source_file": "html/app.js",
-      "source_location": "L104",
+      "source_location": "L10",
       "id": "html_app_featuredstrip",
       "community": 0,
       "norm_label": "featuredstrip"
@@ -97,7 +52,7 @@
       "label": "gameCountEl",
       "file_type": "code",
       "source_file": "html/app.js",
-      "source_location": "L105",
+      "source_location": "L11",
       "id": "html_app_gamecountel",
       "community": 0,
       "norm_label": "gamecountel"
@@ -106,25 +61,52 @@
       "label": "searchInput",
       "file_type": "code",
       "source_file": "html/app.js",
-      "source_location": "L106",
+      "source_location": "L12",
       "id": "html_app_searchinput",
       "community": 0,
       "norm_label": "searchinput"
     },
     {
-      "label": "comingSoonSection",
+      "label": "viewMapBtn",
       "file_type": "code",
       "source_file": "html/app.js",
-      "source_location": "L107",
-      "id": "html_app_comingsoonsection",
+      "source_location": "L15",
+      "id": "html_app_viewmapbtn",
       "community": 0,
-      "norm_label": "comingsoonsection"
+      "norm_label": "viewmapbtn"
+    },
+    {
+      "label": "mapView",
+      "file_type": "code",
+      "source_file": "html/app.js",
+      "source_location": "L16",
+      "id": "html_app_mapview",
+      "community": 0,
+      "norm_label": "mapview"
+    },
+    {
+      "label": "closeMapBtn",
+      "file_type": "code",
+      "source_file": "html/app.js",
+      "source_location": "L17",
+      "id": "html_app_closemapbtn",
+      "community": 0,
+      "norm_label": "closemapbtn"
+    },
+    {
+      "label": "gameMapContainer",
+      "file_type": "code",
+      "source_file": "html/app.js",
+      "source_location": "L18",
+      "id": "html_app_gamemapcontainer",
+      "community": 0,
+      "norm_label": "gamemapcontainer"
     },
     {
       "label": "gameModal",
       "file_type": "code",
       "source_file": "html/app.js",
-      "source_location": "L110",
+      "source_location": "L20",
       "id": "html_app_gamemodal",
       "community": 0,
       "norm_label": "gamemodal"
@@ -133,7 +115,7 @@
       "label": "closeModal",
       "file_type": "code",
       "source_file": "html/app.js",
-      "source_location": "L111",
+      "source_location": "L21",
       "id": "html_app_closemodal",
       "community": 0,
       "norm_label": "closemodal"
@@ -142,7 +124,7 @@
       "label": "fullscreenBtn",
       "file_type": "code",
       "source_file": "html/app.js",
-      "source_location": "L112",
+      "source_location": "L22",
       "id": "html_app_fullscreenbtn",
       "community": 0,
       "norm_label": "fullscreenbtn"
@@ -151,7 +133,7 @@
       "label": "gameFrame",
       "file_type": "code",
       "source_file": "html/app.js",
-      "source_location": "L113",
+      "source_location": "L23",
       "id": "html_app_gameframe",
       "community": 0,
       "norm_label": "gameframe"
@@ -160,7 +142,7 @@
       "label": "gameFrameWrapper",
       "file_type": "code",
       "source_file": "html/app.js",
-      "source_location": "L114",
+      "source_location": "L24",
       "id": "html_app_gameframewrapper",
       "community": 0,
       "norm_label": "gameframewrapper"
@@ -169,7 +151,7 @@
       "label": "gameLoading",
       "file_type": "code",
       "source_file": "html/app.js",
-      "source_location": "L115",
+      "source_location": "L25",
       "id": "html_app_gameloading",
       "community": 0,
       "norm_label": "gameloading"
@@ -178,7 +160,7 @@
       "label": "modalGenre",
       "file_type": "code",
       "source_file": "html/app.js",
-      "source_location": "L116",
+      "source_location": "L26",
       "id": "html_app_modalgenre",
       "community": 0,
       "norm_label": "modalgenre"
@@ -187,7 +169,7 @@
       "label": "modalTitle",
       "file_type": "code",
       "source_file": "html/app.js",
-      "source_location": "L117",
+      "source_location": "L27",
       "id": "html_app_modaltitle",
       "community": 0,
       "norm_label": "modaltitle"
@@ -196,7 +178,7 @@
       "label": "modalDesc",
       "file_type": "code",
       "source_file": "html/app.js",
-      "source_location": "L118",
+      "source_location": "L28",
       "id": "html_app_modaldesc",
       "community": 0,
       "norm_label": "modaldesc"
@@ -205,52 +187,52 @@
       "label": "signinBtn",
       "file_type": "code",
       "source_file": "html/app.js",
-      "source_location": "L121",
+      "source_location": "L30",
       "id": "html_app_signinbtn",
       "community": 0,
       "norm_label": "signinbtn"
     },
     {
-      "label": "signinModal",
+      "label": "AVAILABLE_GAMES",
       "file_type": "code",
       "source_file": "html/app.js",
-      "source_location": "L122",
-      "id": "html_app_signinmodal",
+      "source_location": "L33",
+      "id": "html_app_available_games",
       "community": 0,
-      "norm_label": "signinmodal"
+      "norm_label": "available_games"
     },
     {
-      "label": "closeSignin",
+      "label": "PLANNED_GAMES",
       "file_type": "code",
       "source_file": "html/app.js",
-      "source_location": "L123",
-      "id": "html_app_closesignin",
+      "source_location": "L34",
+      "id": "html_app_planned_games",
       "community": 0,
-      "norm_label": "closesignin"
-    },
-    {
-      "label": "votedGames",
-      "file_type": "code",
-      "source_file": "html/app.js",
-      "source_location": "L128",
-      "id": "html_app_votedgames",
-      "community": 0,
-      "norm_label": "votedgames"
+      "norm_label": "planned_games"
     },
     {
       "label": "init()",
       "file_type": "code",
       "source_file": "html/app.js",
-      "source_location": "L131",
+      "source_location": "L48",
       "id": "html_app_init",
       "community": 4,
       "norm_label": "init()"
     },
     {
+      "label": "fetchGames()",
+      "file_type": "code",
+      "source_file": "html/app.js",
+      "source_location": "L56",
+      "id": "html_app_fetchgames",
+      "community": 4,
+      "norm_label": "fetchgames()"
+    },
+    {
       "label": "renderGenres()",
       "file_type": "code",
       "source_file": "html/app.js",
-      "source_location": "L139",
+      "source_location": "L80",
       "id": "html_app_rendergenres",
       "community": 4,
       "norm_label": "rendergenres()"
@@ -259,7 +241,7 @@
       "label": "renderGames()",
       "file_type": "code",
       "source_file": "html/app.js",
-      "source_location": "L157",
+      "source_location": "L93",
       "id": "html_app_rendergames",
       "community": 4,
       "norm_label": "rendergames()"
@@ -268,25 +250,16 @@
       "label": "renderComingSoon()",
       "file_type": "code",
       "source_file": "html/app.js",
-      "source_location": "L213",
+      "source_location": "L164",
       "id": "html_app_rendercomingsoon",
-      "community": 4,
+      "community": 14,
       "norm_label": "rendercomingsoon()"
-    },
-    {
-      "label": "toggleVote()",
-      "file_type": "code",
-      "source_file": "html/app.js",
-      "source_location": "L245",
-      "id": "html_app_togglevote",
-      "community": 4,
-      "norm_label": "togglevote()"
     },
     {
       "label": "setupEventListeners()",
       "file_type": "code",
       "source_file": "html/app.js",
-      "source_location": "L260",
+      "source_location": "L185",
       "id": "html_app_setupeventlisteners",
       "community": 4,
       "norm_label": "setupeventlisteners()"
@@ -295,7 +268,7 @@
       "label": "openGame()",
       "file_type": "code",
       "source_file": "html/app.js",
-      "source_location": "L297",
+      "source_location": "L216",
       "id": "html_app_opengame",
       "community": 0,
       "norm_label": "opengame()"
@@ -304,532 +277,19 @@
       "label": "closeGameModal()",
       "file_type": "code",
       "source_file": "html/app.js",
-      "source_location": "L314",
+      "source_location": "L227",
       "id": "html_app_closegamemodal",
       "community": 0,
       "norm_label": "closegamemodal()"
     },
     {
-      "label": "SKILL.md",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L1",
-      "id": "graphify_skill",
-      "community": 2,
-      "norm_label": "skill.md"
-    },
-    {
-      "label": "/graphify",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L7",
-      "id": "graphify_skill_graphify",
-      "community": 2,
-      "norm_label": "/graphify"
-    },
-    {
-      "label": "Usage",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L11",
-      "id": "graphify_skill_usage",
-      "community": 2,
-      "norm_label": "usage"
-    },
-    {
-      "label": "What graphify is for",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L44",
-      "id": "graphify_skill_what_graphify_is_for",
-      "community": 2,
-      "norm_label": "what graphify is for"
-    },
-    {
-      "label": "What You Must Do When Invoked",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L48",
-      "id": "graphify_skill_what_you_must_do_when_invoked",
-      "community": 1,
-      "norm_label": "what you must do when invoked"
-    },
-    {
-      "label": "Step 0 - GitHub repos and multi-path merge (only if a URL or several paths)",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L60",
-      "id": "graphify_skill_step_0_github_repos_and_multi_path_merge_only_if_a_url_or_several_paths",
-      "community": 1,
-      "norm_label": "step 0 - github repos and multi-path merge (only if a url or several paths)"
-    },
-    {
-      "label": "Step 1 - Ensure graphify is installed",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L64",
-      "id": "graphify_skill_step_1_ensure_graphify_is_installed",
-      "community": 1,
-      "norm_label": "step 1 - ensure graphify is installed"
-    },
-    {
-      "label": "Step 2 - Detect files",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L106",
-      "id": "graphify_skill_step_2_detect_files",
-      "community": 1,
-      "norm_label": "step 2 - detect files"
-    },
-    {
-      "label": "Step 2.5 - Video and audio (only if video files detected)",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L143",
-      "id": "graphify_skill_step_2_5_video_and_audio_only_if_video_files_detected",
-      "community": 1,
-      "norm_label": "step 2.5 - video and audio (only if video files detected)"
-    },
-    {
-      "label": "Step 3 - Extract entities and relationships",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L147",
-      "id": "graphify_skill_step_3_extract_entities_and_relationships",
-      "community": 1,
-      "norm_label": "step 3 - extract entities and relationships"
-    },
-    {
-      "label": "Part A - Structural extraction for code files",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L164",
-      "id": "graphify_skill_part_a_structural_extraction_for_code_files",
-      "community": 1,
-      "norm_label": "part a - structural extraction for code files"
-    },
-    {
-      "label": "Part B - Semantic extraction (parallel subagents)",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L190",
-      "id": "graphify_skill_part_b_semantic_extraction_parallel_subagents",
-      "community": 1,
-      "norm_label": "part b - semantic extraction (parallel subagents)"
-    },
-    {
-      "label": "Part C - Merge AST + semantic into final extraction",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L335",
-      "id": "graphify_skill_part_c_merge_ast_semantic_into_final_extraction",
-      "community": 1,
-      "norm_label": "part c - merge ast + semantic into final extraction"
-    },
-    {
-      "label": "Step 4 - Build graph, cluster, analyze, generate outputs",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L369",
-      "id": "graphify_skill_step_4_build_graph_cluster_analyze_generate_outputs",
-      "community": 1,
-      "norm_label": "step 4 - build graph, cluster, analyze, generate outputs"
-    },
-    {
-      "label": "Step 5 - Label communities",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L421",
-      "id": "graphify_skill_step_5_label_communities",
-      "community": 1,
-      "norm_label": "step 5 - label communities"
-    },
-    {
-      "label": "Step 6 - Generate Obsidian vault (opt-in) + HTML",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L461",
-      "id": "graphify_skill_step_6_generate_obsidian_vault_opt_in_html",
-      "community": 1,
-      "norm_label": "step 6 - generate obsidian vault (opt-in) + html"
-    },
-    {
-      "label": "Steps 6b-8 - Wiki, Neo4j, SVG, GraphML, MCP, benchmark (only on their flags)",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L481",
-      "id": "graphify_skill_steps_6b_8_wiki_neo4j_svg_graphml_mcp_benchmark_only_on_their_flags",
-      "community": 1,
-      "norm_label": "steps 6b-8 - wiki, neo4j, svg, graphml, mcp, benchmark (only on their flags)"
-    },
-    {
-      "label": "Step 9 - Save manifest, update cost tracker, clean up, and report",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L487",
-      "id": "graphify_skill_step_9_save_manifest_update_cost_tracker_clean_up_and_report",
-      "community": 1,
-      "norm_label": "step 9 - save manifest, update cost tracker, clean up, and report"
-    },
-    {
-      "label": "Interpreter guard for subcommands",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L561",
-      "id": "graphify_skill_interpreter_guard_for_subcommands",
-      "community": 2,
-      "norm_label": "interpreter guard for subcommands"
-    },
-    {
-      "label": "For --update and --cluster-only",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L579",
-      "id": "graphify_skill_for_update_and_cluster_only",
-      "community": 2,
-      "norm_label": "for --update and --cluster-only"
-    },
-    {
-      "label": "For /graphify query",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L585",
-      "id": "graphify_skill_for_graphify_query",
-      "community": 2,
-      "norm_label": "for /graphify query"
-    },
-    {
-      "label": "For /graphify add and --watch",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L597",
-      "id": "graphify_skill_for_graphify_add_and_watch",
-      "community": 2,
-      "norm_label": "for /graphify add and --watch"
-    },
-    {
-      "label": "For the commit hook and native CLAUDE.md integration",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L603",
-      "id": "graphify_skill_for_the_commit_hook_and_native_claude_md_integration",
-      "community": 2,
-      "norm_label": "for the commit hook and native claude.md integration"
-    },
-    {
-      "label": "Honesty Rules",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L609",
-      "id": "graphify_skill_honesty_rules",
-      "community": 2,
-      "norm_label": "honesty rules"
-    },
-    {
-      "label": "add-watch.md",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/references/add-watch.md",
-      "source_location": "L1",
-      "id": "references_add_watch",
-      "community": 6,
-      "norm_label": "add-watch.md"
-    },
-    {
-      "label": "graphify reference: add a URL and watch a folder",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/references/add-watch.md",
-      "source_location": "L1",
-      "id": "references_add_watch_graphify_reference_add_a_url_and_watch_a_folder",
-      "community": 6,
-      "norm_label": "graphify reference: add a url and watch a folder"
-    },
-    {
-      "label": "For /graphify add",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/references/add-watch.md",
-      "source_location": "L5",
-      "id": "references_add_watch_for_graphify_add",
-      "community": 6,
-      "norm_label": "for /graphify add"
-    },
-    {
-      "label": "For --watch",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/references/add-watch.md",
-      "source_location": "L39",
-      "id": "references_add_watch_for_watch",
-      "community": 6,
-      "norm_label": "for --watch"
-    },
-    {
-      "label": "exports.md",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/references/exports.md",
-      "source_location": "L1",
-      "id": "references_exports",
-      "community": 3,
-      "norm_label": "exports.md"
-    },
-    {
-      "label": "graphify reference: extra exports and benchmark",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/references/exports.md",
-      "source_location": "L1",
-      "id": "references_exports_graphify_reference_extra_exports_and_benchmark",
-      "community": 3,
-      "norm_label": "graphify reference: extra exports and benchmark"
-    },
-    {
-      "label": "Step 6b - Wiki (only if --wiki flag)",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/references/exports.md",
-      "source_location": "L5",
-      "id": "references_exports_step_6b_wiki_only_if_wiki_flag",
-      "community": 3,
-      "norm_label": "step 6b - wiki (only if --wiki flag)"
-    },
-    {
-      "label": "Step 7 - Neo4j export (only if --neo4j or --neo4j-push flag)",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/references/exports.md",
-      "source_location": "L15",
-      "id": "references_exports_step_7_neo4j_export_only_if_neo4j_or_neo4j_push_flag",
-      "community": 3,
-      "norm_label": "step 7 - neo4j export (only if --neo4j or --neo4j-push flag)"
-    },
-    {
-      "label": "Step 7b - SVG export (only if --svg flag)",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/references/exports.md",
-      "source_location": "L31",
-      "id": "references_exports_step_7b_svg_export_only_if_svg_flag",
-      "community": 3,
-      "norm_label": "step 7b - svg export (only if --svg flag)"
-    },
-    {
-      "label": "Step 7c - GraphML export (only if --graphml flag)",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/references/exports.md",
-      "source_location": "L37",
-      "id": "references_exports_step_7c_graphml_export_only_if_graphml_flag",
-      "community": 3,
-      "norm_label": "step 7c - graphml export (only if --graphml flag)"
-    },
-    {
-      "label": "Step 7d - MCP server (only if --mcp flag)",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/references/exports.md",
-      "source_location": "L43",
-      "id": "references_exports_step_7d_mcp_server_only_if_mcp_flag",
-      "community": 3,
-      "norm_label": "step 7d - mcp server (only if --mcp flag)"
-    },
-    {
-      "label": "Step 8 - Token reduction benchmark (only if total_words > 5000)",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/references/exports.md",
-      "source_location": "L63",
-      "id": "references_exports_step_8_token_reduction_benchmark_only_if_total_words_5000",
-      "community": 3,
-      "norm_label": "step 8 - token reduction benchmark (only if total_words > 5000)"
-    },
-    {
-      "label": "extraction-spec.md",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/references/extraction-spec.md",
-      "source_location": "L1",
-      "id": "references_extraction_spec",
-      "community": 13,
-      "norm_label": "extraction-spec.md"
-    },
-    {
-      "label": "graphify reference: extraction subagent prompt",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/references/extraction-spec.md",
-      "source_location": "L1",
-      "id": "references_extraction_spec_graphify_reference_extraction_subagent_prompt",
-      "community": 13,
-      "norm_label": "graphify reference: extraction subagent prompt"
-    },
-    {
-      "label": "github-and-merge.md",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/references/github-and-merge.md",
-      "source_location": "L1",
-      "id": "references_github_and_merge",
-      "community": 10,
-      "norm_label": "github-and-merge.md"
-    },
-    {
-      "label": "graphify reference: GitHub clone and cross-repo merge",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/references/github-and-merge.md",
-      "source_location": "L1",
-      "id": "references_github_and_merge_graphify_reference_github_clone_and_cross_repo_merge",
-      "community": 10,
-      "norm_label": "graphify reference: github clone and cross-repo merge"
-    },
-    {
-      "label": "Step 0 - Clone GitHub repo(s) (only if a GitHub URL was given)",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/references/github-and-merge.md",
-      "source_location": "L5",
-      "id": "references_github_and_merge_step_0_clone_github_repo_s_only_if_a_github_url_was_given",
-      "community": 10,
-      "norm_label": "step 0 - clone github repo(s) (only if a github url was given)"
-    },
-    {
-      "label": "hooks.md",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/references/hooks.md",
-      "source_location": "L1",
-      "id": "references_hooks",
-      "community": 7,
-      "norm_label": "hooks.md"
-    },
-    {
-      "label": "graphify reference: commit hook and native CLAUDE.md integration",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/references/hooks.md",
-      "source_location": "L1",
-      "id": "references_hooks_graphify_reference_commit_hook_and_native_claude_md_integration",
-      "community": 7,
-      "norm_label": "graphify reference: commit hook and native claude.md integration"
-    },
-    {
-      "label": "For git commit hook",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/references/hooks.md",
-      "source_location": "L5",
-      "id": "references_hooks_for_git_commit_hook",
-      "community": 7,
-      "norm_label": "for git commit hook"
-    },
-    {
-      "label": "For native CLAUDE.md integration",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/references/hooks.md",
-      "source_location": "L21",
-      "id": "references_hooks_for_native_claude_md_integration",
-      "community": 7,
-      "norm_label": "for native claude.md integration"
-    },
-    {
-      "label": "query.md",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/references/query.md",
-      "source_location": "L1",
-      "id": "references_query",
-      "community": 5,
-      "norm_label": "query.md"
-    },
-    {
-      "label": "graphify reference: query, path, explain",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/references/query.md",
-      "source_location": "L1",
-      "id": "references_query_graphify_reference_query_path_explain",
-      "community": 5,
-      "norm_label": "graphify reference: query, path, explain"
-    },
-    {
-      "label": "Step 0 \u2014 Constrained query expansion (REQUIRED before traversal)",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/references/query.md",
-      "source_location": "L12",
-      "id": "references_query_step_0_constrained_query_expansion_required_before_traversal",
-      "community": 5,
-      "norm_label": "step 0 \u2014 constrained query expansion (required before traversal)"
-    },
-    {
-      "label": "Step 1 \u2014 Traversal",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/references/query.md",
-      "source_location": "L50",
-      "id": "references_query_step_1_traversal",
-      "community": 5,
-      "norm_label": "step 1 \u2014 traversal"
-    },
-    {
-      "label": "For /graphify path",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/references/query.md",
-      "source_location": "L71",
-      "id": "references_query_for_graphify_path",
-      "community": 5,
-      "norm_label": "for /graphify path"
-    },
-    {
-      "label": "For /graphify explain",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/references/query.md",
-      "source_location": "L89",
-      "id": "references_query_for_graphify_explain",
-      "community": 5,
-      "norm_label": "for /graphify explain"
-    },
-    {
-      "label": "transcribe.md",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/references/transcribe.md",
-      "source_location": "L1",
-      "id": "references_transcribe",
-      "community": 11,
-      "norm_label": "transcribe.md"
-    },
-    {
-      "label": "graphify reference: transcribe video and audio",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/references/transcribe.md",
-      "source_location": "L1",
-      "id": "references_transcribe_graphify_reference_transcribe_video_and_audio",
-      "community": 11,
-      "norm_label": "graphify reference: transcribe video and audio"
-    },
-    {
-      "label": "Step 2.5 - Transcribe video / audio files (only if video files detected)",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/references/transcribe.md",
-      "source_location": "L5",
-      "id": "references_transcribe_step_2_5_transcribe_video_audio_files_only_if_video_files_detected",
-      "community": 11,
-      "norm_label": "step 2.5 - transcribe video / audio files (only if video files detected)"
-    },
-    {
-      "label": "update.md",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/references/update.md",
-      "source_location": "L1",
-      "id": "references_update",
-      "community": 8,
-      "norm_label": "update.md"
-    },
-    {
-      "label": "graphify reference: incremental update and cluster-only",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/references/update.md",
-      "source_location": "L1",
-      "id": "references_update_graphify_reference_incremental_update_and_cluster_only",
-      "community": 8,
-      "norm_label": "graphify reference: incremental update and cluster-only"
-    },
-    {
-      "label": "For --update (incremental re-extraction)",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/references/update.md",
-      "source_location": "L5",
-      "id": "references_update_for_update_incremental_re_extraction",
-      "community": 8,
-      "norm_label": "for --update (incremental re-extraction)"
-    },
-    {
-      "label": "For --cluster-only",
-      "file_type": "document",
-      "source_file": ".gemini/skills/graphify/references/update.md",
-      "source_location": "L166",
-      "id": "references_update_for_cluster_only",
-      "community": 8,
-      "norm_label": "for --cluster-only"
+      "label": "initGameMap()",
+      "file_type": "code",
+      "source_file": "html/app.js",
+      "source_location": "L234",
+      "id": "html_app_initgamemap",
+      "community": 4,
+      "norm_label": "initgamemap()"
     },
     {
       "label": "GEMINI.md",
@@ -848,38 +308,648 @@
       "id": "gemini_graphify",
       "community": 12,
       "norm_label": "graphify"
+    },
+    {
+      "label": "MCP Stitch Project",
+      "file_type": "document",
+      "source_file": "GEMINI.md",
+      "source_location": "L11",
+      "id": "gemini_mcp_stitch_project",
+      "community": 12,
+      "norm_label": "mcp stitch project"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "readme",
+      "community": 9,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "PlayGamio",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "readme_playgamio",
+      "community": 9,
+      "norm_label": "playgamio"
+    },
+    {
+      "label": "Structure",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "id": "readme_structure",
+      "community": 9,
+      "norm_label": "structure"
+    },
+    {
+      "label": "Live Site",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L11",
+      "id": "readme_live_site",
+      "community": 9,
+      "norm_label": "live site"
+    },
+    {
+      "label": "signinModal",
+      "file_type": "code",
+      "source_file": "html/app.js",
+      "source_location": "L31",
+      "community": 0,
+      "norm_label": "signinmodal",
+      "id": "html_app_signinmodal"
+    },
+    {
+      "label": "closeSignin",
+      "file_type": "code",
+      "source_file": "html/app.js",
+      "source_location": "L32",
+      "community": 0,
+      "norm_label": "closesignin",
+      "id": "html_app_closesignin"
+    },
+    {
+      "label": "votedGames",
+      "file_type": "code",
+      "source_file": "html/app.js",
+      "source_location": "L44",
+      "community": 0,
+      "norm_label": "votedgames",
+      "id": "html_app_votedgames"
+    },
+    {
+      "label": "comingSoonSection",
+      "file_type": "code",
+      "source_file": "html/app.js",
+      "source_location": "L45",
+      "community": 0,
+      "norm_label": "comingsoonsection",
+      "id": "html_app_comingsoonsection"
+    },
+    {
+      "label": "viewGridBtn",
+      "file_type": "code",
+      "source_file": "html/app.js",
+      "source_location": "L48",
+      "community": 0,
+      "norm_label": "viewgridbtn",
+      "id": "html_app_viewgridbtn"
+    },
+    {
+      "label": "gridView",
+      "file_type": "code",
+      "source_file": "html/app.js",
+      "source_location": "L50",
+      "community": 0,
+      "norm_label": "gridview",
+      "id": "html_app_gridview"
+    },
+    {
+      "label": "toggleVote()",
+      "file_type": "code",
+      "source_file": "html/app.js",
+      "source_location": "L230",
+      "community": 14,
+      "norm_label": "togglevote()",
+      "id": "html_app_togglevote"
+    },
+    {
+      "label": "SKILL.md",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L1",
+      "community": 2,
+      "norm_label": "skill.md",
+      "id": "graphify_skill"
+    },
+    {
+      "label": "/graphify",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L7",
+      "community": 2,
+      "norm_label": "/graphify",
+      "id": "graphify_skill_graphify"
+    },
+    {
+      "label": "Usage",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L11",
+      "community": 2,
+      "norm_label": "usage",
+      "id": "graphify_skill_usage"
+    },
+    {
+      "label": "What graphify is for",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L44",
+      "community": 2,
+      "norm_label": "what graphify is for",
+      "id": "graphify_skill_what_graphify_is_for"
+    },
+    {
+      "label": "What You Must Do When Invoked",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L48",
+      "community": 1,
+      "norm_label": "what you must do when invoked",
+      "id": "graphify_skill_what_you_must_do_when_invoked"
+    },
+    {
+      "label": "Step 0 - GitHub repos and multi-path merge (only if a URL or several paths)",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L60",
+      "community": 1,
+      "norm_label": "step 0 - github repos and multi-path merge (only if a url or several paths)",
+      "id": "graphify_skill_step_0_github_repos_and_multi_path_merge_only_if_a_url_or_several_paths"
+    },
+    {
+      "label": "Step 1 - Ensure graphify is installed",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L64",
+      "community": 1,
+      "norm_label": "step 1 - ensure graphify is installed",
+      "id": "graphify_skill_step_1_ensure_graphify_is_installed"
+    },
+    {
+      "label": "Step 2 - Detect files",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L106",
+      "community": 1,
+      "norm_label": "step 2 - detect files",
+      "id": "graphify_skill_step_2_detect_files"
+    },
+    {
+      "label": "Step 2.5 - Video and audio (only if video files detected)",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L143",
+      "community": 1,
+      "norm_label": "step 2.5 - video and audio (only if video files detected)",
+      "id": "graphify_skill_step_2_5_video_and_audio_only_if_video_files_detected"
+    },
+    {
+      "label": "Step 3 - Extract entities and relationships",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L147",
+      "community": 1,
+      "norm_label": "step 3 - extract entities and relationships",
+      "id": "graphify_skill_step_3_extract_entities_and_relationships"
+    },
+    {
+      "label": "Part A - Structural extraction for code files",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L164",
+      "community": 1,
+      "norm_label": "part a - structural extraction for code files",
+      "id": "graphify_skill_part_a_structural_extraction_for_code_files"
+    },
+    {
+      "label": "Part B - Semantic extraction (parallel subagents)",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L190",
+      "community": 1,
+      "norm_label": "part b - semantic extraction (parallel subagents)",
+      "id": "graphify_skill_part_b_semantic_extraction_parallel_subagents"
+    },
+    {
+      "label": "Part C - Merge AST + semantic into final extraction",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L335",
+      "community": 1,
+      "norm_label": "part c - merge ast + semantic into final extraction",
+      "id": "graphify_skill_part_c_merge_ast_semantic_into_final_extraction"
+    },
+    {
+      "label": "Step 4 - Build graph, cluster, analyze, generate outputs",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L369",
+      "community": 1,
+      "norm_label": "step 4 - build graph, cluster, analyze, generate outputs",
+      "id": "graphify_skill_step_4_build_graph_cluster_analyze_generate_outputs"
+    },
+    {
+      "label": "Step 5 - Label communities",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L421",
+      "community": 1,
+      "norm_label": "step 5 - label communities",
+      "id": "graphify_skill_step_5_label_communities"
+    },
+    {
+      "label": "Step 6 - Generate Obsidian vault (opt-in) + HTML",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L461",
+      "community": 1,
+      "norm_label": "step 6 - generate obsidian vault (opt-in) + html",
+      "id": "graphify_skill_step_6_generate_obsidian_vault_opt_in_html"
+    },
+    {
+      "label": "Steps 6b-8 - Wiki, Neo4j, SVG, GraphML, MCP, benchmark (only on their flags)",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L481",
+      "community": 1,
+      "norm_label": "steps 6b-8 - wiki, neo4j, svg, graphml, mcp, benchmark (only on their flags)",
+      "id": "graphify_skill_steps_6b_8_wiki_neo4j_svg_graphml_mcp_benchmark_only_on_their_flags"
+    },
+    {
+      "label": "Step 9 - Save manifest, update cost tracker, clean up, and report",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L487",
+      "community": 1,
+      "norm_label": "step 9 - save manifest, update cost tracker, clean up, and report",
+      "id": "graphify_skill_step_9_save_manifest_update_cost_tracker_clean_up_and_report"
+    },
+    {
+      "label": "Interpreter guard for subcommands",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L561",
+      "community": 2,
+      "norm_label": "interpreter guard for subcommands",
+      "id": "graphify_skill_interpreter_guard_for_subcommands"
+    },
+    {
+      "label": "For --update and --cluster-only",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L579",
+      "community": 2,
+      "norm_label": "for --update and --cluster-only",
+      "id": "graphify_skill_for_update_and_cluster_only"
+    },
+    {
+      "label": "For /graphify query",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L585",
+      "community": 2,
+      "norm_label": "for /graphify query",
+      "id": "graphify_skill_for_graphify_query"
+    },
+    {
+      "label": "For /graphify add and --watch",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L597",
+      "community": 2,
+      "norm_label": "for /graphify add and --watch",
+      "id": "graphify_skill_for_graphify_add_and_watch"
+    },
+    {
+      "label": "For the commit hook and native CLAUDE.md integration",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L603",
+      "community": 2,
+      "norm_label": "for the commit hook and native claude.md integration",
+      "id": "graphify_skill_for_the_commit_hook_and_native_claude_md_integration"
+    },
+    {
+      "label": "Honesty Rules",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L609",
+      "community": 2,
+      "norm_label": "honesty rules",
+      "id": "graphify_skill_honesty_rules"
+    },
+    {
+      "label": "add-watch.md",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/references/add-watch.md",
+      "source_location": "L1",
+      "community": 6,
+      "norm_label": "add-watch.md",
+      "id": "references_add_watch"
+    },
+    {
+      "label": "graphify reference: add a URL and watch a folder",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/references/add-watch.md",
+      "source_location": "L1",
+      "community": 6,
+      "norm_label": "graphify reference: add a url and watch a folder",
+      "id": "references_add_watch_graphify_reference_add_a_url_and_watch_a_folder"
+    },
+    {
+      "label": "For /graphify add",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/references/add-watch.md",
+      "source_location": "L5",
+      "community": 6,
+      "norm_label": "for /graphify add",
+      "id": "references_add_watch_for_graphify_add"
+    },
+    {
+      "label": "For --watch",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/references/add-watch.md",
+      "source_location": "L39",
+      "community": 6,
+      "norm_label": "for --watch",
+      "id": "references_add_watch_for_watch"
+    },
+    {
+      "label": "exports.md",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/references/exports.md",
+      "source_location": "L1",
+      "community": 3,
+      "norm_label": "exports.md",
+      "id": "references_exports"
+    },
+    {
+      "label": "graphify reference: extra exports and benchmark",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/references/exports.md",
+      "source_location": "L1",
+      "community": 3,
+      "norm_label": "graphify reference: extra exports and benchmark",
+      "id": "references_exports_graphify_reference_extra_exports_and_benchmark"
+    },
+    {
+      "label": "Step 6b - Wiki (only if --wiki flag)",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/references/exports.md",
+      "source_location": "L5",
+      "community": 3,
+      "norm_label": "step 6b - wiki (only if --wiki flag)",
+      "id": "references_exports_step_6b_wiki_only_if_wiki_flag"
+    },
+    {
+      "label": "Step 7 - Neo4j export (only if --neo4j or --neo4j-push flag)",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/references/exports.md",
+      "source_location": "L15",
+      "community": 3,
+      "norm_label": "step 7 - neo4j export (only if --neo4j or --neo4j-push flag)",
+      "id": "references_exports_step_7_neo4j_export_only_if_neo4j_or_neo4j_push_flag"
+    },
+    {
+      "label": "Step 7b - SVG export (only if --svg flag)",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/references/exports.md",
+      "source_location": "L31",
+      "community": 3,
+      "norm_label": "step 7b - svg export (only if --svg flag)",
+      "id": "references_exports_step_7b_svg_export_only_if_svg_flag"
+    },
+    {
+      "label": "Step 7c - GraphML export (only if --graphml flag)",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/references/exports.md",
+      "source_location": "L37",
+      "community": 3,
+      "norm_label": "step 7c - graphml export (only if --graphml flag)",
+      "id": "references_exports_step_7c_graphml_export_only_if_graphml_flag"
+    },
+    {
+      "label": "Step 7d - MCP server (only if --mcp flag)",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/references/exports.md",
+      "source_location": "L43",
+      "community": 3,
+      "norm_label": "step 7d - mcp server (only if --mcp flag)",
+      "id": "references_exports_step_7d_mcp_server_only_if_mcp_flag"
+    },
+    {
+      "label": "Step 8 - Token reduction benchmark (only if total_words > 5000)",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/references/exports.md",
+      "source_location": "L63",
+      "community": 3,
+      "norm_label": "step 8 - token reduction benchmark (only if total_words > 5000)",
+      "id": "references_exports_step_8_token_reduction_benchmark_only_if_total_words_5000"
+    },
+    {
+      "label": "extraction-spec.md",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/references/extraction-spec.md",
+      "source_location": "L1",
+      "community": 13,
+      "norm_label": "extraction-spec.md",
+      "id": "references_extraction_spec"
+    },
+    {
+      "label": "graphify reference: extraction subagent prompt",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/references/extraction-spec.md",
+      "source_location": "L1",
+      "community": 13,
+      "norm_label": "graphify reference: extraction subagent prompt",
+      "id": "references_extraction_spec_graphify_reference_extraction_subagent_prompt"
+    },
+    {
+      "label": "github-and-merge.md",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/references/github-and-merge.md",
+      "source_location": "L1",
+      "community": 10,
+      "norm_label": "github-and-merge.md",
+      "id": "references_github_and_merge"
+    },
+    {
+      "label": "graphify reference: GitHub clone and cross-repo merge",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/references/github-and-merge.md",
+      "source_location": "L1",
+      "community": 10,
+      "norm_label": "graphify reference: github clone and cross-repo merge",
+      "id": "references_github_and_merge_graphify_reference_github_clone_and_cross_repo_merge"
+    },
+    {
+      "label": "Step 0 - Clone GitHub repo(s) (only if a GitHub URL was given)",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/references/github-and-merge.md",
+      "source_location": "L5",
+      "community": 10,
+      "norm_label": "step 0 - clone github repo(s) (only if a github url was given)",
+      "id": "references_github_and_merge_step_0_clone_github_repo_s_only_if_a_github_url_was_given"
+    },
+    {
+      "label": "hooks.md",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/references/hooks.md",
+      "source_location": "L1",
+      "community": 7,
+      "norm_label": "hooks.md",
+      "id": "references_hooks"
+    },
+    {
+      "label": "graphify reference: commit hook and native CLAUDE.md integration",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/references/hooks.md",
+      "source_location": "L1",
+      "community": 7,
+      "norm_label": "graphify reference: commit hook and native claude.md integration",
+      "id": "references_hooks_graphify_reference_commit_hook_and_native_claude_md_integration"
+    },
+    {
+      "label": "For git commit hook",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/references/hooks.md",
+      "source_location": "L5",
+      "community": 7,
+      "norm_label": "for git commit hook",
+      "id": "references_hooks_for_git_commit_hook"
+    },
+    {
+      "label": "For native CLAUDE.md integration",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/references/hooks.md",
+      "source_location": "L21",
+      "community": 7,
+      "norm_label": "for native claude.md integration",
+      "id": "references_hooks_for_native_claude_md_integration"
+    },
+    {
+      "label": "query.md",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/references/query.md",
+      "source_location": "L1",
+      "community": 5,
+      "norm_label": "query.md",
+      "id": "references_query"
+    },
+    {
+      "label": "graphify reference: query, path, explain",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/references/query.md",
+      "source_location": "L1",
+      "community": 5,
+      "norm_label": "graphify reference: query, path, explain",
+      "id": "references_query_graphify_reference_query_path_explain"
+    },
+    {
+      "label": "Step 0 \u2014 Constrained query expansion (REQUIRED before traversal)",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/references/query.md",
+      "source_location": "L12",
+      "community": 5,
+      "norm_label": "step 0 \u2014 constrained query expansion (required before traversal)",
+      "id": "references_query_step_0_constrained_query_expansion_required_before_traversal"
+    },
+    {
+      "label": "Step 1 \u2014 Traversal",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/references/query.md",
+      "source_location": "L50",
+      "community": 5,
+      "norm_label": "step 1 \u2014 traversal",
+      "id": "references_query_step_1_traversal"
+    },
+    {
+      "label": "For /graphify path",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/references/query.md",
+      "source_location": "L71",
+      "community": 5,
+      "norm_label": "for /graphify path",
+      "id": "references_query_for_graphify_path"
+    },
+    {
+      "label": "For /graphify explain",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/references/query.md",
+      "source_location": "L89",
+      "community": 5,
+      "norm_label": "for /graphify explain",
+      "id": "references_query_for_graphify_explain"
+    },
+    {
+      "label": "transcribe.md",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/references/transcribe.md",
+      "source_location": "L1",
+      "community": 11,
+      "norm_label": "transcribe.md",
+      "id": "references_transcribe"
+    },
+    {
+      "label": "graphify reference: transcribe video and audio",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/references/transcribe.md",
+      "source_location": "L1",
+      "community": 11,
+      "norm_label": "graphify reference: transcribe video and audio",
+      "id": "references_transcribe_graphify_reference_transcribe_video_and_audio"
+    },
+    {
+      "label": "Step 2.5 - Transcribe video / audio files (only if video files detected)",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/references/transcribe.md",
+      "source_location": "L5",
+      "community": 11,
+      "norm_label": "step 2.5 - transcribe video / audio files (only if video files detected)",
+      "id": "references_transcribe_step_2_5_transcribe_video_audio_files_only_if_video_files_detected"
+    },
+    {
+      "label": "update.md",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/references/update.md",
+      "source_location": "L1",
+      "community": 8,
+      "norm_label": "update.md",
+      "id": "references_update"
+    },
+    {
+      "label": "graphify reference: incremental update and cluster-only",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/references/update.md",
+      "source_location": "L1",
+      "community": 8,
+      "norm_label": "graphify reference: incremental update and cluster-only",
+      "id": "references_update_graphify_reference_incremental_update_and_cluster_only"
+    },
+    {
+      "label": "For --update (incremental re-extraction)",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/references/update.md",
+      "source_location": "L5",
+      "community": 8,
+      "norm_label": "for --update (incremental re-extraction)",
+      "id": "references_update_for_update_incremental_re_extraction"
+    },
+    {
+      "label": "For --cluster-only",
+      "file_type": "document",
+      "source_file": ".gemini/skills/graphify/references/update.md",
+      "source_location": "L166",
+      "community": 8,
+      "norm_label": "for --cluster-only",
+      "id": "references_update_for_cluster_only"
     }
   ],
   "links": [
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": ".gemini/settings.json",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "gemini_settings",
-      "target": "gemini_settings_hooks",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/settings.json",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "gemini_settings_hooks",
-      "target": "gemini_settings_hooks_beforetool",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "html/app.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "html_app",
-      "target": "html_app_available_games",
-      "confidence_score": 1.0
+      "target": "html_app_available_games"
     },
     {
       "relation": "contains",
@@ -887,9 +957,19 @@
       "source_file": "html/app.js",
       "source_location": "L314",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "html_app",
-      "target": "html_app_closegamemodal",
-      "confidence_score": 1.0
+      "target": "html_app_closegamemodal"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "html/app.js",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "html_app",
+      "target": "html_app_closemapbtn"
     },
     {
       "relation": "contains",
@@ -897,9 +977,9 @@
       "source_file": "html/app.js",
       "source_location": "L111",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "html_app",
-      "target": "html_app_closemodal",
-      "confidence_score": 1.0
+      "target": "html_app_closemodal"
     },
     {
       "relation": "contains",
@@ -907,9 +987,9 @@
       "source_file": "html/app.js",
       "source_location": "L123",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "html_app",
-      "target": "html_app_closesignin",
-      "confidence_score": 1.0
+      "target": "html_app_closesignin"
     },
     {
       "relation": "contains",
@@ -917,9 +997,9 @@
       "source_file": "html/app.js",
       "source_location": "L103",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "html_app",
-      "target": "html_app_comingsoongrid",
-      "confidence_score": 1.0
+      "target": "html_app_comingsoongrid"
     },
     {
       "relation": "contains",
@@ -927,9 +1007,9 @@
       "source_file": "html/app.js",
       "source_location": "L107",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "html_app",
-      "target": "html_app_comingsoonsection",
-      "confidence_score": 1.0
+      "target": "html_app_comingsoonsection"
     },
     {
       "relation": "contains",
@@ -937,9 +1017,19 @@
       "source_file": "html/app.js",
       "source_location": "L104",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "html_app",
-      "target": "html_app_featuredstrip",
-      "confidence_score": 1.0
+      "target": "html_app_featuredstrip"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "html/app.js",
+      "source_location": "L89",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "html_app",
+      "target": "html_app_fetchgames"
     },
     {
       "relation": "contains",
@@ -947,9 +1037,9 @@
       "source_file": "html/app.js",
       "source_location": "L112",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "html_app",
-      "target": "html_app_fullscreenbtn",
-      "confidence_score": 1.0
+      "target": "html_app_fullscreenbtn"
     },
     {
       "relation": "contains",
@@ -957,9 +1047,9 @@
       "source_file": "html/app.js",
       "source_location": "L105",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "html_app",
-      "target": "html_app_gamecountel",
-      "confidence_score": 1.0
+      "target": "html_app_gamecountel"
     },
     {
       "relation": "contains",
@@ -967,9 +1057,9 @@
       "source_file": "html/app.js",
       "source_location": "L113",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "html_app",
-      "target": "html_app_gameframe",
-      "confidence_score": 1.0
+      "target": "html_app_gameframe"
     },
     {
       "relation": "contains",
@@ -977,9 +1067,9 @@
       "source_file": "html/app.js",
       "source_location": "L114",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "html_app",
-      "target": "html_app_gameframewrapper",
-      "confidence_score": 1.0
+      "target": "html_app_gameframewrapper"
     },
     {
       "relation": "contains",
@@ -987,9 +1077,19 @@
       "source_file": "html/app.js",
       "source_location": "L115",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "html_app",
-      "target": "html_app_gameloading",
-      "confidence_score": 1.0
+      "target": "html_app_gameloading"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "html/app.js",
+      "source_location": "L52",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "html_app",
+      "target": "html_app_gamemapcontainer"
     },
     {
       "relation": "contains",
@@ -997,9 +1097,9 @@
       "source_file": "html/app.js",
       "source_location": "L110",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "html_app",
-      "target": "html_app_gamemodal",
-      "confidence_score": 1.0
+      "target": "html_app_gamemodal"
     },
     {
       "relation": "contains",
@@ -1007,9 +1107,9 @@
       "source_file": "html/app.js",
       "source_location": "L102",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "html_app",
-      "target": "html_app_gamesgrid",
-      "confidence_score": 1.0
+      "target": "html_app_gamesgrid"
     },
     {
       "relation": "contains",
@@ -1017,9 +1117,19 @@
       "source_file": "html/app.js",
       "source_location": "L101",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "html_app",
-      "target": "html_app_genrebar",
-      "confidence_score": 1.0
+      "target": "html_app_genrebar"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "html/app.js",
+      "source_location": "L50",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "html_app",
+      "target": "html_app_gridview"
     },
     {
       "relation": "contains",
@@ -1027,129 +1137,9 @@
       "source_file": "html/app.js",
       "source_location": "L131",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "html_app",
-      "target": "html_app_init",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "html/app.js",
-      "source_location": "L118",
-      "weight": 1.0,
-      "source": "html_app",
-      "target": "html_app_modaldesc",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "html/app.js",
-      "source_location": "L116",
-      "weight": 1.0,
-      "source": "html_app",
-      "target": "html_app_modalgenre",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "html/app.js",
-      "source_location": "L117",
-      "weight": 1.0,
-      "source": "html_app",
-      "target": "html_app_modaltitle",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "html/app.js",
-      "source_location": "L297",
-      "weight": 1.0,
-      "source": "html_app",
-      "target": "html_app_opengame",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "html/app.js",
-      "source_location": "L65",
-      "weight": 1.0,
-      "source": "html_app",
-      "target": "html_app_planned_games",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "html/app.js",
-      "source_location": "L213",
-      "weight": 1.0,
-      "source": "html_app",
-      "target": "html_app_rendercomingsoon",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "html/app.js",
-      "source_location": "L157",
-      "weight": 1.0,
-      "source": "html_app",
-      "target": "html_app_rendergames",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "html/app.js",
-      "source_location": "L139",
-      "weight": 1.0,
-      "source": "html_app",
-      "target": "html_app_rendergenres",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "html/app.js",
-      "source_location": "L106",
-      "weight": 1.0,
-      "source": "html_app",
-      "target": "html_app_searchinput",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "html/app.js",
-      "source_location": "L260",
-      "weight": 1.0,
-      "source": "html_app",
-      "target": "html_app_setupeventlisteners",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "html/app.js",
-      "source_location": "L121",
-      "weight": 1.0,
-      "source": "html_app",
-      "target": "html_app_signinbtn",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "html/app.js",
-      "source_location": "L122",
-      "weight": 1.0,
-      "source": "html_app",
-      "target": "html_app_signinmodal",
-      "confidence_score": 1.0
+      "target": "html_app_init"
     },
     {
       "relation": "contains",
@@ -1157,9 +1147,169 @@
       "source_file": "html/app.js",
       "source_location": "L245",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "html_app",
-      "target": "html_app_togglevote",
-      "confidence_score": 1.0
+      "target": "html_app_initgamemap"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "html/app.js",
+      "source_location": "L51",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "html_app",
+      "target": "html_app_mapview"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "html/app.js",
+      "source_location": "L118",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "html_app",
+      "target": "html_app_modaldesc"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "html/app.js",
+      "source_location": "L116",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "html_app",
+      "target": "html_app_modalgenre"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "html/app.js",
+      "source_location": "L117",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "html_app",
+      "target": "html_app_modaltitle"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "html/app.js",
+      "source_location": "L297",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "html_app",
+      "target": "html_app_opengame"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "html/app.js",
+      "source_location": "L65",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "html_app",
+      "target": "html_app_planned_games"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "html/app.js",
+      "source_location": "L213",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "html_app",
+      "target": "html_app_rendercomingsoon"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "html/app.js",
+      "source_location": "L157",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "html_app",
+      "target": "html_app_rendergames"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "html/app.js",
+      "source_location": "L139",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "html_app",
+      "target": "html_app_rendergenres"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "html/app.js",
+      "source_location": "L106",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "html_app",
+      "target": "html_app_searchinput"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "html/app.js",
+      "source_location": "L260",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "html_app",
+      "target": "html_app_setupeventlisteners"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "html/app.js",
+      "source_location": "L121",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "html_app",
+      "target": "html_app_signinbtn"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "html/app.js",
+      "source_location": "L122",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "html_app",
+      "target": "html_app_signinmodal"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "html/app.js",
+      "source_location": "L245",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "html_app",
+      "target": "html_app_togglevote"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "html/app.js",
+      "source_location": "L48",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "html_app",
+      "target": "html_app_viewgridbtn"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "html/app.js",
+      "source_location": "L49",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "html_app",
+      "target": "html_app_viewmapbtn"
     },
     {
       "relation": "contains",
@@ -1167,9 +1317,20 @@
       "source_file": "html/app.js",
       "source_location": "L128",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "html_app",
-      "target": "html_app_votedgames",
-      "confidence_score": 1.0
+      "target": "html_app_votedgames"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "html/app.js",
+      "source_location": "L83",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "html_app_init",
+      "target": "html_app_fetchgames"
     },
     {
       "relation": "calls",
@@ -1178,9 +1339,9 @@
       "source_file": "html/app.js",
       "source_location": "L134",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "html_app_init",
-      "target": "html_app_rendercomingsoon",
-      "confidence_score": 1.0
+      "target": "html_app_rendercomingsoon"
     },
     {
       "relation": "calls",
@@ -1189,9 +1350,9 @@
       "source_file": "html/app.js",
       "source_location": "L133",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "html_app_init",
-      "target": "html_app_rendergames",
-      "confidence_score": 1.0
+      "target": "html_app_rendergames"
     },
     {
       "relation": "calls",
@@ -1200,9 +1361,9 @@
       "source_file": "html/app.js",
       "source_location": "L132",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "html_app_init",
-      "target": "html_app_rendergenres",
-      "confidence_score": 1.0
+      "target": "html_app_rendergenres"
     },
     {
       "relation": "calls",
@@ -1211,9 +1372,31 @@
       "source_file": "html/app.js",
       "source_location": "L135",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "html_app_init",
-      "target": "html_app_setupeventlisteners",
-      "confidence_score": 1.0
+      "target": "html_app_setupeventlisteners"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "html/app.js",
+      "source_location": "L108",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "html_app_fetchgames",
+      "target": "html_app_initgamemap"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "html/app.js",
+      "source_location": "L107",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "html_app_fetchgames",
+      "target": "html_app_rendergames"
     },
     {
       "relation": "calls",
@@ -1222,499 +1405,9 @@
       "source_file": "html/app.js",
       "source_location": "L256",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "html_app_togglevote",
-      "target": "html_app_rendercomingsoon",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "graphify_skill",
-      "target": "graphify_skill_graphify",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L597",
-      "weight": 1.0,
-      "source": "graphify_skill_graphify",
-      "target": "graphify_skill_for_graphify_add_and_watch",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L585",
-      "weight": 1.0,
-      "source": "graphify_skill_graphify",
-      "target": "graphify_skill_for_graphify_query",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L603",
-      "weight": 1.0,
-      "source": "graphify_skill_graphify",
-      "target": "graphify_skill_for_the_commit_hook_and_native_claude_md_integration",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L579",
-      "weight": 1.0,
-      "source": "graphify_skill_graphify",
-      "target": "graphify_skill_for_update_and_cluster_only",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L609",
-      "weight": 1.0,
-      "source": "graphify_skill_graphify",
-      "target": "graphify_skill_honesty_rules",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L561",
-      "weight": 1.0,
-      "source": "graphify_skill_graphify",
-      "target": "graphify_skill_interpreter_guard_for_subcommands",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "graphify_skill_graphify",
-      "target": "graphify_skill_usage",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L44",
-      "weight": 1.0,
-      "source": "graphify_skill_graphify",
-      "target": "graphify_skill_what_graphify_is_for",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L48",
-      "weight": 1.0,
-      "source": "graphify_skill_graphify",
-      "target": "graphify_skill_what_you_must_do_when_invoked",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L60",
-      "weight": 1.0,
-      "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_0_github_repos_and_multi_path_merge_only_if_a_url_or_several_paths",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L64",
-      "weight": 1.0,
-      "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_1_ensure_graphify_is_installed",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L143",
-      "weight": 1.0,
-      "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_2_5_video_and_audio_only_if_video_files_detected",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L106",
-      "weight": 1.0,
-      "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_2_detect_files",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L147",
-      "weight": 1.0,
-      "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_3_extract_entities_and_relationships",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L369",
-      "weight": 1.0,
-      "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_4_build_graph_cluster_analyze_generate_outputs",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L421",
-      "weight": 1.0,
-      "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_5_label_communities",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L461",
-      "weight": 1.0,
-      "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_6_generate_obsidian_vault_opt_in_html",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L487",
-      "weight": 1.0,
-      "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_9_save_manifest_update_cost_tracker_clean_up_and_report",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L481",
-      "weight": 1.0,
-      "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_steps_6b_8_wiki_neo4j_svg_graphml_mcp_benchmark_only_on_their_flags",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L164",
-      "weight": 1.0,
-      "source": "graphify_skill_step_3_extract_entities_and_relationships",
-      "target": "graphify_skill_part_a_structural_extraction_for_code_files",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L190",
-      "weight": 1.0,
-      "source": "graphify_skill_step_3_extract_entities_and_relationships",
-      "target": "graphify_skill_part_b_semantic_extraction_parallel_subagents",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/SKILL.md",
-      "source_location": "L335",
-      "weight": 1.0,
-      "source": "graphify_skill_step_3_extract_entities_and_relationships",
-      "target": "graphify_skill_part_c_merge_ast_semantic_into_final_extraction",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/references/add-watch.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "references_add_watch",
-      "target": "references_add_watch_graphify_reference_add_a_url_and_watch_a_folder",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/references/add-watch.md",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "references_add_watch_graphify_reference_add_a_url_and_watch_a_folder",
-      "target": "references_add_watch_for_graphify_add",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/references/add-watch.md",
-      "source_location": "L39",
-      "weight": 1.0,
-      "source": "references_add_watch_graphify_reference_add_a_url_and_watch_a_folder",
-      "target": "references_add_watch_for_watch",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/references/exports.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "references_exports",
-      "target": "references_exports_graphify_reference_extra_exports_and_benchmark",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/references/exports.md",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "references_exports_graphify_reference_extra_exports_and_benchmark",
-      "target": "references_exports_step_6b_wiki_only_if_wiki_flag",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/references/exports.md",
-      "source_location": "L15",
-      "weight": 1.0,
-      "source": "references_exports_graphify_reference_extra_exports_and_benchmark",
-      "target": "references_exports_step_7_neo4j_export_only_if_neo4j_or_neo4j_push_flag",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/references/exports.md",
-      "source_location": "L31",
-      "weight": 1.0,
-      "source": "references_exports_graphify_reference_extra_exports_and_benchmark",
-      "target": "references_exports_step_7b_svg_export_only_if_svg_flag",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/references/exports.md",
-      "source_location": "L37",
-      "weight": 1.0,
-      "source": "references_exports_graphify_reference_extra_exports_and_benchmark",
-      "target": "references_exports_step_7c_graphml_export_only_if_graphml_flag",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/references/exports.md",
-      "source_location": "L43",
-      "weight": 1.0,
-      "source": "references_exports_graphify_reference_extra_exports_and_benchmark",
-      "target": "references_exports_step_7d_mcp_server_only_if_mcp_flag",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/references/exports.md",
-      "source_location": "L63",
-      "weight": 1.0,
-      "source": "references_exports_graphify_reference_extra_exports_and_benchmark",
-      "target": "references_exports_step_8_token_reduction_benchmark_only_if_total_words_5000",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/references/extraction-spec.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "references_extraction_spec",
-      "target": "references_extraction_spec_graphify_reference_extraction_subagent_prompt",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/references/github-and-merge.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "references_github_and_merge",
-      "target": "references_github_and_merge_graphify_reference_github_clone_and_cross_repo_merge",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/references/github-and-merge.md",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "references_github_and_merge_graphify_reference_github_clone_and_cross_repo_merge",
-      "target": "references_github_and_merge_step_0_clone_github_repo_s_only_if_a_github_url_was_given",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/references/hooks.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "references_hooks",
-      "target": "references_hooks_graphify_reference_commit_hook_and_native_claude_md_integration",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/references/hooks.md",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "references_hooks_graphify_reference_commit_hook_and_native_claude_md_integration",
-      "target": "references_hooks_for_git_commit_hook",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/references/hooks.md",
-      "source_location": "L21",
-      "weight": 1.0,
-      "source": "references_hooks_graphify_reference_commit_hook_and_native_claude_md_integration",
-      "target": "references_hooks_for_native_claude_md_integration",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/references/query.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "references_query",
-      "target": "references_query_graphify_reference_query_path_explain",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/references/query.md",
-      "source_location": "L89",
-      "weight": 1.0,
-      "source": "references_query_graphify_reference_query_path_explain",
-      "target": "references_query_for_graphify_explain",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/references/query.md",
-      "source_location": "L71",
-      "weight": 1.0,
-      "source": "references_query_graphify_reference_query_path_explain",
-      "target": "references_query_for_graphify_path",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/references/query.md",
-      "source_location": "L12",
-      "weight": 1.0,
-      "source": "references_query_graphify_reference_query_path_explain",
-      "target": "references_query_step_0_constrained_query_expansion_required_before_traversal",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/references/query.md",
-      "source_location": "L50",
-      "weight": 1.0,
-      "source": "references_query_graphify_reference_query_path_explain",
-      "target": "references_query_step_1_traversal",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/references/transcribe.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "references_transcribe",
-      "target": "references_transcribe_graphify_reference_transcribe_video_and_audio",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/references/transcribe.md",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "references_transcribe_graphify_reference_transcribe_video_and_audio",
-      "target": "references_transcribe_step_2_5_transcribe_video_audio_files_only_if_video_files_detected",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/references/update.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "references_update",
-      "target": "references_update_graphify_reference_incremental_update_and_cluster_only",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/references/update.md",
-      "source_location": "L166",
-      "weight": 1.0,
-      "source": "references_update_graphify_reference_incremental_update_and_cluster_only",
-      "target": "references_update_for_cluster_only",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".gemini/skills/graphify/references/update.md",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "references_update_graphify_reference_incremental_update_and_cluster_only",
-      "target": "references_update_for_update_incremental_re_extraction",
-      "confidence_score": 1.0
+      "target": "html_app_rendercomingsoon"
     },
     {
       "relation": "contains",
@@ -1722,10 +1415,541 @@
       "source_file": "GEMINI.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "gemini",
-      "target": "gemini_graphify",
-      "confidence_score": 1.0
+      "target": "gemini_graphify"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "GEMINI.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "gemini",
+      "target": "gemini_mcp_stitch_project"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme",
+      "target": "readme_playgamio"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_playgamio",
+      "target": "readme_live_site"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_playgamio",
+      "target": "readme_structure"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill",
+      "target": "graphify_skill_graphify"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L597",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_for_graphify_add_and_watch"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L585",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_for_graphify_query"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L603",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_for_the_commit_hook_and_native_claude_md_integration"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L579",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_for_update_and_cluster_only"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L609",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_honesty_rules"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L561",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_interpreter_guard_for_subcommands"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_usage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_what_graphify_is_for"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_graphify",
+      "target": "graphify_skill_what_you_must_do_when_invoked"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L60",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_0_github_repos_and_multi_path_merge_only_if_a_url_or_several_paths"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L64",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_1_ensure_graphify_is_installed"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L143",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_2_5_video_and_audio_only_if_video_files_detected"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L106",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_2_detect_files"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L147",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_3_extract_entities_and_relationships"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L369",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_4_build_graph_cluster_analyze_generate_outputs"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L421",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_5_label_communities"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L461",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_6_generate_obsidian_vault_opt_in_html"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L487",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_step_9_save_manifest_update_cost_tracker_clean_up_and_report"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L481",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_what_you_must_do_when_invoked",
+      "target": "graphify_skill_steps_6b_8_wiki_neo4j_svg_graphml_mcp_benchmark_only_on_their_flags"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L164",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_step_3_extract_entities_and_relationships",
+      "target": "graphify_skill_part_a_structural_extraction_for_code_files"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L190",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_step_3_extract_entities_and_relationships",
+      "target": "graphify_skill_part_b_semantic_extraction_parallel_subagents"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/SKILL.md",
+      "source_location": "L335",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "graphify_skill_step_3_extract_entities_and_relationships",
+      "target": "graphify_skill_part_c_merge_ast_semantic_into_final_extraction"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/references/add-watch.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_add_watch",
+      "target": "references_add_watch_graphify_reference_add_a_url_and_watch_a_folder"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/references/add-watch.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_add_watch_graphify_reference_add_a_url_and_watch_a_folder",
+      "target": "references_add_watch_for_graphify_add"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/references/add-watch.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_add_watch_graphify_reference_add_a_url_and_watch_a_folder",
+      "target": "references_add_watch_for_watch"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/references/exports.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_exports",
+      "target": "references_exports_graphify_reference_extra_exports_and_benchmark"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/references/exports.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_exports_graphify_reference_extra_exports_and_benchmark",
+      "target": "references_exports_step_6b_wiki_only_if_wiki_flag"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/references/exports.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_exports_graphify_reference_extra_exports_and_benchmark",
+      "target": "references_exports_step_7_neo4j_export_only_if_neo4j_or_neo4j_push_flag"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/references/exports.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_exports_graphify_reference_extra_exports_and_benchmark",
+      "target": "references_exports_step_7b_svg_export_only_if_svg_flag"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/references/exports.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_exports_graphify_reference_extra_exports_and_benchmark",
+      "target": "references_exports_step_7c_graphml_export_only_if_graphml_flag"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/references/exports.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_exports_graphify_reference_extra_exports_and_benchmark",
+      "target": "references_exports_step_7d_mcp_server_only_if_mcp_flag"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/references/exports.md",
+      "source_location": "L63",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_exports_graphify_reference_extra_exports_and_benchmark",
+      "target": "references_exports_step_8_token_reduction_benchmark_only_if_total_words_5000"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/references/extraction-spec.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_extraction_spec",
+      "target": "references_extraction_spec_graphify_reference_extraction_subagent_prompt"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/references/github-and-merge.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_github_and_merge",
+      "target": "references_github_and_merge_graphify_reference_github_clone_and_cross_repo_merge"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/references/github-and-merge.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_github_and_merge_graphify_reference_github_clone_and_cross_repo_merge",
+      "target": "references_github_and_merge_step_0_clone_github_repo_s_only_if_a_github_url_was_given"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/references/hooks.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_hooks",
+      "target": "references_hooks_graphify_reference_commit_hook_and_native_claude_md_integration"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/references/hooks.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_hooks_graphify_reference_commit_hook_and_native_claude_md_integration",
+      "target": "references_hooks_for_git_commit_hook"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/references/hooks.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_hooks_graphify_reference_commit_hook_and_native_claude_md_integration",
+      "target": "references_hooks_for_native_claude_md_integration"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/references/query.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_query",
+      "target": "references_query_graphify_reference_query_path_explain"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/references/query.md",
+      "source_location": "L89",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_query_graphify_reference_query_path_explain",
+      "target": "references_query_for_graphify_explain"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/references/query.md",
+      "source_location": "L71",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_query_graphify_reference_query_path_explain",
+      "target": "references_query_for_graphify_path"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/references/query.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_query_graphify_reference_query_path_explain",
+      "target": "references_query_step_0_constrained_query_expansion_required_before_traversal"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/references/query.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_query_graphify_reference_query_path_explain",
+      "target": "references_query_step_1_traversal"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/references/transcribe.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_transcribe",
+      "target": "references_transcribe_graphify_reference_transcribe_video_and_audio"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/references/transcribe.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_transcribe_graphify_reference_transcribe_video_and_audio",
+      "target": "references_transcribe_step_2_5_transcribe_video_audio_files_only_if_video_files_detected"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/references/update.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_update",
+      "target": "references_update_graphify_reference_incremental_update_and_cluster_only"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/references/update.md",
+      "source_location": "L166",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_update_graphify_reference_incremental_update_and_cluster_only",
+      "target": "references_update_for_cluster_only"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".gemini/skills/graphify/references/update.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "references_update_graphify_reference_incremental_update_and_cluster_only",
+      "target": "references_update_for_update_incremental_re_extraction"
     }
   ],
-  "hyperedges": []
+  "hyperedges": [],
+  "built_at_commit": "1e27506bb4fe4a5d3aae54668821c90e2b30c800"
 }
