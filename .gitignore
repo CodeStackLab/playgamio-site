@@ -6,3 +6,9 @@ node_modules/
 *.log
 .DS_Store
 repomix-output.xml
+api/db/*.sqlite*
+api/db/*.db
+html/uploads/
+*.pyc
+__pycache__/
+*.bak
