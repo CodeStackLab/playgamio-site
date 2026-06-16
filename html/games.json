@@ -1,6 +1,6 @@
 {
   "api_version": "1.0",
-  "total_games": 176,
+  "total_games": 168,
   "last_updated": "2026-06-16",
   "games": [
     {
@@ -550,2434 +550,2166 @@
       "release_date": "Updated 2024"
     },
     {
-      "slug": "extreme-car-driving-3d",
-      "title": "Extreme Car Driving 3D",
-      "description": "Drive supercars at extreme speeds in this realistic 3D driving simulator!",
-      "short_description": "Extreme Car Driving 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
+      "slug": "christmas-deer-simulator",
+      "title": "Christmas Deer Simulator",
+      "description": "Guide deer through winter wonderlands!",
+      "short_description": "Christmas Deer Simulator",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/christmas-deer-simulator.webp",
       "categories": [
-        "Racing",
         "3D",
         "Simulation"
       ],
-      "url": "https://githubgames.gitlab.io/game/extreme-car-driving-3d.html",
-      "rating": 4.2,
+      "url": "https://githubgames.gitlab.io/game/christmas-deer-simulator.html",
+      "rating": 4.6,
       "developer": "Open Source",
       "controls": "Arrow Keys",
       "release_date": "Updated 2024"
     },
     {
-      "slug": "police-car-simulator-3d",
-      "title": "Police Car Simulator 3D",
-      "description": "Chase criminals through the city in your police cruiser!",
-      "short_description": "Police Car Simulator 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
+      "slug": "gobble",
+      "title": "Gobble",
+      "description": "Eat everything as a hungry gobbling creature!",
+      "short_description": "Gobble",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/gobble.webp",
       "categories": [
-        "Racing",
-        "3D",
-        "Simulation"
-      ],
-      "url": "https://githubgames.gitlab.io/game/police-car-simulator-3d.html",
-      "rating": 4.3,
-      "developer": "Open Source",
-      "controls": "Arrow Keys",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "monster-truck-racing-3d",
-      "title": "Monster Truck Racing 3D",
-      "description": "Crush cars and race through mud in giant monster trucks!",
-      "short_description": "Monster Truck Racing 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Racing",
-        "3D",
-        "Sports"
-      ],
-      "url": "https://githubgames.gitlab.io/game/monster-truck-racing-3d.html",
-      "rating": 4.3,
-      "developer": "Open Source",
-      "controls": "Arrow Keys",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "bike-racing-3d",
-      "title": "Bike Racing 3D",
-      "description": "High-speed motorcycle racing through city streets and highways!",
-      "short_description": "Bike Racing 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Racing",
-        "3D",
-        "Sports"
-      ],
-      "url": "https://githubgames.gitlab.io/game/bike-racing-3d.html",
-      "rating": 4.9,
-      "developer": "Open Source",
-      "controls": "Arrow Keys",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "crazy-traffic-racing-3d",
-      "title": "Crazy Traffic Racing 3D",
-      "description": "Weave through insane traffic at top speed in this adrenaline racer!",
-      "short_description": "Crazy Traffic Racing 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Racing",
-        "3D",
-        "Arcade"
-      ],
-      "url": "https://githubgames.gitlab.io/game/crazy-traffic-racing-3d.html",
-      "rating": 4.3,
-      "developer": "Open Source",
-      "controls": "Arrow Keys",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "mega-ramp-car-stunt-3d",
-      "title": "Mega Ramp Car Stunt 3D",
-      "description": "Perform crazy stunts on massive ramps with powerful cars!",
-      "short_description": "Mega Ramp Car Stunt 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Racing",
-        "3D",
+        "Arcade",
         "Action"
       ],
-      "url": "https://githubgames.gitlab.io/game/mega-ramp-car-stunt-3d.html",
-      "rating": 4.2,
-      "developer": "Open Source",
-      "controls": "Arrow Keys",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "car-crashing-3d",
-      "title": "Car Crashing 3D",
-      "description": "Realistic car crash physics simulator!",
-      "short_description": "Car Crashing 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Racing",
-        "3D",
-        "Simulation"
-      ],
-      "url": "https://githubgames.gitlab.io/game/car-crashing-3d.html",
-      "rating": 3.5,
-      "developer": "Open Source",
-      "controls": "Arrow Keys",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "police-chase-drifter-3d",
-      "title": "Police Chase Drifter 3D",
-      "description": "Drift through city streets while escaping the police!",
-      "short_description": "Police Chase Drifter 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Racing",
-        "3D",
-        "Action"
-      ],
-      "url": "https://githubgames.gitlab.io/game/police-chase-drifter-3d.html",
-      "rating": 4.3,
-      "developer": "Open Source",
-      "controls": "Arrow Keys / WASD",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "dirt-bike-extreme-3d",
-      "title": "Dirt Bike Extreme 3D",
-      "description": "Ride dirt bikes through extreme off-road terrain!",
-      "short_description": "Dirt Bike Extreme 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Racing",
-        "3D",
-        "Sports"
-      ],
-      "url": "https://githubgames.gitlab.io/game/dirt-bike-extreme-3d.html",
-      "rating": 4,
-      "developer": "Open Source",
-      "controls": "Arrow Keys",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "formula-racing-3d",
-      "title": "Formula Racing 3D",
-      "description": "Professional Formula 1 racing on world-class circuits!",
-      "short_description": "Formula Racing 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Racing",
-        "3D",
-        "Sports"
-      ],
-      "url": "https://githubgames.gitlab.io/game/formula-racing-3d.html",
-      "rating": 3.7,
-      "developer": "Open Source",
-      "controls": "Arrow Keys",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "snow-mobile-racing-3d",
-      "title": "Snow Mobile Racing 3D",
-      "description": "Race snowmobiles through icy winter landscapes!",
-      "short_description": "Snow Mobile Racing 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Racing",
-        "3D",
-        "Sports"
-      ],
-      "url": "https://githubgames.gitlab.io/game/snow-mobile-racing-3d.html",
-      "rating": 4.1,
-      "developer": "Open Source",
-      "controls": "Arrow Keys",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "jeep-safari-3d",
-      "title": "Jeep Safari 3D",
-      "description": "Explore the wild safari in a rugged off-road jeep!",
-      "short_description": "Jeep Safari 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Racing",
-        "3D",
-        "Simulation"
-      ],
-      "url": "https://githubgames.gitlab.io/game/jeep-safari-3d.html",
-      "rating": 4.9,
-      "developer": "Open Source",
-      "controls": "Arrow Keys",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "hoverbike-racing-3d",
-      "title": "Hoverbike Racing 3D",
-      "description": "Futuristic hoverbike racing through neon cities!",
-      "short_description": "Hoverbike Racing 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Racing",
-        "3D",
-        "Arcade"
-      ],
-      "url": "https://githubgames.gitlab.io/game/hoverbike-racing-3d.html",
-      "rating": 3.9,
-      "developer": "Open Source",
-      "controls": "Arrow Keys",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "zombie-shooter-3d",
-      "title": "Zombie Shooter 3D",
-      "description": "Shoot waves of zombies in this thrilling 3D survival game!",
-      "short_description": "Zombie Shooter 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Action",
-        "3D",
-        "Shooting"
-      ],
-      "url": "https://githubgames.gitlab.io/game/zombie-shooter-3d.html",
-      "rating": 3.7,
-      "developer": "Open Source",
-      "controls": "Mouse / Keyboard",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "sniper-shooter-3d",
-      "title": "Sniper Shooter 3D",
-      "description": "Take aim and eliminate targets as an elite sniper!",
-      "short_description": "Sniper Shooter 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Action",
-        "3D",
-        "Shooting"
-      ],
-      "url": "https://githubgames.gitlab.io/game/sniper-shooter-3d.html",
-      "rating": 3.7,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "stickman-fighter-3d",
-      "title": "Stickman Fighter 3D",
-      "description": "Epic stickman battles with awesome combat moves!",
-      "short_description": "Stickman Fighter 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Action",
-        "3D",
-        "Fighting"
-      ],
-      "url": "https://githubgames.gitlab.io/game/stickman-fighter-3d.html",
-      "rating": 3.9,
-      "developer": "Open Source",
-      "controls": "Arrow Keys / Space",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "ninja-fight-3d",
-      "title": "Ninja Fight 3D",
-      "description": "Become a ninja warrior and defeat enemies with stealth!",
-      "short_description": "Ninja Fight 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Action",
-        "3D",
-        "Fighting"
-      ],
-      "url": "https://githubgames.gitlab.io/game/ninja-fight-3d.html",
-      "rating": 4.9,
-      "developer": "Open Source",
-      "controls": "Arrow Keys / Space",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "boxing-champion-3d",
-      "title": "Boxing Champion 3D",
-      "description": "Enter the ring and knock out opponents to become champion!",
-      "short_description": "Boxing Champion 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Action",
-        "3D",
-        "Sports"
-      ],
-      "url": "https://githubgames.gitlab.io/game/boxing-champion-3d.html",
-      "rating": 3.8,
-      "developer": "Open Source",
-      "controls": "Arrow Keys / Space",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "sword-fight-3d",
-      "title": "Sword Fight 3D",
-      "description": "Epic medieval sword duels in a 3D arena!",
-      "short_description": "Sword Fight 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Action",
-        "3D",
-        "Fighting"
-      ],
-      "url": "https://githubgames.gitlab.io/game/sword-fight-3d.html",
-      "rating": 4.9,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "alien-shooter-3d",
-      "title": "Alien Shooter 3D",
-      "description": "Defend Earth from alien invasion in this sci-fi shooter!",
-      "short_description": "Alien Shooter 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Action",
-        "3D",
-        "Shooting"
-      ],
-      "url": "https://githubgames.gitlab.io/game/alien-shooter-3d.html",
-      "rating": 3.6,
-      "developer": "Open Source",
-      "controls": "Mouse / Keyboard",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "firefighter-simulator-3d",
-      "title": "Firefighter Simulator 3D",
-      "description": "Save lives and put out fires as a heroic firefighter!",
-      "short_description": "Firefighter Simulator 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Action",
-        "3D",
-        "Simulation"
-      ],
-      "url": "https://githubgames.gitlab.io/game/firefighter-simulator-3d.html",
+      "url": "https://githubgames.gitlab.io/game/gobble.html",
       "rating": 4.4,
       "developer": "Open Source",
-      "controls": "Arrow Keys / Space",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "police-robot-fight-3d",
-      "title": "Police Robot Fight 3D",
-      "description": "Control giant robots and fight crime in the city!",
-      "short_description": "Police Robot Fight 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Action",
-        "3D",
-        "Fighting"
-      ],
-      "url": "https://githubgames.gitlab.io/game/police-robot-fight-3d.html",
-      "rating": 4.1,
-      "developer": "Open Source",
-      "controls": "Arrow Keys / WASD",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "war-plane-battle-3d",
-      "title": "War Plane Battle 3D",
-      "description": "Engage in epic World War aerial dogfights!",
-      "short_description": "War Plane Battle 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Action",
-        "3D",
-        "Shooting"
-      ],
-      "url": "https://githubgames.gitlab.io/game/war-plane-battle-3d.html",
-      "rating": 3.9,
-      "developer": "Open Source",
-      "controls": "Mouse / Keyboard",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "tank-battle-3d",
-      "title": "Tank Battle 3D",
-      "description": "Command powerful tanks and destroy enemy forces!",
-      "short_description": "Tank Battle 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Action",
-        "3D",
-        "Shooting"
-      ],
-      "url": "https://githubgames.gitlab.io/game/tank-battle-3d.html",
-      "rating": 4.9,
-      "developer": "Open Source",
-      "controls": "Arrow Keys / Space",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "football-legends-3d",
-      "title": "Football Legends 3D",
-      "description": "Play exciting 3D football matches and score goals!",
-      "short_description": "Football Legends 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Sports",
-        "3D",
-        "Action"
-      ],
-      "url": "https://githubgames.gitlab.io/game/football-legends-3d.html",
-      "rating": 3.9,
-      "developer": "Open Source",
-      "controls": "Arrow Keys / Space",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "basketball-shooter-3d",
-      "title": "Basketball Shooter 3D",
-      "description": "Shoot hoops in this fast-paced 3D basketball game!",
-      "short_description": "Basketball Shooter 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Sports",
-        "3D",
-        "Arcade"
-      ],
-      "url": "https://githubgames.gitlab.io/game/basketball-shooter-3d.html",
-      "rating": 4.1,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "cricket-world-cup-3d",
-      "title": "Cricket World Cup 3D",
-      "description": "Bat, bowl, and field in exciting 3D cricket matches!",
-      "short_description": "Cricket World Cup 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Sports",
-        "3D",
-        "Arcade"
-      ],
-      "url": "https://githubgames.gitlab.io/game/cricket-world-cup-3d.html",
-      "rating": 4,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "tennis-masters-3d",
-      "title": "Tennis Masters 3D",
-      "description": "Smash aces and win tournaments in 3D tennis!",
-      "short_description": "Tennis Masters 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Sports",
-        "3D",
-        "Arcade"
-      ],
-      "url": "https://githubgames.gitlab.io/game/tennis-masters-3d.html",
-      "rating": 3.7,
-      "developer": "Open Source",
-      "controls": "Mouse / Keyboard",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "bowling-king-3d",
-      "title": "Bowling King 3D",
-      "description": "Knock down all the pins in realistic 3D bowling!",
-      "short_description": "Bowling King 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Sports",
-        "3D",
-        "Arcade"
-      ],
-      "url": "https://githubgames.gitlab.io/game/bowling-king-3d.html",
-      "rating": 3.5,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "golf-simulator-3d",
-      "title": "Golf Simulator 3D",
-      "description": "Play through beautiful 3D golf courses!",
-      "short_description": "Golf Simulator 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Sports",
-        "3D",
-        "Simulation"
-      ],
-      "url": "https://githubgames.gitlab.io/game/golf-simulator-3d.html",
-      "rating": 3.7,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "archery-champion-3d",
-      "title": "Archery Champion 3D",
-      "description": "Test your aim in precision 3D archery!",
-      "short_description": "Archery Champion 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Sports",
-        "3D",
-        "Arcade"
-      ],
-      "url": "https://githubgames.gitlab.io/game/archery-champion-3d.html",
-      "rating": 3.9,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "ice-hockey-3d",
-      "title": "Ice Hockey 3D",
-      "description": "Fast-paced 3D ice hockey action!",
-      "short_description": "Ice Hockey 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Sports",
-        "3D",
-        "Action"
-      ],
-      "url": "https://githubgames.gitlab.io/game/ice-hockey-3d.html",
-      "rating": 4.8,
-      "developer": "Open Source",
-      "controls": "Arrow Keys / Space",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "baseball-slugger-3d",
-      "title": "Baseball Slugger 3D",
-      "description": "Hit home runs in this exciting 3D baseball game!",
-      "short_description": "Baseball Slugger 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Sports",
-        "3D",
-        "Arcade"
-      ],
-      "url": "https://githubgames.gitlab.io/game/baseball-slugger-3d.html",
-      "rating": 3.9,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "volleyball-clash-3d",
-      "title": "Volleyball Clash 3D",
-      "description": "Spike, block and dive in 3D beach volleyball!",
-      "short_description": "Volleyball Clash 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Sports",
-        "3D",
-        "Arcade"
-      ],
-      "url": "https://githubgames.gitlab.io/game/volleyball-clash-3d.html",
-      "rating": 3.9,
-      "developer": "Open Source",
-      "controls": "Arrow Keys / Space",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "city-builder-3d",
-      "title": "City Builder 3D",
-      "description": "Build and manage your own thriving 3D city!",
-      "short_description": "City Builder 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Simulation",
-        "3D",
-        "Strategy"
-      ],
-      "url": "https://githubgames.gitlab.io/game/city-builder-3d.html",
-      "rating": 3.5,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "airport-simulator-3d",
-      "title": "Airport Simulator 3D",
-      "description": "Manage a busy international airport in 3D!",
-      "short_description": "Airport Simulator 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Simulation",
-        "3D",
-        "Strategy"
-      ],
-      "url": "https://githubgames.gitlab.io/game/airport-simulator-3d.html",
-      "rating": 4,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "farming-simulator-3d",
-      "title": "Farming Simulator 3D",
-      "description": "Grow crops and manage your 3D farm!",
-      "short_description": "Farming Simulator 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Simulation",
-        "3D",
-        "Casual"
-      ],
-      "url": "https://githubgames.gitlab.io/game/farming-simulator-3d.html",
-      "rating": 4,
-      "developer": "Open Source",
-      "controls": "Arrow Keys / Mouse",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "restaurant-sim-3d",
-      "title": "Restaurant Sim 3D",
-      "description": "Run a busy restaurant kitchen in 3D!",
-      "short_description": "Restaurant Sim 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Simulation",
-        "3D",
-        "Strategy"
-      ],
-      "url": "https://githubgames.gitlab.io/game/restaurant-sim-3d.html",
-      "rating": 3.7,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "hospital-sim-3d",
-      "title": "Hospital Sim 3D",
-      "description": "Manage a hospital and treat patients in 3D!",
-      "short_description": "Hospital Sim 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Simulation",
-        "3D",
-        "Strategy"
-      ],
-      "url": "https://githubgames.gitlab.io/game/hospital-sim-3d.html",
-      "rating": 3.5,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "supermarket-sim-3d",
-      "title": "Supermarket Sim 3D",
-      "description": "Run your own supermarket store in 3D!",
-      "short_description": "Supermarket Sim 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Simulation",
-        "3D",
-        "Strategy"
-      ],
-      "url": "https://githubgames.gitlab.io/game/supermarket-sim-3d.html",
-      "rating": 3.8,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "gas-station-sim-3d",
-      "title": "Gas Station Sim 3D",
-      "description": "Manage a busy gas station and earn big!",
-      "short_description": "Gas Station Sim 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Simulation",
-        "3D",
-        "Strategy"
-      ],
-      "url": "https://githubgames.gitlab.io/game/gas-station-sim-3d.html",
-      "rating": 3.8,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "fish-simulator-3d",
-      "title": "Fish Simulator 3D",
-      "description": "Explore the ocean as a fish in 3D!",
-      "short_description": "Fish Simulator 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Simulation",
-        "3D",
-        "Adventure"
-      ],
-      "url": "https://githubgames.gitlab.io/game/fish-simulator-3d.html",
-      "rating": 3.7,
-      "developer": "Open Source",
       "controls": "Arrow Keys",
       "release_date": "Updated 2024"
     },
     {
-      "slug": "shark-simulator-3d",
-      "title": "Shark Simulator 3D",
-      "description": "Rule the ocean as a great white shark!",
-      "short_description": "Shark Simulator 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Simulation",
-        "3D",
-        "Action"
-      ],
-      "url": "https://githubgames.gitlab.io/game/shark-simulator-3d.html",
-      "rating": 3.8,
-      "developer": "Open Source",
-      "controls": "Arrow Keys",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "lion-simulator-3d",
-      "title": "Lion Simulator 3D",
-      "description": "Hunt and survive as the king of the jungle!",
-      "short_description": "Lion Simulator 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Simulation",
-        "3D",
-        "Adventure"
-      ],
-      "url": "https://githubgames.gitlab.io/game/lion-simulator-3d.html",
-      "rating": 3.7,
-      "developer": "Open Source",
-      "controls": "Arrow Keys",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "tiger-simulator-3d",
-      "title": "Tiger Simulator 3D",
-      "description": "Stalk prey through dense forests as a tiger!",
-      "short_description": "Tiger Simulator 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Simulation",
-        "3D",
-        "Adventure"
-      ],
-      "url": "https://githubgames.gitlab.io/game/tiger-simulator-3d.html",
-      "rating": 3.8,
-      "developer": "Open Source",
-      "controls": "Arrow Keys",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "wolf-simulator-3d",
-      "title": "Wolf Simulator 3D",
-      "description": "Run with the pack in this wild wolf simulator!",
-      "short_description": "Wolf Simulator 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Simulation",
-        "3D",
-        "Adventure"
-      ],
-      "url": "https://githubgames.gitlab.io/game/wolf-simulator-3d.html",
-      "rating": 3.7,
-      "developer": "Open Source",
-      "controls": "Arrow Keys",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "dinosaur-simulator-3d",
-      "title": "Dinosaur Simulator 3D",
-      "description": "Live as a dinosaur in the prehistoric world!",
-      "short_description": "Dinosaur Simulator 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Simulation",
-        "3D",
-        "Action"
-      ],
-      "url": "https://githubgames.gitlab.io/game/dinosaur-simulator-3d.html",
-      "rating": 4.1,
-      "developer": "Open Source",
-      "controls": "Arrow Keys",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "goat-simulator-3d",
-      "title": "Goat Simulator 3D",
-      "description": "Cause chaos as a crazy goat in 3D!",
-      "short_description": "Goat Simulator 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Simulation",
-        "3D",
-        "Arcade"
-      ],
-      "url": "https://githubgames.gitlab.io/game/goat-simulator-3d.html",
-      "rating": 3.7,
-      "developer": "Open Source",
-      "controls": "Arrow Keys / Space",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "cat-simulator-3d",
-      "title": "Cat Simulator 3D",
-      "description": "Explore the neighborhood as a curious cat!",
-      "short_description": "Cat Simulator 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Simulation",
-        "3D",
-        "Casual"
-      ],
-      "url": "https://githubgames.gitlab.io/game/cat-simulator-3d.html",
-      "rating": 3.6,
-      "developer": "Open Source",
-      "controls": "Arrow Keys",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "bear-simulator-3d",
-      "title": "Bear Simulator 3D",
-      "description": "Forage and hunt in the wilderness as a bear!",
-      "short_description": "Bear Simulator 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Simulation",
-        "3D",
-        "Adventure"
-      ],
-      "url": "https://githubgames.gitlab.io/game/bear-simulator-3d.html",
-      "rating": 3.7,
-      "developer": "Open Source",
-      "controls": "Arrow Keys",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "dolphin-simulator-3d",
-      "title": "Dolphin Simulator 3D",
-      "description": "Swim and play in the ocean as a dolphin!",
-      "short_description": "Dolphin Simulator 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Simulation",
-        "3D",
-        "Adventure"
-      ],
-      "url": "https://githubgames.gitlab.io/game/dolphin-simulator-3d.html",
-      "rating": 4,
-      "developer": "Open Source",
-      "controls": "Arrow Keys",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "cut-the-rope-3d",
-      "title": "Cut The Rope 3D",
-      "description": "Cut ropes and feed candy to Om Nom in 3D!",
-      "short_description": "Cut The Rope 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Puzzle",
-        "3D",
-        "Arcade"
-      ],
-      "url": "https://githubgames.gitlab.io/game/cut-the-rope-3d.html",
-      "rating": 3.5,
-      "developer": "Open Source",
-      "controls": "Mouse / Touch",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "angry-birds-3d",
-      "title": "Angry Birds 3D",
-      "description": "Launch birds at pig fortresses in glorious 3D!",
-      "short_description": "Angry Birds 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Puzzle",
-        "3D",
-        "Arcade"
-      ],
-      "url": "https://githubgames.gitlab.io/game/angry-birds-3d.html",
-      "rating": 4.9,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "bubble-shooter-3d",
-      "title": "Bubble Shooter 3D",
-      "description": "Match and pop colorful bubbles in fun 3D!",
-      "short_description": "Bubble Shooter 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Puzzle",
-        "3D",
-        "Casual"
-      ],
-      "url": "https://githubgames.gitlab.io/game/bubble-shooter-3d.html",
-      "rating": 3.7,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "jewel-legend-3d",
-      "title": "Jewel Legend 3D",
-      "description": "Match dazzling jewels in this 3D puzzle adventure!",
-      "short_description": "Jewel Legend 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Puzzle",
-        "3D",
-        "Casual"
-      ],
-      "url": "https://githubgames.gitlab.io/game/jewel-legend-3d.html",
-      "rating": 3.5,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "block-puzzle-3d",
-      "title": "Block Puzzle 3D",
-      "description": "Fit blocks perfectly in this addictive 3D puzzle!",
-      "short_description": "Block Puzzle 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Puzzle",
-        "3D",
-        "Strategy"
-      ],
-      "url": "https://githubgames.gitlab.io/game/block-puzzle-3d.html",
-      "rating": 3.5,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "word-cross-3d",
-      "title": "Word Cross 3D",
-      "description": "Build words in a beautiful 3D word puzzle world!",
-      "short_description": "Word Cross 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Puzzle",
-        "3D",
-        "Strategy"
-      ],
-      "url": "https://githubgames.gitlab.io/game/word-cross-3d.html",
-      "rating": 4.8,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "match-master-3d",
-      "title": "Match Master 3D",
-      "description": "Find and match 3D objects in this fun game!",
-      "short_description": "Match Master 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Puzzle",
-        "3D",
-        "Casual"
-      ],
-      "url": "https://githubgames.gitlab.io/game/match-master-3d.html",
-      "rating": 3.5,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "pull-the-pin-3d",
-      "title": "Pull The Pin 3D",
-      "description": "Pull pins in the right order to solve puzzles!",
-      "short_description": "Pull The Pin 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Puzzle",
-        "3D",
-        "Strategy"
-      ],
-      "url": "https://githubgames.gitlab.io/game/pull-the-pin-3d.html",
-      "rating": 3.5,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "roller-splat-3d",
-      "title": "Roller Splat 3D",
-      "description": "Roll paint through mazes in satisfying 3D!",
-      "short_description": "Roller Splat 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Puzzle",
-        "3D",
-        "Arcade"
-      ],
-      "url": "https://githubgames.gitlab.io/game/roller-splat-3d.html",
-      "rating": 3.5,
-      "developer": "Open Source",
-      "controls": "Arrow Keys / Swipe",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "unblock-3d",
-      "title": "Unblock 3D",
-      "description": "Slide blocks to clear the path in 3D!",
-      "short_description": "Unblock 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Puzzle",
-        "3D",
-        "Strategy"
-      ],
-      "url": "https://githubgames.gitlab.io/game/unblock-3d.html",
-      "rating": 4.5,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "crazy-runner-3d",
-      "title": "Crazy Runner 3D",
-      "description": "Run, dodge and jump through crazy obstacle courses!",
-      "short_description": "Crazy Runner 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
+      "slug": "halloween-skeleton-smash",
+      "title": "Halloween Skeleton Smash",
+      "description": "Smash skeletons in this spooky game!",
+      "short_description": "Halloween Skeleton Smash",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/halloween-skeleton-smash.webp",
       "categories": [
         "Arcade",
-        "3D",
         "Action"
       ],
-      "url": "https://githubgames.gitlab.io/game/crazy-runner-3d.html",
-      "rating": 3.5,
-      "developer": "Open Source",
-      "controls": "Arrow Keys / Swipe",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "stair-runner-3d",
-      "title": "Stair Runner 3D",
-      "description": "Build stairs and run to the end in this 3D race!",
-      "short_description": "Stair Runner 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Arcade",
-        "3D",
-        "Action"
-      ],
-      "url": "https://githubgames.gitlab.io/game/stair-runner-3d.html",
-      "rating": 3.5,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "ball-run-3d",
-      "title": "Ball Run 3D",
-      "description": "Roll the ball through incredible 3D tracks!",
-      "short_description": "Ball Run 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Arcade",
-        "3D",
-        "Action"
-      ],
-      "url": "https://githubgames.gitlab.io/game/ball-run-3d.html",
-      "rating": 4.6,
-      "developer": "Open Source",
-      "controls": "Arrow Keys / Swipe",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "knock-balls-3d",
-      "title": "Knock Balls 3D",
-      "description": "Shoot and knock down colorful 3D balls!",
-      "short_description": "Knock Balls 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Arcade",
-        "3D",
-        "Action"
-      ],
-      "url": "https://githubgames.gitlab.io/game/knock-balls-3d.html",
-      "rating": 4.9,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "smash-road-3d",
-      "title": "Smash Road 3D",
-      "description": "Smash everything in your path on the road!",
-      "short_description": "Smash Road 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Arcade",
-        "3D",
-        "Action"
-      ],
-      "url": "https://githubgames.gitlab.io/game/smash-road-3d.html",
-      "rating": 4.8,
-      "developer": "Open Source",
-      "controls": "Arrow Keys / Swipe",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "water-surf-3d",
-      "title": "Water Surf 3D",
-      "description": "Surf on massive ocean waves in 3D!",
-      "short_description": "Water Surf 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Arcade",
-        "3D",
-        "Sports"
-      ],
-      "url": "https://githubgames.gitlab.io/game/water-surf-3d.html",
-      "rating": 4.8,
-      "developer": "Open Source",
-      "controls": "Arrow Keys / Swipe",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "fruit-slice-3d",
-      "title": "Fruit Slice 3D",
-      "description": "Slice flying fruits with your blade in 3D!",
-      "short_description": "Fruit Slice 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Arcade",
-        "3D",
-        "Action"
-      ],
-      "url": "https://githubgames.gitlab.io/game/fruit-slice-3d.html",
-      "rating": 4.9,
-      "developer": "Open Source",
-      "controls": "Mouse / Swipe",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "bottle-flip-3d",
-      "title": "Bottle Flip 3D",
-      "description": "Flip bottles and land them perfectly!",
-      "short_description": "Bottle Flip 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Arcade",
-        "3D",
-        "Sports"
-      ],
-      "url": "https://githubgames.gitlab.io/game/bottle-flip-3d.html",
-      "rating": 4.9,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "bouncing-ball-3d",
-      "title": "Bouncing Ball 3D",
-      "description": "Bounce the ball through cosmic 3D obstacles!",
-      "short_description": "Bouncing Ball 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Arcade",
-        "3D",
-        "Action"
-      ],
-      "url": "https://githubgames.gitlab.io/game/bouncing-ball-3d.html",
-      "rating": 3.6,
-      "developer": "Open Source",
-      "controls": "Arrow Keys / Swipe",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "slice-it-all-3d",
-      "title": "Slice It All 3D",
-      "description": "Slice through everything in this satisfying game!",
-      "short_description": "Slice It All 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Arcade",
-        "3D",
-        "Action"
-      ],
-      "url": "https://githubgames.gitlab.io/game/slice-it-all-3d.html",
-      "rating": 3.5,
-      "developer": "Open Source",
-      "controls": "Mouse / Swipe",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "merge-tanks-3d",
-      "title": "Merge Tanks 3D",
-      "description": "Merge tanks and build the ultimate war machine!",
-      "short_description": "Merge Tanks 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Strategy",
-        "3D",
-        "Action"
-      ],
-      "url": "https://githubgames.gitlab.io/game/merge-tanks-3d.html",
-      "rating": 4.9,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "army-recruit-3d",
-      "title": "Army Recruit 3D",
-      "description": "Recruit soldiers and build an unstoppable army!",
-      "short_description": "Army Recruit 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Strategy",
-        "3D",
-        "Action"
-      ],
-      "url": "https://githubgames.gitlab.io/game/army-recruit-3d.html",
-      "rating": 3.5,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "stickman-war-3d",
-      "title": "Stickman War 3D",
-      "description": "Lead stickman armies in epic strategic battles!",
-      "short_description": "Stickman War 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Strategy",
-        "3D",
-        "Action"
-      ],
-      "url": "https://githubgames.gitlab.io/game/stickman-war-3d.html",
-      "rating": 3.5,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "clash-of-blocks-3d",
-      "title": "Clash of Blocks 3D",
-      "description": "Strategic block battles in a 3D arena!",
-      "short_description": "Clash of Blocks 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Strategy",
-        "3D",
-        "Puzzle"
-      ],
-      "url": "https://githubgames.gitlab.io/game/clash-of-blocks-3d.html",
-      "rating": 3.8,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "tower-rush-3d",
-      "title": "Tower Rush 3D",
-      "description": "Build towers and defend against enemy waves!",
-      "short_description": "Tower Rush 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Strategy",
-        "3D",
-        "Action"
-      ],
-      "url": "https://githubgames.gitlab.io/game/tower-rush-3d.html",
-      "rating": 4.8,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "snake-battle-3d",
-      "title": "Snake Battle 3D",
-      "description": "Grow your snake and outsmart opponents in 3D!",
-      "short_description": "Snake Battle 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Strategy",
-        "3D",
-        "Arcade"
-      ],
-      "url": "https://githubgames.gitlab.io/game/snake-battle-3d.html",
-      "rating": 3.5,
-      "developer": "Open Source",
-      "controls": "Arrow Keys / Swipe",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "capture-flag-3d",
-      "title": "Capture the Flag 3D",
-      "description": "Strategic team battles to capture the enemy flag!",
-      "short_description": "Capture the Flag 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Strategy",
-        "3D",
-        "Action"
-      ],
-      "url": "https://githubgames.gitlab.io/game/capture-flag-3d.html",
-      "rating": 3.5,
-      "developer": "Open Source",
-      "controls": "Arrow Keys / WASD",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "dominoes-3d",
-      "title": "Dominoes 3D",
-      "description": "Classic dominoes brought to life in 3D!",
-      "short_description": "Dominoes 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Strategy",
-        "3D",
-        "Puzzle"
-      ],
-      "url": "https://githubgames.gitlab.io/game/dominoes-3d.html",
-      "rating": 4.6,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "temple-explorer-3d",
-      "title": "Temple Explorer 3D",
-      "description": "Explore ancient temples and uncover hidden treasures!",
-      "short_description": "Temple Explorer 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Adventure",
-        "3D",
-        "Action"
-      ],
-      "url": "https://githubgames.gitlab.io/game/temple-explorer-3d.html",
-      "rating": 3.8,
-      "developer": "Open Source",
-      "controls": "Arrow Keys / WASD",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "jungle-adventure-3d",
-      "title": "Jungle Adventure 3D",
-      "description": "Venture deep into the jungle on an epic quest!",
-      "short_description": "Jungle Adventure 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Adventure",
-        "3D",
-        "Action"
-      ],
-      "url": "https://githubgames.gitlab.io/game/jungle-adventure-3d.html",
-      "rating": 3.9,
-      "developer": "Open Source",
-      "controls": "Arrow Keys / WASD",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "space-explorer-3d",
-      "title": "Space Explorer 3D",
-      "description": "Explore the cosmos in your spaceship!",
-      "short_description": "Space Explorer 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Adventure",
-        "3D",
-        "Simulation"
-      ],
-      "url": "https://githubgames.gitlab.io/game/space-explorer-3d.html",
-      "rating": 3.7,
-      "developer": "Open Source",
-      "controls": "Arrow Keys / WASD",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "pirate-island-3d",
-      "title": "Pirate Island 3D",
-      "description": "Search for buried treasure on a pirate island!",
-      "short_description": "Pirate Island 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Adventure",
-        "3D",
-        "Action"
-      ],
-      "url": "https://githubgames.gitlab.io/game/pirate-island-3d.html",
-      "rating": 3.6,
-      "developer": "Open Source",
-      "controls": "Arrow Keys / WASD",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "zombie-survival-3d",
-      "title": "Zombie Survival 3D",
-      "description": "Survive the zombie apocalypse in 3D!",
-      "short_description": "Zombie Survival 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Adventure",
-        "3D",
-        "Action"
-      ],
-      "url": "https://githubgames.gitlab.io/game/zombie-survival-3d.html",
-      "rating": 3.8,
-      "developer": "Open Source",
-      "controls": "Arrow Keys / WASD",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "sky-island-3d",
-      "title": "Sky Island 3D",
-      "description": "Explore floating sky islands and solve mysteries!",
-      "short_description": "Sky Island 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Adventure",
-        "3D",
-        "Action"
-      ],
-      "url": "https://githubgames.gitlab.io/game/sky-island-3d.html",
-      "rating": 4.8,
-      "developer": "Open Source",
-      "controls": "Arrow Keys / WASD",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "dragon-rider-3d",
-      "title": "Dragon Rider 3D",
-      "description": "Ride dragons and soar through magical skies!",
-      "short_description": "Dragon Rider 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Adventure",
-        "3D",
-        "Action"
-      ],
-      "url": "https://githubgames.gitlab.io/game/dragon-rider-3d.html",
-      "rating": 3.5,
-      "developer": "Open Source",
-      "controls": "Arrow Keys / Mouse",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "escape-room-3d",
-      "title": "Escape Room 3D",
-      "description": "Solve puzzles and escape mysterious 3D rooms!",
-      "short_description": "Escape Room 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Adventure",
-        "3D",
-        "Puzzle"
-      ],
-      "url": "https://githubgames.gitlab.io/game/escape-room-3d.html",
-      "rating": 4.9,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "paper-ball-3d",
-      "title": "Paper Ball 3D",
-      "description": "Roll a paper ball through fun 3D mazes!",
-      "short_description": "Paper Ball 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Arcade",
-        "3D",
-        "Casual"
-      ],
-      "url": "https://githubgames.gitlab.io/game/paper-ball-3d.html",
-      "rating": 4.8,
-      "developer": "Open Source",
-      "controls": "Arrow Keys / Swipe",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "jelly-jump-3d",
-      "title": "Jelly Jump 3D",
-      "description": "Bounce the jelly through platforms and obstacles!",
-      "short_description": "Jelly Jump 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Arcade",
-        "3D",
-        "Action"
-      ],
-      "url": "https://githubgames.gitlab.io/game/jelly-jump-3d.html",
-      "rating": 4.8,
-      "developer": "Open Source",
-      "controls": "Space / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "pizza-maker-3d",
-      "title": "Pizza Maker 3D",
-      "description": "Make delicious pizzas in your 3D kitchen!",
-      "short_description": "Pizza Maker 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Simulation",
-        "3D",
-        "Casual"
-      ],
-      "url": "https://githubgames.gitlab.io/game/pizza-maker-3d.html",
-      "rating": 4.9,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "burger-chef-3d",
-      "title": "Burger Chef 3D",
-      "description": "Cook and serve burgers in a busy 3D restaurant!",
-      "short_description": "Burger Chef 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Simulation",
-        "3D",
-        "Casual"
-      ],
-      "url": "https://githubgames.gitlab.io/game/burger-chef-3d.html",
-      "rating": 4.9,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "ice-cream-shop-3d",
-      "title": "Ice Cream Shop 3D",
-      "description": "Run an ice cream store in colorful 3D!",
-      "short_description": "Ice Cream Shop 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Simulation",
-        "3D",
-        "Casual"
-      ],
-      "url": "https://githubgames.gitlab.io/game/ice-cream-shop-3d.html",
-      "rating": 3.7,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "cake-bakery-3d",
-      "title": "Cake Bakery 3D",
-      "description": "Bake beautiful cakes in your 3D bakery!",
-      "short_description": "Cake Bakery 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Simulation",
-        "3D",
-        "Casual"
-      ],
-      "url": "https://githubgames.gitlab.io/game/cake-bakery-3d.html",
-      "rating": 4.9,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "hair-salon-3d",
-      "title": "Hair Salon 3D",
-      "description": "Style hair and run a busy 3D salon!",
-      "short_description": "Hair Salon 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Simulation",
-        "3D",
-        "Casual"
-      ],
-      "url": "https://githubgames.gitlab.io/game/hair-salon-3d.html",
-      "rating": 4.8,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "nail-art-3d",
-      "title": "Nail Art 3D",
-      "description": "Design beautiful nails in this creative 3D game!",
-      "short_description": "Nail Art 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Simulation",
-        "3D",
-        "Casual"
-      ],
-      "url": "https://githubgames.gitlab.io/game/nail-art-3d.html",
-      "rating": 4.6,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "makeup-studio-3d",
-      "title": "Makeup Studio 3D",
-      "description": "Apply makeup and create stunning looks in 3D!",
-      "short_description": "Makeup Studio 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Simulation",
-        "3D",
-        "Casual"
-      ],
-      "url": "https://githubgames.gitlab.io/game/makeup-studio-3d.html",
-      "rating": 3.6,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "fashion-shop-3d",
-      "title": "Fashion Shop 3D",
-      "description": "Run a fashion boutique in stylish 3D!",
-      "short_description": "Fashion Shop 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Simulation",
-        "3D",
-        "Casual"
-      ],
-      "url": "https://githubgames.gitlab.io/game/fashion-shop-3d.html",
-      "rating": 3.5,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "parking-master-3d",
-      "title": "Parking Master 3D",
-      "description": "Master the art of parking in challenging spots!",
-      "short_description": "Parking Master 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Racing",
-        "3D",
-        "Simulation"
-      ],
-      "url": "https://githubgames.gitlab.io/game/parking-master-3d.html",
-      "rating": 3.7,
-      "developer": "Open Source",
-      "controls": "Arrow Keys / WASD",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "bus-parking-3d",
-      "title": "Bus Parking 3D",
-      "description": "Park massive buses in tight spaces in 3D!",
-      "short_description": "Bus Parking 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Racing",
-        "3D",
-        "Simulation"
-      ],
-      "url": "https://githubgames.gitlab.io/game/bus-parking-3d.html",
-      "rating": 4.9,
-      "developer": "Open Source",
-      "controls": "Arrow Keys / WASD",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "truck-parking-3d",
-      "title": "Truck Parking 3D",
-      "description": "Park heavy trucks with precision in 3D!",
-      "short_description": "Truck Parking 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Racing",
-        "3D",
-        "Simulation"
-      ],
-      "url": "https://githubgames.gitlab.io/game/truck-parking-3d.html",
-      "rating": 3.6,
-      "developer": "Open Source",
-      "controls": "Arrow Keys / WASD",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "ship-simulator-3d",
-      "title": "Ship Simulator 3D",
-      "description": "Captain massive ships across the ocean!",
-      "short_description": "Ship Simulator 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Simulation",
-        "3D",
-        "Adventure"
-      ],
-      "url": "https://githubgames.gitlab.io/game/ship-simulator-3d.html",
-      "rating": 3.7,
-      "developer": "Open Source",
-      "controls": "Arrow Keys / Mouse",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "helicopter-rescue-3d",
-      "title": "Helicopter Rescue 3D",
-      "description": "Pilot rescue helicopters on dangerous missions!",
-      "short_description": "Helicopter Rescue 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Simulation",
-        "3D",
-        "Action"
-      ],
-      "url": "https://githubgames.gitlab.io/game/helicopter-rescue-3d.html",
-      "rating": 4,
-      "developer": "Open Source",
-      "controls": "Arrow Keys / Mouse",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "submarine-adventure-3d",
-      "title": "Submarine Adventure 3D",
-      "description": "Explore the deep ocean in a submarine!",
-      "short_description": "Submarine Adventure 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Adventure",
-        "3D",
-        "Simulation"
-      ],
-      "url": "https://githubgames.gitlab.io/game/submarine-adventure-3d.html",
-      "rating": 4.2,
-      "developer": "Open Source",
-      "controls": "Arrow Keys / WASD",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "rocket-launch-3d",
-      "title": "Rocket Launch 3D",
-      "description": "Launch rockets into space in this 3D sim!",
-      "short_description": "Rocket Launch 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Simulation",
-        "3D",
-        "Action"
-      ],
-      "url": "https://githubgames.gitlab.io/game/rocket-launch-3d.html",
-      "rating": 3.6,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "train-simulator-3d",
-      "title": "Train Simulator 3D",
-      "description": "Drive massive trains through beautiful landscapes!",
-      "short_description": "Train Simulator 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Simulation",
-        "3D",
-        "Driving"
-      ],
-      "url": "https://githubgames.gitlab.io/game/train-simulator-3d.html",
-      "rating": 3.8,
-      "developer": "Open Source",
-      "controls": "Arrow Keys",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "excavator-sim-3d",
-      "title": "Excavator Sim 3D",
-      "description": "Operate heavy excavators in realistic 3D!",
-      "short_description": "Excavator Sim 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Simulation",
-        "3D",
-        "Action"
-      ],
-      "url": "https://githubgames.gitlab.io/game/excavator-sim-3d.html",
-      "rating": 3.6,
-      "developer": "Open Source",
-      "controls": "Arrow Keys / Mouse",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "crane-simulator-3d",
-      "title": "Crane Simulator 3D",
-      "description": "Control giant construction cranes in 3D!",
-      "short_description": "Crane Simulator 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Simulation",
-        "3D",
-        "Action"
-      ],
-      "url": "https://githubgames.gitlab.io/game/crane-simulator-3d.html",
-      "rating": 3.8,
-      "developer": "Open Source",
-      "controls": "Arrow Keys / Mouse",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "forklift-sim-3d",
-      "title": "Forklift Sim 3D",
-      "description": "Master forklift operations in warehouses!",
-      "short_description": "Forklift Sim 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Simulation",
-        "3D",
-        "Action"
-      ],
-      "url": "https://githubgames.gitlab.io/game/forklift-sim-3d.html",
-      "rating": 3.5,
-      "developer": "Open Source",
-      "controls": "Arrow Keys / Mouse",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "tractor-farming-3d",
-      "title": "Tractor Farming 3D",
-      "description": "Plow fields and harvest crops on a 3D farm!",
-      "short_description": "Tractor Farming 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Simulation",
-        "3D",
-        "Strategy"
-      ],
-      "url": "https://githubgames.gitlab.io/game/tractor-farming-3d.html",
-      "rating": 3.8,
-      "developer": "Open Source",
-      "controls": "Arrow Keys / Mouse",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "military-truck-3d",
-      "title": "Military Truck 3D",
-      "description": "Drive military trucks through war zones!",
-      "short_description": "Military Truck 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Racing",
-        "3D",
-        "Action"
-      ],
-      "url": "https://githubgames.gitlab.io/game/military-truck-3d.html",
-      "rating": 3.7,
-      "developer": "Open Source",
-      "controls": "Arrow Keys",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "sports-car-simulator-3d",
-      "title": "Sports Car Simulator 3D",
-      "description": "Drive luxury sports cars through beautiful cities!",
-      "short_description": "Sports Car Simulator 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Racing",
-        "3D",
-        "Simulation"
-      ],
-      "url": "https://githubgames.gitlab.io/game/sports-car-simulator-3d.html",
+      "url": "https://githubgames.gitlab.io/game/halloween-skeleton-smash.html",
       "rating": 4.3,
       "developer": "Open Source",
-      "controls": "Arrow Keys / WASD",
+      "controls": "Mouse/Click",
       "release_date": "Updated 2024"
     },
     {
-      "slug": "garbage-truck-sim-3d",
-      "title": "Garbage Truck Sim 3D",
-      "description": "Collect garbage across the city in a big truck!",
-      "short_description": "Garbage Truck Sim 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
+      "slug": "idle-success",
+      "title": "Idle Success",
+      "description": "Build your idle empire from nothing!",
+      "short_description": "Idle Success",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/idle-success.webp",
       "categories": [
         "Simulation",
+        "Strategy"
+      ],
+      "url": "https://githubgames.gitlab.io/game/idle-success.html",
+      "rating": 4.5,
+      "developer": "Open Source",
+      "controls": "Mouse/Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "kix-dream-soccer",
+      "title": "Kix Dream Soccer",
+      "description": "Play amazing soccer with special moves!",
+      "short_description": "Kix Dream Soccer",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/kix-dream-soccer.webp",
+      "categories": [
+        "Sports",
+        "Arcade"
+      ],
+      "url": "https://githubgames.gitlab.io/game/kix-dream-soccer.html",
+      "rating": 4.2,
+      "developer": "Open Source",
+      "controls": "Arrow Keys/Space",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "merge-alphabet",
+      "title": "Merge Alphabet",
+      "description": "Merge letters and build words!",
+      "short_description": "Merge Alphabet",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/merge-alphabet.webp",
+      "categories": [
+        "Puzzle",
+        "Strategy"
+      ],
+      "url": "https://githubgames.gitlab.io/game/merge-alphabet.html",
+      "rating": 4.1,
+      "developer": "Open Source",
+      "controls": "Mouse/Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "papas-wingeria",
+      "title": "Papas Wingeria",
+      "description": "Cook and serve wings in this restaurant game!",
+      "short_description": "Papas Wingeria",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/papas-wingeria.webp",
+      "categories": [
+        "Simulation",
+        "Casual"
+      ],
+      "url": "https://githubgames.gitlab.io/game/papas-wingeria.html",
+      "rating": 4.2,
+      "developer": "Open Source",
+      "controls": "Mouse/Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "poppy-glamrock",
+      "title": "Poppy Glamrock",
+      "description": "Rock out with Poppy in glam style!",
+      "short_description": "Poppy Glamrock",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/poppy-glamrock.webp",
+      "categories": [
+        "Arcade",
+        "Music"
+      ],
+      "url": "https://githubgames.gitlab.io/game/poppy-glamrock.html",
+      "rating": 4,
+      "developer": "Open Source",
+      "controls": "Mouse/Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "raft-life",
+      "title": "Raft Life",
+      "description": "Survive on a raft in the ocean!",
+      "short_description": "Raft Life",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/raft-life.webp",
+      "categories": [
+        "Adventure",
+        "Simulation"
+      ],
+      "url": "https://githubgames.gitlab.io/game/raft-life.html",
+      "rating": 4.3,
+      "developer": "Open Source",
+      "controls": "Mouse/Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "rally-point-2",
+      "title": "Rally Point 2",
+      "description": "Race through checkpoints in this rally game!",
+      "short_description": "Rally Point 2",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/rally-point-2.webp",
+      "categories": [
+        "Racing",
+        "Arcade"
+      ],
+      "url": "https://githubgames.gitlab.io/game/rally-point-2.html",
+      "rating": 4,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "spider-solitaire",
+      "title": "Spider Solitaire",
+      "description": "Classic Spider Solitaire card game!",
+      "short_description": "Spider Solitaire",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/spider-solitaire.webp",
+      "categories": [
+        "Puzzle",
+        "Strategy"
+      ],
+      "url": "https://githubgames.gitlab.io/game/spider-solitaire.html",
+      "rating": 4.2,
+      "developer": "Open Source",
+      "controls": "Mouse/Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "bob-the-robber-4",
+      "title": "Bob The Robber 4",
+      "description": "Sneak and steal as master thief Bob!",
+      "short_description": "Bob The Robber 4",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/bob-the-robber-4.webp",
+      "categories": [
+        "Action",
+        "Puzzle"
+      ],
+      "url": "https://githubgames.gitlab.io/game/bob-the-robber-4.html",
+      "rating": 4.7,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "boxrob",
+      "title": "BoxRob",
+      "description": "Push boxes and solve clever puzzles!",
+      "short_description": "BoxRob",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/boxrob.webp",
+      "categories": [
+        "Puzzle",
+        "Strategy"
+      ],
+      "url": "https://githubgames.gitlab.io/game/boxrob.html",
+      "rating": 4.9,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "burger-clicker",
+      "title": "Burger Clicker",
+      "description": "Click to make the ultimate burger empire!",
+      "short_description": "Burger Clicker",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/burger-clicker.webp",
+      "categories": [
+        "Simulation",
+        "Idle"
+      ],
+      "url": "https://githubgames.gitlab.io/game/burger-clicker.html",
+      "rating": 4.9,
+      "developer": "Open Source",
+      "controls": "Mouse/Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "cartoon-mini-racing",
+      "title": "Cartoon Mini Racing",
+      "description": "Fun cartoon racing for everyone!",
+      "short_description": "Cartoon Mini Racing",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/cartoon-mini-racing.webp",
+      "categories": [
+        "Racing",
+        "Arcade"
+      ],
+      "url": "https://githubgames.gitlab.io/game/cartoon-mini-racing.html",
+      "rating": 4.1,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "cat-clicker-re",
+      "title": "Cat Clicker",
+      "description": "Click cats and build a feline empire!",
+      "short_description": "Cat Clicker",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/cat-clicker-re.webp",
+      "categories": [
+        "Simulation",
+        "Casual"
+      ],
+      "url": "https://githubgames.gitlab.io/game/cat-clicker-re.html",
+      "rating": 4.7,
+      "developer": "Open Source",
+      "controls": "Mouse/Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "cats-drop",
+      "title": "Cats Drop",
+      "description": "Drop cute cats and match them up!",
+      "short_description": "Cats Drop",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/cats-drop.webp",
+      "categories": [
+        "Puzzle",
+        "Casual"
+      ],
+      "url": "https://githubgames.gitlab.io/game/cats-drop.html",
+      "rating": 4.1,
+      "developer": "Open Source",
+      "controls": "Mouse/Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "deer-simulator",
+      "title": "Deer Simulator",
+      "description": "Live the wild life as a graceful deer!",
+      "short_description": "Deer Simulator",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/deer-simulator.webp",
+      "categories": [
         "3D",
+        "Simulation"
+      ],
+      "url": "https://githubgames.gitlab.io/game/deer-simulator.html",
+      "rating": 4.5,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "diggy",
+      "title": "Diggy",
+      "description": "Dig deep into the earth for treasures!",
+      "short_description": "Diggy",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/diggy.webp",
+      "categories": [
+        "Arcade",
+        "Puzzle"
+      ],
+      "url": "https://githubgames.gitlab.io/game/diggy.html",
+      "rating": 4.6,
+      "developer": "Open Source",
+      "controls": "Mouse/Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "ducklife-4",
+      "title": "Duck Life 4",
+      "description": "Train your duck and win races!",
+      "short_description": "Duck Life 4",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/ducklife-4.webp",
+      "categories": [
+        "Racing",
+        "Simulation"
+      ],
+      "url": "https://githubgames.gitlab.io/game/ducklife-4.html",
+      "rating": 4.3,
+      "developer": "Open Source",
+      "controls": "Arrow Keys/Mouse",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "extreme-car-parking",
+      "title": "Extreme Car Parking",
+      "description": "Test your parking skills to the max!",
+      "short_description": "Extreme Car Parking",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/extreme-car-parking.webp",
+      "categories": [
+        "Racing",
+        "Simulation"
+      ],
+      "url": "https://githubgames.gitlab.io/game/extreme-car-parking.html",
+      "rating": 4.6,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "extreme-off-road-cars-3-cargo",
+      "title": "Extreme Off Road Cars 3",
+      "description": "Cargo delivery through extreme terrain!",
+      "short_description": "Extreme Off Road Cars 3",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/extreme-off-road-cars-3-cargo.webp",
+      "categories": [
+        "Racing",
+        "3D"
+      ],
+      "url": "https://githubgames.gitlab.io/game/extreme-off-road-cars-3-cargo.html",
+      "rating": 4.4,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "fnaf-sister",
+      "title": "FNAF Sister",
+      "description": "Survive the night in this horror adventure!",
+      "short_description": "FNAF Sister",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/fnaf-sister.webp",
+      "categories": [
+        "Action",
+        "Horror"
+      ],
+      "url": "https://githubgames.gitlab.io/game/fnaf-sister.html",
+      "rating": 4.6,
+      "developer": "Open Source",
+      "controls": "Mouse/Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "fnaf4",
+      "title": "FNAF 4",
+      "description": "Five Nights at Freddy's 4 horror survival!",
+      "short_description": "FNAF 4",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/fnaf4.webp",
+      "categories": [
+        "Action",
+        "Horror"
+      ],
+      "url": "https://githubgames.gitlab.io/game/fnaf4.html",
+      "rating": 4.6,
+      "developer": "Open Source",
+      "controls": "Mouse/Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "fortride-open-world",
+      "title": "Fortride: Open World",
+      "description": "Drive freely in a massive open world!",
+      "short_description": "Fortride: Open World",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/fortride-open-world.webp",
+      "categories": [
+        "Racing",
+        "Open World"
+      ],
+      "url": "https://githubgames.gitlab.io/game/fortride-open-world.html",
+      "rating": 4.1,
+      "developer": "Open Source",
+      "controls": "Arrow Keys/WASD",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "geometry-dash-remastered",
+      "title": "Geometry Dash Remastered",
+      "description": "Jump to the beat in this rhythm platformer!",
+      "short_description": "Geometry Dash Remastered",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/geometry-dash-remastered.webp",
+      "categories": [
+        "Arcade",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/geometry-dash-remastered.html",
+      "rating": 4.9,
+      "developer": "Open Source",
+      "controls": "Space/Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "heroball-adventures",
+      "title": "Heroball Adventures",
+      "description": "Roll and bounce through challenging levels!",
+      "short_description": "Heroball Adventures",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/heroball-adventures.webp",
+      "categories": [
+        "Arcade",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/heroball-adventures.html",
+      "rating": 4.1,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "hydro-storm-2",
+      "title": "Hydro Storm 2",
+      "description": "Race hydro jets across stormy waters!",
+      "short_description": "Hydro Storm 2",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/hydro-storm-2.webp",
+      "categories": [
+        "Racing",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/hydro-storm-2.html",
+      "rating": 4.7,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "level-devil-2",
+      "title": "Level Devil 2",
+      "description": "Survive devilishly tricky platform levels!",
+      "short_description": "Level Devil 2",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/level-devil-2.webp",
+      "categories": [
+        "Action",
+        "Arcade"
+      ],
+      "url": "https://githubgames.gitlab.io/game/level-devil-2.html",
+      "rating": 4,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "lows-adventures-3",
+      "title": "Lows Adventures 3",
+      "description": "Explore worlds as the brave hero Low!",
+      "short_description": "Lows Adventures 3",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/lows-adventures-3.webp",
+      "categories": [
+        "Adventure",
+        "Platformer"
+      ],
+      "url": "https://githubgames.gitlab.io/game/lows-adventures-3.html",
+      "rating": 4,
+      "developer": "Open Source",
+      "controls": "Arrow Keys/Space",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "merge-rainbow",
+      "title": "Merge Rainbow",
+      "description": "Merge colors and create rainbows!",
+      "short_description": "Merge Rainbow",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/merge-rainbow.webp",
+      "categories": [
+        "Puzzle",
+        "Casual"
+      ],
+      "url": "https://githubgames.gitlab.io/game/merge-rainbow.html",
+      "rating": 4.8,
+      "developer": "Open Source",
+      "controls": "Mouse/Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "bloons-tower-defense-3",
+      "title": "Bloons Tower Defense 3",
+      "description": "Pop bloons with strategic towers!",
+      "short_description": "Bloons Tower Defense 3",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/bloons-tower-defense-3.webp",
+      "categories": [
+        "Strategy",
+        "Puzzle"
+      ],
+      "url": "https://githubgames.gitlab.io/game/bloons-tower-defense-3.html",
+      "rating": 4.4,
+      "developer": "Open Source",
+      "controls": "Mouse/Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "breaking-the-bank",
+      "title": "Breaking The Bank",
+      "description": "Break into the vault in this heist game!",
+      "short_description": "Breaking The Bank",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/breaking-the-bank.webp",
+      "categories": [
+        "Adventure",
+        "Puzzle"
+      ],
+      "url": "https://githubgames.gitlab.io/game/breaking-the-bank.html",
+      "rating": 4.9,
+      "developer": "Open Source",
+      "controls": "Mouse/Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "cyber-cars-punk-racing",
+      "title": "Cyber Cars Punk Racing",
+      "description": "Futuristic cyberpunk car racing!",
+      "short_description": "Cyber Cars Punk Racing",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/cyber-cars-punk-racing.webp",
+      "categories": [
+        "Racing",
+        "3D"
+      ],
+      "url": "https://githubgames.gitlab.io/game/cyber-cars-punk-racing.html",
+      "rating": 4.2,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "death-chase",
+      "title": "Death Chase",
+      "description": "Race for your life in this survival racer!",
+      "short_description": "Death Chase",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/death-chase.webp",
+      "categories": [
+        "Racing",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/death-chase.html",
+      "rating": 4.7,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "drift-io",
+      "title": "Drift IO",
+      "description": "Drift and compete online against others!",
+      "short_description": "Drift IO",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/drift-io.webp",
+      "categories": [
+        "Racing",
+        "Arcade"
+      ],
+      "url": "https://githubgames.gitlab.io/game/drift-io.html",
+      "rating": 4.7,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "escaping-the-prison",
+      "title": "Escaping The Prison",
+      "description": "Plan and execute a prison break!",
+      "short_description": "Escaping The Prison",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/escaping-the-prison.webp",
+      "categories": [
+        "Adventure",
+        "Puzzle"
+      ],
+      "url": "https://githubgames.gitlab.io/game/escaping-the-prison.html",
+      "rating": 4,
+      "developer": "Open Source",
+      "controls": "Mouse/Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "fleeing-the-complex",
+      "title": "Fleeing The Complex",
+      "description": "Escape from a high-security facility!",
+      "short_description": "Fleeing The Complex",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/fleeing-the-complex.webp",
+      "categories": [
+        "Adventure",
+        "Puzzle"
+      ],
+      "url": "https://githubgames.gitlab.io/game/fleeing-the-complex.html",
+      "rating": 4.5,
+      "developer": "Open Source",
+      "controls": "Mouse/Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "football-masters",
+      "title": "Football Masters",
+      "description": "Play action-packed arcade football!",
+      "short_description": "Football Masters",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/football-masters.webp",
+      "categories": [
+        "Sports",
+        "Arcade"
+      ],
+      "url": "https://githubgames.gitlab.io/game/football-masters.html",
+      "rating": 4.6,
+      "developer": "Open Source",
+      "controls": "Arrow Keys/Space",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "g-switch-4",
+      "title": "G Switch 4",
+      "description": "Flip gravity and race through wild tracks!",
+      "short_description": "G Switch 4",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/g-switch-4.webp",
+      "categories": [
+        "Arcade",
+        "Running"
+      ],
+      "url": "https://githubgames.gitlab.io/game/g-switch-4.html",
+      "rating": 4.4,
+      "developer": "Open Source",
+      "controls": "Space/Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "game-of-farmers",
+      "title": "Game Of Farmers",
+      "description": "Build the ultimate farming kingdom!",
+      "short_description": "Game Of Farmers",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/game-of-farmers.webp",
+      "categories": [
+        "Simulation",
+        "Strategy"
+      ],
+      "url": "https://githubgames.gitlab.io/game/game-of-farmers.html",
+      "rating": 4.6,
+      "developer": "Open Source",
+      "controls": "Mouse/Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "gold-digger-frvr",
+      "title": "Gold Digger FRVR",
+      "description": "Dig for gold and strike it rich!",
+      "short_description": "Gold Digger FRVR",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/gold-digger-frvr.webp",
+      "categories": [
+        "Puzzle",
+        "Arcade"
+      ],
+      "url": "https://githubgames.gitlab.io/game/gold-digger-frvr.html",
+      "rating": 4.8,
+      "developer": "Open Source",
+      "controls": "Mouse/Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "gp-moto-racing-3",
+      "title": "GP Moto Racing 3",
+      "description": "Pro motorcycle racing on epic circuits!",
+      "short_description": "GP Moto Racing 3",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/gp-moto-racing-3.webp",
+      "categories": [
+        "Racing",
+        "Sports"
+      ],
+      "url": "https://githubgames.gitlab.io/game/gp-moto-racing-3.html",
+      "rating": 4.1,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "grindcraft-remastered",
+      "title": "GrindCraft Remastered",
+      "description": "Craft and survive in block world!",
+      "short_description": "GrindCraft Remastered",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/grindcraft-remastered.webp",
+      "categories": [
+        "Simulation",
+        "Adventure"
+      ],
+      "url": "https://githubgames.gitlab.io/game/grindcraft-remastered.html",
+      "rating": 4.3,
+      "developer": "Open Source",
+      "controls": "Mouse/Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "highway-bike-simulator",
+      "title": "Highway Bike Simulator",
+      "description": "Race bikes on busy highways!",
+      "short_description": "Highway Bike Simulator",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/highway-bike-simulator.webp",
+      "categories": [
+        "Racing",
+        "3D"
+      ],
+      "url": "https://githubgames.gitlab.io/game/highway-bike-simulator.html",
+      "rating": 4,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "hill-climb-racing",
+      "title": "Hill Climb Racing",
+      "description": "Climb impossible hills with physics!",
+      "short_description": "Hill Climb Racing",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/hill-climb-racing.webp",
+      "categories": [
+        "Racing",
+        "Arcade"
+      ],
+      "url": "https://githubgames.gitlab.io/game/hill-climb-racing.html",
+      "rating": 4.5,
+      "developer": "Open Source",
+      "controls": "Arrow Keys/Space",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "hover-racer-drive",
+      "title": "Hover Racer Drive",
+      "description": "Fly hovercrafts through neon tracks!",
+      "short_description": "Hover Racer Drive",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/hover-racer-drive.webp",
+      "categories": [
+        "Racing",
+        "Arcade"
+      ],
+      "url": "https://githubgames.gitlab.io/game/hover-racer-drive.html",
+      "rating": 4.5,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "idle-dice",
+      "title": "Idle Dice",
+      "description": "Roll the dice and build fortune!",
+      "short_description": "Idle Dice",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/idle-dice.webp",
+      "categories": [
+        "Idle",
+        "Strategy"
+      ],
+      "url": "https://githubgames.gitlab.io/game/idle-dice.html",
+      "rating": 4.4,
+      "developer": "Open Source",
+      "controls": "Mouse/Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "idle-digging-tycoon",
+      "title": "Idle Digging Tycoon",
+      "description": "Dig deep and build a mining empire!",
+      "short_description": "Idle Digging Tycoon",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/idle-digging-tycoon.webp",
+      "categories": [
+        "Simulation",
+        "Idle"
+      ],
+      "url": "https://githubgames.gitlab.io/game/idle-digging-tycoon.html",
+      "rating": 4.7,
+      "developer": "Open Source",
+      "controls": "Mouse/Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "iron-snout-2",
+      "title": "Iron Snout 2",
+      "description": "Even more wolf-punching pig action!",
+      "short_description": "Iron Snout 2",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/iron-snout-2.webp",
+      "categories": [
+        "Action",
+        "Fighting"
+      ],
+      "url": "https://githubgames.gitlab.io/game/iron-snout-2.html",
+      "rating": 4.2,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "jellycar-worlds",
+      "title": "JellyCar Worlds",
+      "description": "Drive squishy cars through wobbly worlds!",
+      "short_description": "JellyCar Worlds",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/jellycar-worlds.webp",
+      "categories": [
+        "Racing",
+        "Arcade"
+      ],
+      "url": "https://githubgames.gitlab.io/game/jellycar-worlds.html",
+      "rating": 4.6,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "jump-monster",
+      "title": "Jump Monster",
+      "description": "Jump and crush everything in your path!",
+      "short_description": "Jump Monster",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/jump-monster.webp",
+      "categories": [
+        "Arcade",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/jump-monster.html",
+      "rating": 4.9,
+      "developer": "Open Source",
+      "controls": "Space/Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "magikmon",
+      "title": "Magikmon",
+      "description": "Catch magical creatures and battle!",
+      "short_description": "Magikmon",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/magikmon.webp",
+      "categories": [
+        "Adventure",
+        "RPG"
+      ],
+      "url": "https://githubgames.gitlab.io/game/magikmon.html",
+      "rating": 4.6,
+      "developer": "Open Source",
+      "controls": "Mouse/Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "merge-cyber-racers",
+      "title": "Merge Cyber Racers",
+      "description": "Merge cars and race in cyber world!",
+      "short_description": "Merge Cyber Racers",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/merge-cyber-racers.webp",
+      "categories": [
+        "Racing",
+        "Strategy"
+      ],
+      "url": "https://githubgames.gitlab.io/game/merge-cyber-racers.html",
+      "rating": 4.8,
+      "developer": "Open Source",
+      "controls": "Mouse/Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "18-wheeler-cargo-simulator",
+      "title": "18 Wheeler Cargo Simulator",
+      "description": "Drive massive trucks delivering cargo!",
+      "short_description": "18 Wheeler Cargo Simulator",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/18-wheeler-cargo-simulator.webp",
+      "categories": [
+        "Racing",
+        "Simulation"
+      ],
+      "url": "https://githubgames.gitlab.io/game/18-wheeler-cargo-simulator.html",
+      "rating": 4.3,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "3d-arena-racing",
+      "title": "3D Arena Racing",
+      "description": "Race in explosive 3D arenas!",
+      "short_description": "3D Arena Racing",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/3d-arena-racing.webp",
+      "categories": [
+        "Racing",
+        "3D"
+      ],
+      "url": "https://githubgames.gitlab.io/game/3d-arena-racing.html",
+      "rating": 4.6,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "3d-car-simulator",
+      "title": "3D Car Simulator",
+      "description": "Realistic 3D car driving simulator!",
+      "short_description": "3D Car Simulator",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/3d-car-simulator.webp",
+      "categories": [
+        "Racing",
+        "3D"
+      ],
+      "url": "https://githubgames.gitlab.io/game/3d-car-simulator.html",
+      "rating": 4.2,
+      "developer": "Open Source",
+      "controls": "Arrow Keys/WASD",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "3d-moto-simulator-2",
+      "title": "3D Moto Simulator 2",
+      "description": "Epic motorcycle simulation in 3D!",
+      "short_description": "3D Moto Simulator 2",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/3d-moto-simulator-2.webp",
+      "categories": [
+        "Racing",
+        "3D"
+      ],
+      "url": "https://githubgames.gitlab.io/game/3d-moto-simulator-2.html",
+      "rating": 4.5,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "adventure-drivers",
+      "title": "Adventure Drivers",
+      "description": "Race and explore in driving adventures!",
+      "short_description": "Adventure Drivers",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/adventure-drivers.webp",
+      "categories": [
+        "Racing",
+        "Adventure"
+      ],
+      "url": "https://githubgames.gitlab.io/game/adventure-drivers.html",
+      "rating": 4.9,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "bicycle-stunts-3d",
+      "title": "Bicycle Stunts 3D",
+      "description": "Perform amazing bike stunts in 3D!",
+      "short_description": "Bicycle Stunts 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/bicycle-stunts-3d.webp",
+      "categories": [
+        "Sports",
+        "3D"
+      ],
+      "url": "https://githubgames.gitlab.io/game/bicycle-stunts-3d.html",
+      "rating": 4.8,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "blumgi-rocket",
+      "title": "Blumgi Rocket",
+      "description": "Launch rockets and defy physics!",
+      "short_description": "Blumgi Rocket",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/blumgi-rocket.webp",
+      "categories": [
+        "Arcade",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/blumgi-rocket.html",
+      "rating": 4.2,
+      "developer": "Open Source",
+      "controls": "Space/Mouse",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "burnin-rubber-5-xs",
+      "title": "Burnin Rubber 5 XS",
+      "description": "Extreme car combat racing action!",
+      "short_description": "Burnin Rubber 5 XS",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/burnin-rubber-5-xs.webp",
+      "categories": [
+        "Racing",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/burnin-rubber-5-xs.html",
+      "rating": 4.7,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "car-drift-racers-2",
+      "title": "Car Drift Racers 2",
+      "description": "Master the art of drifting!",
+      "short_description": "Car Drift Racers 2",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/car-drift-racers-2.webp",
+      "categories": [
+        "Racing",
+        "Sports"
+      ],
+      "url": "https://githubgames.gitlab.io/game/car-drift-racers-2.html",
+      "rating": 4.7,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "car-rush",
+      "title": "Car Rush",
+      "description": "Rush through city streets at top speed!",
+      "short_description": "Car Rush",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/car-rush.webp",
+      "categories": [
+        "Racing",
+        "Arcade"
+      ],
+      "url": "https://githubgames.gitlab.io/game/car-rush.html",
+      "rating": 4.9,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "car-simulator-arena",
+      "title": "Car Simulator Arena",
+      "description": "Drive freely in a massive arena!",
+      "short_description": "Car Simulator Arena",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/car-simulator-arena.webp",
+      "categories": [
+        "Racing",
+        "3D"
+      ],
+      "url": "https://githubgames.gitlab.io/game/car-simulator-arena.html",
+      "rating": 4.6,
+      "developer": "Open Source",
+      "controls": "Arrow Keys/WASD",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "cars-thief",
+      "title": "Cars Thief",
+      "description": "Steal cars and cause mayhem!",
+      "short_description": "Cars Thief",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/cars-thief.webp",
+      "categories": [
+        "Action",
         "Racing"
       ],
-      "url": "https://githubgames.gitlab.io/game/garbage-truck-sim-3d.html",
-      "rating": 4,
+      "url": "https://githubgames.gitlab.io/game/cars-thief.html",
+      "rating": 4.6,
       "developer": "Open Source",
       "controls": "Arrow Keys",
       "release_date": "Updated 2024"
     },
     {
-      "slug": "blocky-car-racing-3d",
-      "title": "Blocky Car Racing 3D",
-      "description": "Race blocky cars through colorful 3D tracks!",
-      "short_description": "Blocky Car Racing 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
+      "slug": "city-car-driving-stunt-master",
+      "title": "City Car Driving Stunt Master",
+      "description": "Perform insane city car stunts!",
+      "short_description": "City Car Driving Stunt Master",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/city-car-driving-stunt-master.webp",
       "categories": [
         "Racing",
-        "3D",
-        "Arcade"
-      ],
-      "url": "https://githubgames.gitlab.io/game/blocky-car-racing-3d.html",
-      "rating": 4,
-      "developer": "Open Source",
-      "controls": "Arrow Keys",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "kart-thunder-3d",
-      "title": "Kart Thunder 3D",
-      "description": "Thrilling go-kart racing with power-ups!",
-      "short_description": "Kart Thunder 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Racing",
-        "3D",
-        "Sports"
-      ],
-      "url": "https://githubgames.gitlab.io/game/kart-thunder-3d.html",
-      "rating": 3.5,
-      "developer": "Open Source",
-      "controls": "Arrow Keys",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "boost-monster-truck-3d",
-      "title": "Boost Monster Truck 3D",
-      "description": "Boost and crush in monster trucks!",
-      "short_description": "Boost Monster Truck 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Racing",
-        "3D",
         "Action"
       ],
-      "url": "https://githubgames.gitlab.io/game/boost-monster-truck-3d.html",
-      "rating": 4.2,
+      "url": "https://githubgames.gitlab.io/game/city-car-driving-stunt-master.html",
+      "rating": 4.5,
       "developer": "Open Source",
       "controls": "Arrow Keys",
       "release_date": "Updated 2024"
     },
     {
-      "slug": "hill-climb-truck-3d",
-      "title": "Hill Climb Truck 3D",
-      "description": "Climb impossible hills with powerful trucks!",
-      "short_description": "Hill Climb Truck 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
+      "slug": "crazy-bikes",
+      "title": "Crazy Bikes",
+      "description": "Ride crazy bikes through wild terrain!",
+      "short_description": "Crazy Bikes",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/crazy-bikes.webp",
       "categories": [
         "Racing",
-        "3D",
         "Arcade"
       ],
-      "url": "https://githubgames.gitlab.io/game/hill-climb-truck-3d.html",
-      "rating": 3.9,
+      "url": "https://githubgames.gitlab.io/game/crazy-bikes.html",
+      "rating": 4.3,
       "developer": "Open Source",
-      "controls": "Arrow Keys / Space",
+      "controls": "Arrow Keys",
       "release_date": "Updated 2024"
     },
     {
-      "slug": "mud-truck-rally-3d",
-      "title": "Mud Truck Rally 3D",
-      "description": "Race through deep mud in off-road trucks!",
-      "short_description": "Mud Truck Rally 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
+      "slug": "crazy-cars",
+      "title": "Crazy Cars",
+      "description": "Wacky car racing with crazy physics!",
+      "short_description": "Crazy Cars",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/crazy-cars.webp",
       "categories": [
         "Racing",
-        "3D",
-        "Simulation"
+        "Arcade"
       ],
-      "url": "https://githubgames.gitlab.io/game/mud-truck-rally-3d.html",
-      "rating": 3.8,
+      "url": "https://githubgames.gitlab.io/game/crazy-cars.html",
+      "rating": 4.4,
       "developer": "Open Source",
       "controls": "Arrow Keys",
       "release_date": "Updated 2024"
     },
     {
-      "slug": "snow-plow-sim-3d",
-      "title": "Snow Plow Sim 3D",
-      "description": "Clear snowy roads with powerful plow trucks!",
-      "short_description": "Snow Plow Sim 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
+      "slug": "demolition-derby-crash-racing",
+      "title": "Demolition Derby Crash Racing",
+      "description": "Crash and smash in the derby arena!",
+      "short_description": "Demolition Derby Crash Racing",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/demolition-derby-crash-racing.webp",
       "categories": [
-        "Simulation",
-        "3D",
-        "Driving"
+        "Racing",
+        "Action"
       ],
-      "url": "https://githubgames.gitlab.io/game/snow-plow-sim-3d.html",
-      "rating": 3.6,
+      "url": "https://githubgames.gitlab.io/game/demolition-derby-crash-racing.html",
+      "rating": 4.9,
       "developer": "Open Source",
       "controls": "Arrow Keys",
       "release_date": "Updated 2024"
     },
     {
-      "slug": "oil-tanker-sim-3d",
-      "title": "Oil Tanker Sim 3D",
-      "description": "Transport oil in massive tanker trucks!",
-      "short_description": "Oil Tanker Sim 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
+      "slug": "drift-boss",
+      "title": "Drift Boss",
+      "description": "Become the ultimate drifting champion!",
+      "short_description": "Drift Boss",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/drift-boss.webp",
       "categories": [
-        "Simulation",
-        "3D",
-        "Driving"
+        "Racing",
+        "Sports"
       ],
-      "url": "https://githubgames.gitlab.io/game/oil-tanker-sim-3d.html",
-      "rating": 3.7,
+      "url": "https://githubgames.gitlab.io/game/drift-boss.html",
+      "rating": 4.8,
+      "developer": "Open Source",
+      "controls": "Mouse/Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "drift-dudes",
+      "title": "Drift Dudes",
+      "description": "Radical drifting with cool characters!",
+      "short_description": "Drift Dudes",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/drift-dudes.webp",
+      "categories": [
+        "Racing",
+        "Arcade"
+      ],
+      "url": "https://githubgames.gitlab.io/game/drift-dudes.html",
+      "rating": 4.9,
       "developer": "Open Source",
       "controls": "Arrow Keys",
       "release_date": "Updated 2024"
     },
     {
-      "slug": "fire-truck-rescue-3d",
-      "title": "Fire Truck Rescue 3D",
-      "description": "Drive fire trucks to save people in emergencies!",
-      "short_description": "Fire Truck Rescue 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
+      "slug": "drift-f1",
+      "title": "Drift F1",
+      "description": "Formula One drifting mastery!",
+      "short_description": "Drift F1",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/drift-f1.webp",
+      "categories": [
+        "Racing",
+        "Sports"
+      ],
+      "url": "https://githubgames.gitlab.io/game/drift-f1.html",
+      "rating": 4.9,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "drive-mad",
+      "title": "Drive Mad",
+      "description": "Crazy destructive driving mayhem!",
+      "short_description": "Drive Mad",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/drive-mad.webp",
+      "categories": [
+        "Racing",
+        "Arcade"
+      ],
+      "url": "https://githubgames.gitlab.io/game/drive-mad.html",
+      "rating": 4.2,
+      "developer": "Open Source",
+      "controls": "Arrow Keys/Space",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "earn-to-die",
+      "title": "Earn To Die",
+      "description": "Drive through zombie hordes to survive!",
+      "short_description": "Earn To Die",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/earn-to-die.webp",
       "categories": [
         "Action",
-        "3D",
-        "Simulation"
+        "Racing"
       ],
-      "url": "https://githubgames.gitlab.io/game/fire-truck-rescue-3d.html",
-      "rating": 4,
+      "url": "https://githubgames.gitlab.io/game/earn-to-die.html",
+      "rating": 4.1,
       "developer": "Open Source",
-      "controls": "Arrow Keys / Space",
+      "controls": "Arrow Keys/Space",
       "release_date": "Updated 2024"
     },
     {
-      "slug": "ambulance-rescue-3d",
-      "title": "Ambulance Rescue 3D",
-      "description": "Race ambulances to save lives in 3D!",
-      "short_description": "Ambulance Rescue 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
+      "slug": "eggy-car",
+      "title": "Eggy Car",
+      "description": "Don't drop the egg in this physics racer!",
+      "short_description": "Eggy Car",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/eggy-car.webp",
       "categories": [
-        "Action",
-        "3D",
-        "Simulation"
+        "Racing",
+        "Arcade"
       ],
-      "url": "https://githubgames.gitlab.io/game/ambulance-rescue-3d.html",
-      "rating": 3.9,
+      "url": "https://githubgames.gitlab.io/game/eggy-car.html",
+      "rating": 4.9,
       "developer": "Open Source",
       "controls": "Arrow Keys",
       "release_date": "Updated 2024"
     },
     {
-      "slug": "concrete-mixer-sim-3d",
-      "title": "Concrete Mixer Sim 3D",
-      "description": "Deliver concrete to construction sites!",
-      "short_description": "Concrete Mixer Sim 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
+      "slug": "endless-truck",
+      "title": "Endless Truck",
+      "description": "Drive endlessly through rough terrain!",
+      "short_description": "Endless Truck",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/endless-truck.webp",
       "categories": [
-        "Simulation",
-        "3D",
-        "Driving"
+        "Racing",
+        "Arcade"
       ],
-      "url": "https://githubgames.gitlab.io/game/concrete-mixer-sim-3d.html",
+      "url": "https://githubgames.gitlab.io/game/endless-truck.html",
       "rating": 4.1,
       "developer": "Open Source",
       "controls": "Arrow Keys",
       "release_date": "Updated 2024"
     },
     {
-      "slug": "rooftop-stunt-3d",
-      "title": "Rooftop Stunt 3D",
-      "description": "Perform insane rooftop stunts in 3D!",
-      "short_description": "Rooftop Stunt 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
+      "slug": "extreme-off-road-cars",
+      "title": "Extreme Off Road Cars",
+      "description": "Master extreme off-road driving!",
+      "short_description": "Extreme Off Road Cars",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/extreme-off-road-cars.webp",
+      "categories": [
+        "Racing",
+        "3D"
+      ],
+      "url": "https://githubgames.gitlab.io/game/extreme-off-road-cars.html",
+      "rating": 4.8,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "fastlane-frenzy",
+      "title": "Fastlane Frenzy",
+      "description": "High-speed lane switching action!",
+      "short_description": "Fastlane Frenzy",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/fastlane-frenzy.webp",
       "categories": [
         "Arcade",
-        "3D",
-        "Action"
+        "Racing"
       ],
-      "url": "https://githubgames.gitlab.io/game/rooftop-stunt-3d.html",
-      "rating": 3.6,
+      "url": "https://githubgames.gitlab.io/game/fastlane-frenzy.html",
+      "rating": 4.1,
       "developer": "Open Source",
-      "controls": "Arrow Keys / Space",
+      "controls": "Arrow Keys",
       "release_date": "Updated 2024"
     },
     {
-      "slug": "skateboard-rush-3d",
-      "title": "Skateboard Rush 3D",
-      "description": "Skate through city streets doing awesome tricks!",
-      "short_description": "Skateboard Rush 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
+      "slug": "fly-car-stunt-2",
+      "title": "Fly Car Stunt 2",
+      "description": "Stunt flying cars in epic arenas!",
+      "short_description": "Fly Car Stunt 2",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/fly-car-stunt-2.webp",
       "categories": [
-        "Sports",
-        "3D",
+        "Racing",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/fly-car-stunt-2.html",
+      "rating": 4.8,
+      "developer": "Open Source",
+      "controls": "Arrow Keys/Space",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "go-kart-go-ultra",
+      "title": "Go Kart Go Ultra",
+      "description": "Ultimate go-kart racing fun!",
+      "short_description": "Go Kart Go Ultra",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/go-kart-go-ultra.webp",
+      "categories": [
+        "Racing",
         "Arcade"
       ],
-      "url": "https://githubgames.gitlab.io/game/skateboard-rush-3d.html",
-      "rating": 3.8,
+      "url": "https://githubgames.gitlab.io/game/go-kart-go-ultra.html",
+      "rating": 4.6,
       "developer": "Open Source",
-      "controls": "Arrow Keys / Space",
+      "controls": "Arrow Keys",
       "release_date": "Updated 2024"
     },
     {
-      "slug": "bike-stunt-master-3d",
-      "title": "Bike Stunt Master 3D",
-      "description": "Perform crazy bike stunts on massive ramps!",
-      "short_description": "Bike Stunt Master 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
+      "slug": "grand-prix-hero",
+      "title": "Grand Prix Hero",
+      "description": "Become the Grand Prix champion!",
+      "short_description": "Grand Prix Hero",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/grand-prix-hero.webp",
       "categories": [
-        "Sports",
-        "3D",
+        "Racing",
+        "Sports"
+      ],
+      "url": "https://githubgames.gitlab.io/game/grand-prix-hero.html",
+      "rating": 4.1,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "jelly-truck",
+      "title": "Jelly Truck",
+      "description": "Wobble your way through crazy levels!",
+      "short_description": "Jelly Truck",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/jelly-truck.webp",
+      "categories": [
+        "Racing",
+        "Arcade"
+      ],
+      "url": "https://githubgames.gitlab.io/game/jelly-truck.html",
+      "rating": 4.2,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "kart-race-3d",
+      "title": "Kart Race 3D",
+      "description": "Fast-paced 3D kart racing action!",
+      "short_description": "Kart Race 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/kart-race-3d.webp",
+      "categories": [
+        "Racing",
+        "3D"
+      ],
+      "url": "https://githubgames.gitlab.io/game/kart-race-3d.html",
+      "rating": 4.3,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "kart-wars",
+      "title": "Kart Wars",
+      "description": "Battle while racing in armed karts!",
+      "short_description": "Kart Wars",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/kart-wars.webp",
+      "categories": [
+        "Racing",
         "Action"
       ],
-      "url": "https://githubgames.gitlab.io/game/bike-stunt-master-3d.html",
+      "url": "https://githubgames.gitlab.io/game/kart-wars.html",
+      "rating": 4.7,
+      "developer": "Open Source",
+      "controls": "Arrow Keys/Space",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "mad-truck-challenge-special",
+      "title": "Mad Truck Challenge",
+      "description": "Destroy opponents in truck arena battles!",
+      "short_description": "Mad Truck Challenge",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/mad-truck-challenge-special.webp",
+      "categories": [
+        "Racing",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/mad-truck-challenge-special.html",
+      "rating": 4.5,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "madalin-stunt-cars-2",
+      "title": "Madalin Stunt Cars 2",
+      "description": "Open world stunt driving paradise!",
+      "short_description": "Madalin Stunt Cars 2",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/madalin-stunt-cars-2.webp",
+      "categories": [
+        "Racing",
+        "3D"
+      ],
+      "url": "https://githubgames.gitlab.io/game/madalin-stunt-cars-2.html",
+      "rating": 4.1,
+      "developer": "Open Source",
+      "controls": "Arrow Keys/WASD",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "mega-ramp-car-stunts",
+      "title": "Mega Ramp Car Stunts",
+      "description": "Perform massive ramp stunts with cars!",
+      "short_description": "Mega Ramp Car Stunts",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/mega-ramp-car-stunts.webp",
+      "categories": [
+        "Racing",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/mega-ramp-car-stunts.html",
+      "rating": 4.7,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "moto-x3m-4-winter",
+      "title": "Moto X3M Winter",
+      "description": "Winter motorcycle trials madness!",
+      "short_description": "Moto X3M Winter",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/moto-x3m-4-winter.webp",
+      "categories": [
+        "Racing",
+        "Arcade"
+      ],
+      "url": "https://githubgames.gitlab.io/game/moto-x3m-4-winter.html",
+      "rating": 4,
+      "developer": "Open Source",
+      "controls": "Arrow Keys/Space",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "moto-x3m-5-pool-party",
+      "title": "Moto X3M Pool Party",
+      "description": "Summer pool party bike racing!",
+      "short_description": "Moto X3M Pool Party",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/moto-x3m-5-pool-party.webp",
+      "categories": [
+        "Racing",
+        "Arcade"
+      ],
+      "url": "https://githubgames.gitlab.io/game/moto-x3m-5-pool-party.html",
+      "rating": 4.4,
+      "developer": "Open Source",
+      "controls": "Arrow Keys/Space",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "motox3m-2",
+      "title": "Moto X3M 2",
+      "description": "Extreme motorcycle trials part 2!",
+      "short_description": "Moto X3M 2",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/motox3m-2.webp",
+      "categories": [
+        "Racing",
+        "Arcade"
+      ],
+      "url": "https://githubgames.gitlab.io/game/motox3m-2.html",
+      "rating": 4.8,
+      "developer": "Open Source",
+      "controls": "Arrow Keys/Space",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "neon-hill-rider",
+      "title": "Neon Hill Rider",
+      "description": "Ride neon hills at breakneck speed!",
+      "short_description": "Neon Hill Rider",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/neon-hill-rider.webp",
+      "categories": [
+        "Racing",
+        "Arcade"
+      ],
+      "url": "https://githubgames.gitlab.io/game/neon-hill-rider.html",
+      "rating": 4.8,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "offroad-forest-racing",
+      "title": "Offroad Forest Racing",
+      "description": "Race through deep forest off-road!",
+      "short_description": "Offroad Forest Racing",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/offroad-forest-racing.webp",
+      "categories": [
+        "Racing",
+        "3D"
+      ],
+      "url": "https://githubgames.gitlab.io/game/offroad-forest-racing.html",
+      "rating": 4.6,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "parking-fury-3",
+      "title": "Parking Fury 3",
+      "description": "Extreme parking challenges part 3!",
+      "short_description": "Parking Fury 3",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/parking-fury-3.webp",
+      "categories": [
+        "Racing",
+        "Puzzle"
+      ],
+      "url": "https://githubgames.gitlab.io/game/parking-fury-3.html",
+      "rating": 4.6,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "parking-fury-3d",
+      "title": "Parking Fury 3D",
+      "description": "Realistic 3D parking simulator!",
+      "short_description": "Parking Fury 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/parking-fury-3d.webp",
+      "categories": [
+        "Racing",
+        "Simulation"
+      ],
+      "url": "https://githubgames.gitlab.io/game/parking-fury-3d.html",
+      "rating": 4.6,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "rally-point-3",
+      "title": "Rally Point 3",
+      "description": "Rally racing through checkpoints!",
+      "short_description": "Rally Point 3",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/rally-point-3.webp",
+      "categories": [
+        "Racing",
+        "Arcade"
+      ],
+      "url": "https://githubgames.gitlab.io/game/rally-point-3.html",
       "rating": 4,
       "developer": "Open Source",
       "controls": "Arrow Keys",
       "release_date": "Updated 2024"
     },
     {
-      "slug": "skate-park-king-3d",
-      "title": "Skate Park King 3D",
-      "description": "Rule the skate park with awesome tricks!",
-      "short_description": "Skate Park King 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
+      "slug": "rally-point-4",
+      "title": "Rally Point 4",
+      "description": "More checkpoint rally racing!",
+      "short_description": "Rally Point 4",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/rally-point-4.webp",
       "categories": [
-        "Sports",
-        "3D",
+        "Racing",
         "Arcade"
       ],
-      "url": "https://githubgames.gitlab.io/game/skate-park-king-3d.html",
-      "rating": 3.8,
+      "url": "https://githubgames.gitlab.io/game/rally-point-4.html",
+      "rating": 4,
       "developer": "Open Source",
-      "controls": "Arrow Keys / Space",
+      "controls": "Arrow Keys",
       "release_date": "Updated 2024"
     },
     {
-      "slug": "jetpack-hero-3d",
-      "title": "Jetpack Hero 3D",
-      "description": "Fly through skies with a jetpack!",
-      "short_description": "Jetpack Hero 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
+      "slug": "retro-highway",
+      "title": "Retro Highway",
+      "description": "Retro-style highway racing action!",
+      "short_description": "Retro Highway",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/retro-highway.webp",
       "categories": [
-        "Arcade",
-        "3D",
-        "Action"
+        "Racing",
+        "Arcade"
       ],
-      "url": "https://githubgames.gitlab.io/game/jetpack-hero-3d.html",
-      "rating": 3.5,
+      "url": "https://githubgames.gitlab.io/game/retro-highway.html",
+      "rating": 4.8,
       "developer": "Open Source",
-      "controls": "Mouse / Space",
+      "controls": "Arrow Keys",
       "release_date": "Updated 2024"
     },
     {
-      "slug": "hoverboard-city-3d",
-      "title": "Hoverboard City 3D",
-      "description": "Hover through the city at high speed!",
-      "short_description": "Hoverboard City 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
+      "slug": "rider-2",
+      "title": "Rider 2",
+      "description": "Flip and ride through stunt tracks!",
+      "short_description": "Rider 2",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/rider-2.webp",
       "categories": [
         "Arcade",
-        "3D",
-        "Action"
-      ],
-      "url": "https://githubgames.gitlab.io/game/hoverboard-city-3d.html",
-      "rating": 3.8,
-      "developer": "Open Source",
-      "controls": "Arrow Keys / Swipe",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "santa-run-3d",
-      "title": "Santa Run 3D",
-      "description": "Help Santa deliver gifts in this festive runner!",
-      "short_description": "Santa Run 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Arcade",
-        "3D",
-        "Action"
-      ],
-      "url": "https://githubgames.gitlab.io/game/santa-run-3d.html",
-      "rating": 4.7,
-      "developer": "Open Source",
-      "controls": "Arrow Keys / Swipe",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "pumpkin-smash-3d",
-      "title": "Pumpkin Smash 3D",
-      "description": "Smash pumpkins in this Halloween-themed game!",
-      "short_description": "Pumpkin Smash 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Arcade",
-        "3D",
-        "Action"
-      ],
-      "url": "https://githubgames.gitlab.io/game/pumpkin-smash-3d.html",
-      "rating": 3.6,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "snowball-fight-3d",
-      "title": "Snowball Fight 3D",
-      "description": "Throw snowballs in epic 3D winter battles!",
-      "short_description": "Snowball Fight 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Arcade",
-        "3D",
         "Sports"
       ],
-      "url": "https://githubgames.gitlab.io/game/snowball-fight-3d.html",
-      "rating": 3.7,
+      "url": "https://githubgames.gitlab.io/game/rider-2.html",
+      "rating": 4.1,
       "developer": "Open Source",
-      "controls": "Mouse / Click",
+      "controls": "Arrow Keys/Space",
       "release_date": "Updated 2024"
     },
     {
-      "slug": "fireworks-3d",
-      "title": "Fireworks 3D",
-      "description": "Create beautiful fireworks displays in 3D!",
-      "short_description": "Fireworks 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Simulation",
-        "3D",
-        "Casual"
-      ],
-      "url": "https://githubgames.gitlab.io/game/fireworks-3d.html",
-      "rating": 4.7,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "fishing-clash-3d",
-      "title": "Fishing Clash 3D",
-      "description": "Catch the biggest fish in beautiful 3D lakes!",
-      "short_description": "Fishing Clash 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Simulation",
-        "3D",
-        "Casual"
-      ],
-      "url": "https://githubgames.gitlab.io/game/fishing-clash-3d.html",
-      "rating": 3.6,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "paint-art-3d",
-      "title": "Paint Art 3D",
-      "description": "Create amazing 3D art with colorful paint!",
-      "short_description": "Paint Art 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Puzzle",
-        "3D",
-        "Casual"
-      ],
-      "url": "https://githubgames.gitlab.io/game/paint-art-3d.html",
-      "rating": 4.7,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "water-slide-3d",
-      "title": "Water Slide 3D",
-      "description": "Slide down awesome water park rides!",
-      "short_description": "Water Slide 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Arcade",
-        "3D",
-        "Sports"
-      ],
-      "url": "https://githubgames.gitlab.io/game/water-slide-3d.html",
-      "rating": 4.9,
-      "developer": "Open Source",
-      "controls": "Arrow Keys / Swipe",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "balloon-pop-3d",
-      "title": "Balloon Pop 3D",
-      "description": "Pop all the colorful balloons in 3D!",
-      "short_description": "Balloon Pop 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Arcade",
-        "3D",
-        "Casual"
-      ],
-      "url": "https://githubgames.gitlab.io/game/balloon-pop-3d.html",
-      "rating": 4.9,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "ball-sort-3d",
-      "title": "Ball Sort 3D",
-      "description": "Sort colored balls into the right tubes!",
-      "short_description": "Ball Sort 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Puzzle",
-        "3D",
-        "Strategy"
-      ],
-      "url": "https://githubgames.gitlab.io/game/ball-sort-3d.html",
-      "rating": 4.7,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "minesweeper-3d",
-      "title": "Minesweeper 3D",
-      "description": "The classic minesweeper in beautiful 3D!",
-      "short_description": "Minesweeper 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Puzzle",
-        "3D",
-        "Strategy"
-      ],
-      "url": "https://githubgames.gitlab.io/game/minesweeper-3d.html",
-      "rating": 4.9,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "chess-3d",
-      "title": "Chess 3D",
-      "description": "Play chess against AI in stunning 3D!",
-      "short_description": "Chess 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Puzzle",
-        "3D",
-        "Strategy"
-      ],
-      "url": "https://githubgames.gitlab.io/game/chess-3d.html",
-      "rating": 4.3,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "ludo-3d",
-      "title": "Ludo 3D",
-      "description": "The classic board game brought to life in 3D!",
-      "short_description": "Ludo 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
-      "categories": [
-        "Strategy",
-        "3D",
-        "Casual"
-      ],
-      "url": "https://githubgames.gitlab.io/game/ludo-3d.html",
-      "rating": 4.2,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "carrom-3d",
-      "title": "Carrom 3D",
-      "description": "Pocket all pieces in realistic 3D carrom!",
-      "short_description": "Carrom 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
+      "slug": "rocket-soccer-derby",
+      "title": "Rocket Soccer Derby",
+      "description": "Rocket-powered car soccer madness!",
+      "short_description": "Rocket Soccer Derby",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/rocket-soccer-derby.webp",
       "categories": [
         "Sports",
-        "3D",
-        "Puzzle"
+        "Racing"
       ],
-      "url": "https://githubgames.gitlab.io/game/carrom-3d.html",
+      "url": "https://githubgames.gitlab.io/game/rocket-soccer-derby.html",
       "rating": 4.4,
       "developer": "Open Source",
-      "controls": "Mouse / Click",
+      "controls": "Arrow Keys/Boost",
       "release_date": "Updated 2024"
     },
     {
-      "slug": "poker-3d",
-      "title": "Poker 3D",
-      "description": "Play Texas Hold'em poker in beautiful 3D!",
-      "short_description": "Poker 3D",
-      "thumbnail": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIj48cmVjdCBmaWxsPSIjMTYyMTM4IiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIvPjx0ZXh0IHg9IjIwMCIgeT0iMTYwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSIjNjY3ZWVhIiBmb250LXNpemU9IjQ4IiBmb250LWZhbWlseT0iQXJpYWwiPvCfjq48L3RleHQ+PC9zdmc+",
+      "slug": "sling-drift",
+      "title": "Sling Drift",
+      "description": "Slingshot drift racing action!",
+      "short_description": "Sling Drift",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/sling-drift.webp",
       "categories": [
-        "Strategy",
-        "3D",
-        "Casual"
-      ],
-      "url": "https://githubgames.gitlab.io/game/poker-3d.html",
-      "rating": 4.3,
-      "developer": "Open Source",
-      "controls": "Mouse / Click",
-      "release_date": "Updated 2024"
-    },
-    {
-      "slug": "test-upload-game",
-      "title": "Test Upload Game",
-      "description": "Testing thumbnail upload",
-      "short_description": "Test Upload Game",
-      "thumbnail": "/uploads/thumb_1781626470801_gze1tg.png",
-      "categories": [
-        "3D",
+        "Racing",
         "Arcade"
       ],
-      "url": "https://githubgames.gitlab.io/game/slope.html",
+      "url": "https://githubgames.gitlab.io/game/sling-drift.html",
+      "rating": 4.3,
+      "developer": "Open Source",
+      "controls": "Mouse/Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "smash-karts",
+      "title": "Smash Karts",
+      "description": "Battle kart mayhem online!",
+      "short_description": "Smash Karts",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/smash-karts.webp",
+      "categories": [
+        "Racing",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/smash-karts.html",
+      "rating": 4.3,
+      "developer": "Open Source",
+      "controls": "Arrow Keys/Space",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "soccar",
+      "title": "Soccar",
+      "description": "Car soccer with rocket boosts!",
+      "short_description": "Soccar",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/soccar.webp",
+      "categories": [
+        "Sports",
+        "Racing"
+      ],
+      "url": "https://githubgames.gitlab.io/game/soccar.html",
+      "rating": 4.3,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "sports-bike-racing",
+      "title": "Sports Bike Racing",
+      "description": "High-speed superbike racing!",
+      "short_description": "Sports Bike Racing",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/sports-bike-racing.webp",
+      "categories": [
+        "Racing",
+        "Sports"
+      ],
+      "url": "https://githubgames.gitlab.io/game/sports-bike-racing.html",
+      "rating": 4.1,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "stock-car-hero",
+      "title": "Stock Car Hero",
+      "description": "NASCAR-style stock car racing!",
+      "short_description": "Stock Car Hero",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/stock-car-hero.webp",
+      "categories": [
+        "Racing",
+        "Sports"
+      ],
+      "url": "https://githubgames.gitlab.io/game/stock-car-hero.html",
+      "rating": 4.7,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "stunt-car-challenge-3",
+      "title": "Stunt Car Challenge 3",
+      "description": "Perform insane car stunt challenges!",
+      "short_description": "Stunt Car Challenge 3",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/stunt-car-challenge-3.webp",
+      "categories": [
+        "Racing",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/stunt-car-challenge-3.html",
+      "rating": 4.4,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "super-bike-the-champion",
+      "title": "Super Bike Champion",
+      "description": "Become the ultimate bike champion!",
+      "short_description": "Super Bike Champion",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/super-bike-the-champion.webp",
+      "categories": [
+        "Racing",
+        "Sports"
+      ],
+      "url": "https://githubgames.gitlab.io/game/super-bike-the-champion.html",
+      "rating": 4.2,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "super-star-car",
+      "title": "Super Star Car",
+      "description": "Drive the most amazing supercars!",
+      "short_description": "Super Star Car",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/super-star-car.webp",
+      "categories": [
+        "Racing",
+        "3D"
+      ],
+      "url": "https://githubgames.gitlab.io/game/super-star-car.html",
+      "rating": 4.1,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "survival-race",
+      "title": "Survival Race",
+      "description": "Race and survive against all odds!",
+      "short_description": "Survival Race",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/survival-race.webp",
+      "categories": [
+        "Racing",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/survival-race.html",
+      "rating": 4,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "tiny-cars",
+      "title": "Tiny Cars",
+      "description": "Race adorable tiny cars!",
+      "short_description": "Tiny Cars",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/tiny-cars.webp",
+      "categories": [
+        "Racing",
+        "Arcade"
+      ],
+      "url": "https://githubgames.gitlab.io/game/tiny-cars.html",
       "rating": 4.5,
-      "developer": "PlayGamio Studios",
-      "controls": "Keyboard & Mouse",
-      "release_date": "Updated 2026"
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "top-speed-3d",
+      "title": "Top Speed 3D",
+      "description": "Reach insane top speeds in 3D!",
+      "short_description": "Top Speed 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/top-speed-3d.webp",
+      "categories": [
+        "Racing",
+        "3D"
+      ],
+      "url": "https://githubgames.gitlab.io/game/top-speed-3d.html",
+      "rating": 4.3,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "traffic-jam-3d",
+      "title": "Traffic Jam 3D",
+      "description": "Navigate through massive 3D traffic jams!",
+      "short_description": "Traffic Jam 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/traffic-jam-3d.webp",
+      "categories": [
+        "Racing",
+        "3D"
+      ],
+      "url": "https://githubgames.gitlab.io/game/traffic-jam-3d.html",
+      "rating": 4.6,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "traffic-tour",
+      "title": "Traffic Tour",
+      "description": "Endless highway traffic racing!",
+      "short_description": "Traffic Tour",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/traffic-tour.webp",
+      "categories": [
+        "Racing",
+        "Arcade"
+      ],
+      "url": "https://githubgames.gitlab.io/game/traffic-tour.html",
+      "rating": 4,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "ultimate-offroad-cars-2",
+      "title": "Ultimate Offroad Cars 2",
+      "description": "The ultimate offroad driving challenge!",
+      "short_description": "Ultimate Offroad Cars 2",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/ultimate-offroad-cars-2.webp",
+      "categories": [
+        "Racing",
+        "3D"
+      ],
+      "url": "https://githubgames.gitlab.io/game/ultimate-offroad-cars-2.html",
+      "rating": 4.3,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "up-hill-racing-2",
+      "title": "Up Hill Racing 2",
+      "description": "Race up impossibly steep hills!",
+      "short_description": "Up Hill Racing 2",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/up-hill-racing-2.webp",
+      "categories": [
+        "Racing",
+        "Arcade"
+      ],
+      "url": "https://githubgames.gitlab.io/game/up-hill-racing-2.html",
+      "rating": 4,
+      "developer": "Open Source",
+      "controls": "Arrow Keys/Space",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "run-3",
+      "title": "Run 3",
+      "description": "Run through space tunnels in this classic!",
+      "short_description": "Run 3",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/run-3.webp",
+      "categories": [
+        "Arcade",
+        "Running"
+      ],
+      "url": "https://githubgames.gitlab.io/game/run-3.html",
+      "rating": 4.2,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "rolling-ball-3d",
+      "title": "Rolling Ball 3D",
+      "description": "Roll through obstacle courses at speed!",
+      "short_description": "Rolling Ball 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/rolling-ball-3d.webp",
+      "categories": [
+        "Arcade",
+        "Running"
+      ],
+      "url": "https://githubgames.gitlab.io/game/rolling-ball-3d.html",
+      "rating": 4,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "slope3",
+      "title": "Slope 3",
+      "description": "Roll down the neon slope avoiding obstacles!",
+      "short_description": "Slope 3",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/slope3.webp",
+      "categories": [
+        "Arcade",
+        "Running"
+      ],
+      "url": "https://githubgames.gitlab.io/game/slope3.html",
+      "rating": 4.1,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "tiles-hop-3d",
+      "title": "Tiles Hop 3D",
+      "description": "Bounce to the beat in music ball game!",
+      "short_description": "Tiles Hop 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/tiles-hop-3d.webp",
+      "categories": [
+        "Arcade",
+        "Music"
+      ],
+      "url": "https://githubgames.gitlab.io/game/tiles-hop-3d.html",
+      "rating": 4,
+      "developer": "Open Source",
+      "controls": "Mouse/Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "two-ball-3d",
+      "title": "Two Ball 3D",
+      "description": "Control two balls in this crazy racer!",
+      "short_description": "Two Ball 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/two-ball-3d.webp",
+      "categories": [
+        "Arcade",
+        "Running"
+      ],
+      "url": "https://githubgames.gitlab.io/game/two-ball-3d.html",
+      "rating": 4,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "death-run-3d",
+      "title": "Death Run 3D",
+      "description": "Run faster than death in this intense race!",
+      "short_description": "Death Run 3D",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/death-run-3d.webp",
+      "categories": [
+        "Arcade",
+        "Running"
+      ],
+      "url": "https://githubgames.gitlab.io/game/death-run-3d.html",
+      "rating": 4.5,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "electron-dash",
+      "title": "Electron Dash",
+      "description": "Dash through neon electronic worlds!",
+      "short_description": "Electron Dash",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/electron-dash.webp",
+      "categories": [
+        "Arcade",
+        "Running"
+      ],
+      "url": "https://githubgames.gitlab.io/game/electron-dash.html",
+      "rating": 4.1,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "geometry-dash-bloodbath",
+      "title": "Geometry Dash Bloodbath",
+      "description": "The hardest geometry dash level ever!",
+      "short_description": "Geometry Dash Bloodbath",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/geometry-dash-bloodbath.webp",
+      "categories": [
+        "Arcade",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/geometry-dash-bloodbath.html",
+      "rating": 4,
+      "developer": "Open Source",
+      "controls": "Space/Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "geometry-neon-dash-rainbow",
+      "title": "Geometry Neon Dash Rainbow",
+      "description": "Colorful neon geometry rhythm runner!",
+      "short_description": "Geometry Neon Dash Rainbow",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/geometry-neon-dash-rainbow.webp",
+      "categories": [
+        "Arcade",
+        "Running"
+      ],
+      "url": "https://githubgames.gitlab.io/game/geometry-neon-dash-rainbow.html",
+      "rating": 4.8,
+      "developer": "Open Source",
+      "controls": "Space/Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "gswitch",
+      "title": "G-Switch 3",
+      "description": "Gravity switching multiplayer runner!",
+      "short_description": "G-Switch 3",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/gswitch.webp",
+      "categories": [
+        "Arcade",
+        "Running"
+      ],
+      "url": "https://githubgames.gitlab.io/game/gswitch.html",
+      "rating": 4.3,
+      "developer": "Open Source",
+      "controls": "Space/Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "color-road",
+      "title": "Color Road",
+      "description": "Match colors while rolling to survive!",
+      "short_description": "Color Road",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/color-road.webp",
+      "categories": [
+        "Arcade",
+        "Running"
+      ],
+      "url": "https://githubgames.gitlab.io/game/color-road.html",
+      "rating": 4.3,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "escape-run",
+      "title": "Escape Run",
+      "description": "Escape the chasing danger while running!",
+      "short_description": "Escape Run",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/escape-run.webp",
+      "categories": [
+        "Arcade",
+        "Running"
+      ],
+      "url": "https://githubgames.gitlab.io/game/escape-run.html",
+      "rating": 4.7,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "jetpack-joyride",
+      "title": "Jetpack Joyride",
+      "description": "Fly with awesome jetpacks collecting coins!",
+      "short_description": "Jetpack Joyride",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/jetpack-joyride.webp",
+      "categories": [
+        "Arcade",
+        "Action"
+      ],
+      "url": "https://githubgames.gitlab.io/game/jetpack-joyride.html",
+      "rating": 4.5,
+      "developer": "Open Source",
+      "controls": "Space/Click",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "skibidi-dash",
+      "title": "Skibidi Dash",
+      "description": "Dash and dodge in this viral game!",
+      "short_description": "Skibidi Dash",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/skibidi-dash.webp",
+      "categories": [
+        "Arcade",
+        "Running"
+      ],
+      "url": "https://githubgames.gitlab.io/game/skibidi-dash.html",
+      "rating": 4.5,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "skiing-fred",
+      "title": "Skiing Fred",
+      "description": "Ski down deadly slopes as Fred!",
+      "short_description": "Skiing Fred",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/skiing-fred.webp",
+      "categories": [
+        "Arcade",
+        "Sports"
+      ],
+      "url": "https://githubgames.gitlab.io/game/skiing-fred.html",
+      "rating": 4.8,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "slope-ball",
+      "title": "Slope Ball",
+      "description": "Roll a ball down endless neon slopes!",
+      "short_description": "Slope Ball",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/slope-ball.webp",
+      "categories": [
+        "Arcade",
+        "Running"
+      ],
+      "url": "https://githubgames.gitlab.io/game/slope-ball.html",
+      "rating": 4.4,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "slope-run",
+      "title": "Slope Run",
+      "description": "High-speed slope running action!",
+      "short_description": "Slope Run",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/slope-run.webp",
+      "categories": [
+        "Arcade",
+        "Running"
+      ],
+      "url": "https://githubgames.gitlab.io/game/slope-run.html",
+      "rating": 4.6,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "vector-rush",
+      "title": "Vector Rush",
+      "description": "Rush through vector graphic worlds!",
+      "short_description": "Vector Rush",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/vector-rush.webp",
+      "categories": [
+        "Arcade",
+        "Running"
+      ],
+      "url": "https://githubgames.gitlab.io/game/vector-rush.html",
+      "rating": 4.2,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "slope-city",
+      "title": "Slope City",
+      "description": "Race down city slopes at breakneck speed!",
+      "short_description": "Slope City",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/slope-city.webp",
+      "categories": [
+        "Arcade",
+        "Running",
+        "3D"
+      ],
+      "url": "https://githubgames.gitlab.io/game/slope-city.html",
+      "rating": 4.5,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
+    },
+    {
+      "slug": "color-tunnel-2",
+      "title": "Color Tunnel 2",
+      "description": "Navigate through a color-shifting tunnel!",
+      "short_description": "Color Tunnel 2",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/color-tunnel-2.webp",
+      "categories": [
+        "Arcade",
+        "Running",
+        "3D"
+      ],
+      "url": "https://githubgames.gitlab.io/game/color-tunnel-2.html",
+      "rating": 4.4,
+      "developer": "Open Source",
+      "controls": "Arrow Keys",
+      "release_date": "Updated 2024"
     }
   ]
 }
