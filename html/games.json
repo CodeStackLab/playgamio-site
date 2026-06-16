@@ -8,7 +8,7 @@
       "title": "Swoop 3D Updated",
       "description": "An incredible 3D flight simulator. Fly through rings and score points in this immersive PlayCanvas game. Completely ad-free.",
       "short_description": "3D Flight Simulator!",
-      "thumbnail": "/uploads/thumb_1781627033793_k25iys.png",
+      "thumbnail": "https://playcanvas.com/editor/thumbnails/JtL2iqIH.jpg",
       "categories": [
         "3D",
         "Action",
@@ -25,7 +25,7 @@
       "title": "Seemore 3D",
       "description": "Explore an immersive 3D world in this completely ad-free PlayCanvas experience with stunning visuals.",
       "short_description": "Explore 3D World!",
-      "thumbnail": "https://playcanv.as/apps/960d78f4/thumbs/360.jpg",
+      "thumbnail": "https://playcanvas.com/editor/thumbnails/960d78f4.jpg",
       "categories": [
         "3D",
         "Simulation"
@@ -41,7 +41,7 @@
       "title": "Flappy 3D",
       "description": "The classic bird game in glorious 3D! Navigate pipes in this addictive PlayCanvas game. No ads to interrupt your high scores!",
       "short_description": "3D Flappy Bird!",
-      "thumbnail": "https://playcanv.as/apps/w2UjNIVS/thumbs/360.jpg",
+      "thumbnail": "https://githubgames.gitlab.io/assets/img/logo2.webp",
       "categories": [
         "3D",
         "Arcade"
@@ -74,7 +74,7 @@
       "title": "Astray 3D Maze",
       "description": "A stunning WebGL maze built with Three.js. Navigate through darkness using only your surroundings and find the exit!",
       "short_description": "3D Maze Adventure!",
-      "thumbnail": "https://raw.githubusercontent.com/wwwtyro/Astray/master/brick.png",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/astray-3d-maze.webp",
       "categories": [
         "3D",
         "Puzzle"
@@ -90,7 +90,7 @@
       "title": "Ball Pool 3D",
       "description": "A beautiful 3D ball pool physics simulation by Mr.doob. Drag, click, and shake to play with realistic physics! Chrome Experiment.",
       "short_description": "3D Pool Physics!",
-      "thumbnail": "https://lh4.ggpht.com/CcqNBx_RKbI64YrGrVe_b7ven6Ik48HqUpamHDNddSc6GQH2fCvxkGoW9bQbM9_UG4KJHdCEp8oX199OssabTZmPgiB_ahRxbnbz",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/ball-pool-3d.webp",
       "categories": [
         "Sports",
         "3D",
@@ -107,7 +107,7 @@
       "title": "Drift Hunters 3D",
       "description": "Burn rubber and master the art of drifting in this addictive 3D drifting simulator! Customize your car and hit the track!",
       "short_description": "3D Drift Racing!",
-      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/drift-hunters-3d.webp",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/drift-hunters.webp",
       "categories": [
         "Racing",
         "3D",
@@ -124,7 +124,7 @@
       "title": "Smash Karts 3D",
       "description": "Drive karts and battle against opponents in this fun 3D kart fighting game! Collect weapons and dominate the arena!",
       "short_description": "3D Kart Battle!",
-      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/smash-karts-3d.webp",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/smash-karts.webp",
       "categories": [
         "Racing",
         "3D",
@@ -141,7 +141,7 @@
       "title": "Temple Run 3D",
       "description": "Run, jump, slide and dodge obstacles in this legendary 3D endless runner! Escape the temple with the cursed idol!",
       "short_description": "3D Endless Runner!",
-      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/temple-run-3d.webp",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/temple-run-2.webp",
       "categories": [
         "3D",
         "Arcade",
@@ -158,7 +158,7 @@
       "title": "Planet City 3D",
       "description": "A beautiful 3D procedural city builder by Oskar Stålberg. Watch cities grow organically on a planet!",
       "short_description": "3D City Builder!",
-      "thumbnail": "https://oskarstalberg.com/game/planet/planet.png",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/planet-city-3d.webp",
       "categories": [
         "3D",
         "Simulation",
@@ -223,7 +223,7 @@
       "title": "Geometry Dash World",
       "description": "Jump and fly through rhythm-based obstacles in this iconic 3D platformer! Ad-free gameplay.",
       "short_description": "Rhythm Platformer!",
-      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/geometry-dash-world.webp",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/geometry-dash-world.webp",
       "categories": [
         "3D",
         "Arcade",
@@ -240,7 +240,7 @@
       "title": "Highway Racer 3D",
       "description": "Race at high speeds on busy highways in this intense 3D driving game! Dodge traffic and set records.",
       "short_description": "3D Highway Racing!",
-      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/highway-racer-3d.webp",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/highway-racer-3d.webp",
       "categories": [
         "Racing",
         "3D",
@@ -257,7 +257,7 @@
       "title": "Moto Road Rash 3D",
       "description": "Feel the thrill of motorcycle racing with dangerous road rash action in 3D!",
       "short_description": "3D Motorcycle Racing!",
-      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/motoroadrash3d.webp",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/motoroadrash3d.webp",
       "categories": [
         "Racing",
         "3D",
@@ -274,7 +274,7 @@
       "title": "Furious Racing 3D",
       "description": "Feel the fury of high-speed 3D racing! Drift, boost, and overtake opponents to win!",
       "short_description": "3D Racing Fury!",
-      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/furious-racing-3d.webp",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/furious-racing-3d.webp",
       "categories": [
         "Racing",
         "3D",
@@ -291,7 +291,7 @@
       "title": "Offroader V5 3D",
       "description": "Take on extreme off-road terrain in this 3D driving simulator! Climb hills and conquer mud!",
       "short_description": "3D Off-Road Driving!",
-      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/offroader-v5.webp",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/offroader-v5.webp",
       "categories": [
         "Racing",
         "3D",
@@ -308,7 +308,7 @@
       "title": "GP Moto Racing",
       "description": "Professional GP motorcycle racing in 3D! Race against the best and become champion!",
       "short_description": "Motorcycle GP Racing!",
-      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/gp-moto-racing.webp",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/gp-moto-racing.webp",
       "categories": [
         "Racing",
         "3D",
@@ -325,7 +325,7 @@
       "title": "Indian Truck Simulator 3D",
       "description": "Drive massive trucks through Indian highways in this 3D simulation game! Deliver cargo across cities.",
       "short_description": "3D Truck Driving!",
-      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/indian-truck-simulator-3d.webp",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/indian-truck-simulator-3d.webp",
       "categories": [
         "Simulation",
         "3D",
@@ -342,7 +342,7 @@
       "title": "Indian Bus Simulator 3D",
       "description": "Drive a bus through challenging uphill terrain in this 3D simulation game!",
       "short_description": "3D Bus Driving!",
-      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/indian-uphill-bus-simulator-3d.webp",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/indian-uphill-bus-simulator-3d.webp",
       "categories": [
         "Simulation",
         "3D",
@@ -359,7 +359,7 @@
       "title": "Fox Simulator 3D",
       "description": "Experience the wild as a fox in this 3D animal simulator! Explore forests and hunt for food!",
       "short_description": "3D Animal Sim!",
-      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/fox-simulator-3d.webp",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/fox-simulator-3d.webp",
       "categories": [
         "3D",
         "Simulation"
@@ -375,7 +375,7 @@
       "title": "Horse Simulator 3D",
       "description": "Gallop through beautiful landscapes as a horse in this 3D animal simulator! Explore and have fun.",
       "short_description": "3D Horse Sim!",
-      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/horse-simulator-3d.webp",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/horse-simulator-3d.webp",
       "categories": [
         "3D",
         "Simulation"
@@ -391,7 +391,7 @@
       "title": "Panda Simulator 3D",
       "description": "Live the life of a panda in this adorable 3D animal simulator! Eat bamboo and explore!",
       "short_description": "3D Panda Sim!",
-      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/panda-simulator-3d.webp",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/panda-simulator-3d.webp",
       "categories": [
         "3D",
         "Simulation"
@@ -407,7 +407,7 @@
       "title": "Dog Simulator 3D",
       "description": "Be the best dog in this fun 3D animal simulator! Run, play, and explore the neighborhood!",
       "short_description": "3D Dog Sim!",
-      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/dog-simulator-3d.webp",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/dog-simulator-3d.webp",
       "categories": [
         "3D",
         "Simulation"
@@ -423,7 +423,7 @@
       "title": "Only Up! 3D Parkour",
       "description": "Parkour your way up a vertical mountain world! Jump, climb, and don't fall in this challenging 3D game!",
       "short_description": "3D Parkour Climb!",
-      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/only-up-3d-parkour-go-ascend.webp",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/only-up-3d-parkour-go-ascend.webp",
       "categories": [
         "3D",
         "Action",
@@ -440,7 +440,7 @@
       "title": "Raccoon Adventure 3D",
       "description": "Explore the city as a raccoon in this 3D adventure simulator! Rummage through bins and explore!",
       "short_description": "3D Raccoon Sim!",
-      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/raccoon-adventure-city-simulator-3d.webp",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/raccoon-adventure-city-simulator-3d.webp",
       "categories": [
         "3D",
         "Simulation"
@@ -456,7 +456,7 @@
       "title": "DreadHead Parkour",
       "description": "Run, jump, and flip through urban environments in this action parkour game!",
       "short_description": "Urban Parkour!",
-      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/dreadhead-parkour.webp",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/dreadhead-parkour.webp",
       "categories": [
         "Action",
         "Arcade"
@@ -472,7 +472,7 @@
       "title": "Dune Surfer",
       "description": "Surf down massive sand dunes in this thrilling endless runner! Ad-free riding action!",
       "short_description": "Sand Dune Surfing!",
-      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/dune-surfer.webp",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/dune-surfer.webp",
       "categories": [
         "Arcade",
         "Sports",
@@ -489,7 +489,7 @@
       "title": "Eagle Ride",
       "description": "Soar through the sky as an eagle in this beautiful 3D flight simulator! Ad-free flying fun!",
       "short_description": "3D Eagle Flight!",
-      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/eagle-ride.webp",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/eagle-ride.webp",
       "categories": [
         "3D",
         "Simulation",
@@ -506,7 +506,7 @@
       "title": "Christmas Deer Simulator",
       "description": "Guide a magical deer through winter wonderlands in this festive 3D simulator!",
       "short_description": "3D Deer Sim!",
-      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/png/christmas-deer-simulator.webp",
+      "thumbnail": "https://githubgames.gitlab.io/assets/upload/subgorg/jpg/christmas-deer-simulator.webp",
       "categories": [
         "3D",
         "Simulation"
