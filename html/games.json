@@ -73,8 +73,8 @@
             "slug": "seemore-3d",
             "title": "SeeMore 3D",
             "url": "https://playcanvas.com/play/embed/123",
-            "thumbnail": "https://images.unsplash.com/photo-1518773553398-650c184e0bb3?auto=format&fit=crop&w=1200&q=80",
-            "image": "https://images.unsplash.com/photo-1518773553398-650c184e0bb3?auto=format&fit=crop&w=1200&q=80",
+            "thumbnail": "/assets/img/seemore.png",
+            "image": "/assets/img/seemore.png",
             "categories": [
                 "3D",
                 "Puzzle",
@@ -90,8 +90,8 @@
             "slug": "astray-3d-maze",
             "title": "Astray 3D Maze (Premium)",
             "url": "https://playcanvas.com/play/embed/123",
-            "thumbnail": "https://images.unsplash.com/photo-1506452819137-0422416856b8?auto=format&fit=crop&w=1200&q=80",
-            "image": "https://images.unsplash.com/photo-1506452819137-0422416856b8?auto=format&fit=crop&w=1200&q=80",
+            "thumbnail": "/assets/img/astray.png",
+            "image": "/assets/img/astray.png",
             "categories": [
                 "3D",
                 "Puzzle",
@@ -1622,8 +1622,8 @@
             "slug": "planet-city-3d",
             "title": "Planet City 3D",
             "url": "https://playcanvas.com/play/embed/12345",
-            "thumbnail": "https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?auto=format&fit=crop&w=1200&q=80",
-            "image": "https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?auto=format&fit=crop&w=1200&q=80",
+            "thumbnail": "/assets/img/planet_city.png",
+            "image": "/assets/img/planet_city.png",
             "categories": [
                 "3D",
                 "Simulation",
