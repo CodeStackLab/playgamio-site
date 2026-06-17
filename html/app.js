@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         </div>
                     </div>
                 `;
-                card.addEventListener('click', () => { window.location.href = 'game.html?id=' + game.slug; });
+                card.addEventListener('click', () => { window.location.href = 'game.html?v=9.9&id=' + game.slug; });
                 heroGrid.appendChild(card);
             });
         }
@@ -177,7 +177,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         </div>
                     </div>
                 `;
-                card.addEventListener('click', () => { window.location.href = 'game.html?id=' + game.slug; });
+                card.addEventListener('click', () => { window.location.href = 'game.html?v=9.9&id=' + game.slug; });
                 mainGrid.appendChild(card);
             });
         }
@@ -226,7 +226,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             </div>
                         </div>
                     `;
-                    card.addEventListener('click', () => { window.location.href = 'game.html?id=' + game.slug; });
+                    card.addEventListener('click', () => { window.location.href = 'game.html?v=9.9&id=' + game.slug; });
                     historyGrid.appendChild(card);
                 });
             } else {
