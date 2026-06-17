@@ -1,24 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>PlayGamio | Professional Games Portal</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL,GRAD,opsz@400,1,0,20" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL,GRAD,opsz@400,1,0,20"
+        rel="stylesheet" />
     <style>
         body {
             font-family: 'Inter', sans-serif;
             background-color: #131230;
             background-image: linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
-            linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+                linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
             background-size: 50px 50px;
             color: #fff;
             min-height: 100vh;
         }
-        .font-display { font-family: 'Outfit', sans-serif; }
-        
+
+        .font-display {
+            font-family: 'Outfit', sans-serif;
+        }
+
         /* Thin Top Nav */
         .top-nav {
             position: sticky;
@@ -26,14 +33,20 @@
             z-index: 50;
             background-color: rgba(19, 18, 48, 0.85);
             backdrop-filter: blur(12px);
-            border-bottom: 1px solid rgba(255,255,255,0.05);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
             padding: 8px 16px;
         }
 
         /* Category Scroll */
-        .category-scroll::-webkit-scrollbar { display: none; }
-        .category-scroll { -ms-overflow-style: none; scrollbar-width: none; }
-        
+        .category-scroll::-webkit-scrollbar {
+            display: none;
+        }
+
+        .category-scroll {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
         .category-btn {
             background-color: rgba(255, 255, 255, 0.05);
             border: 1px solid rgba(255, 255, 255, 0.1);
@@ -46,10 +59,12 @@
             transition: all 0.2s;
             cursor: pointer;
         }
+
         .category-btn:hover {
             background-color: rgba(255, 255, 255, 0.1);
             color: #fff;
         }
+
         .category-btn.active {
             background-color: rgba(99, 102, 241, 0.2);
             border-color: rgba(99, 102, 241, 0.5);
@@ -62,19 +77,21 @@
             overflow: hidden;
             position: relative;
             cursor: pointer;
-            border: 1px solid rgba(255,255,255,0.1);
+            border: 1px solid rgba(255, 255, 255, 0.1);
             transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
             aspect-ratio: 16/9;
         }
+
         .hero-card:hover {
             transform: translateY(-4px);
-            border-color: rgba(255,255,255,0.2);
-            box-shadow: 0 20px 40px -10px rgba(0,0,0,0.5);
+            border-color: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.5);
         }
+
         .hero-overlay {
             position: absolute;
             inset: 0;
-            background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.2) 50%, transparent 100%);
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.2) 50%, transparent 100%);
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
@@ -82,6 +99,7 @@
             opacity: 0;
             transition: opacity 0.3s;
         }
+
         .hero-card:hover .hero-overlay {
             opacity: 1;
         }
@@ -92,14 +110,15 @@
             overflow: hidden;
             position: relative;
             cursor: pointer;
-            border: 1px solid rgba(255,255,255,0.05);
-            background: rgba(255,255,255,0.02);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            background: rgba(255, 255, 255, 0.02);
             transition: all 0.2s;
             aspect-ratio: 4/3;
         }
+
         .grid-card:hover {
             transform: translateY(-2px);
-            border-color: rgba(255,255,255,0.15);
+            border-color: rgba(255, 255, 255, 0.15);
         }
 
         /* Planned Card */
@@ -107,11 +126,11 @@
             border-radius: 12px;
             overflow: hidden;
             position: relative;
-            border: 1px solid rgba(255,255,255,0.05);
-            background: rgba(255,255,255,0.02);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            background: rgba(255, 255, 255, 0.02);
             aspect-ratio: 16/9;
         }
-        
+
         /* Badges */
         .badge {
             font-size: 10px;
@@ -120,47 +139,67 @@
             border-radius: 10px;
             text-transform: uppercase;
             letter-spacing: 0.5px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
         }
-        .badge-hot { background: linear-gradient(to right, #ef4444, #f97316); color: white; }
-        .badge-new { background: linear-gradient(to right, #3b82f6, #06b6d4); color: white; }
+
+        .badge-hot {
+            background: linear-gradient(to right, #ef4444, #f97316);
+            color: white;
+        }
+
+        .badge-new {
+            background: linear-gradient(to right, #3b82f6, #06b6d4);
+            color: white;
+        }
     </style>
 </head>
+
 <body>
 
     <!-- Top Navigation -->
-    <nav class="top-nav flex items-center justify-between">
-        <div class="flex items-center gap-6 overflow-hidden">
+    <nav class="top-nav flex items-center justify-between bg-gradient-to-r from-indigo-900 to-[#131230]">
+        <div class="flex-1 flex items-center gap-3 sm:gap-6 overflow-hidden">
             <!-- Brand Logo -->
             <a href="/" class="flex items-center gap-2 shrink-0 group">
                 <div class="bg-indigo-600 rounded-lg p-1.5 group-hover:bg-indigo-500 transition-colors">
                     <span class="material-symbols-outlined text-white" style="font-size: 20px;">sports_esports</span>
                 </div>
-                <span class="font-display font-bold text-xl tracking-tight hidden sm:block">PlayGamio</span>
+                <span class="font-display font-bold text-xl tracking-tight">PlayGamio</span>
             </a>
 
-            <!-- Categories -->
-            <div class="category-scroll flex items-center gap-2 overflow-x-auto py-1" id="categoryNav">
-                <button data-cat="All" class="category-btn active flex items-center gap-1.5">
-                    <span class="material-symbols-outlined" style="font-size: 16px;">grid_view</span> All
+            <!-- Categories with Slider -->
+            <div class="relative flex items-center flex-1 min-w-0">
+                <button id="scrollLeftBtn" class="absolute left-0 z-10 bg-gradient-to-r from-indigo-900 to-transparent w-8 h-full flex items-center justify-start text-white opacity-80 hover:opacity-100 transition-opacity md:hidden">
+                    <span class="material-symbols-outlined">chevron_left</span>
                 </button>
-                <button data-cat="Business" class="category-btn">Business</button>
-                <button data-cat="Strategy" class="category-btn">Strategy</button>
-                <button data-cat="Arcade" class="category-btn">Arcade</button>
-                <button data-cat="Sports" class="category-btn">Sports</button>
-                <button data-cat="Lifestyle" class="category-btn">Lifestyle</button>
-                <button data-cat="Puzzle" class="category-btn">Puzzle</button>
-                <button data-cat="Tycoon" class="category-btn">Tycoon</button>
-                <button data-cat="Simulation" class="category-btn">Simulation</button>
-                <button data-cat="Idle" class="category-btn">Idle</button>
-                <button data-cat="Action" class="category-btn">Action</button>
-                <button data-cat="Racing" class="category-btn">Racing</button>
-                <button data-cat="3D" class="category-btn">3D</button>
+                
+                <div class="category-scroll flex items-center gap-2 overflow-x-auto py-1 px-6 scroll-smooth w-full hide-scrollbar" id="categoryNav">
+                    <button data-cat="All" class="category-btn active flex items-center gap-1.5">
+                        <span class="material-symbols-outlined" style="font-size: 16px;">grid_view</span> All
+                    </button>
+                    <button data-cat="Business" class="category-btn">Business</button>
+                    <button data-cat="Strategy" class="category-btn">Strategy</button>
+                    <button data-cat="Arcade" class="category-btn">Arcade</button>
+                    <button data-cat="Sports" class="category-btn">Sports</button>
+                    <button data-cat="Lifestyle" class="category-btn">Lifestyle</button>
+                    <button data-cat="Puzzle" class="category-btn">Puzzle</button>
+                    <button data-cat="Tycoon" class="category-btn">Tycoon</button>
+                    <button data-cat="Simulation" class="category-btn">Simulation</button>
+                    <button data-cat="Idle" class="category-btn">Idle</button>
+                    <button data-cat="Action" class="category-btn">Action</button>
+                    <button data-cat="Racing" class="category-btn">Racing</button>
+                    <button data-cat="3D" class="category-btn">3D</button>
+                </div>
+                
+                <button id="scrollRightBtn" class="absolute right-0 z-10 bg-gradient-to-l from-[#131230] to-transparent w-8 h-full flex items-center justify-end text-white opacity-80 hover:opacity-100 transition-opacity md:hidden">
+                    <span class="material-symbols-outlined">chevron_right</span>
+                </button>
             </div>
         </div>
-        
-        <div class="shrink-0 ml-4 hidden md:flex">
-            <button id="navAuthBtn" class="flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white px-4 py-1.5 rounded-full text-sm font-semibold border border-white/10 transition-colors">
+
+        <div class="shrink-0 ml-4 flex">
+            <button id="navAuthBtn"
+                class="flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white px-4 py-1.5 rounded-full text-sm font-semibold border border-white/10 transition-colors">
                 <span class="material-symbols-outlined" style="font-size: 18px;" id="navAuthIcon">account_circle</span>
                 <span id="navAuthText">Sign In</span>
             </button>
@@ -169,7 +208,7 @@
 
     <!-- Main Content -->
     <main class="max-w-[1600px] mx-auto px-4 md:px-6 lg:px-8 py-8 space-y-12">
-        
+
         <!-- Loading Indicator -->
         <div id="loadingIndicator" class="flex flex-col items-center justify-center py-20">
             <div class="w-12 h-12 border-4 border-indigo-500 border-t-transparent rounded-full animate-spin mb-4"></div>
@@ -178,7 +217,7 @@
 
         <!-- Hero Featured Section -->
         <section id="heroSection" class="hidden">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6" id="heroGrid">
+            <div class="grid grid-cols-1 lg:grid-cols-3 lg:grid-rows-2 gap-4 md:gap-6 h-auto lg:h-[550px]" id="heroGrid">
                 <!-- Injected via JS -->
             </div>
         </section>
@@ -188,14 +227,16 @@
             <div class="flex items-end gap-3 mb-6">
                 <h2 class="font-display text-2xl font-bold text-white">Continue Playing</h2>
             </div>
-            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3 md:gap-4" id="historyGrid">
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3 md:gap-4"
+                id="historyGrid">
                 <!-- Injected via JS -->
             </div>
         </section>
 
         <!-- Standard Games Grid -->
         <section id="mainSection" class="hidden">
-            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3 md:gap-4" id="mainGrid">
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3 md:gap-4"
+                id="mainGrid">
                 <!-- Injected via JS -->
             </div>
         </section>
@@ -206,16 +247,60 @@
                 <h2 class="font-display text-2xl font-bold text-white">Planned</h2>
                 <p class="text-gray-400 text-sm mb-1 hidden sm:block">Tell us which games to build next</p>
             </div>
-            
+
             <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 md:gap-4" id="plannedGrid">
                 <!-- Injected via JS -->
             </div>
         </section>
 
     </main>
+
+    <!-- Global Footer -->
+    <footer class="bg-[#0b0a1c] border-t border-white/10 mt-12 py-12">
+        <div class="max-w-[1600px] mx-auto px-4 md:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- Brand -->
+                <div class="col-span-1 md:col-span-2">
+                    <a href="/" class="flex items-center gap-2 mb-4">
+                        <div class="bg-indigo-600 rounded-lg p-1.5">
+                            <span class="material-symbols-outlined text-white" style="font-size: 20px;">sports_esports</span>
+                        </div>
+                        <span class="font-display font-bold text-2xl tracking-tight text-white">PlayGamio</span>
+                    </a>
+                    <p class="text-gray-400 text-sm max-w-sm mb-6">PlayGamio is your ultimate destination for the best free 3D games online. No downloads, no installs, just instant gaming right in your browser.</p>
+                </div>
+                <!-- Links -->
+                <div>
+                    <h3 class="text-white font-bold mb-4 font-display">Company</h3>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="/about.html" class="hover:text-indigo-400 transition-colors">About Us</a></li>
+                        <li><a href="/contact.html" class="hover:text-indigo-400 transition-colors">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-white font-bold mb-4 font-display">Legal</h3>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="/privacy.html" class="hover:text-indigo-400 transition-colors">Privacy Policy</a></li>
+                        <li><a href="/terms.html" class="hover:text-indigo-400 transition-colors">Terms of Service</a></li>
+                        <li><a href="/affiliate.html" class="hover:text-indigo-400 transition-colors">Affiliate Disclosure</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-white/10 mt-8 pt-8 flex flex-col md:flex-row items-center justify-between text-xs text-gray-500">
+                <p>&copy; 2026 PlayGamio. All rights reserved.</p>
+                <div class="flex gap-4 mt-4 md:mt-0">
+                    <a href="/privacy.html" class="hover:text-white transition-colors">Privacy</a>
+                    <a href="/terms.html" class="hover:text-white transition-colors">Terms</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
     <!-- Auth Modal (Login / Register) -->
-    <div id="loginModal" class="fixed inset-0 bg-black/80 z-[100] hidden flex items-center justify-center p-4 backdrop-blur-sm transition-opacity duration-300 opacity-0">
-        <div class="bg-slate-900 border border-slate-700 rounded-2xl w-full max-w-md overflow-hidden transform scale-95 transition-transform duration-300 relative">
+    <div id="loginModal"
+        class="fixed inset-0 bg-black/80 z-[100] hidden flex items-center justify-center p-4 backdrop-blur-sm transition-opacity duration-300 opacity-0">
+        <div
+            class="bg-slate-900 border border-slate-700 rounded-2xl w-full max-w-md overflow-hidden transform scale-95 transition-transform duration-300 relative">
             <button id="closeModal" class="absolute top-4 right-4 text-gray-400 hover:text-white transition-colors">
                 <span class="material-symbols-outlined">close</span>
             </button>
@@ -229,37 +314,48 @@
 
                 <!-- Auth Tabs -->
                 <div class="flex gap-2 mb-6 p-1 bg-slate-800 rounded-lg">
-                    <button id="tabLogin" class="flex-1 py-2 text-sm font-bold text-white bg-indigo-600 rounded-md transition-colors">Log In</button>
-                    <button id="tabRegister" class="flex-1 py-2 text-sm font-bold text-gray-400 hover:text-white rounded-md transition-colors">Register</button>
+                    <button id="tabLogin"
+                        class="flex-1 py-2 text-sm font-bold text-white bg-indigo-600 rounded-md transition-colors">Log
+                        In</button>
+                    <button id="tabRegister"
+                        class="flex-1 py-2 text-sm font-bold text-gray-400 hover:text-white rounded-md transition-colors">Register</button>
                 </div>
-                
+
                 <form id="authForm" class="space-y-4">
                     <!-- Username (Only for Register) -->
                     <div id="usernameField" class="hidden">
                         <label class="block text-sm font-medium text-slate-300 mb-1">Username</label>
-                        <input type="text" id="authUsernameInput" class="w-full bg-slate-800 border border-slate-600 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 transition-colors" placeholder="CoolGamer99">
+                        <input type="text" id="authUsernameInput"
+                            class="w-full bg-slate-800 border border-slate-600 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 transition-colors"
+                            placeholder="CoolGamer99">
                     </div>
 
                     <!-- Email -->
                     <div>
                         <label class="block text-sm font-medium text-slate-300 mb-1">Email Address</label>
-                        <input type="email" id="authEmailInput" class="w-full bg-slate-800 border border-slate-600 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 transition-colors" placeholder="you@example.com" required>
+                        <input type="email" id="authEmailInput"
+                            class="w-full bg-slate-800 border border-slate-600 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 transition-colors"
+                            placeholder="you@example.com" required>
                     </div>
 
                     <!-- Password -->
                     <div>
                         <label class="block text-sm font-medium text-slate-300 mb-1">Password</label>
-                        <input type="password" id="authPasswordInput" class="w-full bg-slate-800 border border-slate-600 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 transition-colors" placeholder="••••••••" required>
+                        <input type="password" id="authPasswordInput"
+                            class="w-full bg-slate-800 border border-slate-600 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 transition-colors"
+                            placeholder="••••••••" required>
                     </div>
-                    
-                    <button type="submit" id="authSubmitBtn" class="w-full bg-emerald-500 hover:bg-emerald-400 text-black font-bold text-lg py-3 rounded-lg transition-colors mt-2">
+
+                    <button type="submit" id="authSubmitBtn"
+                        class="w-full bg-emerald-500 hover:bg-emerald-400 text-black font-bold text-lg py-3 rounded-lg transition-colors mt-2">
                         Log In
                     </button>
                     <p id="authErrorMsg" class="text-red-400 text-sm text-center mt-2 hidden"></p>
                 </form>
             </div>
             <div class="bg-slate-800/50 p-4 border-t border-slate-700 text-center">
-                <p class="text-slate-400 text-sm">By continuing, you agree to our <a href="#" class="text-indigo-400 hover:underline">Terms of Service</a>.</p>
+                <p class="text-slate-400 text-sm">By continuing, you agree to our <a href="#"
+                        class="text-indigo-400 hover:underline">Terms of Service</a>.</p>
             </div>
         </div>
     </div>
@@ -267,4 +363,5 @@
     <!-- Scripts -->
     <script src="app.js?v=9.6"></script>
 </body>
+
 </html>

@@ -177,6 +177,46 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
         });
 
+        // Setup Report Logic
+        const btnReport = document.getElementById('btnReport');
+        const reportModal = document.getElementById('reportModal');
+        const closeReportModal = document.getElementById('closeReportModal');
+        const reportForm = document.getElementById('reportForm');
+        const submitReportBtn = document.getElementById('submitReportBtn');
+        const reportMsg = document.getElementById('reportMsg');
+
+        if (btnReport && reportModal) {
+            btnReport.addEventListener('click', () => {
+                reportModal.classList.remove('hidden');
+                setTimeout(() => {
+                    reportModal.classList.remove('opacity-0');
+                    reportModal.firstElementChild.classList.remove('scale-95');
+                }, 10);
+            });
+
+            closeReportModal.addEventListener('click', () => {
+                reportModal.classList.add('opacity-0');
+                reportModal.firstElementChild.classList.add('scale-95');
+                setTimeout(() => reportModal.classList.add('hidden'), 300);
+                // Reset form
+                reportMsg.classList.add('hidden');
+                submitReportBtn.disabled = false;
+                submitReportBtn.classList.remove('opacity-50', 'cursor-not-allowed');
+                reportForm.reset();
+            });
+
+            reportForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                submitReportBtn.disabled = true;
+                submitReportBtn.classList.add('opacity-50', 'cursor-not-allowed');
+                
+                // Simulate sending report
+                setTimeout(() => {
+                    reportMsg.classList.remove('hidden');
+                    setTimeout(() => closeReportModal.click(), 1500);
+                }, 800);
+            });
+        }
     } catch (error) {
         console.error('Error fetching game:', error);
         showError();

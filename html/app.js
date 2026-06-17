@@ -6,7 +6,20 @@ document.addEventListener('DOMContentLoaded', () => {
     const plannedSection = document.getElementById('plannedSection');
     const plannedGrid = document.getElementById('plannedGrid');
     const categoryNav = document.getElementById('categoryNav');
+    const scrollLeftBtn = document.getElementById('scrollLeftBtn');
+    const scrollRightBtn = document.getElementById('scrollRightBtn');
     const loadingIndicator = document.getElementById('loadingIndicator');
+
+    if (scrollLeftBtn && categoryNav) {
+        scrollLeftBtn.addEventListener('click', () => {
+            categoryNav.scrollBy({ left: -200, behavior: 'smooth' });
+        });
+    }
+    if (scrollRightBtn && categoryNav) {
+        scrollRightBtn.addEventListener('click', () => {
+            categoryNav.scrollBy({ left: 200, behavior: 'smooth' });
+        });
+    }
     
     // Auth and History
     const historySection = document.getElementById('historySection');
@@ -101,7 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // Take top 3 for Hero Section
         const heroGamesList = sorted.slice(0, 3);
-        const mainGamesList = sorted.slice(3, 40); // the rest for main grid
+        const mainGamesList = sorted.slice(3, 200); // show all available games
 
         // 1. Render Hero Section
         if (heroGamesList.length === 0) {
@@ -109,21 +122,27 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             heroGamesList.forEach((game, idx) => {
                 const card = document.createElement('div');
-                card.className = 'hero-card bg-black/40 group';
+                // First card is big, others are small
+                const spanClass = idx === 0 ? 'lg:col-span-2 lg:row-span-2 min-h-[300px]' : 'lg:col-span-1 lg:row-span-1 min-h-[200px] lg:min-h-0';
+                card.className = `hero-card bg-black/40 group relative overflow-hidden rounded-2xl ${spanClass}`;
                 
-                let badge = idx === 0 ? `<div class="absolute top-3 left-3 flex gap-2 z-20">
-                    <span class="badge badge-hot">🔥 Hot!</span>
-                    <span class="badge badge-new">✨ New!</span>
+                let badge = idx === 0 ? `<div class="absolute top-4 left-4 flex gap-2 z-20">
+                    <span class="badge badge-hot text-sm px-3 py-1">🔥 Hot!</span>
+                    <span class="badge badge-new text-sm px-3 py-1">✨ New!</span>
                 </div>` : `<div class="absolute top-3 left-3 z-20"><span class="badge badge-new">✨ New!</span></div>`;
 
+                const titleClass = idx === 0 ? 'text-3xl lg:text-5xl' : 'text-xl lg:text-2xl';
+                const buttonClass = idx === 0 ? 'px-8 py-3 text-lg' : 'px-5 py-2 text-sm';
+
                 card.innerHTML = `
-                    <img src="${game.image || game.thumbnail}" alt="${game.title}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-90">
+                    <img src="${game.image || game.thumbnail}" alt="${game.title}" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-90">
                     ${badge}
-                    <div class="hero-overlay">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent z-10 pointer-events-none"></div>
+                    <div class="absolute inset-0 z-20 flex flex-col justify-end p-5 lg:p-8">
                         <div class="transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-                            <h3 class="font-display font-bold text-2xl md:text-3xl text-white mb-3 text-shadow-lg">${game.title}</h3>
-                            <button class="bg-indigo-600/90 hover:bg-indigo-500 text-white text-sm font-bold px-6 py-2.5 rounded-full transition-colors w-max backdrop-blur-sm">
-                                Play ${game.title} Now!
+                            <h3 class="font-display font-bold ${titleClass} text-white mb-3 text-shadow-lg drop-shadow-md">${game.title}</h3>
+                            <button class="bg-indigo-600/90 hover:bg-indigo-500 text-white font-bold ${buttonClass} rounded-full transition-colors w-max backdrop-blur-sm shadow-lg border border-white/10">
+                                Play Now!
                             </button>
                         </div>
                     </div>
