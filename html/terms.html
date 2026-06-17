@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Terms of Service | PlayGamio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet">
@@ -11,33 +11,60 @@
         body {
             font-family: 'Inter', sans-serif;
             background-color: #131230;
+            background-image: linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+            background-size: 50px 50px;
             color: #fff;
             min-height: 100vh;
         }
         .font-display { font-family: 'Outfit', sans-serif; }
+        .top-nav {
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            background-color: rgba(19, 18, 48, 0.85);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            padding: 8px 16px;
+        }
     </style>
 </head>
 <body>
-    <nav class="top-nav flex items-center justify-between px-4 py-3 bg-gradient-to-r from-indigo-900 to-[#131230] border-b border-white/10">
-        <a href="/" class="flex items-center gap-2">
-            <div class="bg-indigo-600 rounded-lg p-1.5"><span class="material-symbols-outlined text-white" style="font-size: 20px;">sports_esports</span></div>
-            <span class="font-display font-bold text-xl">PlayGamio</span>
-        </a>
+    <!-- Top Navigation -->
+    <nav class="top-nav flex items-center justify-between bg-gradient-to-r from-indigo-900 to-[#131230]">
+        <div class="flex-1 flex items-center gap-3 sm:gap-6 overflow-hidden">
+            <!-- Brand Logo -->
+            <a href="/" class="flex items-center gap-2 shrink-0 group">
+                <div class="bg-indigo-600 rounded-lg p-1.5 group-hover:bg-indigo-500 transition-colors">
+                    <span class="material-symbols-outlined text-white" style="font-size: 20px;">sports_esports</span>
+                </div>
+                <span class="font-display font-bold text-xl tracking-tight">PlayGamio</span>
+            </a>
+            
+            <div class="hidden sm:flex text-sm text-gray-400 font-semibold uppercase tracking-wider">
+                Terms of Service
+            </div>
+        </div>
     </nav>
-    <main class="max-w-[800px] mx-auto px-4 py-12">
+
+    <main class="max-w-[800px] mx-auto px-4 py-12 min-h-[60vh]">
         <h1 class="font-display text-4xl font-bold mb-8">Terms of Service</h1>
         <div class="prose prose-invert prose-lg text-gray-300">
             <p>These terms and conditions outline the rules and regulations for the use of PlayGamio's Website.</p><p>By accessing this website we assume you accept these terms and conditions. Do not continue to use PlayGamio if you do not agree to take all of the terms and conditions stated on this page.</p><p>Unless otherwise stated, PlayGamio and/or its licensors own the intellectual property rights for all material on PlayGamio. All intellectual property rights are reserved.</p>
         </div>
     </main>
-    <footer class="bg-[#0b0a1c] border-t border-white/10 py-8 text-center text-gray-500 text-sm">
-        <p>&copy; 2026 PlayGamio. All rights reserved.</p>
-        <div class="flex justify-center gap-4 mt-4">
-            <a href="/privacy.html" class="hover:text-white transition-colors">Privacy</a>
-            <a href="/terms.html" class="hover:text-white transition-colors">Terms</a>
-            <a href="/contact.html" class="hover:text-white transition-colors">Contact</a>
-            <a href="/about.html" class="hover:text-white transition-colors">About</a>
-            <a href="/affiliate.html" class="hover:text-white transition-colors">Affiliate</a>
+
+    <!-- Global Footer -->
+    <footer class="bg-[#0b0a1c] border-t border-white/10 mt-12 py-12">
+        <div class="max-w-[800px] mx-auto px-4 md:px-6 lg:px-8 text-center text-gray-500 text-sm">
+            <p>&copy; 2026 PlayGamio. All rights reserved.</p>
+            <div class="flex justify-center gap-4 mt-4 flex-wrap">
+                <a href="/privacy.html" class="hover:text-indigo-400 transition-colors">Privacy</a>
+                <a href="/terms.html" class="hover:text-indigo-400 transition-colors">Terms</a>
+                <a href="/contact.html" class="hover:text-indigo-400 transition-colors">Contact</a>
+                <a href="/about.html" class="hover:text-indigo-400 transition-colors">About</a>
+                <a href="/affiliate.html" class="hover:text-indigo-400 transition-colors">Affiliate</a>
+            </div>
         </div>
     </footer>
 </body>
