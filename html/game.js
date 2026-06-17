@@ -100,26 +100,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         // Setup loading state and event BEFORE setting src
         const iframeLoader = document.getElementById('iframeLoader');
         let isLoaded = false;
-        
-        const showGame = () => {
-            if(isLoaded) return;
-            isLoaded = true;
-            gameFrame.classList.remove('opacity-0');
-            gameFrame.classList.add('opacity-100');
-            if(iframeLoader) {
-                setTimeout(() => {
-                    iframeLoader.style.display = 'none';
-                }, 700);
-            }
-        };
-
-        gameFrame.onload = showGame;
-        
-        // Fallback: If onload doesn't fire for some reason within 3 seconds, force show
-        setTimeout(showGame, 3000);
-
-        // Load the game immediately!
-        gameFrame.src = game.url;
 
         // Setup Fullscreen
         const goFullscreen = () => {
@@ -132,7 +112,68 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
         };
 
+        // Fullscreen Prompt Logic — defined BEFORE showGame so timer can call it
+        const fullscreenPromptPopup = document.getElementById('fullscreenPromptPopup');
+        const closeFullscreenPromptBtn = document.getElementById('closeFullscreenPrompt');
+        const btnPromptFullscreen = document.getElementById('btnPromptFullscreen');
+        const btnPromptClose = document.getElementById('btnPromptClose');
+
+        const showFullscreenPrompt = () => {
+            if (!fullscreenPromptPopup) return;
+            fullscreenPromptPopup.classList.remove('hidden');
+            setTimeout(() => {
+                fullscreenPromptPopup.classList.remove('opacity-0');
+                fullscreenPromptPopup.firstElementChild.classList.remove('scale-95');
+            }, 10);
+        };
+
+        const hideFullscreenPrompt = () => {
+            if (!fullscreenPromptPopup) return;
+            fullscreenPromptPopup.classList.add('opacity-0');
+            fullscreenPromptPopup.firstElementChild.classList.add('scale-95');
+            setTimeout(() => fullscreenPromptPopup.classList.add('hidden'), 300);
+        };
+
+        if (closeFullscreenPromptBtn) closeFullscreenPromptBtn.addEventListener('click', hideFullscreenPrompt);
+        if (btnPromptClose) btnPromptClose.addEventListener('click', hideFullscreenPrompt);
+        if (btnPromptFullscreen) {
+            btnPromptFullscreen.addEventListener('click', () => {
+                hideFullscreenPrompt();
+                goFullscreen();
+            });
+        }
+
         btnFullscreen.addEventListener('click', goFullscreen);
+
+        const showGame = () => {
+            if(isLoaded) return;
+            isLoaded = true;
+            gameFrame.classList.remove('opacity-0');
+            gameFrame.classList.add('opacity-100');
+            if(iframeLoader) {
+                setTimeout(() => {
+                    iframeLoader.style.display = 'none';
+                }, 700);
+            }
+
+            // Start the 30 second timer for fullscreen prompt
+            setTimeout(() => {
+                // Only show if not already in fullscreen
+                if (!document.fullscreenElement && !document.webkitFullscreenElement && !document.msFullscreenElement) {
+                    showFullscreenPrompt();
+                }
+            }, 30000);
+        };
+
+        gameFrame.onload = showGame;
+        
+        // Fallback: If onload doesn't fire for some reason within 3 seconds, force show
+        setTimeout(showGame, 3000);
+
+        // Load the game immediately! Append a dummy query parameter to prevent Unity loader bugs
+        // where it assumes window.location.search.split('?')[1] is defined and calls .split('&') on it.
+        const separator = game.url.includes('?') ? '&' : '?';
+        gameFrame.src = game.url + separator + 'embed=playgamio';
 
         // Setup Upvote
         const btnUpvote = document.getElementById('btnUpvote');
