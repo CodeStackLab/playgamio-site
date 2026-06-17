@@ -74,33 +74,37 @@
             window.location.href = '/';
         });
 
-        // Load history from API
+        // Load history from LocalStorage
         async function loadHistory() {
             try {
-                const res = await fetch('/api/user/history', {
-                    headers: { 'Authorization': `Bearer ${token}` }
-                });
+                // Fetch game definitions
+                const res = await fetch('/games.json?v=' + new Date().getTime());
                 const data = await res.json();
+                const allGames = data.games || data;
+
+                const historySlugs = JSON.parse(localStorage.getItem('playgamioHistory') || '[]');
+                const historyGames = historySlugs.map(slug => allGames.find(g => g.slug === slug)).filter(Boolean);
                 
                 const list = document.getElementById('historyList');
-                document.getElementById('gamesCount').textContent = data.length || 0;
+                document.getElementById('gamesCount').textContent = historyGames.length || 0;
 
-                if (!data || data.length === 0) {
+                if (!historyGames || historyGames.length === 0) {
                     list.innerHTML = '<p class="text-slate-400 text-sm">You haven\'t played any games yet.</p>';
                     return;
                 }
 
-                list.innerHTML = data.map(item => `
+                list.innerHTML = historyGames.map(item => `
                     <div class="flex items-center justify-between p-3 bg-slate-900 rounded-xl border border-slate-700">
                         <div class="flex items-center gap-3">
                             <span class="material-symbols-outlined text-indigo-400">stadia_controller</span>
-                            <span class="font-bold">${item.game_title || item.game_slug}</span>
+                            <span class="font-bold">${item.title || item.slug}</span>
                         </div>
-                        <a href="/game.html?id=${item.game_slug}" class="text-sm font-semibold bg-indigo-600 hover:bg-indigo-500 px-4 py-1.5 rounded-lg transition-colors">Play Again</a>
+                        <a href="/game.html?id=${item.slug}" class="text-sm font-semibold bg-indigo-600 hover:bg-indigo-500 px-4 py-1.5 rounded-lg transition-colors">Play Again</a>
                     </div>
                 `).join('');
             } catch (err) {
                 console.error(err);
+                document.getElementById('historyList').innerHTML = '<p class="text-red-400 text-sm">Failed to load history.</p>';
             }
         }
         

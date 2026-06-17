@@ -328,26 +328,40 @@ document.addEventListener('DOMContentLoaded', () => {
             if (isRegisterMode) payload.username = authUsernameInput.value;
 
             try {
-                const endpoint = isRegisterMode ? '/api/auth/register' : '/api/auth/login';
-                const res = await fetch(endpoint, {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify(payload)
-                });
-                const data = await res.json();
-
-                if (!res.ok) throw new Error(data.error || 'Authentication failed');
+                // Simulate network delay
+                await new Promise(resolve => setTimeout(resolve, 500));
+                
+                // Using LocalStorage to simulate a database for the static site
+                let users = JSON.parse(localStorage.getItem('playgamio_users') || '[]');
 
                 if (isRegisterMode) {
+                    if (users.find(u => u.email === payload.email)) {
+                        throw new Error('Email is already registered!');
+                    }
+                    const newUser = {
+                        id: Date.now().toString(),
+                        email: payload.email,
+                        username: payload.username,
+                        password: payload.password // In a real app, never store plain text passwords
+                    };
+                    users.push(newUser);
+                    localStorage.setItem('playgamio_users', JSON.stringify(users));
+
                     // Automatically switch to login after successful registration
                     tabLogin.click();
-                    authErrorMsg.textContent = 'Account created! Please log in.';
+                    authErrorMsg.textContent = 'Account created successfully! Please log in.';
                     authErrorMsg.classList.remove('hidden', 'text-red-400');
                     authErrorMsg.classList.add('text-emerald-400');
                 } else {
+                    // Login mode
+                    const user = users.find(u => u.email === payload.email && u.password === payload.password);
+                    if (!user) {
+                        throw new Error('Invalid email or password!');
+                    }
+
                     // Login successful
-                    localStorage.setItem('token', data.token);
-                    localStorage.setItem('user', JSON.stringify(data.user));
+                    localStorage.setItem('token', 'demo-token-' + user.id);
+                    localStorage.setItem('user', JSON.stringify({ id: user.id, email: user.email, username: user.username }));
                     window.location.reload();
                 }
             } catch (err) {
