@@ -109,8 +109,8 @@ document.addEventListener('DOMContentLoaded', () => {
             filteredGames = allGames.filter(g => g.categories && g.categories.some(c => c.toLowerCase() === currentCategory.toLowerCase()));
         }
 
-        // Sort by rating for hero section
-        const sorted = [...filteredGames].sort((a,b) => (b.rating || 0) - (a.rating || 0));
+        // Sort by rating for hero section, and then by slug to prevent random shuffling on refresh
+        const sorted = [...filteredGames].sort((a,b) => (b.rating || 0) - (a.rating || 0) || a.slug.localeCompare(b.slug));
         
         // Take top 3 for Hero Section
         const heroGamesList = sorted.slice(0, 3);

@@ -97,7 +97,7 @@
                 "Puzzle",
                 "Action"
             ],
-            "rating": 4.98,
+            "rating": 4.8,
             "developer": "PlayGamio",
             "controls": "Keyboard",
             "description": "Navigate through a complex 3D maze.",
@@ -2029,13 +2029,12 @@
             "title": "Swoop 3D (Premium)",
             "url": "https://playcanvas.com/play/embed/123456",
             "thumbnail": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=800&q=80",
-            "image": "/assets/img/swoop_3d_1781678745169.png",
             "categories": [
                 "3D",
                 "Action",
                 "Simulation"
             ],
-            "rating": 4.99,
+            "rating": 4.8,
             "developer": "PlayCanvas",
             "controls": "Keyboard & Mouse",
             "description": "A beautiful 3D flying game.",
